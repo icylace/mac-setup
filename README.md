@@ -1,2 +1,1 @@
-# mac-setup
-My humble Mac setup scripts.
+# WARNING: HIGHLY EXPERIMENTAL
