@@ -188,6 +188,10 @@ chflags nohidden ~/Library/
 # npm install --global slush
 
 
+# Use Z shell instead of Bash by default.
+# http://osxdaily.com/2012/03/21/change-shell-mac-os-x/
+chsh -s /bin/zsh
+
 
 
 # # ------------------------------------------------------------------------------

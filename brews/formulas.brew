@@ -121,6 +121,11 @@ the_platinum_searcher
 # http://mama.indstate.edu/users/ice/tree/
 tree
 
+# vcprompt
+# Version control information in your prompt.
+# https://bitbucket.org/gward/vcprompt
+vcprompt
+
 # GNU Wget
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/

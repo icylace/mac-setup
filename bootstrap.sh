@@ -266,9 +266,6 @@ source 'osx.sh'
 
 # find a way to disable default system shortcut keys
 
-# http://osxdaily.com/2012/03/21/change-shell-mac-os-x/
-# chsh -s /bin/zsh
-
 # https://github.com/sstephenson/ruby-build
 # rbenv install 2.2.0
 # rbenv global 2.2.0
