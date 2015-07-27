@@ -34,22 +34,22 @@ e '#         AND EDIT TO SUIT YOUR NEEDS         #' $red
 e '###############################################' $red
 e ''
 
-proceeding=false
+# proceeding=false
 
-e ''
-e "Have you read through the script you're about to run and " $red
-e 'understood that it will make changes to your computer? (y/n)' $red
-read -r response
-case $response in
-  [yY]) proceeding=true
-        break;;
-  *) break;;
-esac
+# e ''
+# e "Have you read through the script you're about to run and " $red
+# e 'understood that it will make changes to your computer? (y/n)' $red
+# read -r response
+# case $response in
+#   [yY]) proceeding=true
+#         break;;
+#   *) break;;
+# esac
 
-if [ ! $proceeding ]; then
-  e 'Please go read the script.  It only takes a few minutes.' $red
-  exit
-fi
+# if [ ! $proceeding ]; then
+#   e 'Please go read the script.  It only takes a few minutes.' $red
+#   exit
+# fi
 
 # # Now we begin.  Ask for the administrator password upfront and run a
 # # keep-alive to update existing `sudo` time stamp until script has finished.
