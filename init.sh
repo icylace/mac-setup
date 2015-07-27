@@ -1,6 +1,10 @@
 # We're focusing on OS X so abort if we're not in OS X.
 [[ "$OSTYPE" =~ ^darwin ]] || return 1
 
+# Use aliases in non-interactive shells.
+# http://stackoverflow.com/questions/1615877/why-aliases-in-a-non-interactive-bash-shell-do-not-work/1615973#1615973
+shopt -s expand_aliases
+
 # Set useable colors.
 black='\033[0;30m'
 white='\033[0;37m'
