@@ -197,7 +197,7 @@ chflags nohidden ~/Library/
 # et 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
-# if [$(which defaults)]; then
+if type defaults >/dev/null 2>&1; then
 
   for f in osx-settings/*.sh; do
     source $f
@@ -209,4 +209,4 @@ chflags nohidden ~/Library/
 
   e 'OS X defaults written. Note that some of these changes require a logout/restart to take effect.'
 
-# fi
+fi

@@ -22,10 +22,6 @@
 #  - https://gist.github.com/brandonb927/3195465
 #
 
-# TODO
-# - Check out:
-#   https://github.com/oleganza/bash-settings
-
 source 'init.sh'
 
 e ''
@@ -55,13 +51,13 @@ if [ ! $proceeding ]; then
   exit
 fi
 
-# Now we begin.  Ask for the administrator password upfront and run a
-# keep-alive to update existing `sudo` time stamp until script has finished.
-sudo -v
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# # Now we begin.  Ask for the administrator password upfront and run a
+# # keep-alive to update existing `sudo` time stamp until script has finished.
+# sudo -v
+# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source 'brew.sh'
-source 'cask.sh'
+# source 'brew.sh'
+# source 'cask.sh'
 source 'osx.sh'
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
