@@ -185,6 +185,11 @@ source 'osx.sh'
 
 
 
+# Synergy Pro
+
+
+
+
 
 # exit 0
 
@@ -304,15 +309,9 @@ source 'osx.sh'
 
 
 
-# get working:
-
-# new vcprompt setup
-
-# dotfiles
-# Beyond Compare (buy)
-# Boom 2 (buy)
-# MAMP PRO (buy?)
-# batch zip
+# TODO
+# - new vcprompt setup
+# - batch zip
 
 
 

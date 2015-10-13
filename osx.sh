@@ -53,6 +53,10 @@
 # # # Change How Long (in seconds) Notification Banners Persist for in OS X
 # # defaults write com.apple.notificationcenterui bannerTime [time in seconds]
 
+# # Set sleep (in minutes).
+# sudo systemsetup -setcomputersleep 1
+# sudo systemsetup -setdisplaysleep 1
+# sudo systemsetup -setdisksleep 1
 
 # # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 # sudo systemsetup -settimezone 'America/New_York' > /dev/null
