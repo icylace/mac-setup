@@ -126,14 +126,6 @@ source 'osx.sh'
 
 # cobook
 
-# CodeBox
-# Code snippets manager.
-# http://www.shpakovski.com/codebox/
-
-# DragonDrop
-# File dragging helper.
-# https://shinyplasticbag.com/dragondrop/
-
 # Memory Clean
 # Frees up unused memory.
 # https://fiplab.com/apps/memory-clean-for-mac
@@ -145,6 +137,10 @@ source 'osx.sh'
 # Ulysses III
 # Text document manager and editor designed for writing.
 # http://ulyssesapp.com/
+
+# yoink
+# File dragging helper.
+
 
 # Xcode
 # Application development system from Apple.
@@ -174,10 +170,6 @@ source 'osx.sh'
 # iTunes playback controller.
 # https://github.com/steakknife/breakaway
 # Fork of http://mutablecode.com/apps/breakaway.html
-
-# Obsidian Menu Bar
-# A hack that makes your OS X menu bar black.
-# http://obsidianmenubar.com/
 
 # Tagger
 # http://hasseg.org/tagger/
