@@ -31,6 +31,14 @@ brew tap homebrew/homebrew-php
 et 'Installing formulas...'
 brew install $(cat brews/formulas.brew | grep -v \#)
 
+# Use an updated Z shell as the default shell.
+# http://zsh.sourceforge.net/
+# http://johndjameson.com/blog/updating-your-shell-with-homebrew/
+# http://stackoverflow.com/questions/17648621/how-do-i-update-zsh-to-the-latest-version/17649823#17649823
+brew install zsh
+sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
+chsh -s /usr/local/bin/zsh
+
 # Check if there are problems.
 brew doctor
 

@@ -130,8 +130,3 @@ vcprompt
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/
 wget
-
-# Z shell
-# A Unix shell.
-# http://zsh.sourceforge.net/
-zsh
