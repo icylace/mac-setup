@@ -71,11 +71,7 @@
 # Hidden wallpapers.
 # /Library/Screen Savers/Default Collections
 
-# # Set the computer name.
-# sudo systemsetup -setcomputername {{computername}}
-
-
-# Set computer name (as done via System Preferences → Sharing)
+# Set the computer name.
 sudo scutil --set ComputerName "0xFF69B4"
 sudo scutil --set HostName "0xFF69B4"
 sudo scutil --set LocalHostName "0xFF69B4"
@@ -83,8 +79,6 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 
 # Always show the user's Library folder.
 chflags nohidden ~/Library/
-
-
 
 # et 'Remove duplicates from the "Open With" menu.'
 # /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder
