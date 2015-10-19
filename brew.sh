@@ -59,6 +59,9 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv rehash
 
+# Install Node.js.
+nvm install stable
+
 pip install --upgrade ohmu
 
 #
