@@ -284,8 +284,6 @@ source 'osx.sh'
 
 # brews:
 
-# rbenv
-# ruby-build
 # vcprompt
 
 

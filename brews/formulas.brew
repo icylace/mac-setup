@@ -80,11 +80,6 @@ yadm
 #  General programs.
 # ------------------------------------------------------------------------------
 
-# Drush
-# Shell interface for Drupal.
-# https://github.com/drush-ops/drush
-drush
-
 # FFmpeg
 # Records, converts, and streams audio and video.
 # http://ffmpeg.org/
@@ -105,6 +100,16 @@ graphicsmagick
 # HTTP client.
 # http://httpie.org/
 httpie
+
+# rbenv
+# Ruby version manager.
+# http://rbenv.org/
+rbenv
+
+# ruby-build
+# An rbenv plugin that allows installing different versions of Ruby.
+# https://github.com/sstephenson/ruby-build
+ruby-build
 
 # rename
 # File renamer.

@@ -45,6 +45,10 @@ brew doctor
 # Make sure we longer have any unnecessary files laying around.
 brew cleanup
 
+# Install a newer version of Ruby.
+rbenv install 2.2.3
+rbenv global 2.2.3
+
 #
 # Other formulas.
 #
@@ -62,6 +66,11 @@ brew cleanup
 # # https://github.com/composer/composer/issues/3255#issuecomment-60742259
 # #
 # composer
+
+# # Drush
+# # Shell interface for Drupal.
+# # https://github.com/drush-ops/drush
+# drush
 
 # # FFmpeg
 # # Audio and video converter, recorder, and streamer.
