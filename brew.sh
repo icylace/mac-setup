@@ -5,9 +5,11 @@ e '-----------------------------------------------' $blue
 e ''
 
 # Install Homebrew if we need to.
-if [ ! "$(which brew)" ]; then
-  # et 'Installing XCode'
-  # xcode-select
+if [ ! (type brew >/dev/null 2>&1) ]; then
+  if [ ! (type xcode-select >/dev/null 2>&1) ]; then
+    et 'Installing Xcode command line tools...'
+    xcode-select --install
+  fi
 
   # Homebrew
   # Package manager for OS X.
