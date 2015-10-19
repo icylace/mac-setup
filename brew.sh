@@ -47,6 +47,13 @@ brew doctor
 # Make sure we longer have any unnecessary files laying around.
 brew cleanup
 
+# http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
+git config --global color.ui true
+git config --global push.default current
+# git config branch.autosetuprebase always
+# git difftool -t <tool>
+# git mergetool -t <tool>
+
 # Install a newer version of Ruby.
 rbenv install 2.2.3
 rbenv global 2.2.3
