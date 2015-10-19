@@ -48,6 +48,7 @@ brew cleanup
 # Install a newer version of Ruby.
 rbenv install 2.2.3
 rbenv global 2.2.3
+rbenv rehash
 
 #
 # Other formulas.
