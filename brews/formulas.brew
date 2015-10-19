@@ -77,6 +77,28 @@ yadm
 
 
 # ------------------------------------------------------------------------------
+#  Languages.
+# ------------------------------------------------------------------------------
+
+# Python 2
+# A programming language.
+# https://www.python.org/
+python
+
+# rbenv
+# Ruby version manager.
+# http://rbenv.org/
+rbenv
+
+# ruby-build
+# An rbenv plugin that allows installing different versions of Ruby.
+# https://github.com/sstephenson/ruby-build
+ruby-build
+
+
+
+
+# ------------------------------------------------------------------------------
 #  General programs.
 # ------------------------------------------------------------------------------
 
@@ -100,16 +122,6 @@ graphicsmagick
 # HTTP client.
 # http://httpie.org/
 httpie
-
-# rbenv
-# Ruby version manager.
-# http://rbenv.org/
-rbenv
-
-# ruby-build
-# An rbenv plugin that allows installing different versions of Ruby.
-# https://github.com/sstephenson/ruby-build
-ruby-build
 
 # rename
 # File renamer.
