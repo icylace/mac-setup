@@ -119,7 +119,7 @@ rename
 # The Platinum Searcher
 # Searches source code matching a specified pattern.
 # https://github.com/monochromegane/the_platinum_searcher
-the_platinum_searcher
+pt
 
 # Tree
 # Recursive directory lister.
