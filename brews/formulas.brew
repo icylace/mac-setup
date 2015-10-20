@@ -131,10 +131,10 @@ ranger
 # http://plasmasturm.org/code/rename/
 rename
 
-# The Platinum Searcher
-# Searches source code matching a specified pattern.
-# https://github.com/monochromegane/the_platinum_searcher
-pt
+# sift
+# A fast and powerful open source alternative to grep.
+# https://sift-tool.org/
+sift
 
 # Tree
 # Recursive directory lister.

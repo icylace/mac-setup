@@ -64,6 +64,9 @@ nvm install stable
 
 pip install --upgrade ohmu
 
+# Configure sift.
+sift --color --group --line-number --stats --write-config
+
 #
 # Other formulas.
 #
