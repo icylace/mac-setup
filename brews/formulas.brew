@@ -96,8 +96,6 @@ rbenv
 ruby-build
 
 
-
-
 # ------------------------------------------------------------------------------
 #  General programs.
 # ------------------------------------------------------------------------------
@@ -122,6 +120,11 @@ graphicsmagick
 # HTTP client.
 # http://httpie.org/
 httpie
+
+# ranger
+# A console file manager.
+# http://ranger.nongnu.org/
+ranger
 
 # rename
 # File renamer.
