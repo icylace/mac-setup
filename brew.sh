@@ -41,6 +41,11 @@ brew install zsh
 sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
 chsh -s /usr/local/bin/zsh
 
+# yadm
+# Yet Another Dotfiles Manager
+# https://github.com/TheLocehiliosan/yadm
+brew tap TheLocehiliosan/yadm && brew install yadm
+
 # Check if there are problems.
 brew doctor
 

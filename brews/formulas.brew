@@ -68,13 +68,6 @@ hub
 # http://git-legit.org/
 legit
 
-# yadm
-# Yet Another Dotfiles Manager
-# https://github.com/TheLocehiliosan/yadm
-#
-# brew tap TheLocehiliosan/yadm
-yadm
-
 
 # ------------------------------------------------------------------------------
 #  Languages.
