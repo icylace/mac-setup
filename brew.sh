@@ -9,6 +9,7 @@ if [ ! (type brew >/dev/null 2>&1) ]; then
   if [ ! (type xcode-select >/dev/null 2>&1) ]; then
     et 'Installing Xcode command line tools...'
     xcode-select --install
+    # sudo xcodebuild -license
   fi
 
   # Homebrew
