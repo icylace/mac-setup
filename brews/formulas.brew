@@ -68,6 +68,11 @@ hub
 # http://git-legit.org/
 legit
 
+# Git Radar
+# A heads-up display for Git.
+# https://github.com/michaeldfallen/git-radar
+michaeldfallen/formula/git-radar
+
 
 # ------------------------------------------------------------------------------
 #  Languages.
