@@ -70,13 +70,48 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv rehash
 
-# Install Node.js.
-nvm install stable
-
 pip install --upgrade ohmu
 
 # Configure sift.
 sift --color --group --line-number --stats --write-config
+
+# Install Node.js.
+nvm install stable
+
+# npm-check-updates
+# Finds newer versions of dependencies than what your package.json allows.
+# https://www.npmjs.com/package/npm-check-updates
+npm install --global npm-check-updates
+
+# deps-ok
+# Fast checking of top level dependencies based on version numbers.
+# https://www.npmjs.com/package/deps-ok
+npm install --global deps-ok
+
+# nvm alias default stable
+
+
+# # Gulp
+# # The streaming build system.
+# # http://gulpjs.com/
+# npm install --global gulp
+
+# # blacklisted-gulp
+# # Searches for blacklisted Gulp plugins in your project.
+# # https://github.com/ernestoalejo/blacklisted-gulp
+# # https://www.npmjs.com/package/blacklisted-gulp
+# npm install --global blacklisted-gulp
+
+# # Slush
+# # The streaming scaffolding system.
+# # http://slushjs.github.io/#/
+# npm install --global slush
+
+# # Bower
+# # Package manager for the web projects.
+# # http://bower.io/
+# npm install --global bower
+
 
 #
 # Other formulas.
