@@ -39,8 +39,8 @@ brew install $(cat brews/formulas.brew | grep -v \#)
 # http://johndjameson.com/blog/updating-your-shell-with-homebrew/
 # http://stackoverflow.com/questions/17648621/how-do-i-update-zsh-to-the-latest-version/17649823#17649823
 brew install zsh
-sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
-chsh -s /usr/local/bin/zsh
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
 
 # yadm
 # Yet Another Dotfiles Manager
