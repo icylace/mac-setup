@@ -47,6 +47,11 @@ chsh -s $(which zsh)
 # https://github.com/TheLocehiliosan/yadm
 brew tap TheLocehiliosan/yadm && brew install yadm
 
+# catimg
+# Prints images in terminal.
+# https://github.com/posva/catimg
+brew tap posva/taps && brew install catimg
+
 # Check if there are problems.
 brew doctor
 
