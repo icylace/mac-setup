@@ -83,11 +83,6 @@ michaeldfallen/formula/git-radar
 # https://www.python.org/
 python
 
-# rbenv
-# Ruby version manager.
-# http://rbenv.org/
-rbenv
-
 # ruby-build
 # An rbenv plugin that allows installing different versions of Ruby.
 # https://github.com/sstephenson/ruby-build

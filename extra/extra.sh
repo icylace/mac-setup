@@ -13,16 +13,6 @@ brew install graphviz
 # http://stedolan.github.io/jq/
 brew install jq
 
-# Node Version Manager
-# A manager for handling different versions of Node.js.
-# https://github.com/creationix/nvm
-brew install nvm
-
-# # Python
-# # A programming language.
-# # https://www.python.org/
-# brew install python
-
 # Python
 # A programming language.
 # https://www.python.org/
@@ -52,25 +42,10 @@ brew cask install integrity
 # http://www.neat.com/
 brew cask install neat
 
-# PhpStorm
-# PHP-oriented IDE.
-# https://www.jetbrains.com/phpstorm/
-brew cask install phpstorm
-
 # Skype
 # VoIP and video conferencing client.
 # http://www.skype.com/en/
 brew cask install skype
-
-# SourceTree
-# Git client.
-# http://sourcetreeapp.com/
-brew cask install sourcetree
-
-# Synergy
-# Keyboard and mouse switcher for multiple computers.
-# http://synergy-project.org/
-brew cask install synergy
 
 # The Hit List
 # To-do list manager.
@@ -145,7 +120,3 @@ brew cask install suspicious-package
 
 
 # brew cask install $(cat brews/casks.brew | grep -v \#)
-
-# ----
-
-# duti .duti

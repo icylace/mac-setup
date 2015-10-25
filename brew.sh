@@ -52,12 +52,6 @@ brew tap TheLocehiliosan/yadm && brew install yadm
 # https://github.com/posva/catimg
 brew tap posva/taps && brew install catimg
 
-# Check if there are problems.
-brew doctor
-
-# Make sure we longer have any unnecessary files laying around.
-brew cleanup
-
 # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
 git config --global color.ui true
 git config --global push.default current
@@ -65,15 +59,24 @@ git config --global push.default current
 # git difftool -t <tool>
 # git mergetool -t <tool>
 
+# ------------------------------------------------------------------------------
+
+# rbenv
+# Ruby version manager.
+# http://rbenv.org/
+brew install rbenv
+
 # Install a newer version of Ruby.
 rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv rehash
 
-pip install --upgrade ohmu
+# ------------------------------------------------------------------------------
 
-# Configure sift.
-sift --color --group --line-number --stats --write-config
+# Node Version Manager
+# A manager for handling different versions of Node.js.
+# https://github.com/creationix/nvm
+brew install nvm
 
 # Install Node.js.
 nvm install stable
@@ -87,6 +90,13 @@ npm install --global npm-check-updates
 # Fast checking of top level dependencies based on version numbers.
 # https://www.npmjs.com/package/deps-ok
 npm install --global deps-ok
+
+# ------------------------------------------------------------------------------
+
+pip install --upgrade ohmu
+
+# Configure sift.
+sift --color --group --line-number --stats --write-config
 
 # nvm alias default stable
 
@@ -116,6 +126,8 @@ npm install --global deps-ok
 #
 # Other formulas.
 #
+
+# duti .duti
 
 # # GNU Aspell
 # # Spell checker.
@@ -165,3 +177,18 @@ npm install --global deps-ok
 # # Colorizes output of commands and log files.
 # # http://korpus.juls.savba.sk/~garabik/software/grc.html
 # grc
+
+# TODO
+# - stick with Synergy Pro, right ?
+#
+# # Synergy
+# # Keyboard and mouse switcher for multiple computers.
+# # http://synergy-project.org/
+# brew cask install synergy
+
+
+# Check if there are problems.
+brew doctor
+
+# Make sure we longer have any unnecessary files laying around.
+brew cleanup

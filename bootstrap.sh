@@ -282,10 +282,6 @@ source 'osx.sh'
 
 
 
-# brews:
-
-# vcprompt
-
 
 
 # casks:
