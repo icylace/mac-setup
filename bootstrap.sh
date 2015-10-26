@@ -263,9 +263,6 @@ source 'osx.sh'
 
 # find a way to disable default system shortcut keys
 
-# https://github.com/sstephenson/ruby-build
-# rbenv install 2.2.0
-# rbenv global 2.2.0
 
 # automate install Antigen via git
 # http://antigen.sharats.me/
@@ -296,7 +293,6 @@ source 'osx.sh'
 
 
 # TODO
-# - new vcprompt setup
 # - batch zip
 
 

@@ -63,10 +63,10 @@ git-stree
 # https://hub.github.com/
 hub
 
-# Legit
-# Extra commands for Git.
-# http://git-legit.org/
-legit
+# # Legit
+# # Extra commands for Git.
+# # http://git-legit.org/
+# legit
 
 # Git Radar
 # A heads-up display for Git.

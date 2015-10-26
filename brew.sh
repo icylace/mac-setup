@@ -91,15 +91,7 @@ npm install --global npm-check-updates
 # https://www.npmjs.com/package/deps-ok
 npm install --global deps-ok
 
-# ------------------------------------------------------------------------------
-
-pip install --upgrade ohmu
-
-# Configure sift.
-sift --color --group --line-number --stats --write-config
-
 # nvm alias default stable
-
 
 # # Gulp
 # # The streaming build system.
@@ -122,6 +114,41 @@ sift --color --group --line-number --stats --write-config
 # # http://bower.io/
 # npm install --global bower
 
+# ------------------------------------------------------------------------------
+
+# Configure sift.
+sift --color --group --line-number --stats --write-config
+
+# ------------------------------------------------------------------------------
+
+# damn-weather
+# Checks the weather in your terminal.
+# https://github.com/mrowa44/damn-weather
+gem install --upgrade damn-weather
+
+# ------------------------------------------------------------------------------
+
+# eg
+# Useful examples at the command line.
+# https://github.com/srsudar/eg
+pip install --upgrade eg
+
+# Ohmu
+# View disk space usage in your terminal.
+# https://github.com/paul-nechifor/ohmu
+pip install --upgrade ohmu
+
+# pip-review
+# Checks for pip package updates.
+# https://github.com/jgonggrijp/pip-review
+pip install --upgrade pip-review
+
+# Pygments
+# A generic syntax highlighter.
+# http://pygments.org/
+pip install --upgrade Pygments
+
+# ------------------------------------------------------------------------------
 
 #
 # Other formulas.
