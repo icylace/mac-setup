@@ -21,7 +21,8 @@ brew install python3
 # tup
 # File-based build system.
 # http://gittup.org/tup/
-brew install tup
+brew tap homebrew/fuse && brew install tup
+brew cask install osxfuse
 
 # ----
 
