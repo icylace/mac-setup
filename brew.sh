@@ -81,22 +81,27 @@ brew install nvm
 # Install Node.js.
 nvm install stable
 
-# npm-check-updates
-# Finds newer versions of dependencies than what your package.json allows.
-# https://www.npmjs.com/package/npm-check-updates
-npm install --global npm-check-updates
+# nvm alias default stable
+
+# Bower
+# Package manager for the web projects.
+# http://bower.io/
+npm install --global bower
 
 # deps-ok
 # Fast checking of top level dependencies based on version numbers.
 # https://www.npmjs.com/package/deps-ok
 npm install --global deps-ok
 
-# nvm alias default stable
+# Gulp
+# The streaming build system.
+# http://gulpjs.com/
+npm install --global gulp
 
-# # Gulp
-# # The streaming build system.
-# # http://gulpjs.com/
-# npm install --global gulp
+# npm-check-updates
+# Finds newer versions of dependencies than what your package.json allows.
+# https://www.npmjs.com/package/npm-check-updates
+npm install --global npm-check-updates
 
 # # blacklisted-gulp
 # # Searches for blacklisted Gulp plugins in your project.
@@ -108,11 +113,6 @@ npm install --global deps-ok
 # # The streaming scaffolding system.
 # # http://slushjs.github.io/#/
 # npm install --global slush
-
-# # Bower
-# # Package manager for the web projects.
-# # http://bower.io/
-# npm install --global bower
 
 # ------------------------------------------------------------------------------
 
