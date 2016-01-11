@@ -96,11 +96,6 @@ source 'osx.sh'
 # thunderbird-beta - useful for archiving email ?
 
 
-# qlBitRate
-# Displays the bit rate and filename of an MP3 file in the title bar of the QuickLook window.
-# https://github.com/jordansaints/qlBitRate
-
-
 # ------------------------------------------------------------------------------
 #  Git-related utilities.
 # ------------------------------------------------------------------------------

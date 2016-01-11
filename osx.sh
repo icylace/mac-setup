@@ -76,10 +76,11 @@
 # /Library/Screen Savers/Default Collections
 
 # Set the computer name.
-sudo scutil --set ComputerName "0xFF69B4"
-sudo scutil --set HostName "0xFF69B4"
-sudo scutil --set LocalHostName "0xFF69B4"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0xFF69B4"
+COMPUTER_NAME="0xFF69B4"
+sudo scutil --set ComputerName COMPUTER_NAME
+sudo scutil --set HostName COMPUTER_NAME
+sudo scutil --set LocalHostName COMPUTER_NAME
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string COMPUTER_NAME
 
 # Always show the user's Library folder.
 chflags nohidden ~/Library/
@@ -99,7 +100,7 @@ chflags nohidden ~/Library/
 # hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 # et 'Reset Launchpad, but keep the desktop wallpaper intact.'
-# find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
+# find "$HOME/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
 
 # et 'Disable sound effect on boot.'

@@ -48,7 +48,10 @@ brew cask cleanup
 # Other casks.
 #
 
-# atom
+# Atom
+# Text editor.
+# https://atom.io/
+#atom
 
 # atom-shell
 
@@ -59,8 +62,8 @@ brew cask cleanup
 # # Default Folder X
 # # Open and Save dialog box enhancer.
 # # http://stclairsoft.com/DefaultFolderX/
-# default-folder-x
-# There is a Cask for it but it needs fixing.  The workaround is to install manually.
+# #default-folder-x
+# # There is a Cask for it but it needs fixing.  The workaround is to install manually.
 
 # # LastPass
 # # A password manager.
