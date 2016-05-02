@@ -1,17 +1,41 @@
 e ''
 e '-----------------------------------------------' $blue
+e '-          Xcode Command Line Tools           -' $blue
+e '-----------------------------------------------' $blue
+e ''
+
+et 'Checking if Xcode is installed...'
+
+# Check if Xcode is installed correctly.
+# http://apple.stackexchange.com/a/219508
+if ! ( \
+  type xcode-select >&- \
+  && xpath=$(xcode-select --print-path) \
+  && test -d "${xpath}" \
+  && test -x "${xpath}" \
+) ; then
+  # Xcode Command Line Tools
+  # CLI utilities for Xcode development.
+  # https://developer.apple.com/xcode/
+  et 'Installing Xcode command line tools...'
+  xcode-select --install
+  # sudo xcodebuild -license
+fi
+
+# Alcatraz
+# The package manager for Xcode.
+# http://alcatraz.io/
+et 'Installing Alcatraz...'
+curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
+
+
+e ''
+e '-----------------------------------------------' $blue
 e '-                  Homebrew                   -' $blue
 e '-----------------------------------------------' $blue
 e ''
 
-# Install Homebrew if we need to.
 if [ ! (type brew >/dev/null 2>&1) ]; then
-  if [ ! (type xcode-select >/dev/null 2>&1) ]; then
-    et 'Installing Xcode command line tools...'
-    xcode-select --install
-    # sudo xcodebuild -license
-  fi
-
   # Homebrew
   # Package manager for OS X.
   # http://brew.sh
@@ -124,9 +148,28 @@ sift --color --group --line-number --stats --write-config
 # damn-weather
 # Checks the weather in your terminal.
 # https://github.com/mrowa44/damn-weather
-gem install --upgrade damn-weather
+# gem install --upgrade damn-weather
+gem install damn-weather
+
+# synx
+# Reorganizes your Xcode project folder to match your Xcode groups.
+# https://github.com/venmo/synx
+# gem install --upgrade synx
+gem install synx
+
+# # xcpretty
+# # Output formatter for Xcode.
+# # https://github.com/supermarin/xcpretty
+# # gem install --upgrade xcpretty
+# gem install xcpretty
 
 # ------------------------------------------------------------------------------
+
+# Python 2
+# A programming language.
+# https://www.python.org/
+pyenv install 2.7.11
+pyenv global 2.7.11
 
 # eg
 # Useful examples at the command line.
@@ -138,15 +181,11 @@ pip install --upgrade eg
 # https://github.com/paul-nechifor/ohmu
 pip install --upgrade ohmu
 
-# pip-review
-# Checks for pip package updates.
-# https://github.com/jgonggrijp/pip-review
-pip install --upgrade pip-review
-
-# Pygments
-# A generic syntax highlighter.
-# http://pygments.org/
-pip install --upgrade Pygments
+# pip-tools
+# A set of command line tools to help you keep your pip-based packages fresh,
+# even when you've pinned them.
+# https://github.com/nvie/pip-tools
+pip install --upgrade pip-tools
 
 # ------------------------------------------------------------------------------
 

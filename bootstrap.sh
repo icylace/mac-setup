@@ -78,9 +78,7 @@ source 'osx.sh'
 # deeper
 # maintenance
 # tinkertool
-# mamp
 # clamxav
-# atom - still useful to mew ?
 # hex-fiend - useful to me ?
 # omnigraffle - still useful ?
 # omnigraffle-professional5 - still useful ?
@@ -249,9 +247,6 @@ source 'osx.sh'
 #     https://userstyles.org/styles/64023/wikipedia-dark-blue-simple
 #
 
-
-# TODO
-# Figure out a way to programmatically turn off Caps Lock key
 
 
 # install script stuff:

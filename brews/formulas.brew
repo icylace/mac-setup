@@ -28,10 +28,20 @@ grep
 #  Utilities specific to OS X.
 # ------------------------------------------------------------------------------
 
+# Archey
+# Displays basic system information.
+# http://obihann.github.io/archey-osx/
+archey
+
 # duti
 # Sets default applications for document types and URL schemes.
 # http://duti.org/
 duti
+
+# mas-cli
+# A simple command line interface for the Mac App Store.
+# https://github.com/argon/mas
+argon/mas/mas
 
 # trash
 # Moves files and folders to the OS X trash.
@@ -75,18 +85,44 @@ michaeldfallen/formula/git-radar
 
 
 # ------------------------------------------------------------------------------
-#  Languages.
+#  Programming language stuff.
 # ------------------------------------------------------------------------------
 
-# Python 2
-# A programming language.
-# https://www.python.org/
-python
+# pyenv
+# pyenv lets you easily switch between multiple versions of Python.
+# https://github.com/yyuu/pyenv
+pyenv
 
 # ruby-build
 # An rbenv plugin that allows installing different versions of Ruby.
 # https://github.com/sstephenson/ruby-build
 ruby-build
+
+
+# ------------------------------------------------------------------------------
+#  Apple development stuff.
+# ------------------------------------------------------------------------------
+
+# Chisel
+# Chisel is a collection of LLDB commands to assistin the debugging of iOS apps.
+# https://github.com/facebook/chisel
+chisel
+
+# SwiftLint
+# A linter for Swift code.
+# https://github.com/realm/SwiftLint
+swiftlint
+
+# # Tailor
+# # Static analyzer and linter for Swift.
+# # https://tailor.sh/
+# # - First, install Java.
+# tailor
+
+# xctool
+# Alternative Xcode build tool.
+# https://github.com/facebook/xctool
+xctool
 
 
 # ------------------------------------------------------------------------------
@@ -108,6 +144,11 @@ findutils
 # Image processor.
 # http://www.graphicsmagick.org/
 graphicsmagick
+
+# highlight
+# Source code highlighter.
+# http://andre-simon.de/doku/highlight/en/highlight.php
+highlight
 
 # HTTPie
 # HTTP client.
