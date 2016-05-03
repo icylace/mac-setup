@@ -178,11 +178,11 @@ pip install --upgrade eg
 # https://github.com/paul-nechifor/ohmu
 pip install --upgrade ohmu
 
-# pip-tools
-# A set of command line tools to help you keep your pip-based packages fresh,
-# even when you've pinned them.
-# https://github.com/nvie/pip-tools
-pip install --upgrade pip-tools
+# # pip-tools
+# # A set of command line tools to help you keep your pip-based packages fresh,
+# # even when you've pinned them.
+# # https://github.com/nvie/pip-tools
+# pip install --upgrade pip-tools
 
 # ------------------------------------------------------------------------------
 
