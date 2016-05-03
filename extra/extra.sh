@@ -58,6 +58,16 @@ brew cask install the-hit-list
 # https://www.transmissionbt.com/
 brew cask install transmission
 
+# Vagrant
+# Virtual development environment manager.
+# https://www.vagrantup.com/
+brew cask install vagrant
+
+# VirtualBox
+# Virtual environment manager.
+# https://www.virtualbox.org/
+brew cask install virtualbox
+
 
 # ------------------------------------------------------------------------------
 #  Command-line Utilities.
@@ -73,50 +83,50 @@ brew cask install ngrok
 #  Quick Look plugins.
 # ------------------------------------------------------------------------------
 
-# BetterZip Quick Look Generator
-# Previews archives.
-# http://macitbetter.com/BetterZip-Quick-Look-Generator/
-brew cask install betterzipql
+# # BetterZip Quick Look Generator
+# # Previews archives.
+# # http://macitbetter.com/BetterZip-Quick-Look-Generator/
+# brew cask install betterzipql
 
-# Invisor QuickLook Plug-In
-# Previews video and audio with technical details.
-# http://pozdeev.com/invisor/
-brew cask install invisorql
+# # Invisor QuickLook Plug-In
+# # Previews video and audio with technical details.
+# # http://pozdeev.com/invisor/
+# brew cask install invisorql
 
-# QLColorCode
-# Previews source code files with syntax highlighting.
-# https://code.google.com/p/qlcolorcode/
-brew cask install qlcolorcode
+# # QLColorCode
+# # Previews source code files with syntax highlighting.
+# # https://code.google.com/p/qlcolorcode/
+# brew cask install qlcolorcode
 
-# qlImageSize
-# Displays the dimensions of an image and its file size in the title bar.  It also previews some additional image formats.
-# https://github.com/Nyx0uf/qlImageSize
-brew cask install qlimagesize
+# # qlImageSize
+# # Displays the dimensions of an image and its file size in the title bar.  It also previews some additional image formats.
+# # https://github.com/Nyx0uf/qlImageSize
+# brew cask install qlimagesize
 
-# QLMarkdown
-# Previews Markdown files.
-# https://github.com/toland/qlmarkdown
-brew cask install qlmarkdown
+# # QLMarkdown
+# # Previews Markdown files.
+# # https://github.com/toland/qlmarkdown
+# brew cask install qlmarkdown
 
-# QuicklookStephen
-# Previews plain text files without a file extension.
-# https://github.com/whomwah/qlstephen
-brew cask install qlstephen
+# # QuicklookStephen
+# # Previews plain text files without a file extension.
+# # https://github.com/whomwah/qlstephen
+# brew cask install qlstephen
 
-# A QuickLook Plugin for CSV Files
-# Previews CSV files.
-# https://github.com/p2/quicklook-csv
-brew cask install quicklook-csv
+# # A QuickLook Plugin for CSV Files
+# # Previews CSV files.
+# # https://github.com/p2/quicklook-csv
+# brew cask install quicklook-csv
 
-# quick look JSON
-# Previews JSON files.
-# http://sagtau.com/quicklookjson
-brew cask install quicklook-json
+# # quick look JSON
+# # Previews JSON files.
+# # http://sagtau.com/quicklookjson
+# brew cask install quicklook-json
 
-# Suspicious Package
-# Previews the contents of a standard Apple installer package.
-# http://www.mothersruin.com/software/SuspiciousPackage/
-brew cask install suspicious-package
+# # Suspicious Package
+# # Previews the contents of a standard Apple installer package.
+# # http://www.mothersruin.com/software/SuspiciousPackage/
+# brew cask install suspicious-package
 
 
 

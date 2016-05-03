@@ -23,11 +23,6 @@ alfred
 # http://freemacsoft.net/appcleaner/
 appcleaner
 
-# Asepsis
-# Redirects the creation of .DS_Store files into a special folder.
-# http://asepsis.binaryage.com/
-asepsis
-
 # aText
 # Text expander.
 # http://www.trankynam.com/atext/
@@ -48,15 +43,12 @@ beyond-compare
 # http://globaldelight.com/boom/
 boom
 
-# Cakebrew
-# GUI front end for Homebrew.
-# https://cakebrew.com/
-cakebrew
-
 # cDock
 # Dock themer.
 # http://sourceforge.net/projects/cdock/
 #
+# TODO
+# - verify the following
 # Note: EasySIMBL does not seem to be required.
 #
 cdock
@@ -200,16 +192,6 @@ the-unarchiver
 # File transfer tool.
 # http://panic.com/transmit/
 transmit
-
-# Vagrant
-# Virtual development environment manager.
-# https://www.vagrantup.com/
-vagrant
-
-# VirtualBox
-# Virtual environment manager.
-# https://www.virtualbox.org/
-virtualbox
 
 # VLC
 # Media player.

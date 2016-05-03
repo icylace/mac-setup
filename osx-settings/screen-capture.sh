@@ -10,7 +10,7 @@ et 'Disable the shadow in screenshots.'
 dw disable-shadow -bool true
 
 et 'Save screenshots into the downloads folder to keep the desktop uncluttered.'
-dw location -string "${HOME}/Downloads"
+dw location -string "$HOME/Downloads"
 
 et 'Set the screenshot base name.'
 dw name -string 'screen'

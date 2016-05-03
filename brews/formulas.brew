@@ -39,9 +39,9 @@ archey
 duti
 
 # mas-cli
-# A simple command line interface for the Mac App Store.
+# Mac App Store command line interface
 # https://github.com/argon/mas
-argon/mas/mas
+mas
 
 # trash
 # Moves files and folders to the OS X trash.
@@ -129,6 +129,11 @@ xctool
 #  General programs.
 # ------------------------------------------------------------------------------
 
+# catimg
+# Prints images in terminal.
+# https://github.com/posva/catimg
+catimg
+
 # FFmpeg
 # Records, converts, and streams audio and video.
 # http://ffmpeg.org/
@@ -146,7 +151,7 @@ findutils
 graphicsmagick
 
 # highlight
-# Source code highlighter.
+# Source code to highlighted text formatter.
 # http://andre-simon.de/doku/highlight/en/highlight.php
 highlight
 
@@ -179,3 +184,8 @@ tree
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/
 wget
+
+# yadm
+# Yet Another Dotfiles Manager
+# https://github.com/TheLocehiliosan/yadm
+yadm

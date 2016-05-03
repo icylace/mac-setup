@@ -43,7 +43,7 @@ dw FXPreferredViewStyle -string 'Nlsv'
 
 et 'Set the Downloads folder as the default location for new Finder windows.'
 dw NewWindowTarget -string 'PfLo'
-dw NewWindowTargetPath -string "file://${HOME}/Downloads"
+dw NewWindowTargetPath -string "file://$HOME/Downloads"
 # Possible values:
 # https://github.com/mathiasbynens/dotfiles/pull/285#issuecomment-31608378
 # Description  - NewWindowTarget - NewWindowTargetPath

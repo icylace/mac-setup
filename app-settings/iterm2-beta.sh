@@ -13,3 +13,7 @@ dw PromptOnQuit -bool false
 
 et 'Turn on dark mode.'
 dw TabStyle -bool true
+
+# TODO
+# - activate the "Load preferences fram a custom folder or URL" setting and set it to "~/My/Dropbox/Sync/iTerm2 Preferences"
+# - set font

@@ -18,7 +18,7 @@ et 'Make Path Finder the default file viewer.'
 dw pathFinderIsDefaultFileViewer -bool true
 
 et 'Set the default folder.'
-dw kNTDefaultTabPath -string "${HOME}"
+dw kNTDefaultTabPath -string "$HOME"
 
 et 'Make sure files are copied correctly.'
 dw NTVerifyCopiedFiles -bool true

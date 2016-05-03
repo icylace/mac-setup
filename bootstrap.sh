@@ -56,8 +56,8 @@ e ''
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# source 'brew.sh'
-# source 'cask.sh'
+source 'brew.sh'
+source 'cask.sh'
 source 'osx.sh'
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
@@ -114,30 +114,19 @@ source 'osx.sh'
 
 
 # ------------------------------------------------------------------------------
-#  Apps to install manually via the Mac App Store.
+#  Apps from the Mac App Store
 # ------------------------------------------------------------------------------
 
-# cobook
-
-# Memory Clean
-# Frees up unused memory.
-# https://fiplab.com/apps/memory-clean-for-mac
-
-# quiver
-
-# shazam
-
-# Ulysses III
+# Ulysses
 # Text document manager and editor designed for writing.
 # http://ulyssesapp.com/
+mas install 623795237
+
+# cobook
 
 # yoink
 # File dragging helper.
 
-
-# Xcode
-# Application development system from Apple.
-# https://developer.apple.com/xcode/
 
 # celtx - still useful ?
 # tunatic - useful to me ?
@@ -148,10 +137,11 @@ source 'osx.sh'
 # jackpilot - still useful ?
 # plug spy - still useful ?
 # folderteint - anything better ?
-# hourguard - still useful ?
 # time track pro - still useful ?
+
 # sugarsync - still useful ?
 # elephant drive - still useful ?
+
 # shade - still useful ?
 
 
@@ -248,6 +238,11 @@ source 'osx.sh'
 #
 
 
+# TODO
+# - Figure out a way to programmatically turn off Caps Lock key
+# - check for the existence of PGP key stuff as this is important for GitHub
+#   thingies and probably other things too
+
 
 # install script stuff:
 
@@ -308,20 +303,15 @@ source 'osx.sh'
 # iCloud ?
 
 
-# figure out preferences sharing:
-
+# TODO
+# - figure out preferences sharing for:
+# ControllerMate
 # Ulysses
 # VirtualBox
 # LibreOffice
 # PhpStorm
-
-
-
-# ----
-
-# consider using .plist or "defaults write"
-
-# CodeBox
+#
+# - consider using .plist or "defaults write" for:
 # nvALT
 # The Hit List
 # VLC
@@ -330,3 +320,16 @@ source 'osx.sh'
 # ----
 
 # ~ Transmit
+
+
+
+
+
+
+
+
+
+# Xcode
+# Application development system from Apple.
+# https://developer.apple.com/xcode/
+

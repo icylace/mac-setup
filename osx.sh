@@ -75,12 +75,12 @@
 # Hidden wallpapers.
 # /Library/Screen Savers/Default Collections
 
-# Set the computer name.
-COMPUTER_NAME="0xFF69B4"
-sudo scutil --set ComputerName COMPUTER_NAME
-sudo scutil --set HostName COMPUTER_NAME
-sudo scutil --set LocalHostName COMPUTER_NAME
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string COMPUTER_NAME
+# # Set the computer name.
+# COMPUTER_NAME="0xFF69B4"
+# sudo scutil --set ComputerName COMPUTER_NAME
+# sudo scutil --set HostName COMPUTER_NAME
+# sudo scutil --set LocalHostName COMPUTER_NAME
+# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string COMPUTER_NAME
 
 # Always show the user's Library folder.
 chflags nohidden ~/Library/

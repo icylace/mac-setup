@@ -35,7 +35,14 @@ e '-                  Homebrew                   -' $blue
 e '-----------------------------------------------' $blue
 e ''
 
-if [ ! (type brew >/dev/null 2>&1) ]; then
+# Install Homebrew if we need to.
+if ! type brew >/dev/null 2>&1 ; then
+  if ! type xcode-select >/dev/null 2>&1 ; then
+    et 'Installing Xcode command line tools...'
+    xcode-select --install
+    # sudo xcodebuild -license
+  fi
+
   # Homebrew
   # Package manager for OS X.
   # http://brew.sh
@@ -52,8 +59,8 @@ brew update
 # Access more recent versions of some programs that come with OS X.
 brew tap homebrew/dupes
 
-# Access PHP-related formulas.
-brew tap homebrew/homebrew-php
+# # Access PHP-related formulas.
+# brew tap homebrew/homebrew-php
 
 et 'Installing formulas...'
 brew install $(cat brews/formulas.brew | grep -v \#)
@@ -66,16 +73,6 @@ brew install zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)
 
-# yadm
-# Yet Another Dotfiles Manager
-# https://github.com/TheLocehiliosan/yadm
-brew tap TheLocehiliosan/yadm && brew install yadm
-
-# catimg
-# Prints images in terminal.
-# https://github.com/posva/catimg
-brew tap posva/taps && brew install catimg
-
 # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
 git config --global color.ui true
 git config --global push.default current
@@ -85,47 +82,47 @@ git config --global push.default current
 
 # ------------------------------------------------------------------------------
 
-# rbenv
-# A Ruby version manager.
-# http://rbenv.org/
-brew install rbenv
+# # rbenv
+# # A Ruby version manager.
+# # http://rbenv.org/
+# brew install rbenv
 
-# Install a newer version of Ruby.
-rbenv install 2.3.0
-rbenv global 2.3.0
-rbenv rehash
+# # Install a newer version of Ruby.
+# rbenv install 2.3.0
+# rbenv global 2.3.0
+# rbenv rehash
 
 # ------------------------------------------------------------------------------
 
-# Node Version Manager
-# A manager for handling different versions of Node.js.
-# https://github.com/creationix/nvm
-brew install nvm
+# # Node Version Manager
+# # A manager for handling different versions of Node.js.
+# # https://github.com/creationix/nvm
+# brew install nvm
 
-# Install Node.js.
-nvm install stable
+# # Install Node.js.
+# nvm install stable
 
-# nvm alias default stable
+# # nvm alias default stable
 
-# Bower
-# Package manager for the web projects.
-# http://bower.io/
-npm install --global bower
+# # Bower
+# # Package manager for the web projects.
+# # http://bower.io/
+# npm install --global bower
 
-# deps-ok
-# Fast checking of top level dependencies based on version numbers.
-# https://www.npmjs.com/package/deps-ok
-npm install --global deps-ok
+# # deps-ok
+# # Fast checking of top level dependencies based on version numbers.
+# # https://www.npmjs.com/package/deps-ok
+# npm install --global deps-ok
 
-# Gulp
-# The streaming build system.
-# http://gulpjs.com/
-npm install --global gulp
+# # Gulp
+# # The streaming build system.
+# # http://gulpjs.com/
+# npm install --global gulp
 
-# npm-check-updates
-# Finds newer versions of dependencies than what your package.json allows.
-# https://www.npmjs.com/package/npm-check-updates
-npm install --global npm-check-updates
+# # npm-check-updates
+# # Finds newer versions of dependencies than what your package.json allows.
+# # https://www.npmjs.com/package/npm-check-updates
+# npm install --global npm-check-updates
 
 # # blacklisted-gulp
 # # Searches for blacklisted Gulp plugins in your project.
@@ -189,6 +186,11 @@ pip install --upgrade pip-tools
 
 # ------------------------------------------------------------------------------
 
+# cd ~
+# yadm clone https://github.com/icylace/dotfiles
+
+# ------------------------------------------------------------------------------
+
 #
 # Other formulas.
 #
@@ -241,7 +243,7 @@ pip install --upgrade pip-tools
 
 # # Generic Colouriser
 # # Colorizes output of commands and log files.
-# # http://korpus.juls.savba.sk/~garabik/software/grc.html
+# # https://github.com/garabik/grc
 # grc
 
 # TODO
