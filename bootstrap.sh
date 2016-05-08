@@ -304,6 +304,11 @@ mas install 623795237
 
 
 # TODO
+# - setup Alfred Preferences more
+#   - theme
+
+
+# TODO
 # - figure out preferences sharing for:
 # ControllerMate
 # Ulysses

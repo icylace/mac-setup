@@ -150,9 +150,9 @@ chflags nohidden ~/Library/
 # sudo gem install cocoapods
 
 
-# # ------------------------------------------------------------------------------
-# #  OS X Lion setings.
-# # ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+#  OS X settings.
+# ------------------------------------------------------------------------------
 
 # et 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
