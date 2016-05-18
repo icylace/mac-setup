@@ -58,6 +58,11 @@ trash
 # http://git-scm.com/
 git
 
+# git-cal
+# GitHub-like contributions calendar on terminal.
+# https://github.com/k4rthik/git-cal
+git-cal
+
 # Git Extras
 # Extra commands for Git.
 # https://github.com/tj/git-extras
@@ -98,31 +103,20 @@ pyenv
 # https://github.com/sstephenson/ruby-build
 ruby-build
 
+# ShellCheck
+# Finds bugs in your shell scripts.
+# http://www.shellcheck.net/
+shellcheck
+
 
 # ------------------------------------------------------------------------------
-#  Apple development stuff.
+#  Shell-related.
 # ------------------------------------------------------------------------------
 
-# Chisel
-# Chisel is a collection of LLDB commands to assistin the debugging of iOS apps.
-# https://github.com/facebook/chisel
-chisel
-
-# SwiftLint
-# A linter for Swift code.
-# https://github.com/realm/SwiftLint
-swiftlint
-
-# # Tailor
-# # Static analyzer and linter for Swift.
-# # https://tailor.sh/
-# # - First, install Java.
-# tailor
-
-# xctool
-# Alternative Xcode build tool.
-# https://github.com/facebook/xctool
-xctool
+# zplug
+# Zsh plugin manager.
+# http://zplug.sh/
+zplug
 
 
 # ------------------------------------------------------------------------------
@@ -159,6 +153,11 @@ highlight
 # HTTP client.
 # http://httpie.org/
 httpie
+
+# jq
+# JSON processor.
+# http://stedolan.github.io/jq/
+jq
 
 # ranger
 # A console file manager.

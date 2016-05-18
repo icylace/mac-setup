@@ -49,19 +49,6 @@ brew cask install "${cask_formulas[@]}"
 
 
 # ------------------------------------------------------------------------------
-#  Utilities to install manually.
-# ------------------------------------------------------------------------------
-
-# NDSQuickLook
-# Displays technical details of Nintendo DS ROM files.
-# http://bluezbox.com/ndsquicklook/
-
-# QuickROM
-# Displays technical details of ROM files.
-# http://eludevisibility.org/quickrom/
-
-
-# ------------------------------------------------------------------------------
 #  Games to install manually.
 # ------------------------------------------------------------------------------
 

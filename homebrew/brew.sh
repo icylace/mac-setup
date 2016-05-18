@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+
 e ''
-e '-----------------------------------------------' $blue
-e '-          Xcode Command Line Tools           -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-          Xcode Command Line Tools           -' blue
+e '-----------------------------------------------' blue
 e ''
 
 et 'Checking if Xcode is installed...'
@@ -11,8 +13,8 @@ et 'Checking if Xcode is installed...'
 if ! ( \
   type xcode-select >&- \
   && xpath=$(xcode-select --print-path) \
-  && test -d "${xpath}" \
-  && test -x "${xpath}" \
+  && test -d "$xpath" \
+  && test -x "$xpath" \
 ) ; then
   # Xcode Command Line Tools
   # CLI utilities for Xcode development.
@@ -22,27 +24,14 @@ if ! ( \
   # sudo xcodebuild -license
 fi
 
-# Alcatraz
-# The package manager for Xcode.
-# http://alcatraz.io/
-et 'Installing Alcatraz...'
-curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
-
-
 e ''
-e '-----------------------------------------------' $blue
-e '-                  Homebrew                   -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-                  Homebrew                   -' blue
+e '-----------------------------------------------' blue
 e ''
 
 # Install Homebrew if we need to.
 if ! type brew >/dev/null 2>&1 ; then
-  if ! type xcode-select >/dev/null 2>&1 ; then
-    et 'Installing Xcode command line tools...'
-    xcode-select --install
-    # sudo xcodebuild -license
-  fi
-
   # Homebrew
   # Package manager for OS X.
   # http://brew.sh
@@ -63,7 +52,7 @@ brew tap homebrew/dupes
 # brew tap homebrew/homebrew-php
 
 et 'Installing formulas...'
-brew install $(cat brews/formulas.brew | grep -v \#)
+brew install $(cat brew.formulas | grep -v \#)
 
 # Use an updated Z shell as the default shell.
 # http://zsh.sourceforge.net/
@@ -71,7 +60,7 @@ brew install $(cat brews/formulas.brew | grep -v \#)
 # http://stackoverflow.com/questions/17648621/how-do-i-update-zsh-to-the-latest-version/17649823#17649823
 brew install zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
-chsh -s $(which zsh)
+chsh -s "$(which zsh)"
 
 # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
 git config --global color.ui true
@@ -130,11 +119,6 @@ git config --global push.default current
 # # https://www.npmjs.com/package/blacklisted-gulp
 # npm install --global blacklisted-gulp
 
-# # Slush
-# # The streaming scaffolding system.
-# # http://slushjs.github.io/#/
-# npm install --global slush
-
 # ------------------------------------------------------------------------------
 
 # Configure sift.
@@ -147,18 +131,6 @@ sift --color --group --line-number --stats --write-config
 # https://github.com/mrowa44/damn-weather
 # gem install --upgrade damn-weather
 gem install damn-weather
-
-# synx
-# Reorganizes your Xcode project folder to match your Xcode groups.
-# https://github.com/venmo/synx
-# gem install --upgrade synx
-gem install synx
-
-# # xcpretty
-# # Output formatter for Xcode.
-# # https://github.com/supermarin/xcpretty
-# # gem install --upgrade xcpretty
-# gem install xcpretty
 
 # ------------------------------------------------------------------------------
 
@@ -245,15 +217,6 @@ pip install --upgrade ohmu
 # # Colorizes output of commands and log files.
 # # https://github.com/garabik/grc
 # grc
-
-# TODO
-# - stick with Synergy Pro, right ?
-#
-# # Synergy
-# # Keyboard and mouse switcher for multiple computers.
-# # http://synergy-project.org/
-# brew cask install synergy
-
 
 # Check if there are problems.
 brew doctor

@@ -25,20 +25,20 @@
 source 'init.sh'
 
 e ''
-e '###############################################' $red
-e '#        DO NOT RUN THIS SCRIPT BLINDLY       #' $red
-e '#        YOU WILL PROBABLY REGRET IT...       #' $red
-e '#                                             #' $red
-e '#              READ IT THOROUGHLY             #' $red
-e '#         AND EDIT TO SUIT YOUR NEEDS         #' $red
-e '###############################################' $red
+e '###############################################' red
+e '#        DO NOT RUN THIS SCRIPT BLINDLY       #' red
+e '#        YOU WILL PROBABLY REGRET IT...       #' red
+e '#                                             #' red
+e '#              READ IT THOROUGHLY             #' red
+e '#         AND EDIT TO SUIT YOUR NEEDS         #' red
+e '###############################################' red
 e ''
 
 # proceeding=false
 
 # e ''
-# e "Have you read through the script you're about to run and " $red
-# e 'understood that it will make changes to your computer? (y/n)' $red
+# e "Have you read through the script you're about to run and " red
+# e 'understood that it will make changes to your computer? (y/n)' red
 # read -r response
 # case $response in
 #   [yY]) proceeding=true
@@ -47,7 +47,7 @@ e ''
 # esac
 
 # if [ ! $proceeding ]; then
-#   e 'Please go read the script.  It only takes a few minutes.' $red
+#   e 'Please go read the script.  It only takes a few minutes.' red
 #   exit
 # fi
 
@@ -56,9 +56,12 @@ e ''
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source 'brew.sh'
-source 'cask.sh'
+source 'homebrew/brew.sh'
+source 'homebrew/cask.sh'
 source 'osx.sh'
+source 'mas.sh'
+source 'appledev.sh'
+
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
 # sudo shutdown -r now 'Rebooting now...'
@@ -67,7 +70,7 @@ source 'osx.sh'
 # Considering:
 #
 
-# adobe-creative-cloud - use CS6 instead ?
+# adobe-creative-cloud
 # macpaw-gemini
 # hazel - useful to me ?
 # justlooking - use xee instead ?
@@ -85,13 +88,27 @@ source 'osx.sh'
 # skim - useful to me ?
 # xscope - still useful to me ?
 # carbon-copy-cloner - use time machine instead ?
-# jewelrybox - still useful ?
 # sitesucker - still useful ?
 # soundflower - still useful ?
 
 # copy - still useful ?
 # pdfpenpro - still useful ?
 # thunderbird-beta - useful for archiving email ?
+
+# cobook
+
+# tunatic - useful to me ?
+# fontdoctor ?
+# fontvista ?
+# winclone - still useful ?
+# jackpilot - still useful ?
+# plug spy - still useful ?
+
+# sugarsync - still useful ?
+# elephant drive - still useful ?
+
+# celtx - still useful ?
+
 
 
 # ------------------------------------------------------------------------------
@@ -113,36 +130,6 @@ source 'osx.sh'
 # export PATH="$HOME/.node/bin:$PATH"
 
 
-# ------------------------------------------------------------------------------
-#  Apps from the Mac App Store
-# ------------------------------------------------------------------------------
-
-# Ulysses
-# Text document manager and editor designed for writing.
-# http://ulyssesapp.com/
-mas install 623795237
-
-# cobook
-
-# yoink
-# File dragging helper.
-
-
-# celtx - still useful ?
-# tunatic - useful to me ?
-# colorchooser ?
-# fontdoctor ?
-# fontvista ?
-# winclone - still useful ?
-# jackpilot - still useful ?
-# plug spy - still useful ?
-# folderteint - anything better ?
-# time track pro - still useful ?
-
-# sugarsync - still useful ?
-# elephant drive - still useful ?
-
-# shade - still useful ?
 
 
 # ------------------------------------------------------------------------------
@@ -154,13 +141,9 @@ mas install 623795237
 # https://github.com/steakknife/breakaway
 # Fork of http://mutablecode.com/apps/breakaway.html
 
-# Tagger
-# http://hasseg.org/tagger/
-# - anything better ?
-
-
-
 # Synergy Pro
+# Shares your mouse and keyboard between multiple computers.
+# http://synergy-project.org/synergy/
 
 
 
@@ -249,8 +232,6 @@ mas install 623795237
 # find a way to disable default system shortcut keys
 
 
-# automate install Antigen via git
-# http://antigen.sharats.me/
 
 # adjust:
 # defaults write -g InitialKeyRepeat -int 12
@@ -268,7 +249,6 @@ mas install 623795237
 
 # casks:
 
-# default-folder-x
 # font-inconsolata-g-for-powerline
 
 
@@ -325,16 +305,4 @@ mas install 623795237
 # ----
 
 # ~ Transmit
-
-
-
-
-
-
-
-
-
-# Xcode
-# Application development system from Apple.
-# https://developer.apple.com/xcode/
 

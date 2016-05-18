@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # ------------------------------------------------------------------------------
 #  Set OS X defaults that I like.
 # ------------------------------------------------------------------------------
@@ -36,9 +38,8 @@
 # We're focusing on OS X so abort if we're not in OS X.
 [[ "$OSTYPE" =~ ^darwin ]] || return 1
 
-
-# # # Change the default backup periods in Time Machine.
-# # sudo defaults write /System/Library/Launch\ Daemons/com.apple.backupd-auto StartInterval -int 1800
+# # Change the default backup periods in Time Machine.
+# sudo defaults write /System/Library/Launch\ Daemons/com.apple.backupd-auto StartInterval -int 1800
 
 # et 'Check for software updates daily, not just once per week.'
 # defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
@@ -61,7 +62,7 @@
 # # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 # sudo systemsetup -settimezone 'America/New_York' > /dev/null
 
-# # if [ ${OSTYPE} = darwin14* ];then
+# # if [ ${OSTYPE} = darwin14* ] ; then
 # #   et 'Enabling dark mode.'
 # #   defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
 # # else
@@ -139,17 +140,6 @@ chflags nohidden ~/Library/
 # http://www.defaults-write.com/safari-highlight-non-retina-images/
 
 
-# # Alcatraz
-# # Package manager for Xcode.
-# # http://alcatraz.io/
-# curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
-
-# # CocoaPods
-# # Dependency manager for Cocoa projects.
-# # http://cocoapods.org/
-# sudo gem install cocoapods
-
-
 # ------------------------------------------------------------------------------
 #  OS X settings.
 # ------------------------------------------------------------------------------
@@ -157,14 +147,14 @@ chflags nohidden ~/Library/
 # et 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
-if type defaults >/dev/null 2>&1; then
+if type defaults >/dev/null 2>&1 ; then
 
-  for f in osx-settings/*.sh; do
-    source $f
+  for f in osx-settings/*.sh ; do
+    source "$f"
   done
 
-  for f in app-settings/*.sh; do
-    source $f
+  for f in app-settings/*.sh ; do
+    source "$f"
   done
 
   e 'OS X defaults written. Note that some of these changes require a logout/restart to take effect.'

@@ -1,9 +1,11 @@
+#!/usr/bin/env bash
+
 e ''
-e '-----------------------------------------------' $blue
-e '-                Transmission                 -' $blue
-e '-             BitTorrent client.              -' $blue
-e '-       https://www.transmissionbt.com/       -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-                Transmission                 -' blue
+e '-             BitTorrent client.              -' blue
+e '-       https://www.transmissionbt.com/       -' blue
+e '-----------------------------------------------' blue
 e ''
 
 alias dw='defaults write org.m0k.transmission'

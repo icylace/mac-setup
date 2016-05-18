@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+
 e ''
-e '-----------------------------------------------' $blue
-e '-               Screen Capture                -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-               Screen Capture                -' blue
+e '-----------------------------------------------' blue
 e ''
 
 alias dw='defaults write com.apple.screencapture'

@@ -1,9 +1,11 @@
+#!/usr/bin/env bash
+
 e ''
-e '-----------------------------------------------' $blue
-e '-                   iTerm2                    -' $blue
-e '-             Terminal emulator.              -' $blue
-e '-             http://iterm2.com/              -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-                   iTerm2                    -' blue
+e '-             Terminal emulator.              -' blue
+e '-             http://iterm2.com/              -' blue
+e '-----------------------------------------------' blue
 e ''
 
 alias dw='defaults write com.googlecode.iterm2'

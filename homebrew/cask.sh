@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+
 e ''
-e '-----------------------------------------------' $blue
-e '-                Homebrew Cask                -' $blue
-e '-----------------------------------------------' $blue
+e '-----------------------------------------------' blue
+e '-                Homebrew Cask                -' blue
+e '-----------------------------------------------' blue
 e ''
 
 # Homebrew Cask
@@ -25,7 +27,7 @@ brew tap caskroom/fonts
 brew cask update
 
 et 'Installing casks...'
-brew cask install $(cat brews/casks.brew | grep -v \#)
+brew cask install $(cat cask.formulas | grep -v \#)
 
 # Check if there are problems.
 brew cask doctor
@@ -55,14 +57,7 @@ brew cask cleanup
 # # http://stclairsoft.com/DefaultFolderX/
 # #default-folder-x
 # # There is a Cask for it but it needs fixing.  The workaround is to install manually.
+# # TODO
+# # - verify if this is still true
 
 # lighttable
-
-# Flavours
-# System themer.
-# http://flavours.interacto.net/
-#
-# Yosemite support forth-coming:
-# https://interacto.zendesk.com/entries/53605899-Yosemite-and-the-future-Flavours-2
-#
-# flavours
