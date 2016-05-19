@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-                Homebrew Cask                -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                Homebrew Cask                -'
+blue '-----------------------------------------------'
+blue ''
 
-# Homebrew Cask
-# Manages the administration of Mac applications distributed as binaries.
-# http://caskroom.io/
-et 'Installing Homebrew Cask'
-brew install caskroom/cask/brew-cask
+# # Homebrew Cask
+# # Manages the administration of Mac applications distributed as binaries.
+# # http://caskroom.io/
+# et 'Installing Homebrew Cask'
+# brew install caskroom/cask/brew-cask
 
 # Check if there are problems.
 brew doctor

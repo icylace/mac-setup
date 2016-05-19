@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-         Apps from the Mac App Store         -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-         Apps from the Mac App Store         -'
+blue '-----------------------------------------------'
+blue ''
 
 if ! type mas >/dev/null 2>&1 ; then
-  et '`mas` command is not installed!' red
-  return 1
+  # mas-cli
+  # Mac App Store command line interface
+  # https://github.com/argon/mas
+  brew install mas
 fi
 
 # ColorSnapper

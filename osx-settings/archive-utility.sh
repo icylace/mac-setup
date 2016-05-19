@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-               Archive Utility               -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-               Archive Utility               -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.apple.archiveutility'
 

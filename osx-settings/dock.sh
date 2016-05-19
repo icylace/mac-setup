@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-      Dock, Dashboard, Mission Control       -' blue
-e '-            Spaces, and Trackpad             -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-      Dock, Dashboard, Mission Control       -'
+blue '-            Spaces, and Trackpad             -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.apple.dashboard'
 

@@ -38,55 +38,10 @@ archey
 # http://duti.org/
 duti
 
-# mas-cli
-# Mac App Store command line interface
-# https://github.com/argon/mas
-mas
-
 # trash
 # Moves files and folders to the OS X trash.
 # http://hasseg.org/trash/
 trash
-
-
-# ------------------------------------------------------------------------------
-#  Git utilities.
-# ------------------------------------------------------------------------------
-
-# Git
-# A distributed version control system.
-# http://git-scm.com/
-git
-
-# git-cal
-# GitHub-like contributions calendar on terminal.
-# https://github.com/k4rthik/git-cal
-git-cal
-
-# Git Extras
-# Extra commands for Git.
-# https://github.com/tj/git-extras
-git-extras
-
-# Git STree
-# Git subtree helper command.
-# http://tdd.github.io/git-stree/
-git-stree
-
-# hub
-# Wrapper for Git that makes you better at GitHub.
-# https://hub.github.com/
-hub
-
-# # Legit
-# # Extra commands for Git.
-# # http://git-legit.org/
-# legit
-
-# Git Radar
-# A heads-up display for Git.
-# https://github.com/michaeldfallen/git-radar
-michaeldfallen/formula/git-radar
 
 
 # ------------------------------------------------------------------------------

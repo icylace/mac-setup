@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-                Mac App Store                -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                Mac App Store                -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.apple.appstore'
 

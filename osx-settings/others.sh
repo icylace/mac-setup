@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-                   Others                    -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                   Others                    -'
+blue '-----------------------------------------------'
+blue ''
 
 et 'Disable infrared remote control.'
 sudo defaults write /Library/Preferences/com.apple.driver.AppleIRController DeviceEnabled -bool false

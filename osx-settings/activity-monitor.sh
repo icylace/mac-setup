@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-              Activity Monitor               -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-              Activity Monitor               -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.apple.ActivityMonitor'
 

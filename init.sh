@@ -9,28 +9,28 @@ shopt -s expand_aliases
 
 # Useable colors.
 black() {
-  echo '\033[0;30m'
+  e $@ '\033[0;30m'
 }
 red() {
-  echo '\033[0;31m'
+  e $@ '\033[0;31m'
 }
 green() {
-  echo '\033[0;32m'
+  e $@ '\033[0;32m'
 }
 yellow() {
-  echo '\033[0;33m'
+  e $@ '\033[0;33m'
 }
 blue() {
-  echo '\033[0;34m'
+  e $@ '\033[0;34m'
 }
 magenta() {
-  echo '\033[0;35m'
+  e $@ '\033[0;35m'
 }
 cyan() {
-  echo '\033[0;36m'
+  e $@ '\033[0;36m'
 }
 light_gray() {
-  echo '\033[0;37m'
+  e $@ '\033[0;37m'
 }
 
 #

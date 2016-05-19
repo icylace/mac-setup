@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-          Xcode Command Line Tools           -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-          Xcode Command Line Tools           -'
+blue '-----------------------------------------------'
+blue ''
 
 et 'Checking if Xcode is installed...'
 
@@ -24,11 +24,11 @@ if ! ( \
   # sudo xcodebuild -license
 fi
 
-e ''
-e '-----------------------------------------------' blue
-e '-                  Homebrew                   -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                  Homebrew                   -'
+blue '-----------------------------------------------'
+blue ''
 
 # Install Homebrew if we need to.
 if ! type brew >/dev/null 2>&1 ; then
@@ -61,13 +61,6 @@ brew install $(cat brew.formulas | grep -v \#)
 brew install zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s "$(which zsh)"
-
-# http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
-git config --global color.ui true
-git config --global push.default current
-# git config branch.autosetuprebase always
-# git difftool -t <tool>
-# git mergetool -t <tool>
 
 # ------------------------------------------------------------------------------
 

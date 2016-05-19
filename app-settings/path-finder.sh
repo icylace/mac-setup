@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-                 Path Finder                 -' blue
-e '-                File manager.                -' blue
-e '-      http://cocoatech.com/pathfinder/       -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                 Path Finder                 -'
+blue '-                File manager.                -'
+blue '-      http://cocoatech.com/pathfinder/       -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.cocoatech.PathFinder'
 

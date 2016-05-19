@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e ''
-e '-----------------------------------------------' blue
-e '-                Screen Saver                 -' blue
-e '-----------------------------------------------' blue
-e ''
+blue ''
+blue '-----------------------------------------------'
+blue '-                Screen Saver                 -'
+blue '-----------------------------------------------'
+blue ''
 
 alias dw='defaults write com.apple.screensaver'
 

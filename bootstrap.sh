@@ -24,15 +24,15 @@
 
 source 'init.sh'
 
-e ''
-e '###############################################' red
-e '#        DO NOT RUN THIS SCRIPT BLINDLY       #' red
-e '#        YOU WILL PROBABLY REGRET IT...       #' red
-e '#                                             #' red
-e '#              READ IT THOROUGHLY             #' red
-e '#         AND EDIT TO SUIT YOUR NEEDS         #' red
-e '###############################################' red
-e ''
+red ''
+red '###############################################'
+red '#        DO NOT RUN THIS SCRIPT BLINDLY       #'
+red '#        YOU WILL PROBABLY REGRET IT...       #'
+red '#                                             #'
+red '#              READ IT THOROUGHLY             #'
+red '#         AND EDIT TO SUIT YOUR NEEDS         #'
+red '###############################################'
+red ''
 
 # proceeding=false
 
@@ -110,17 +110,6 @@ source 'appledev.sh'
 # celtx - still useful ?
 
 
-
-# ------------------------------------------------------------------------------
-#  Git-related utilities.
-# ------------------------------------------------------------------------------
-
-# # git-smart
-# # Extra commands for Git.
-# # https://github.com/geelen/git-smart
-# gem install git-smart
-
-
 # http://nodejs.org/
 # e "Installing node (without npm)" $blue
 # # For more info, see here https://gist.github.com/DanHerbert/9520689
@@ -128,8 +117,6 @@ source 'appledev.sh'
 # e prefix=~/.node >> ~/.npmrc
 # curl -L https://www.npmjs.org/install.sh | sh
 # export PATH="$HOME/.node/bin:$PATH"
-
-
 
 
 # ------------------------------------------------------------------------------
