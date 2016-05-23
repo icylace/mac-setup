@@ -23,6 +23,11 @@ coreutils
 # http://www.gnu.org/software/grep/
 grep
 
+# less
+# A terminal pager.
+# http://greenwoodsoftware.com/less/
+less
+
 
 # ------------------------------------------------------------------------------
 #  Utilities specific to OS X.
@@ -79,7 +84,7 @@ zplug
 # ------------------------------------------------------------------------------
 
 # catimg
-# Prints images in terminal.
+# Prints images in the terminal by using Unicode characters.
 # https://github.com/posva/catimg
 catimg
 
@@ -98,6 +103,11 @@ findutils
 # Image processor.
 # http://www.graphicsmagick.org/
 graphicsmagick
+
+# Generic Colouriser
+# Colorizes logfiles and command output.
+# https://github.com/garabik/grc
+grc
 
 # highlight
 # Source code to highlighted text formatter.
@@ -134,10 +144,20 @@ sift
 # http://mama.indstate.edu/users/ice/tree/
 tree
 
+# unrar
+# Extracts, views, and tests RAR archives.
+# http://rarlab.com/
+unrar
+
 # GNU Wget
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/
 wget
+
+# wiki
+# Command line tool to fetch summaries from MediaWiki wikis, like Wikipedia.
+# https://github.com/walle/wiki
+wiki
 
 # yadm
 # Yet Another Dotfiles Manager

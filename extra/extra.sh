@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# givegif
+# Find and display GIFs from the command line (requires iTerm >= 2.9).
+# https://github.com/passy/givegif
+brew tap passy/givegif
+brew install givegif
+
 # Graphviz
 # Graph visualizer.
 # http://graphviz.org/

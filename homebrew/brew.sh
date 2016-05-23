@@ -76,41 +76,51 @@ chsh -s "$(which zsh)"
 
 # ------------------------------------------------------------------------------
 
-# # Node Version Manager
-# # A manager for handling different versions of Node.js.
-# # https://github.com/creationix/nvm
-# brew install nvm
+# Node Version Manager
+# A manager for handling different versions of Node.js.
+# https://github.com/creationix/nvm
+brew install nvm
 
-# # Install Node.js.
-# nvm install stable
+# Install Node.js.
+nvm install stable
 
-# # nvm alias default stable
+nvm alias default stable
 
-# # Bower
-# # Package manager for the web projects.
-# # http://bower.io/
-# npm install --global bower
+# Bower
+# Package manager for the web projects.
+# http://bower.io/
+npm install --global bower
 
-# # deps-ok
-# # Fast checking of top level dependencies based on version numbers.
-# # https://www.npmjs.com/package/deps-ok
-# npm install --global deps-ok
+# caniuse-cmd
+# Use http://caniuse.com/ from the command line.
+# https://github.com/sgentle/caniuse-cmd
+npm install --global caniuse-cmd
+
+# deps-ok
+# Fast checking of top level dependencies based on version numbers.
+# https://www.npmjs.com/package/deps-ok
+npm install --global deps-ok
 
 # # Gulp
 # # The streaming build system.
 # # http://gulpjs.com/
 # npm install --global gulp
 
-# # npm-check-updates
-# # Finds newer versions of dependencies than what your package.json allows.
-# # https://www.npmjs.com/package/npm-check-updates
-# npm install --global npm-check-updates
+# npm-check-updates
+# Finds newer versions of dependencies than what your package.json allows.
+# https://www.npmjs.com/package/npm-check-updates
+npm install --global npm-check-updates
 
 # # blacklisted-gulp
 # # Searches for blacklisted Gulp plugins in your project.
 # # https://github.com/ernestoalejo/blacklisted-gulp
 # # https://www.npmjs.com/package/blacklisted-gulp
 # npm install --global blacklisted-gulp
+
+# # wat
+# # Instant, central, community-built docs.
+# # https://github.com/dthree/wat
+# npm install -g wat
 
 # ------------------------------------------------------------------------------
 
@@ -148,6 +158,11 @@ pip install --upgrade ohmu
 # # even when you've pinned them.
 # # https://github.com/nvie/pip-tools
 # pip install --upgrade pip-tools
+
+# searchcmd
+# Search the internet for command line commands from the command line.
+# https://github.com/jimmyppi/searchcmd
+pip install --upgrade searchcmd
 
 # ------------------------------------------------------------------------------
 
@@ -205,11 +220,6 @@ pip install --upgrade ohmu
 # # Send Mac OS X User Notifications.
 # # https://github.com/alloy/terminal-notifier
 # terminal-notifier
-
-# # Generic Colouriser
-# # Colorizes output of commands and log files.
-# # https://github.com/garabik/grc
-# grc
 
 # Check if there are problems.
 brew doctor
