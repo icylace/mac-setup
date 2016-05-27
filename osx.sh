@@ -147,7 +147,7 @@ chflags nohidden ~/Library/
 # et 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
-if type defaults >/dev/null 2>&1 ; then
+if we_have defaults ; then
 
   for f in osx-settings/*.sh ; do
     source "$f"
@@ -158,5 +158,20 @@ if type defaults >/dev/null 2>&1 ; then
   done
 
   e 'OS X defaults written. Note that some of these changes require a logout/restart to take effect.'
+
+fi
+
+# ------------------------------------------------------------------------------
+
+if we_have grc ; then
+  # Make sure `grc` knows about our custom color configurations.
+
+  # http://stackoverflow.com/a/4990185/1935675
+  cat <<EOF >> "$(brew --prefix)/etc/grc.conf"
+
+# hexdump
+(^|[/\w\.]+/)hexdump\s?
+conf.hexdump
+EOF
 
 fi

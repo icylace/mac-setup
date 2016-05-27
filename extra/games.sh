@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Check for Homebrew and install if we don't have it.
-if [ ! "$(which brew)" ]; then
+if ! we_have brew ; then
   e 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi

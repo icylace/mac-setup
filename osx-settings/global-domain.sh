@@ -131,7 +131,7 @@ dw NSUserKeyEquivalents -dict-add 'Previous Tab'        '@~\U2190'
 #
 
 et 'Increase window resize speed for Cocoa applications.'
-dw NSWindowResizeTime -floar 0.01
+dw NSWindowResizeTime -float 0.01
 
 et 'Expand the print panel by default.'
 dw PMPrintingExpandedStateForPrint -bool true

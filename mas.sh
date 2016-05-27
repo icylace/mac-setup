@@ -6,7 +6,7 @@ blue '-         Apps from the Mac App Store         -'
 blue '-----------------------------------------------'
 blue ''
 
-if ! type mas >/dev/null 2>&1 ; then
+if ! we_have mas ; then
   # mas-cli
   # Mac App Store command line interface
   # https://github.com/argon/mas

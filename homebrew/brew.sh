@@ -31,7 +31,7 @@ blue '-----------------------------------------------'
 blue ''
 
 # Install Homebrew if we need to.
-if ! type brew >/dev/null 2>&1 ; then
+if ! we_have brew ; then
   # Homebrew
   # Package manager for OS X.
   # http://brew.sh

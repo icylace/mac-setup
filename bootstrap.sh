@@ -41,12 +41,11 @@ red ''
 # e 'understood that it will make changes to your computer? (y/n)' red
 # read -r response
 # case $response in
-#   [yY]) proceeding=true
-#         break;;
+#   [yY]) proceeding=true break;;
 #   *) break;;
 # esac
 
-# if [ ! $proceeding ]; then
+# if [ ! $proceeding ] ; then
 #   e 'Please go read the script.  It only takes a few minutes.' red
 #   exit
 # fi
