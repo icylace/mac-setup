@@ -21,7 +21,8 @@ if ! ( \
   # https://developer.apple.com/xcode/
   et 'Installing Xcode command line tools...'
   xcode-select --install
-  # sudo xcodebuild -license
+  # https://macops.ca/deploying-xcode-the-trick-with-accepting-license-agreements
+  # sudo xcodebuild -license accept
 fi
 
 blue ''

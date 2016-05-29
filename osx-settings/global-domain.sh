@@ -6,7 +6,7 @@ blue '-               General System                -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write -g'
+alias dw='defaults write NSGlobalDomain'
 
 et 'Disable menu bar transparency.'
 dw AppleEnableMenuBarTransparency -bool false
