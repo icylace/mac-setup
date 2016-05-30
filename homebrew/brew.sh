@@ -6,7 +6,7 @@ blue '-          Xcode Command Line Tools           -'
 blue '-----------------------------------------------'
 blue ''
 
-et 'Checking if Xcode is installed...'
+t 'Checking if Xcode is installed...'
 
 # Check if Xcode is installed correctly.
 # http://apple.stackexchange.com/a/219508
@@ -19,7 +19,7 @@ if ! ( \
   # Xcode Command Line Tools
   # CLI utilities for Xcode development.
   # https://developer.apple.com/xcode/
-  et 'Installing Xcode command line tools...'
+  t 'Installing Xcode command line tools...'
   xcode-select --install
   # https://macops.ca/deploying-xcode-the-trick-with-accepting-license-agreements
   # sudo xcodebuild -license accept
@@ -36,7 +36,7 @@ if ! we_have brew ; then
   # Homebrew
   # Package manager for OS X.
   # http://brew.sh
-  et 'Installing homebrew...'
+  t 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -52,7 +52,7 @@ brew tap homebrew/dupes
 # # Access PHP-related formulas.
 # brew tap homebrew/homebrew-php
 
-et 'Installing formulas...'
+t 'Installing formulas...'
 brew install $(cat brew.formulas | grep -v \#)
 
 # Use an updated Z shell as the default shell.

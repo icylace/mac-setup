@@ -2,7 +2,7 @@
 
 # Check for Homebrew and install if we don't have it.
 if ! we_have brew ; then
-  e 'Installing homebrew...'
+  t 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -27,7 +27,7 @@ formulas=(
   caskroom/cask/brew-cask
 )
 
-e 'Installing Homebrew formulas...'
+t 'Installing Homebrew formulas...'
 brew install "${formulas[@]}"
 
 cask_formulas=(

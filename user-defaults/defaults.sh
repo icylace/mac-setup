@@ -39,7 +39,7 @@ write_defaults() {
     fi
   fi
 
-  echo "defaults write $domain $key $type_option $value"
+  defaults write "$domain" "$key" "$type_option" "$value"
 }
 
 # ------------------------------------------------------------------------------

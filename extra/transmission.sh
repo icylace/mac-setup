@@ -8,20 +8,20 @@ blue '-       https://www.transmissionbt.com/       -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write org.m0k.transmission'
+alias +='write_defaults org.m0k.transmission'
 
-et "Don't prompt for confirmation before downloading."
-dw DownloadAsk -bool false
+t "Don't prompt for confirmation before downloading."
++ DownloadAsk false
 
-et 'Use a certain folder to store incomplete downloads.'
-dw IncompleteDownloadFolder -string "$HOME/Downloads/_ torrents"
-dw UseIncompleteDownloadFolder -bool true
+t 'Use a certain folder to store incomplete downloads.'
++ IncompleteDownloadFolder "$HOME/Downloads/_ torrents"
++ UseIncompleteDownloadFolder true
 
-et 'Hide the donate message.'
-dw WarningDonate -bool false
+t 'Hide the donate message.'
++ WarningDonate false
 
-et 'Hide the legal disclaimer.'
-dw WarningLegal -bool false
+t 'Hide the legal disclaimer.'
++ WarningLegal false
 
 # # Restart Transmission to apply the settings.
 # killall Transmission
