@@ -9,7 +9,7 @@ blue ''
 # # Homebrew Cask
 # # Manages the administration of Mac applications distributed as binaries.
 # # http://caskroom.io/
-# et 'Installing Homebrew Cask'
+# t 'Installing Homebrew Cask'
 # brew install caskroom/cask/brew-cask
 
 # Check if there are problems.
@@ -26,7 +26,7 @@ brew tap caskroom/fonts
 # Make sure our Homebrew Cask recipes are updated.
 brew cask update
 
-et 'Installing casks...'
+t 'Installing casks...'
 brew cask install $(cat cask.formulas | grep -v \#)
 
 # Check if there are problems.
