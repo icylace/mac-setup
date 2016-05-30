@@ -26,13 +26,13 @@ t 'Automatically hide and show the Dock.'
 d autohide true
 
 t 'Remove the delay for hiding/showing.'
-d autohide-delay -float 0
+d autohide-delay 0.0
 
 t 'Remove the delay for hiding/showing in fullscreen mode.'
 d autohide-fullscreen-delayed false
 
 t 'Remove the animation when hiding/showing.'
-d autohide-time-modifier -float 0
+d autohide-time-modifier 0.0
 
 # t "Don’t show Dashboard as a Space."
 # d dashboard-in-overlay true
@@ -41,10 +41,10 @@ t 'Enable spring loading for all Dock items.'
 d enable-spring-load-actions-on-all-items true
 
 t 'Speed up Mission Control animations.'
-d expose-animation-duration -float 0.1
+d expose-animation-duration 0.1
 
 t 'Enable Mission Control to display full size previews.'
-d expose-cluster-scale -float 1
+d expose-cluster-scale 1.0
 
 t "Don't group windows by application in Mission Control (i.e. use the old Expose behavior instead)."
 d expose-group-by-app false
@@ -56,7 +56,7 @@ d hide-mirror true
 # d itunes-notifications true
 
 t 'Set magnification size to 80.'
-d largesize -float 80
+d largesize 80.0
 # Default: 128
 
 # # Don’t animate opening applications from the Dock
@@ -94,6 +94,8 @@ defaults delete com.apple.dock persistent-others
 # This is only really useful when setting up a new Mac,
 # or if you don't use the Dock to launch apps.
 
+# TODO
+# - is this still necessary?
 t 'Reset Launchpad.  Pre-Yosemite.'
 [ -e $HOME/Library/Application\ Support/Dock/*.db ] && rm $HOME/Library/Application\ Support/Dock/*.db
 

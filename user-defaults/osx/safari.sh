@@ -40,7 +40,7 @@ t 'Make search banners default to Contains instead of Starts With.'
 d FindOnPageMatchesWordStartsOnly false
 
 t "Set home page to 'about:blank' for faster loading."
-d HomePage -string 'about:blank'
+d HomePage 'about:blank'
 
 t 'Enable the Develop menu.'
 d IncludeDevelopMenu true

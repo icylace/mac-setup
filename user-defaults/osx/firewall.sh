@@ -7,19 +7,20 @@
 # blue ''
 
 # alias d='write_defaults /Library/Preferences/com.apple.alf'
+# alias d='sudo defaults write /Library/Preferences/com.apple.alf'
 
 # t 'Enable the OS X firewall.'
-# sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+# d globalstate -int 1
 # # Possible values:
 # #   0 = off
 # #   1 = on for specific services
 # #   2 = on for essential services
 
 # t 'Enable Stealth mode.'
-# sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
+# d stealthenabled -int 1
 
 # t 'Enable Firewall logging.'
-# sudo defaults write /Library/Preferences/com.apple.alf loggingenabled -int 1
+# d loggingenabled -int 1
 
 # t 'Reload the firewall.'
 # launchctl unload /System/Library/LaunchAgents/com.apple.alf.useragent.plist
