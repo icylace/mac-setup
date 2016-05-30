@@ -18,6 +18,6 @@ t 'Allow installing user scripts via GitHub Gist or Userscripts.org.'
 
 # ------------------------------------------------------------------------------
 
-alias d='write_defaults com.google.Chrome.canary'
+alias +='write_defaults com.google.Chrome.canary'
 
 + ExtensionInstallSources -array 'https://gist.githubusercontent.com/' 'http://userscripts.org/*'
