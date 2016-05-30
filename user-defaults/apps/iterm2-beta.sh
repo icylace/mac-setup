@@ -8,13 +8,13 @@ blue '-             http://iterm2.com/              -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write com.googlecode.iterm2'
+alias d='write_defaults com.googlecode.iterm2'
 
-et "Don't display the annoying prompt when quitting."
-dw PromptOnQuit -bool false
+t "Don't display the annoying prompt when quitting."
+d PromptOnQuit false
 
-et 'Turn on dark mode.'
-dw TabStyle -bool true
+t 'Turn on dark mode.'
+d TabStyle true
 
 # TODO
 # - activate the "Load preferences fram a custom folder or URL" setting and set it to "~/My/Dropbox/Sync/iTerm2 Preferences"

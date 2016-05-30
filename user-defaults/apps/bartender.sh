@@ -8,10 +8,10 @@ blue '-         http://www.macbartender.com/        -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write com.surteesstudios.Bartender'
+alias d='write_defaults com.surteesstudios.Bartender'
 
-et 'Show the menu bar icon.'
-dw showMenuBarIcon -bool true
+t 'Show the menu bar icon.'
+d showMenuBarIcon true
 
-et 'Make sure the menu bar icon is the bartender.'
-dw statusBarImageNamed -string 'Bartender'
+t 'Make sure the menu bar icon is the bartender.'
+d statusBarImageNamed 'Bartender'

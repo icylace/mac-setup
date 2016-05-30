@@ -6,10 +6,10 @@ blue '-               Archive Utility               -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write com.apple.archiveutility'
+alias d='write_defaults com.apple.archiveutility'
 
-et 'Move archive files to trash after expansion.'
-dw dearchive-move-after -string '~/.Trash'
+t 'Move archive files to trash after expansion.'
+d dearchive-move-after "$HOME/.Trash"
 # Other values:
 #   /dev/null = delete directly
 #   .         = leave alone (default)

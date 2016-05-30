@@ -6,7 +6,7 @@ blue '-                  Terminal                   -'
 blue '-----------------------------------------------'
 blue ''
 
-alias dw='defaults write com.apple.terminal'
+alias d='write_defaults com.apple.terminal'
 
-et 'Only use UTF-8.'
-dw StringEncodings -array 4
+t 'Only use UTF-8.'
+d StringEncodings -array 4
