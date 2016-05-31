@@ -14,7 +14,7 @@ shopt -s expand_aliases
 # https://gist.github.com/brandonb927/3195465#file-osx-for-hackers-sh-L24
 #
 e() {
-  echo -e "$($2)$1"
+  echo -e "$2$1"
   # Reset text attributes to normal without clearing the screen.
   tput sgr0
 }
@@ -23,18 +23,18 @@ e() {
 # Indented echo with color.
 #
 t() {
-  e "\t$1" "$2"
+  e "\t$1"
 }
 
 # Useable colors.
-black()      { e $@ '\033[0;30m' }
-red()        { e $@ '\033[0;31m' }
-green()      { e $@ '\033[0;32m' }
-yellow()     { e $@ '\033[0;33m' }
-blue()       { e $@ '\033[0;34m' }
-magenta()    { e $@ '\033[0;35m' }
-cyan()       { e $@ '\033[0;36m' }
-light_gray() { e $@ '\033[0;37m' }
+black()      { e "$@" '\033[0;30m' }
+red()        { e "$@" '\033[0;31m' }
+green()      { e "$@" '\033[0;32m' }
+yellow()     { e "$@" '\033[0;33m' }
+blue()       { e "$@" '\033[0;34m' }
+magenta()    { e "$@" '\033[0;35m' }
+cyan()       { e "$@" '\033[0;36m' }
+light_gray() { e "$@" '\033[0;37m' }
 
 #
 # Checks if a command or program is available.

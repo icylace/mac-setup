@@ -242,13 +242,6 @@ source 'appledev.sh'
 
 
 
-
-# TODO
-# - batch zip
-
-
-
-
 # sync through Dropbox support built-in:
 
 # Path Finder ?

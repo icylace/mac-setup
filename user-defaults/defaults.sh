@@ -129,15 +129,12 @@ write_defaults() {
 chflags nohidden ~/Library/
 
 # t 'Remove duplicates from the "Open With" menu.'
-# /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder
+# /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user ; killall Finder
 # # http://macguide.org/#Remove-Duplicates-from-the-Open-With-Menu
 
 # t 'Re-index Spotlight.'
 # sudo mdutil -E -p "/Volumes/Macintosh HD"
 # # http://macguide.org/#Re-Index-Spotlight
-
-# t 'Add iOS Simulator to Launchpad.'
-# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
 
 # t 'Disabling local Time Machine backups.'
 # hash tmutil &> /dev/null && sudo tmutil disablelocal
@@ -165,10 +162,6 @@ chflags nohidden ~/Library/
 # defaults write com.apple.iphoto MapScrollWheel -bool YES
 # killall iPhoto
 
-# t 'Make ⌘ + F focus the search input in iTunes.'
-# defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Field" "@F"
-
-
 # t 'Enable the debug menu in Address Book.'
 # defaults write com.apple.addressbook ABShowDebugMenu -bool true
 
@@ -181,13 +174,13 @@ chflags nohidden ~/Library/
 
 # http://www.defaults-write.com/safari-highlight-non-retina-images/
 
+# t 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
+# defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
+
 
 # ------------------------------------------------------------------------------
 #  OS X settings.
 # ------------------------------------------------------------------------------
-
-# t 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
-# defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 if ! we_have defaults ; then
   red 'Error: `defaults` command is missing!'
