@@ -24,15 +24,15 @@
 
 source 'init.sh'
 
-red ''
-red '###############################################'
-red '#        DO NOT RUN THIS SCRIPT BLINDLY       #'
-red '#        YOU WILL PROBABLY REGRET IT...       #'
-red '#                                             #'
-red '#              READ IT THOROUGHLY             #'
-red '#         AND EDIT TO SUIT YOUR NEEDS         #'
-red '###############################################'
-red ''
+red '
+###############################################
+#        DO NOT RUN THIS SCRIPT BLINDLY       #
+#        YOU WILL PROBABLY REGRET IT...       #
+#                                             #
+#              READ IT THOROUGHLY             #
+#         AND EDIT TO SUIT YOUR NEEDS         #
+###############################################
+'
 
 # proceeding=false
 

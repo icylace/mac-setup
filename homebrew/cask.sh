@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-blue ''
-blue '-----------------------------------------------'
-blue '-                Homebrew Cask                -'
-blue '-----------------------------------------------'
-blue ''
+blue '
+-----------------------------------------------
+-                Homebrew Cask                -
+-----------------------------------------------
+'
 
 # # Homebrew Cask
 # # Manages the administration of Mac applications distributed as binaries.

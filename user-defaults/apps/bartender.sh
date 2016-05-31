@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-blue ''
-blue '-----------------------------------------------'
-blue '-                  Bartender                  -'
-blue '-              Menu bar manager.              -'
-blue '-         http://www.macbartender.com/        -'
-blue '-----------------------------------------------'
-blue ''
+blue '
+-----------------------------------------------
+-                  Bartender                  -
+-              Menu bar manager.              -
+-         http://www.macbartender.com/        -
+-----------------------------------------------
+'
 
 alias +='write_defaults com.surteesstudios.Bartender'
 

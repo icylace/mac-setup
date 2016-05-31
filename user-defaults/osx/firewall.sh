@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# blue ''
-# blue '-----------------------------------------------'
-# blue '-                  Firewall                   -'
-# blue '-----------------------------------------------'
-# blue ''
+# blue '
+# -----------------------------------------------
+# -                  Firewall                   -
+# -----------------------------------------------
+# '
 
 # alias +='write_defaults /Library/Preferences/com.apple.alf'
 # alias +='sudo defaults write /Library/Preferences/com.apple.alf'

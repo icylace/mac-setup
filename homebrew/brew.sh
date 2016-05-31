@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-blue ''
-blue '-----------------------------------------------'
-blue '-          Xcode Command Line Tools           -'
-blue '-----------------------------------------------'
-blue ''
+blue '
+-----------------------------------------------
+-          Xcode Command Line Tools           -
+-----------------------------------------------
+'
 
 t 'Checking if Xcode is installed...'
 
