@@ -36,7 +36,7 @@
 #
 
 # We're focusing on OS X so abort if we're not in OS X.
-[[ "$OSTYPE" =~ ^darwin ]] || return 1
+[[ $OSTYPE =~ ^darwin ]] || return 1
 
 write_defaults() {
   if (( $# < 3 )) ; then
