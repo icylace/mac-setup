@@ -41,11 +41,11 @@ light_gray() { e "$@" '\033[0;37m' }
 #
 # Example usage:
 #
-#     if we_have foo ; then
-#       # foo exists
-#     else
-#       # foo doesn't exist
-#     if
+#   if we_have foo ; then
+#     # foo exists
+#   else
+#     # foo doesn't exist
+#   if
 #
 we_have() {
   return $(type $@ >/dev/null 2>&1)

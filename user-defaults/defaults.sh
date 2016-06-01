@@ -1,5 +1,43 @@
 #!/usr/bin/env bash
 
+# ------------------------------------------------------------------------------
+#  Set OS X defaults that I like.
+# ------------------------------------------------------------------------------
+#
+# These settings are meant to be used on at least 10.9 (Mavericks).
+#
+# Use `defaults delete {domain} {key}` to undo settings.  For example, using:
+# `defaults write com.apple.dock expose-animation-duration -float 0.1` can be
+# using `defaults delete com.apple.dock expose-animation-duration`.
+#
+# Heavy influence and much copying from:
+# - https://mths.be/osx
+# - http://jasahackintosh.wordpress.com/2014/09/04/tweak-os-x-from-command-terminal/
+# - http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163
+# - http://macguide.org/
+# - http://osxdaily.com/2010/02/15/disable-the-crash-reporter-dialog-in-mac-os-x/
+# - http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
+# - http://secrets.blacktree.com/edit?id=238762
+# - http://wp.secretnest.info/archives/3129
+# - http://www.amsys.co.uk/2013/blog/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
+# - http://www.maclife.com/article/howtos/how-to-customize-dock
+# - http://www.roaminggenius.com/blog/os-x-tip-resetting-launchpad-layout/
+# - http://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
+# - https://gist.github.com/nicerobot/1193218
+# - https://gist.github.com/zenspider/8ee55e7c00b9201dd84f
+# - https://github.com/divio/osx-bootstrap/blob/master/core/defaults.sh
+# - https://github.com/eolamey/dotfiles/blob/master/misc/osx-defaults
+# - https://github.com/mathiasbynens/dotfiles/pull/306/files
+# - https://github.com/mikker/dotfiles/blob/master/osx
+# - https://github.com/RStankov/config_files/blob/master/dot/osx
+# - https://github.com/trusche/dotfiles/blob/master/osx
+# - https://github.com/virtualswede/osx-bootstrap
+# - https://github.com/ymendel/dotfiles/tree/master/osx
+#
+
+# We're focusing on OS X so abort if we're not in OS X.
+[[ "$OSTYPE" =~ ^darwin ]] || return 1
+
 write_defaults() {
   if (( $# < 3 )) ; then
     echo "Error: write_defaults() needs more arguments" 1>&2
@@ -42,44 +80,6 @@ write_defaults() {
   defaults write "$domain" "$key" "$type_option" "$value"
 }
 
-# ------------------------------------------------------------------------------
-#  Set OS X defaults that I like.
-# ------------------------------------------------------------------------------
-#
-# These settings are meant to be used on at least 10.9 (Mavericks).
-#
-# Use `defaults delete {domain} {key}` to undo settings.  For example, using:
-# `defaults write com.apple.dock expose-animation-duration -float 0.1` can be
-# using `defaults delete com.apple.dock expose-animation-duration`.
-#
-# Heavy influence and much copying from:
-# - https://mths.be/osx
-# - http://jasahackintosh.wordpress.com/2014/09/04/tweak-os-x-from-command-terminal/
-# - http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163
-# - http://macguide.org/
-# - http://osxdaily.com/2010/02/15/disable-the-crash-reporter-dialog-in-mac-os-x/
-# - http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
-# - http://secrets.blacktree.com/edit?id=238762
-# - http://wp.secretnest.info/archives/3129
-# - http://www.amsys.co.uk/2013/blog/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
-# - http://www.maclife.com/article/howtos/how-to-customize-dock
-# - http://www.roaminggenius.com/blog/os-x-tip-resetting-launchpad-layout/
-# - http://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
-# - https://gist.github.com/nicerobot/1193218
-# - https://gist.github.com/zenspider/8ee55e7c00b9201dd84f
-# - https://github.com/divio/osx-bootstrap/blob/master/core/defaults.sh
-# - https://github.com/eolamey/dotfiles/blob/master/misc/osx-defaults
-# - https://github.com/mathiasbynens/dotfiles/pull/306/files
-# - https://github.com/mikker/dotfiles/blob/master/osx
-# - https://github.com/RStankov/config_files/blob/master/dot/osx
-# - https://github.com/trusche/dotfiles/blob/master/osx
-# - https://github.com/virtualswede/osx-bootstrap
-# - https://github.com/ymendel/dotfiles/tree/master/osx
-#
-
-# We're focusing on OS X so abort if we're not in OS X.
-[[ "$OSTYPE" =~ ^darwin ]] || return 1
-
 # # Change the default backup periods in Time Machine.
 # sudo defaults write /System/Library/Launch\ Daemons/com.apple.backupd-auto StartInterval -int 1800
 
@@ -104,7 +104,7 @@ write_defaults() {
 # # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 # sudo systemsetup -settimezone 'America/New_York' > /dev/null
 
-# # if [ ${OSTYPE} = darwin14* ] ; then
+# # if [ "$OSTYPE" = darwin14* ] ; then
 # #   t 'Enabling dark mode.'
 # #   defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
 # # else
@@ -126,7 +126,7 @@ write_defaults() {
 # sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string COMPUTER_NAME
 
 # Always show the user's Library folder.
-chflags nohidden ~/Library/
+chflags nohidden "$HOME/Library/"
 
 # t 'Remove duplicates from the "Open With" menu.'
 # /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user ; killall Finder
