@@ -39,7 +39,7 @@
 [[ $OSTYPE =~ ^darwin ]] || return 1
 
 write_defaults() {
-  if (( $# < 3 )) ; then
+  if (($# < 3)) ; then
     echo "Error: write_defaults() needs more arguments" 1>&2
     return 1
   fi
@@ -51,7 +51,7 @@ write_defaults() {
   local the_rest
 
   # Use any explicitly given type option.
-  if (( $# > 3 )) ; then
+  if (($# > 3)) ; then
     type_option="$3"
     shift 3
     if [[ $type_option =~ -(array(-add)?|dict(-add)?|data|date) ]] ; then
