@@ -55,7 +55,7 @@ write_defaults() {
     type_option="$3"
     shift 3
     if [[ $type_option =~ -(array(-add)?|dict(-add)?|data|date) ]] ; then
-      for (( i=1 ; i <= $# ; i++ )) ; do
+      for ((i=1 ; i <= $# ; i++)) ; do
         value="$value\"${!i}\" "
       done
     else

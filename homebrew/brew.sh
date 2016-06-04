@@ -10,12 +10,12 @@ t 'Checking if Xcode is installed...'
 
 # Check if Xcode is installed correctly.
 # http://apple.stackexchange.com/a/219508
-if ! ( \
-  type xcode-select >&- \
+if ! {                                  \
+  type xcode-select >&-                 \
   && xpath=$(xcode-select --print-path) \
-  && test -d "$xpath" \
-  && test -x "$xpath" \
-) ; then
+  && [ -d "$xpath" ]                    \
+  && [ -x "$xpath" ] ;                  \
+} ; then
   # Xcode Command Line Tools
   # CLI utilities for Xcode development.
   # https://developer.apple.com/xcode/
@@ -25,11 +25,11 @@ if ! ( \
   # sudo xcodebuild -license accept
 fi
 
-blue ''
-blue '-----------------------------------------------'
-blue '-                  Homebrew                   -'
-blue '-----------------------------------------------'
-blue ''
+blue '
+-----------------------------------------------
+-                  Homebrew                   -
+-----------------------------------------------
+'
 
 # Install Homebrew if we need to.
 if ! we_have brew ; then
@@ -62,6 +62,12 @@ brew install $(cat brew.formulas | grep -v \#)
 brew install zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s "$(which zsh)"
+
+# Check if there are problems.
+brew doctor
+
+# Make sure we longer have any unnecessary files laying around.
+brew cleanup
 
 # ------------------------------------------------------------------------------
 
@@ -221,9 +227,3 @@ pip install --upgrade searchcmd
 # # Send Mac OS X User Notifications.
 # # https://github.com/alloy/terminal-notifier
 # terminal-notifier
-
-# Check if there are problems.
-brew doctor
-
-# Make sure we longer have any unnecessary files laying around.
-brew cleanup

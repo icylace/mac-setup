@@ -31,8 +31,8 @@ t 'Disable the warning when changing a file extension.'
 
 t 'Expand the following File Info panes: "General", "Open with", and "Sharing & Permissions"'
 + FXInfoPanesExpanded -dict \
-  General true \
-  OpenWith true \
+  General true              \
+  OpenWith true             \
   Privileges true
 
 t 'Use list view by default.'
