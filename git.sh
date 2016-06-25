@@ -53,6 +53,11 @@ brew install hub
 # https://github.com/michaeldfallen/git-radar
 brew install michaeldfallen/formula/git-radar
 
+# Tig
+# Text-mode interface for Git.
+# http://jonas.nitro.dk/tig/
+brew install tig
+
 
 # ------------------------------------------------------------------------------
 #  Git-related utilities.

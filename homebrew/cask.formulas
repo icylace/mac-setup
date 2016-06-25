@@ -11,7 +11,6 @@
 # 1Password
 # Password manager.
 # https://agilebits.com/onepassword/mac
-#
 1password-beta
 
 # aText
@@ -62,7 +61,6 @@ iterm2-beta
 # KeepingYouAwake
 # System sleep manager.
 # https://github.com/newmarcel/KeepingYouAwake
-#
 keepingyouawake
 
 # LibreOffice

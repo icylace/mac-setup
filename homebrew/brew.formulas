@@ -124,6 +124,11 @@ httpie
 # http://stedolan.github.io/jq/
 jq
 
+# pup
+# HTML processor.
+# https://github.com/EricChiang/pup
+pup
+
 # ranger
 # A console file manager.
 # http://ranger.nongnu.org/

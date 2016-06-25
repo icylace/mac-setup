@@ -44,26 +44,24 @@ write_defaults() {
     return 1
   fi
 
-  local domain=$1
-  local key=$2
-  local type_option
-  local value
-  local the_rest
+  local domain=$1 key=$2
+  local the_rest type_option value
+  local -i i
 
   # Use any explicitly given type option.
   if (($# > 3)) ; then
-    type_option="$3"
+    type_option=$3
     shift 3
     if [[ $type_option =~ -(array(-add)?|dict(-add)?|data|date) ]] ; then
       for ((i=1 ; i <= $# ; i++)) ; do
         value="$value\"${!i}\" "
       done
     else
-      value=$@
+      value="$@"
     fi
   # Determine the type of the value.
   else
-    value="$3"
+    value=$3
     # http://stackoverflow.com/a/19116862/1935675
     if [ "$value" -eq "$value" ] 2>/dev/null ; then
       type_option='-int'

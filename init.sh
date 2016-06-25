@@ -27,14 +27,14 @@ t() {
 }
 
 # Useable colors.
-black()      { e "$@" '\033[0;30m' }
-red()        { e "$@" '\033[0;31m' }
-green()      { e "$@" '\033[0;32m' }
-yellow()     { e "$@" '\033[0;33m' }
-blue()       { e "$@" '\033[0;34m' }
-magenta()    { e "$@" '\033[0;35m' }
-cyan()       { e "$@" '\033[0;36m' }
-light_gray() { e "$@" '\033[0;37m' }
+black()      { e "$@" '\e[0;30m' ; }
+red()        { e "$@" '\e[0;31m' ; }
+green()      { e "$@" '\e[0;32m' ; }
+yellow()     { e "$@" '\e[0;33m' ; }
+blue()       { e "$@" '\e[0;34m' ; }
+magenta()    { e "$@" '\e[0;35m' ; }
+cyan()       { e "$@" '\e[0;36m' ; }
+light_gray() { e "$@" '\e[0;37m' ; }
 
 #
 # Checks if a command or program is available.
@@ -48,5 +48,5 @@ light_gray() { e "$@" '\033[0;37m' }
 #   if
 #
 we_have() {
-  return $(type $@ >/dev/null 2>&1)
+  return $(type "$@" >/dev/null 2>&1)
 }

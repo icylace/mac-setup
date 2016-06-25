@@ -11,10 +11,10 @@ t 'Checking if Xcode is installed...'
 # Check if Xcode is installed correctly.
 # http://apple.stackexchange.com/a/219508
 if ! {                                  \
-  type xcode-select >&-                 \
-  && xpath=$(xcode-select --print-path) \
-  && [ -d "$xpath" ]                    \
-  && [ -x "$xpath" ] ;                  \
+  type xcode-select >&- &&              \
+  xpath=$(xcode-select --print-path) && \
+  [ -d "$xpath" ] &&                    \
+  [ -x "$xpath" ] ;                     \
 } ; then
   # Xcode Command Line Tools
   # CLI utilities for Xcode development.
