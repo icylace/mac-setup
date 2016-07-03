@@ -21,6 +21,19 @@ brew install carthage
 # https://github.com/facebook/chisel
 brew install chisel
 
+# xctool
+# Alternative Xcode build tool.
+# https://github.com/facebook/xctool
+brew install xctool
+
+# ------------------------------------------------------------------------------
+
+# swiftenv: Swift Version Manager
+# "swiftenv allows you to easily install, and switch between multiple versions of Swift."
+# https://swiftenv.fuller.li/en/latest/
+# https://swiftenv.fuller.li/en/latest/building-swift.html#os-x
+brew install cmake ninja kylef/formulae/swiftenv
+
 # SwiftLint
 # A linter for Swift code.
 # https://github.com/realm/SwiftLint
@@ -31,11 +44,6 @@ brew install swiftlint
 # # https://tailor.sh/
 # # - First, install Java.
 # brew install tailor
-
-# xctool
-# Alternative Xcode build tool.
-# https://github.com/facebook/xctool
-brew install xctool
 
 # ------------------------------------------------------------------------------
 
