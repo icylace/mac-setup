@@ -1,0 +1,18 @@
+# ------------------------------------------------------------------------------
+#  Media-related programs.
+# ------------------------------------------------------------------------------
+
+# catimg
+# Prints images in the terminal by using Unicode characters.
+# https://github.com/posva/catimg
+catimg
+
+# FFmpeg
+# Records, converts, and streams audio and video.
+# http://ffmpeg.org/
+ffmpeg
+
+# GraphicsMagick
+# Image processor.
+# http://www.graphicsmagick.org/
+graphicsmagick

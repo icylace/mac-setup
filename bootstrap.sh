@@ -55,11 +55,9 @@ red '
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source 'homebrew/brew.sh'
-source 'homebrew/cask.sh'
-source 'osx.sh'
-source 'mas.sh'
+source 'homebrew/homebrew.sh'
 source 'appledev.sh'
+source 'user-defaults/defaults.sh'
 
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'

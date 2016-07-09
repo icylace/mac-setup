@@ -48,5 +48,5 @@ light_gray() { e "$@" '\e[0;37m' ; }
 #   if
 #
 we_have() {
-  return $(type "$@" >/dev/null 2>&1)
+  return $(type "$@" > /dev/null 2>&1)
 }

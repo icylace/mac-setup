@@ -23,9 +23,20 @@ brew tap homebrew/fuse
 brew install tup
 brew cask install osxfuse
 
-# ----
+# ------------------------------------------------------------------------------
+#  Fun stuff.
+# ------------------------------------------------------------------------------
 
-# `brew cask` stuff
+# No More Secrets
+# The decrypting text effect from the movie "Sneakers".
+# https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35
+# https://github.com/bartobri/no-more-secrets
+brew install no-more-secrets
+
+
+# ------------------------------------------------------------------------------
+#  `brew cask` stuff
+# ------------------------------------------------------------------------------
 
 # BootChamp
 # Quickly reboots into the Windows.
@@ -76,7 +87,6 @@ brew cask install virtualbox
 # Introspected tunnels to localhost.
 # https://ngrok.com/
 brew cask install ngrok
-
 
 
 
