@@ -58,11 +58,10 @@ brew install swiftlint
 # gem install --upgrade synx
 gem install synx
 
-# # xcpretty
-# # Output formatter for Xcode.
-# # https://github.com/supermarin/xcpretty
-# # gem install --upgrade xcpretty
-# gem install xcpretty
+# xcpretty
+# Output formatter for Xcode.
+# https://github.com/supermarin/xcpretty
+gem install xcpretty
 
 # ------------------------------------------------------------------------------
 
