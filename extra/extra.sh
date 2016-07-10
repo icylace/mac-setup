@@ -23,6 +23,7 @@ brew tap homebrew/fuse
 brew install tup
 brew cask install osxfuse
 
+
 # ------------------------------------------------------------------------------
 #  Fun stuff.
 # ------------------------------------------------------------------------------
@@ -91,10 +92,41 @@ brew cask install ngrok
 
 
 
-# brew cask install $(cat brews/casks.brew | grep -v \#)
 
 
 
+
+
+
+# # GNU Aspell
+# # Spell checker.
+# # http://aspell.net/
+# aspell
+
+# # FFmpeg
+# # Audio and video converter, recorder, and streamer.
+# # http://ffmpeg.org/
+# ffmpeg
+
+# # id3tool
+# # ID3 tag editor.
+# # http://nekohako.xware.cx/id3tool/
+# id3tool
+
+# # Pipe Viewer
+# # Progress monitor for data through a pipeline.
+# # http://ivarch.com/programs/pv
+# pv
+
+# # spark
+# # Data visualizer using sparklines.
+# # http://zachholman.com/spark/
+# spark
+
+# # terminal-notifier
+# # Send Mac OS X User Notifications.
+# # https://github.com/alloy/terminal-notifier
+# terminal-notifier
 
 
 

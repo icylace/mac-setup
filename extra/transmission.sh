@@ -14,7 +14,7 @@ t "Don't prompt for confirmation before downloading."
 + DownloadAsk false
 
 t 'Use a certain folder to store incomplete downloads.'
-+ IncompleteDownloadFolder "$HOME/Downloads/_ torrents"
++ IncompleteDownloadFolder "$HOME/Downloads"
 + UseIncompleteDownloadFolder true
 
 t 'Hide the donate message.'
