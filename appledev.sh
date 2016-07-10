@@ -35,7 +35,7 @@ brew install xctool
 brew install cmake ninja kylef/formulae/swiftenv
 
 # SwiftLint
-# A linter for Swift code.
+# A tool to enforce Swift style and conventions.
 # https://github.com/realm/SwiftLint
 brew install swiftlint
 
