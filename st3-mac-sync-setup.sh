@@ -5,7 +5,7 @@
 #  Based on:  https://packagecontrol.io/docs/syncing#dropbox-osx
 # ------------------------------------------------------------------------------
 
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-mkdir ~/My/Dropbox/Sync/Sublime\ Text\ packages
-mv User ~/My/Dropbox/Sync/Sublime\ Text\ packages
-ln -s ~/My/Dropbox/Sync/Sublime\ Text\ packages/User
+cd "$HOME/Library/Application Support/Sublime Text 3/Packages"
+mkdir "$HOME/My/Dropbox/Sync/Sublime Text packages"
+mv User "$HOME/My/Dropbox/Sync/Sublime Text packages"
+ln -s "$HOME/My/Dropbox/Sync/Sublime Text packages/User"
