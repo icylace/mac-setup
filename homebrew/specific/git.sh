@@ -6,17 +6,15 @@ blue '
 -----------------------------------------------
 '
 
-# http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
-git config --global color.ui true
-git config --global push.default current
-# git config branch.autosetuprebase always
-# git difftool -t <tool>
-# git mergetool -t <tool>
-
 
 # ------------------------------------------------------------------------------
 #  Git utilities.
 # ------------------------------------------------------------------------------
+
+# # diff-so-fancy
+# # Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
+# # https://github.com/so-fancy/diff-so-fancy
+# brew install diff-so-fancy
 
 # Git
 # A distributed version control system.
@@ -67,3 +65,14 @@ brew install tig
 # # Extra commands for Git.
 # # https://github.com/geelen/git-smart
 # gem install git-smart
+
+
+# ------------------------------------------------------------------------------
+
+
+# http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
+git config --global color.ui true
+git config --global push.default current
+# git config branch.autosetuprebase always
+# git difftool -t <tool>
+# git mergetool -t <tool>
