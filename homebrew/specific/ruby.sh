@@ -20,11 +20,3 @@ brew install ruby-build
 # rbenv install 2.3.0
 # rbenv global 2.3.0
 # rbenv rehash
-
-# ------------------------------------------------------------------------------
-
-# damn-weather
-# Checks the weather in your terminal.
-# https://github.com/mrowa44/damn-weather
-# gem install --upgrade damn-weather
-gem install damn-weather

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-#  Updated versions of programs that come with OS X.
+#  Updated versions of programs that come with macOS.
 # ------------------------------------------------------------------------------
 
 # Bash: The GNU Bourne-Again SHell
@@ -24,7 +24,7 @@ less
 
 
 # ------------------------------------------------------------------------------
-#  Utilities specific to OS X.
+#  Utilities specific to macOS.
 # ------------------------------------------------------------------------------
 
 # Archey

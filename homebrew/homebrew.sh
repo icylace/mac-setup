@@ -91,6 +91,12 @@ source specific/*.sh
 
 # ------------------------------------------------------------------------------
 
+# lolcat
+# Prints colorized version of input.
+# https://github.com/busyloop/lolcat
+gem install lolcat
+
+
 # # Activate the Quick Look plugins.
 # qlmanage -r
 
