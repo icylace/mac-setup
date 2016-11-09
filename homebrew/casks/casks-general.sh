@@ -5,107 +5,107 @@
 # Adobe Reader
 # PDF reader.
 # http://www.adobe.com/products/reader.html
-adobe-reader
+brew cask install adobe-reader
 
 # Alfred
 # Application launcher, search tool, and workflow tool.
 # http://www.alfredapp.com/
-alfred
+brew cask install alfred
 
 # AppCleaner
 # Application uninstaller.
 # http://freemacsoft.net/appcleaner/
-appcleaner
+brew cask install appcleaner
 
 # Beyond Compare
 # File and folder comparison tool.
 # http://scootersoftware.com/
-beyond-compare
+brew cask install beyond-compare
 
 # Boom 2
 # System-wide volume booster and equalizer.
 # http://globaldelight.com/boom/
-boom
+brew cask install boom
 
 # cDock
 # Dock customizer.
 # http://w0lfschild.github.io/app_cDock
 # https://github.com/w0lfschild/cDock2/issues/2#issuecomment-201718867
-cdock
+brew cask install cdock
 # Note: This requires System Integrity Protection to be disabled
 # for it to work properly.
 
 # CheatSheet
 # Lists all active shortcut keys for the current application.
 # http://grandtotal.biz/CheatSheet/
-cheatsheet
+brew cask install cheatsheet
 
 # Skala Color
 # Color picker.
 # http://bjango.com/mac/skalacolor/
-colorpicker-skalacolor
+brew cask install colorpicker-skalacolor
 
 # DaisyDisk
 # Disk space analyzer.
 # http://daisydiskapp.com/
-daisydisk
+brew cask install daisydisk
 
 # Default Folder X
 # Save dialog box enhancer.
 # http://www.stclairsoft.com/DefaultFolderX/
-default-folder-x
+brew cask install default-folder-x
 
 # Firefox Developer Edition
 # Web browser with preinstalled web developer tools.
 # https://www.mozilla.org/en-US/firefox/developer/
-firefoxdeveloperedition
+brew cask install firefoxdeveloperedition
 
 # Google Drive
 # File sharer with cloud storage.
 # https://drive.google.com/
-google-drive
+brew cask install google-drive
 
 # Google Hangouts
 # Video conferencing web browser plugin.
 # https://google.com/tools/dlpage/hangoutplugin
-google-hangouts
+brew cask install google-hangouts
 
 # OnyX
 # System maintenance utility.
 # http://www.titanium.free.fr/onyx.html
-onyx
+brew cask install onyx
 
 # Opera
 # Web browser.
 # http://www.opera.com/
-opera
+brew cask install opera
 
 # Pacifist
 # Archive file manager.
 # http://charlessoft.com/
-pacifist
+brew cask install pacifist
 
 # Sequel Pro
 # MySQL database manager.
 # http://nightly.sequelpro.com/
-sequel-pro-nightly
+brew cask install sequel-pro-nightly
 
 # # Shortcat
 # # Keyboard tool that lets you "Click" buttons and control your apps.
 # # http://shortcatapp.com/
-# shortcat
+# brew cask install shortcat
 
 # Spectacle
 # Window manager.
 # https://www.spectacleapp.com/
-spectacle
+brew cask install spectacle
 
 # Transmit
 # File transfer tool.
 # http://panic.com/transmit/
-transmit
+brew cask install transmit
 
 # VLC
 # Media player.
 # http://www.videolan.org/vlc/
-vlc
+brew cask install vlc

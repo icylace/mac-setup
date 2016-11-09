@@ -5,14 +5,14 @@
 # catimg
 # Prints images in the terminal by using Unicode characters.
 # https://github.com/posva/catimg
-catimg
+brew install catimg
 
 # # FFmpeg
 # # Records, converts, and streams audio and video.
 # # http://ffmpeg.org/
-# ffmpeg
+# brew install ffmpeg
 
 # GraphicsMagick
 # Image processor.
 # http://www.graphicsmagick.org/
-graphicsmagick
+brew install graphicsmagick

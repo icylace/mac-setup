@@ -5,29 +5,29 @@
 # BetterZip Quick Look Generator
 # Previews archives.
 # http://macitbetter.com/BetterZip-Quick-Look-Generator/
-betterzipql
+brew cask install betterzipql
 
 # # QLColorCode
 # # Previews source code files with syntax highlighting.
 # # https://code.google.com/p/qlcolorcode/
-# qlcolorcode
+# brew cask install qlcolorcode
 
 # # QLMarkdown
 # # Previews Markdown files.
 # # https://github.com/toland/qlmarkdown
-# qlmarkdown
+# brew cask install qlmarkdown
 
 # # QuicklookStephen
 # # Previews plain text files without a file extension.
 # # https://github.com/whomwah/qlstephen
-# qlstephen
+# brew cask install qlstephen
 
 # # A QuickLook Plugin for CSV Files
 # # Previews CSV files.
 # # https://github.com/p2/quicklook-csv
-# quicklook-csv
+# brew cask install quicklook-csv
 
 # # quick look JSON
 # # Previews JSON files.
 # # http://sagtau.com/quicklookjson
-# quicklook-json
+# brew cask install quicklook-json

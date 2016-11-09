@@ -9,29 +9,29 @@
 # https://github.com/composer/composer/pull/3523#issuecomment-66768640
 # https://github.com/composer/composer/issues/3255#issuecomment-60742259
 #
-composer
+brew install composer
 
 # Drush
 # Shell interface for Drupal.
 # https://github.com/drush-ops/drush
-drush
+brew install drush
 
 # highlight
 # Source code to highlighted text formatter.
 # http://andre-simon.de/doku/highlight/en/highlight.php
-highlight
+brew install highlight
 
 # jq
 # JSON processor.
 # http://stedolan.github.io/jq/
-jq
+brew install jq
 
 # pup
 # HTML processor.
 # https://github.com/EricChiang/pup
-pup
+brew install pup
 
 # ShellCheck
 # Finds bugs in your shell scripts.
 # http://www.shellcheck.net/
-shellcheck
+brew install shellcheck

@@ -51,7 +51,7 @@ brew tap homebrew/dupes
 brew update
 
 t 'Installing formulas...'
-brew install $(grep --invert-match \# < brews/*)
+source casks/*.sh
 
 # ------------------------------------------------------------------------------
 
@@ -74,7 +74,7 @@ brew tap caskroom/fonts
 brew cask update
 
 t 'Installing casks...'
-brew cask install $(grep --invert-match \# < casks/*)
+source casks/*.sh
 
 # ------------------------------------------------------------------------------
 

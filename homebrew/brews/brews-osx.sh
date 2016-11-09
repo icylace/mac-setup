@@ -5,22 +5,22 @@
 # Bash: The GNU Bourne-Again SHell
 # A Unix shell.
 # https://tiswww.case.edu/php/chet/bash/bashtop.html
-bash
+brew install bash
 
 # GNU Core Utilities
 # Basic file, shell, and text manipulation utilities.
 # http://www.gnu.org/software/coreutils/
-coreutils
+brew install coreutils
 
 # GNU Grep
 # Searches input files for text matching a specified pattern.
 # http://www.gnu.org/software/grep/
-grep
+brew install grep
 
 # less
 # A terminal pager.
 # http://greenwoodsoftware.com/less/
-less
+brew install less
 
 
 # ------------------------------------------------------------------------------
@@ -30,9 +30,9 @@ less
 # Archey
 # Displays basic system information.
 # http://obihann.github.io/archey-osx/
-archey
+brew install archey
 
 # trash
 # Moves files and folders to the OS X trash.
 # http://hasseg.org/trash/
-trash
+brew install trash

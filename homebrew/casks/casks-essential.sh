@@ -5,79 +5,79 @@
 # 1Password
 # Password manager.
 # https://agilebits.com/onepassword/mac
-1password-beta
+brew cask install 1password-beta
 
 # aText
 # Text expander.
 # http://www.trankynam.com/atext/
-atext
+brew cask install atext
 
 # Bartender
 # Menu bar manager.
 # http://www.macbartender.com/
-bartender
+brew cask install bartender
 
 # ControllerMate
 # Input device remapper.
 # http://orderedbytes.com/controllermate/
-controllermate
+brew cask install controllermate
 
 # Dropbox
 # File sharer with cloud storage.
 # https://www.dropbox.com/
-dropbox
+brew cask install dropbox
 
 # Flux
 # Screen color temperature manager.
 # http://justgetflux.com
-flux
+brew cask install flux
 
 # Google Chrome
 # Web browser.
 # http://www.google.com/chrome/
-google-chrome
+brew cask install google-chrome
 
 # HyperDock
 # Dock enhancer and window placement manager.
 # http://hyperdock.bahoom.com/
-hyperdock
+brew cask install hyperdock
 
 # iStat Menus 5
 # System monitor.
 # http://bjango.com/mac/istatmenus/
-istat-menus
+brew cask install istat-menus
 
 # iTerm2
 # Terminal emulator.
 # http://iterm2.com/
-iterm2-beta
+brew cask install iterm2-beta
 
 # KeepingYouAwake
 # System sleep manager.
 # https://github.com/newmarcel/KeepingYouAwake
-keepingyouawake
+brew cask install keepingyouawake
 
 # LibreOffice
 # Office suite.
 # http://www.libreoffice.org/
-libreoffice
+brew cask install libreoffice
 
 # nvALT
 # Notes manager.
 # http://brettterpstra.com/projects/nvalt/
-nvalt
+brew cask install nvalt
 
 # Path Finder
 # File manager.
 # http://cocoatech.com/pathfinder/
-path-finder
+brew cask install path-finder
 
 # Sublime Text
 # Text editor.
 # http://www.sublimetext.com/3dev
-sublime-text-dev
+brew cask install sublime-text-dev
 
 # The Unarchiver
 # Archive file extractor.
 # http://unarchiver.c3.cx/unarchiver
-the-unarchiver
+brew cask install the-unarchiver

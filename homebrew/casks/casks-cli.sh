@@ -5,4 +5,4 @@
 # exa
 # Lists files and directories.
 # https://the.exa.website/
-exa
+brew cask install exa
