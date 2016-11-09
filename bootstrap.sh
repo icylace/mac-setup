@@ -127,8 +127,7 @@ source 'user-defaults/defaults.sh'
 
 # Synergy Pro
 # Shares your mouse and keyboard between multiple computers.
-# http://synergy-project.org/synergy/
-
+# http://symless.com/synergy/
 
 
 
@@ -282,4 +281,3 @@ source 'user-defaults/defaults.sh'
 # ----
 
 # ~ Transmit
-

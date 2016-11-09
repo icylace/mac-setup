@@ -11,11 +11,6 @@ mas install 497799835
 
 # ------------------------------------------------------------------------------
 
-# Carthage
-# A decentralized dependency manager for Cocoa.
-# https://github.com/Carthage/Carthage
-brew install carthage
-
 # Chisel
 # A collection of LLDB commands to assist in the debugging of iOS apps.
 # https://github.com/facebook/chisel
@@ -27,12 +22,6 @@ brew install chisel
 brew install xctool
 
 # ------------------------------------------------------------------------------
-
-# swiftenv: Swift Version Manager
-# "swiftenv allows you to easily install, and switch between multiple versions of Swift."
-# https://swiftenv.fuller.li/en/latest/
-# https://swiftenv.fuller.li/en/latest/building-swift.html#os-x
-brew install cmake ninja kylef/formulae/swiftenv
 
 # SwiftLint
 # A tool to enforce Swift style and conventions.
@@ -70,3 +59,10 @@ gem install xcpretty
 # http://alcatraz.io/
 et 'Installing Alcatraz...'
 curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
+
+# ------------------------------------------------------------------------------
+
+# swiftenv: Swift Version Manager
+# "swiftenv allows you to easily install, and switch between multiple versions of Swift."
+# https://swiftenv.fuller.li/en/latest/installation.html#via-a-git-clone
+git clone https://github.com/kylef/swiftenv.git ~/.swiftenv

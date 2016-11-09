@@ -13,6 +13,11 @@ findutils
 # http://httpie.org/
 httpie
 
+# PostgreSQL
+# Object-relational database system.
+# https://www.postgresql.org/
+postgres
+
 # ranger
 # A console file manager.
 # http://ranger.nongnu.org/
