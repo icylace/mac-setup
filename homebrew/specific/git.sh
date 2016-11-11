@@ -31,10 +31,23 @@ brew install git-cal
 # https://github.com/tj/git-extras
 brew install git-extras
 
-# Git STree
-# Git subtree helper command.
-# http://tdd.github.io/git-stree/
-brew install git-stree
+# TODO
+# - consider this over Git Radar
+# # gitHUD
+# # A heads-up display for Git.
+# # https://github.com/gbataille/gitHUD
+# brew tap gbataille/homebrew-gba
+# brew install githud
+
+# Git Radar
+# A heads-up display for Git.
+# https://github.com/michaeldfallen/git-radar
+brew install michaeldfallen/formula/git-radar
+
+# git-subrepo
+# Git Submodule Alternative
+# https://github.com/ingydotnet/git-subrepo
+brew install git-subrepo
 
 # hub
 # Wrapper for Git that makes you better at GitHub.
@@ -45,11 +58,6 @@ brew install hub
 # # Extra commands for Git.
 # # http://git-legit.org/
 # brew install legit
-
-# Git Radar
-# A heads-up display for Git.
-# https://github.com/michaeldfallen/git-radar
-brew install michaeldfallen/formula/git-radar
 
 # Tig
 # Text-mode interface for Git.

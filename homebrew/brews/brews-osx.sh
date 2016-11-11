@@ -15,6 +15,7 @@ brew install coreutils
 # GNU Grep
 # Searches input files for text matching a specified pattern.
 # http://www.gnu.org/software/grep/
+brew tap homebrew/dupes
 brew install grep
 
 # less

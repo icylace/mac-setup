@@ -33,17 +33,17 @@ brew install rename
 # http://mama.indstate.edu/users/ice/tree/
 brew install tree
 
-# unrar
-# Extracts, views, and tests RAR archives.
-# http://rarlab.com/
-brew install unrar
+# # unrar
+# # Extracts, views, and tests RAR archives.
+# # http://rarlab.com/
+# brew install unrar
 
 # GNU Wget
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/
 brew install wget
 
-# wiki
-# Command line tool to fetch summaries from MediaWiki wikis, like Wikipedia.
-# https://github.com/walle/wiki
-brew install wiki
+# # wiki
+# # Command line tool to fetch summaries from MediaWiki wikis, like Wikipedia.
+# # https://github.com/walle/wiki
+# brew install wiki

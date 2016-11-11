@@ -65,4 +65,4 @@ curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/
 # swiftenv: Swift Version Manager
 # "swiftenv allows you to easily install, and switch between multiple versions of Swift."
 # https://swiftenv.fuller.li/en/latest/installation.html#via-a-git-clone
-git clone https://github.com/kylef/swiftenv.git ~/.swiftenv
+git clone https://github.com/kylef/swiftenv.git "$HOME/.swiftenv"

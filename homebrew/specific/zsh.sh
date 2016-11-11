@@ -18,5 +18,6 @@ if we_have zsh ; then
   # zplug
   # Zsh plugin manager.
   # http://zplug.sh/
-  brew install zplug
+  # https://github.com/zplug/zplug/issues/239#issuecomment-253048974
+  brew install zplug --HEAD
 fi
