@@ -12,6 +12,11 @@ brew install catimg
 # # http://ffmpeg.org/
 # brew install ffmpeg
 
+# mpv
+# Media player.
+# https://mpv.io/
+brew install mpv
+
 # GraphicsMagick
 # Image processor.
 # http://www.graphicsmagick.org/
