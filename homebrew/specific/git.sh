@@ -21,10 +21,10 @@ blue '
 # http://git-scm.com/
 brew install git
 
-# git-cal
-# GitHub-like contributions calendar on terminal.
-# https://github.com/k4rthik/git-cal
-brew install git-cal
+# # git-cal
+# # GitHub-like contributions calendar on terminal.
+# # https://github.com/k4rthik/git-cal
+# brew install git-cal
 
 # Git Extras
 # Extra commands for Git.
@@ -44,10 +44,10 @@ brew install git-extras
 # https://github.com/michaeldfallen/git-radar
 brew install michaeldfallen/formula/git-radar
 
-# git-subrepo
-# Git Submodule Alternative
-# https://github.com/ingydotnet/git-subrepo
-brew install git-subrepo
+# # git-subrepo
+# # Git Submodule Alternative
+# # https://github.com/ingydotnet/git-subrepo
+# brew install git-subrepo
 
 # hub
 # Wrapper for Git that makes you better at GitHub.
@@ -59,10 +59,10 @@ brew install hub
 # # http://git-legit.org/
 # brew install legit
 
-# Tig
-# Text-mode interface for Git.
-# http://jonas.nitro.dk/tig/
-brew install tig
+# # Tig
+# # Text-mode interface for Git.
+# # http://jonas.nitro.dk/tig/
+# brew install tig
 
 
 # ------------------------------------------------------------------------------

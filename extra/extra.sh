@@ -16,12 +16,12 @@ brew install graphviz
 # https://www.python.org/
 brew install python3
 
-# tup
-# File-based build system.
-# http://gittup.org/tup/
-brew tap homebrew/fuse
-brew install tup
-brew cask install osxfuse
+# # tup
+# # File-based build system.
+# # http://gittup.org/tup/
+# brew tap homebrew/fuse
+# brew install tup
+# brew cask install osxfuse
 
 
 # ------------------------------------------------------------------------------
@@ -36,7 +36,7 @@ brew install no-more-secrets
 
 
 # ------------------------------------------------------------------------------
-#  `brew cask` stuff
+#  Other stuff.
 # ------------------------------------------------------------------------------
 
 # BootChamp
@@ -69,34 +69,43 @@ brew cask install the-hit-list
 # https://www.transmissionbt.com/
 brew cask install transmission
 
-# Vagrant
-# Virtual development environment manager.
-# https://www.vagrantup.com/
-brew cask install vagrant
+
+
+
+
+
+
+
 
 # VirtualBox
 # Virtual environment manager.
 # https://www.virtualbox.org/
 brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+
+# Vagrant
+# Virtual development environment manager.
+# https://www.vagrantup.com/
+brew cask install vagrant
+
+vagrant plugin install vagrant-vbguest
+# https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
+vagrant plugin install vagrant-share --plugin-version 1.1.8
+
+
+
+
+
+
+
+
+
+
 
 
 # ------------------------------------------------------------------------------
 #  Command-line Utilities.
 # ------------------------------------------------------------------------------
-
-# ngrok
-# Introspected tunnels to localhost.
-# https://ngrok.com/
-brew cask install ngrok
-
-
-
-
-
-
-
-
-
 
 # # GNU Aspell
 # # Spell checker.

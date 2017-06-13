@@ -13,6 +13,11 @@ brew install findutils
 # http://httpie.org/
 brew install httpie
 
+# Neovim
+# Text editor.
+# https://neovim.io/
+brew install neovim/neovim/neovim
+
 # PostgreSQL
 # Object-relational database system.
 # https://www.postgresql.org/

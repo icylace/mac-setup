@@ -10,7 +10,7 @@
 #
 #  To use this setup script, open up ~/Applications/Utilities/Terminal then run:
 #
-#      bash <(curl -s https://raw.githubusercontent.com/icylace/dotfiles/master/setup/bootstrap.sh)
+#      bash <(curl -s https://raw.githubusercontent.com/icylace/dotfiles/master/mac-setup/setup-mac.sh)
 #
 #  Heavy influence and much copying from:
 #  - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
@@ -67,7 +67,6 @@ source 'user-defaults/defaults.sh'
 # Considering:
 #
 
-# adobe-creative-cloud
 # macpaw-gemini
 # hazel - useful to me ?
 # justlooking - use xee instead ?
@@ -216,9 +215,6 @@ source 'user-defaults/defaults.sh'
 
 
 
-# adjust:
-# defaults write -g InitialKeyRepeat -int 12
-# defaults write -g KeyRepeat -int 0
 
 
 # uninstall some quicklook plugins and remove their script setups
@@ -270,11 +266,9 @@ source 'user-defaults/defaults.sh'
 # Ulysses
 # VirtualBox
 # LibreOffice
-# PhpStorm
 #
 # - consider using .plist or "defaults write" for:
 # nvALT
-# The Hit List
 # VLC
 # Sequel Pro
 

@@ -28,10 +28,15 @@ mas install 449589707
 # https://slack.com/
 mas install 803453959
 
-# Spillo
-# Pinboard client.
-# https://bananafishsoftware.com/products/spillo/
-mas install 873245660
+# # Spillo
+# # Pinboard client.
+# # https://bananafishsoftware.com/products/spillo/
+# mas install 873245660
+
+# Things 3
+# To-do list manager.
+# https://culturedcode.com/things/
+mas install 904280696
 
 # Ulysses
 # Text document manager and editor designed for writing.

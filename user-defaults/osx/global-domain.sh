@@ -61,10 +61,10 @@ t 'Set scroll wheel acceleration.'
 + com.apple.scrollwheel.scaling 0.125
 
 t 'Decrease the delay until keys are repeated.'
-+ InitialKeyRepeat 12
++ InitialKeyRepeat 9
 
-t 'Set a blazingly fast keyboard repeat rate.'
-+ KeyRepeat 0
+t 'Set a fast keyboard repeat rate.'
++ KeyRepeat 1
 
 t "Disable smart dashes as they're annoying when typing code."
 + NSAutomaticDashSubstitutionEnabled false

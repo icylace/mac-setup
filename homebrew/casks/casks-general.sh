@@ -35,10 +35,10 @@ brew cask install cdock
 # Note: This requires System Integrity Protection to be disabled
 # for it to work properly.
 
-# CheatSheet
-# Lists all active shortcut keys for the current application.
-# http://grandtotal.biz/CheatSheet/
-brew cask install cheatsheet
+# # CheatSheet
+# # Lists all active shortcut keys for the current application.
+# # http://grandtotal.biz/CheatSheet/
+# brew cask install cheatsheet
 
 # Skala Color
 # Color picker.
@@ -69,6 +69,11 @@ brew cask install google-drive
 # Video conferencing web browser plugin.
 # https://google.com/tools/dlpage/hangoutplugin
 brew cask install google-hangouts
+
+# ngrok
+# Introspected tunnels to localhost.
+# https://ngrok.com/
+brew cask install ngrok
 
 # OnyX
 # System maintenance utility.

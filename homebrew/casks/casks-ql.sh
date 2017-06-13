@@ -2,10 +2,10 @@
 #  Quick Look plugins.
 # ------------------------------------------------------------------------------
 
-# BetterZip Quick Look Generator
-# Previews archives.
-# http://macitbetter.com/BetterZip-Quick-Look-Generator/
-brew cask install betterzipql
+# # BetterZip Quick Look Generator
+# # Previews archives.
+# # http://macitbetter.com/BetterZip-Quick-Look-Generator/
+# brew cask install betterzipql
 
 # # QLColorCode
 # # Previews source code files with syntax highlighting.

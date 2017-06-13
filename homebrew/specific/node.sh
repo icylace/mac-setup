@@ -16,12 +16,22 @@ nvm install stable
 
 nvm alias default stable
 
-# deps-ok
-# Fast checking of top level dependencies based on version numbers.
-# https://www.npmjs.com/package/deps-ok
-npm install --global deps-ok
+# Yarn
+# A dependency manager for Node.js projects.
+# https://yarnpkg.com/
+brew install yarn
 
-# npm-check-updates
-# Finds newer versions of dependencies than what your package.json allows.
-# https://www.npmjs.com/package/npm-check-updates
-npm install --global npm-check-updates
+# # vue-cli
+# # Simple CLI for scaffolding Vue.js projects.
+# # https://github.com/vuejs/vue-cli
+# yarn global add vue-cli
+
+# # deps-ok
+# # Fast checking of top level dependencies based on version numbers.
+# # https://www.npmjs.com/package/deps-ok
+# yarn global add deps-ok
+
+# # npm-check-updates
+# # Finds newer versions of dependencies than what your package.json allows.
+# # https://www.npmjs.com/package/npm-check-updates
+# yarn global add npm-check-updates

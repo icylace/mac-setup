@@ -39,7 +39,7 @@ t 'Disable thumbnail cache for History and Top Sites.'
 t 'Make search banners default to Contains instead of Starts With.'
 + FindOnPageMatchesWordStartsOnly false
 
-t "Set home page to 'about:blank' for faster loading."
+t 'Set home page to "about:blank" for faster loading.'
 + HomePage 'about:blank'
 
 t 'Enable the Develop menu.'
