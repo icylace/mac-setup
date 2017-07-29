@@ -60,8 +60,13 @@ t 'Set mouse acceleration.'
 t 'Set scroll wheel acceleration.'
 + com.apple.scrollwheel.scaling 0.125
 
+# In macOS Sierra you can unplug and replug your external keyboard in for the
+# new keyboard-related values to take effect, no reboot required.
+# Known to work for: InitialKeyRepeat, KeyRepeat
+# https://github.com/mathiasbynens/dotfiles/issues/687#issuecomment-300072305
+
 t 'Decrease the delay until keys are repeated.'
-+ InitialKeyRepeat 9
++ InitialKeyRepeat 10
 
 t 'Set a fast keyboard repeat rate.'
 + KeyRepeat 1

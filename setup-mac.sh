@@ -235,12 +235,6 @@ source 'user-defaults/defaults.sh'
 
 
 
-# sync through Dropbox support built-in:
-
-# Path Finder ?
-
-
-
 # manual sync through Dropbox:
 
 # MAMP & MAMP PRO (export)?
