@@ -88,9 +88,9 @@ git config --global core.excludesfile ~/.gitignore_global
 
 # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
 git config --global push.default current
-# git config branch.autosetuprebase always
-# git difftool -t <tool>
-# git mergetool -t <tool>
+
+# https://help.github.com/articles/caching-your-github-password-in-git/
+git config --global credential.helper osxkeychain
 
 # Based on:
 # https://github.com/so-fancy/diff-so-fancy#improved-colors-for-the-highlighted-bits
@@ -110,4 +110,7 @@ git config --global color.diff.whitespace "red reverse"
 # Based on:
 # https://github.com/so-fancy/diff-so-fancy#usage
 # https://github.com/so-fancy/diff-so-fancy/blob/master/pro-tips.md#moving-around-in-the-diff
-git config --global core.pager "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
+# https://github.com/so-fancy/diff-so-fancy/issues/173#issuecomment-226649546
+git config --global core.pager "less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
+git config --global pager.diff "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
+git config --global interactive.diffFilter "diff-so-fancy --patch-mode"
