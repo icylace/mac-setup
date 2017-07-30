@@ -18,6 +18,11 @@ brew install findutils
 # https://devcenter.heroku.com/articles/heroku-cli
 brew install heroku
 
+# icdiff
+# A diff program that shows comparisons side-by-side.
+# http://www.jefftk.com/icdiff
+brew install icdiff
+
 # HTTPie
 # HTTP client.
 # http://httpie.org/
@@ -26,7 +31,7 @@ brew install httpie
 # Neovim
 # Text editor.
 # https://neovim.io/
-brew install neovim/neovim/neovim
+brew install neovim
 
 # PostgreSQL
 # Object-relational database system.
@@ -42,6 +47,12 @@ brew install ranger
 # File renamer.
 # http://plasmasturm.org/code/rename/
 brew install rename
+
+# tmux
+# A "terminal multiplexer", it enables a number of terminals to be accessed
+# and controlled from a single terminal.
+# https://github.com/tmux/tmux
+brew install tmux
 
 # Tree
 # Recursive directory lister.
