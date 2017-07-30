@@ -6,43 +6,36 @@ blue '
 -----------------------------------------------
 '
 
-
-# ------------------------------------------------------------------------------
-#  Git utilities.
-# ------------------------------------------------------------------------------
-
-# # diff-so-fancy
-# # Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
-# # https://github.com/so-fancy/diff-so-fancy
-# brew install diff-so-fancy
+# diff-so-fancy
+# Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
+# https://github.com/so-fancy/diff-so-fancy
+brew install diff-so-fancy
 
 # Git
 # A distributed version control system.
 # http://git-scm.com/
 brew install git
 
-# # git-cal
-# # GitHub-like contributions calendar on terminal.
-# # https://github.com/k4rthik/git-cal
-# brew install git-cal
+# git-cal
+# github like contributions calendar on terminal
+# https://github.com/k4rthik/git-cal
+brew install git-cal
 
 # Git Extras
 # Extra commands for Git.
 # https://github.com/tj/git-extras
 brew install git-extras
 
-# TODO
-# - consider this over Git Radar
-# # gitHUD
-# # A heads-up display for Git.
-# # https://github.com/gbataille/gitHUD
-# brew tap gbataille/homebrew-gba
-# brew install githud
-
-# Git Radar
+# gitHUD
 # A heads-up display for Git.
-# https://github.com/michaeldfallen/git-radar
-brew install michaeldfallen/formula/git-radar
+# https://github.com/gbataille/gitHUD
+brew tap gbataille/homebrew-gba
+brew install githud
+
+# # git-smart
+# # Extra commands for Git.
+# # https://github.com/geelen/git-smart
+# gem install git-smart
 
 # # git-subrepo
 # # Git Submodule Alternative
@@ -54,30 +47,10 @@ brew install michaeldfallen/formula/git-radar
 # https://hub.github.com/
 brew install hub
 
-# # Legit
-# # Extra commands for Git.
-# # http://git-legit.org/
-# brew install legit
-
-# # Tig
-# # Text-mode interface for Git.
-# # http://jonas.nitro.dk/tig/
-# brew install tig
-
-
-# ------------------------------------------------------------------------------
-#  Git-related utilities.
-# ------------------------------------------------------------------------------
-
-# diff-so-fancy
-# Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
-# https://github.com/so-fancy/diff-so-fancy
-brew install diff-so-fancy
-
-# # git-smart
-# # Extra commands for Git.
-# # https://github.com/geelen/git-smart
-# gem install git-smart
+# Tig
+# Text-mode interface for Git.
+# http://jonas.nitro.dk/tig/
+brew install tig
 
 
 # ------------------------------------------------------------------------------

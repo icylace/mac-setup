@@ -66,10 +66,6 @@ blue '
 # https://github.com/caskroom/homebrew-versions
 brew tap caskroom/versions
 
-# Access fonts.
-# https://github.com/caskroom/homebrew-fonts
-brew tap caskroom/fonts
-
 # Make sure our Homebrew Cask recipes are updated.
 brew cask update
 
