@@ -32,11 +32,6 @@ brew install git-extras
 brew tap gbataille/homebrew-gba
 brew install githud
 
-# # git-smart
-# # Extra commands for Git.
-# # https://github.com/geelen/git-smart
-# gem install git-smart
-
 # # git-subrepo
 # # Git Submodule Alternative
 # # https://github.com/ingydotnet/git-subrepo
