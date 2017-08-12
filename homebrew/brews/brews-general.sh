@@ -1,7 +1,3 @@
-# ------------------------------------------------------------------------------
-#  General programs.
-# ------------------------------------------------------------------------------
-
 # dwdiff
 # A diff program that operates at the word level instead of the line level.
 # http://os.ghalkes.nl/dwdiff.html

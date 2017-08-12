@@ -17,6 +17,6 @@ brew install ruby-build
 # brew install rbenv
 
 # # Install a newer version of Ruby.
-# rbenv install 2.3.0
-# rbenv global 2.3.0
+# rbenv install 2.3.4
+# rbenv global 2.3.4
 # rbenv rehash

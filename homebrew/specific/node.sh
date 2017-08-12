@@ -21,11 +21,6 @@ nvm alias default stable
 # https://yarnpkg.com/
 brew install yarn
 
-# # vue-cli
-# # Simple CLI for scaffolding Vue.js projects.
-# # https://github.com/vuejs/vue-cli
-# yarn global add vue-cli
-
 # # deps-ok
 # # Fast checking of top level dependencies based on version numbers.
 # # https://www.npmjs.com/package/deps-ok

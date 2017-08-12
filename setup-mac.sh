@@ -36,19 +36,19 @@ red '
 
 # proceeding=false
 
-# e ''
-# e "Have you read through the script you're about to run and " red
-# e 'understood that it will make changes to your computer? (y/n)' red
-# read -r response
-# case $response in
-#   [yY]) proceeding=true break;;
-#   *) break;;
-# esac
+red ''
+red "Have you read through the script you're about to run and "
+red 'understood that it will make changes to your computer? (y/n)'
+read -r response
+case $response in
+  [yY]) proceeding=true break;;
+  *) break;;
+esac
 
-# if [ ! $proceeding ] ; then
-#   e 'Please go read the script.  It only takes a few minutes.' red
-#   exit
-# fi
+if [ ! $proceeding ] ; then
+  red 'Please go read the script.  It is well worth your time.'
+  exit
+fi
 
 # # Now we begin.  Ask for the administrator password upfront and run a
 # # keep-alive to update existing `sudo` time stamp until script has finished.
@@ -73,22 +73,16 @@ source 'user-defaults/defaults.sh'
 # ripit - still useful ?
 # xact - still useful ?
 # xee - use justlooking instead ?
-# fontexplorer-x-pro - still useful ?
 # deeper
 # maintenance
 # tinkertool
 # clamxav
 # hex-fiend - useful to me ?
-# omnigraffle - still useful ?
-# omnigraffle-professional5 - still useful ?
 # skim - useful to me ?
-# xscope - still useful to me ?
 # carbon-copy-cloner - use time machine instead ?
-# sitesucker - still useful ?
 # soundflower - still useful ?
 
 # copy - still useful ?
-# pdfpenpro - still useful ?
 # thunderbird-beta - useful for archiving email ?
 
 # cobook
@@ -237,7 +231,6 @@ source 'user-defaults/defaults.sh'
 
 # manual sync through Dropbox:
 
-# MAMP & MAMP PRO (export)?
 # Sublime Text ?
 
 

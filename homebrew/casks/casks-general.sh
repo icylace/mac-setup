@@ -1,6 +1,7 @@
-# ------------------------------------------------------------------------------
-#  General applications.
-# ------------------------------------------------------------------------------
+# 1Password
+# Password manager.
+# https://1password.com/
+brew cask install 1password
 
 # Adobe Reader
 # PDF reader.
@@ -17,6 +18,16 @@ brew cask install alfred
 # http://freemacsoft.net/appcleaner/
 brew cask install appcleaner
 
+# aText
+# Text expander.
+# http://www.trankynam.com/atext/
+brew cask install atext
+
+# Bartender
+# Menu bar manager.
+# http://www.macbartender.com/
+brew cask install bartender
+
 # Beyond Compare
 # File and folder comparison tool.
 # http://scootersoftware.com/
@@ -27,23 +38,15 @@ brew cask install beyond-compare
 # http://globaldelight.com/boom/
 brew cask install boom
 
-# cDock
-# Dock customizer.
-# http://w0lfschild.github.io/app_cDock
-# https://github.com/w0lfschild/cDock2/issues/2#issuecomment-201718867
-brew cask install cdock
-# Note: This requires System Integrity Protection to be disabled
-# for it to work properly.
-
-# # CheatSheet
-# # Lists all active shortcut keys for the current application.
-# # http://grandtotal.biz/CheatSheet/
-# brew cask install cheatsheet
-
 # Skala Color
 # Color picker.
 # http://bjango.com/mac/skalacolor/
 brew cask install colorpicker-skalacolor
+
+# ControllerMate
+# Input device remapper.
+# http://orderedbytes.com/controllermate/
+brew cask install controllermate
 
 # DaisyDisk
 # Disk space analyzer.
@@ -55,10 +58,25 @@ brew cask install daisydisk
 # http://www.stclairsoft.com/DefaultFolderX/
 brew cask install default-folder-x
 
+# Dropbox
+# File sharer with cloud storage.
+# https://www.dropbox.com/
+brew cask install dropbox
+
 # Firefox Developer Edition
 # Web browser with preinstalled web developer tools.
 # https://www.mozilla.org/en-US/firefox/developer/
 brew cask install firefoxdeveloperedition
+
+# Flux
+# Screen color temperature manager.
+# http://justgetflux.com
+brew cask install flux
+
+# Google Chrome
+# Web browser.
+# http://www.google.com/chrome/
+brew cask install google-chrome
 
 # Google Drive
 # File sharer with cloud storage.
@@ -70,10 +88,35 @@ brew cask install google-drive
 # https://google.com/tools/dlpage/hangoutplugin
 brew cask install google-hangouts
 
+# HyperDock
+# Dock enhancer and window placement manager.
+# http://hyperdock.bahoom.com/
+brew cask install hyperdock
+
+# iStat Menus 5
+# System monitor.
+# http://bjango.com/mac/istatmenus/
+brew cask install istat-menus
+
+# KeepingYouAwake
+# System sleep manager.
+# https://github.com/newmarcel/KeepingYouAwake
+brew cask install keepingyouawake
+
+# LibreOffice
+# Office suite.
+# http://www.libreoffice.org/
+brew cask install libreoffice
+
 # ngrok
 # Introspected tunnels to localhost.
 # https://ngrok.com/
 brew cask install ngrok
+
+# nvALT
+# Notes manager.
+# http://brettterpstra.com/projects/nvalt/
+brew cask install nvalt
 
 # OnyX
 # System maintenance utility.
@@ -90,20 +133,30 @@ brew cask install opera
 # http://charlessoft.com/
 brew cask install pacifist
 
+# Path Finder
+# File manager.
+# http://cocoatech.com/pathfinder/
+brew cask install path-finder
+
 # Sequel Pro
 # MySQL database manager.
 # http://nightly.sequelpro.com/
 brew cask install sequel-pro-nightly
 
-# # Shortcat
-# # Keyboard tool that lets you "Click" buttons and control your apps.
-# # http://shortcatapp.com/
-# brew cask install shortcat
-
 # Spectacle
 # Window manager.
 # https://www.spectacleapp.com/
 brew cask install spectacle
+
+# Sublime Text
+# Text editor.
+# http://www.sublimetext.com/3dev
+brew cask install sublime-text-dev
+
+# The Unarchiver
+# Archive file extractor.
+# http://unarchiver.c3.cx/unarchiver
+brew cask install the-unarchiver
 
 # Transmit
 # File transfer tool.

@@ -118,3 +118,13 @@ gem install lolcat
 # # - verify if this is still true
 
 # lighttable
+
+# # CheatSheet
+# # Lists all active shortcut keys for the current application.
+# # http://grandtotal.biz/CheatSheet/
+# brew cask install cheatsheet
+
+# # Shortcat
+# # Keyboard tool that lets you "Click" buttons and control your apps.
+# # http://shortcatapp.com/
+# brew cask install shortcat
