@@ -13,3 +13,4 @@ brew cask install iterm2
 
 # TODO
 # - add steps for iTerm2 shell integration
+#   - https://www.iterm2.com/documentation-shell-integration.html

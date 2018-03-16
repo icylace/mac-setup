@@ -2,7 +2,7 @@
 
 blue '
 -----------------------------------------------
--                   Python                     -
+-                    Python                   -
 -----------------------------------------------
 '
 
@@ -14,5 +14,5 @@ brew install pyenv
 # Python 2
 # A programming language.
 # https://www.python.org/
-pyenv install 2.7.13
-pyenv global 2.7.13
+pyenv install 2.7.14
+pyenv global 2.7.14

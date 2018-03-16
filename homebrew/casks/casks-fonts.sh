@@ -1,7 +1,3 @@
-# ------------------------------------------------------------------------------
-#  Fonts.
-# ------------------------------------------------------------------------------
-
 # Caskroom-fonts
 # Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly
 # Homebrew-style CLI workflow for the administration of binary font files
@@ -9,7 +5,13 @@
 # https://github.com/caskroom/homebrew-fonts
 brew tap caskroom/fonts
 
+# Fira Code
+# Monospaced font with programming ligatures
+# https://github.com/tonsky/FiraCode
+brew cask install font-fira-code
+
 # Input
+# Fonts for code from DJR & Font Bureau
 # http://input.fontbureau.com/
 brew cask install font-input
 

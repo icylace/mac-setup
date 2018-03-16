@@ -19,7 +19,12 @@ nvm alias default stable
 # Yarn
 # A dependency manager for Node.js projects.
 # https://yarnpkg.com/
-brew install yarn
+brew install yarn --without-node
+
+# simple-autoreload-server
+# A simple Web server on Node.js with autoreload/livereload feature.
+# https://github.com/cytb/simple-autoreload-server
+yarn global add simple-autoreload-server
 
 # # deps-ok
 # # Fast checking of top level dependencies based on version numbers.

@@ -19,3 +19,5 @@ t 'Turn on dark mode.'
 # TODO
 # - activate the "Load preferences fram a custom folder or URL" setting and set it to "~/My/Dropbox/Sync/iTerm2 Preferences"
 # - set font
+# - turn off shell integration markers
+#   - https://stackoverflow.com/a/38913948/1935675

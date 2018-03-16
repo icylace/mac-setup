@@ -1,7 +1,22 @@
-# dwdiff
-# A diff program that operates at the word level instead of the line level.
-# http://os.ghalkes.nl/dwdiff.html
-brew install dwdiff
+# ascii
+# List ASCII idiomatic names and octal/decimal code-point forms.
+# http://catb.org/~esr/ascii/
+brew install ascii
+
+# Asciidoctor
+# A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more.
+# http://asciidoctor.org/
+brew install asciidoctor
+
+# Asciidoctor Diagram
+# Asciidoctor diagram extension, with support for PlantUML, Graphviz and ditaa.
+# https://github.com/asciidoctor/asciidoctor-diagram
+gem install asciidoctor-diagram
+
+# Bench
+# Command-line benchmark tool
+# https://github.com/Gabriel439/bench
+brew install bench
 
 # GNU Find Utilities
 # Basic directory searching utilities.
@@ -9,30 +24,10 @@ brew install dwdiff
 # GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed.
 brew install findutils
 
-# Heroku CLI
-# Manages Heroku apps from the command line.
-# https://devcenter.heroku.com/articles/heroku-cli
-brew install heroku
-
-# icdiff
-# A diff program that shows comparisons side-by-side.
-# http://www.jefftk.com/icdiff
-brew install icdiff
-
-# HTTPie
-# HTTP client.
-# http://httpie.org/
-brew install httpie
-
-# Neovim
-# Text editor.
-# https://neovim.io/
-brew install neovim
-
-# PostgreSQL
-# Object-relational database system.
-# https://www.postgresql.org/
-brew install postgres
+# GNU Privacy Guard
+# GNU Pretty Good Privacy (PGP) package
+# https://gnupg.org/
+brew install gpg
 
 # ranger
 # A console file manager.

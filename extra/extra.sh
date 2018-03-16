@@ -59,11 +59,6 @@ brew cask install neat
 # http://www.skype.com/en/
 brew cask install skype
 
-# The Hit List
-# To-do list manager.
-# http://www.karelia.com/products/the-hit-list/mac.html
-brew cask install the-hit-list
-
 # Transmission
 # BitTorrent client.
 # https://www.transmissionbt.com/

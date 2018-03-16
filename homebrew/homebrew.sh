@@ -51,16 +51,19 @@ brew tap homebrew/dupes
 brew update
 
 t 'Installing formulas...'
-source casks/*.sh
+source brews/*.sh
 
 # ------------------------------------------------------------------------------
 
 blue '
 -----------------------------------------------
 -                Homebrew Cask                -
--             http://caskroom.io/             -
+-         https://caskroom.github.io/         -
 -----------------------------------------------
 '
+
+# Install Homebrew-Cask.
+brew tap caskroom/cask
 
 # Access alternate versions of programs.
 # https://github.com/caskroom/homebrew-versions
@@ -100,6 +103,16 @@ gem install lolcat
 # Upgrading Casks
 # https://github.com/caskroom/homebrew-cask/issues/7884#issuecomment-66114740
 # brew cask uninstall --force <token> && brew cask install <token>.
+
+
+
+
+# # FFmpeg
+# # Records, converts, and streams audio and video.
+# # http://ffmpeg.org/
+# brew install ffmpeg
+
+
 
 #
 # Other casks.

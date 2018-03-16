@@ -38,6 +38,11 @@ brew cask install beyond-compare
 # http://globaldelight.com/boom/
 brew cask install boom
 
+# Clipy
+# Clipboard extension app for macOS.
+# https://clipy-app.com/
+brew cask install clipy
+
 # Skala Color
 # Color picker.
 # http://bjango.com/mac/skalacolor/

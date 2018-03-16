@@ -13,7 +13,7 @@ brew install diff-so-fancy
 
 # Git
 # A distributed version control system.
-# http://git-scm.com/
+# https://git-scm.com/
 brew install git
 
 # git-cal
@@ -31,6 +31,11 @@ brew install git-extras
 # https://github.com/gbataille/gitHUD
 brew tap gbataille/homebrew-gba
 brew install githud
+
+# git-secret
+# A bash-tool to store your private data inside a git repository.
+# http://git-secret.io/
+brew install git-secret
 
 # # git-subrepo
 # # Git Submodule Alternative
@@ -74,6 +79,15 @@ git config --global color.diff.meta "227"
 git config --global color.diff.new "green bold"
 git config --global color.diff.old "red bold"
 git config --global color.diff.whitespace "red reverse"
+
+# "git diff - show me line ending changes?"
+# https://stackoverflow.com/a/36604948/1935675
+
+# https://git-scm.com/docs/git-config#git-config-diffwsErrorHighlight
+git config --global diff.wsErrorHighlight "all"
+
+# https://git-scm.com/docs/git-add#git-add-patch
+git config --global interactive.singleKey true
 
 # Based on:
 # https://github.com/so-fancy/diff-so-fancy#usage
