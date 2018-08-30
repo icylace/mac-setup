@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                     PHP                     -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  PHP
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 # Composer
 # Dependency manager for PHP.
-# http://getcomposer.org/
+# https://getcomposer.org/
 #
 # https://github.com/composer/composer/pull/3523#issuecomment-66768640
 # https://github.com/composer/composer/issues/3255#issuecomment-60742259

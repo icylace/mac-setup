@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                 Path Finder                 -
--                File manager.                -
--      http://cocoatech.com/pathfinder/       -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Path Finder
+:  File manager.
+:  http://cocoatech.com/pathfinder/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 alias +='write_defaults com.cocoatech.PathFinder'

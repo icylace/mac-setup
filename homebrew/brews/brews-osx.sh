@@ -1,11 +1,8 @@
+#!/usr/bin/env bash
+
 # ------------------------------------------------------------------------------
 #  Updated versions of programs that come with macOS.
 # ------------------------------------------------------------------------------
-
-# Bash: The GNU Bourne-Again SHell
-# A Unix shell.
-# https://tiswww.case.edu/php/chet/bash/bashtop.html
-brew install bash
 
 # GNU Core Utilities
 # Basic file, shell, and text manipulation utilities.

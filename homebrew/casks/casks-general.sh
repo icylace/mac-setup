@@ -1,3 +1,11 @@
+#!/usr/bin/env bash
+
+blue '
++-------------------------------------------------------------------------------
+:  macOS Apps.
++ - - - - - - - - - - - - - - - - - - - -
+'
+
 # 1Password
 # Password manager.
 # https://1password.com/
@@ -10,7 +18,7 @@ brew cask install adobe-reader
 
 # Alfred
 # Application launcher, search tool, and workflow tool.
-# http://www.alfredapp.com/
+# https://www.alfredapp.com/
 brew cask install alfred
 
 # AppCleaner
@@ -20,17 +28,19 @@ brew cask install appcleaner
 
 # aText
 # Text expander.
-# http://www.trankynam.com/atext/
+# https://www.trankynam.com/atext/
 brew cask install atext
+# UPDATE (2018-08-10): Installing this with Homebrew is not working at the
+# moment.  Recommendation is to get it directly from its website.
 
 # Bartender
 # Menu bar manager.
-# http://www.macbartender.com/
+# https://www.macbartender.com/
 brew cask install bartender
 
 # Beyond Compare
 # File and folder comparison tool.
-# http://scootersoftware.com/
+# https://scootersoftware.com/
 brew cask install beyond-compare
 
 # Boom 2
@@ -153,11 +163,6 @@ brew cask install sequel-pro-nightly
 # https://www.spectacleapp.com/
 brew cask install spectacle
 
-# Sublime Text
-# Text editor.
-# http://www.sublimetext.com/3dev
-brew cask install sublime-text-dev
-
 # The Unarchiver
 # Archive file extractor.
 # http://unarchiver.c3.cx/unarchiver
@@ -167,6 +172,11 @@ brew cask install the-unarchiver
 # File transfer tool.
 # http://panic.com/transmit/
 brew cask install transmit
+
+# Visual Paradigm Community Edition
+# Diagramming tool.
+# https://www.visual-paradigm.com/download/community.jsp
+brew cask install visual-paradigm-ce
 
 # VLC
 # Media player.

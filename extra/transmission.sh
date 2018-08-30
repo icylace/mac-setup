@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                Transmission                 -
--             BitTorrent client.              -
--       https://www.transmissionbt.com/       -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Transmission
+:  BitTorrent client.
+:  https://transmissionbt.com/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 alias +='write_defaults org.m0k.transmission'

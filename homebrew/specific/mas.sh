@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--         Apps from the Mac App Store         -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Apps from the Mac App Store
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 if ! we_have mas ; then
@@ -27,11 +27,6 @@ mas install 449589707
 # Messaging app for teams.
 # https://slack.com/
 mas install 803453959
-
-# # Spillo
-# # Pinboard client.
-# # https://bananafishsoftware.com/products/spillo/
-# mas install 873245660
 
 # Things 3
 # To-do list manager.

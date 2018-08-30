@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                    sift                     -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  sift
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 # sift
@@ -12,4 +12,4 @@ blue '
 brew install sift
 
 # Configure sift.
-sift --color --group --line-number --stats --write-config
+sift --color --ignore-case --group --line-number --stats --write-config

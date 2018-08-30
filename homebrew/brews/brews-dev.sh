@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # dwdiff
 # A diff program that operates at the word level instead of the line level.
 # http://os.ghalkes.nl/dwdiff.html
@@ -43,10 +45,10 @@ brew install neovim
 # https://github.com/EricChiang/pup
 brew install pup
 
-# PureScript
-# A strongly-typed functional programming language that compiles to JavaScript
-# http://www.purescript.org/
-brew install purescript
+# # PureScript
+# # A strongly-typed functional programming language that compiles to JavaScript
+# # http://www.purescript.org/
+# brew install purescript
 
 # ShellCheck
 # Finds bugs in your shell scripts.

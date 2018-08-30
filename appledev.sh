@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
-# ------------------------------------------------------------------------------
-#  Apple development stuff.
-# ------------------------------------------------------------------------------
+blue '
++-------------------------------------------------------------------------------
+:  Apple development stuff.
++ - - - - - - - - - - - - - - - - - - - -
+'
 
 # Xcode
 # Application development system from Apple.
 # https://developer.apple.com/xcode/
 mas install 497799835
-
-# ------------------------------------------------------------------------------
 
 # Chisel
 # A collection of LLDB commands to assist in the debugging of iOS apps.
@@ -21,8 +21,6 @@ brew install chisel
 # https://github.com/facebook/xctool
 brew install xctool
 
-# ------------------------------------------------------------------------------
-
 # SwiftLint
 # A tool to enforce Swift style and conventions.
 # https://github.com/realm/SwiftLint
@@ -33,8 +31,6 @@ brew install swiftlint
 # # https://tailor.sh/
 # # - First, install Java.
 # brew install tailor
-
-# ------------------------------------------------------------------------------
 
 # # CocoaPods
 # # Dependency manager for Cocoa projects.
@@ -52,17 +48,18 @@ gem install synx
 # https://github.com/supermarin/xcpretty
 gem install xcpretty
 
-# ------------------------------------------------------------------------------
-
 # Alcatraz
 # Package manager for Xcode.
-# http://alcatraz.io/
+# https://github.com/alcatraz/Alcatraz
 et 'Installing Alcatraz...'
 curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
 
 # ------------------------------------------------------------------------------
 
 # swiftenv: Swift Version Manager
-# "swiftenv allows you to easily install, and switch between multiple versions of Swift."
-# https://swiftenv.fuller.li/en/latest/installation.html#via-a-git-clone
-git clone https://github.com/kylef/swiftenv.git "$HOME/.swiftenv"
+# swiftenv allows you to easily install, and switch between
+# multiple versions of Swift.
+# https://swiftenv.fuller.li/en/latest/
+brew install kylef/formulae/swiftenv
+
+echo 'if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi' >> "$HOME/.profile"

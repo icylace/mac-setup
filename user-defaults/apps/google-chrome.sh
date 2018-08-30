@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                Google Chrome                -
--                 Web browser.                -
--        http://www.google.com/chrome/        -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Google Chrome
+:  Web browser.
+:  http://www.google.com/chrome/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 alias +='write_defaults com.google.Chrome'

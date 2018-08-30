@@ -1,13 +1,27 @@
-# Haskell Platform
-# A multi-OS distribution designed to get you up and running quickly, making
-# it easy to focus on using Haskell
-# https://www.haskell.org/platform/#osx-homebrewcask
-brew cask install haskell-platform
+#!/usr/bin/env bash
 
+blue '
++-------------------------------------------------------------------------------
+:  Haskell
++ - - - - - - - - - - - - - - - - - - - -
+'
 
+# The Haskell Tool Stack
+# Stack is a cross-platform program for developing Haskell projects.
+# https://haskellstack.org/
+brew install haskell-stack
 
+# intero
+# Complete interactive development program for Haskell
+# https://github.com/commercialhaskell/intero
+# https://github.com/commercialhaskell/intero/blob/master/TOOLING.md#installing
+stack build intero
 
+# HLint
+# Haskell source code suggestions
+# https://github.com/ndmitchell/hlint
+brew install hlint
 
 # hedgehog
-# Hedgehog is a modern property-based testing system, in the spirit of QuickCheck.
+# Hedgehog is a modern property-based testing system.
 # https://github.com/hedgehogqa/haskell-hedgehog

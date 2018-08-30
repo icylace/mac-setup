@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--      Dock, Dashboard, Mission Control       -
--            Spaces, and Trackpad             -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Dock, Dashboard, Mission Control, Spaces, and Trackpad
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 alias +='write_defaults com.apple.dashboard'

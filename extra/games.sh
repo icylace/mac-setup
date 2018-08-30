@@ -23,7 +23,7 @@ formulas=(
 
   # Homebrew Cask
   # Manages the administration of Mac applications distributed as binaries.
-  # http://caskroom.io/
+  # https://caskroom.github.io/
   caskroom/cask/brew-cask
 )
 

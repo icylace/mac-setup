@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PATH="/Applications/DevDesktop/tools:$PATH"
+
 # givegif
 # Find and display GIFs from the command line (requires iTerm >= 2.9).
 # https://github.com/passy/givegif
@@ -8,7 +10,7 @@ brew install givegif
 
 # Graphviz
 # Graph visualizer.
-# http://graphviz.org/
+# https://graphviz.org/
 brew install graphviz
 
 # Python
@@ -41,7 +43,7 @@ brew install no-more-secrets
 
 # BootChamp
 # Quickly reboots into the Windows.
-# http://kainjow.com/
+# https://kainjow.com/
 brew cask install bootchamp
 
 # Integrity
@@ -51,45 +53,33 @@ brew cask install integrity
 
 # Neat
 # Document scanner and manager.
-# http://www.neat.com/
+# https://www.neat.com/
 brew cask install neat
 
 # Skype
 # VoIP and video conferencing client.
-# http://www.skype.com/en/
+# https://www.skype.com/en/
 brew cask install skype
 
-# Transmission
-# BitTorrent client.
-# https://www.transmissionbt.com/
-brew cask install transmission
+# # Transmission
+# # BitTorrent client.
+# # https://www.transmissionbt.com/
+# brew cask install transmission
 
+# # VirtualBox
+# # Virtual environment manager.
+# # https://www.virtualbox.org/
+# brew cask install virtualbox
+# brew cask install virtualbox-extension-pack
 
+# # Vagrant
+# # Virtual development environment manager.
+# # https://www.vagrantup.com/
+# brew cask install vagrant
 
-
-
-
-
-
-
-# VirtualBox
-# Virtual environment manager.
-# https://www.virtualbox.org/
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
-
-# Vagrant
-# Virtual development environment manager.
-# https://www.vagrantup.com/
-brew cask install vagrant
-
-vagrant plugin install vagrant-vbguest
-# https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
-vagrant plugin install vagrant-share --plugin-version 1.1.8
-
-
-
-
+# vagrant plugin install vagrant-vbguest
+# # https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
+# vagrant plugin install vagrant-share --plugin-version 1.1.8
 
 
 
@@ -107,24 +97,9 @@ vagrant plugin install vagrant-share --plugin-version 1.1.8
 # # http://aspell.net/
 # aspell
 
-# # FFmpeg
-# # Audio and video converter, recorder, and streamer.
-# # http://ffmpeg.org/
-# ffmpeg
-
-# # id3tool
-# # ID3 tag editor.
-# # http://nekohako.xware.cx/id3tool/
-# id3tool
-
-# # Pipe Viewer
-# # Progress monitor for data through a pipeline.
-# # http://ivarch.com/programs/pv
-# pv
-
 # # spark
 # # Data visualizer using sparklines.
-# # http://zachholman.com/spark/
+# # https://zachholman.com/spark/
 # spark
 
 # # terminal-notifier
@@ -135,7 +110,4 @@ vagrant plugin install vagrant-share --plugin-version 1.1.8
 
 
 
-
-
 # https://macitbetter.com/
-

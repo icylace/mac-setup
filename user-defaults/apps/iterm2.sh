@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                   iTerm2                    -
--             Terminal emulator.              -
--             http://iterm2.com/              -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  iTerm2
+:  Terminal emulator.
+:  http://iterm2.com/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 alias +='write_defaults com.googlecode.iterm2'

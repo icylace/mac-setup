@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--          Xcode Command Line Tools           -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Xcode Command Line Tools
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 t 'Checking if Xcode is installed...'
@@ -26,10 +26,10 @@ if ! {                                  \
 fi
 
 blue '
------------------------------------------------
--                  Homebrew                   -
--               http://brew.sh/               -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Homebrew
+:  https://brew.sh/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 # Install Homebrew if we need to.
@@ -56,10 +56,11 @@ source brews/*.sh
 # ------------------------------------------------------------------------------
 
 blue '
------------------------------------------------
--                Homebrew Cask                -
--         https://caskroom.github.io/         -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Homebrew Cask
+:  https://brew.sh/
+:  https://caskroom.github.io/
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 # Install Homebrew-Cask.
@@ -70,7 +71,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 # Make sure our Homebrew Cask recipes are updated.
-brew cask update
+brew update
 
 t 'Installing casks...'
 source casks/*.sh

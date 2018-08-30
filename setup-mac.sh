@@ -36,9 +36,10 @@ red '
 
 # proceeding=false
 
-red ''
-red "Have you read through the script you're about to run and "
-red 'understood that it will make changes to your computer? (y/n)'
+red '
+Have you read through the script you are about to run and
+understood that it will make changes to your computer? (y/n)
+'
 read -r response
 case $response in
   [yY]) proceeding=true break;;
@@ -100,13 +101,6 @@ source 'user-defaults/defaults.sh'
 # celtx - still useful ?
 
 
-# http://nodejs.org/
-# e "Installing node (without npm)" $blue
-# # For more info, see here https://gist.github.com/DanHerbert/9520689
-# brew install node --without-npm
-# e prefix=~/.node >> ~/.npmrc
-# curl -L https://www.npmjs.org/install.sh | sh
-# export PATH="$HOME/.node/bin:$PATH"
 
 
 # ------------------------------------------------------------------------------
@@ -231,11 +225,6 @@ source 'user-defaults/defaults.sh'
 
 
 
-
-
-# manual sync through Dropbox:
-
-# Sublime Text ?
 
 
 

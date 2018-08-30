@@ -1,22 +1,19 @@
+#!/usr/bin/env bash
+
 # ascii
 # List ASCII idiomatic names and octal/decimal code-point forms.
 # http://catb.org/~esr/ascii/
 brew install ascii
 
-# Asciidoctor
-# A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more.
-# http://asciidoctor.org/
-brew install asciidoctor
-
-# Asciidoctor Diagram
-# Asciidoctor diagram extension, with support for PlantUML, Graphviz and ditaa.
-# https://github.com/asciidoctor/asciidoctor-diagram
-gem install asciidoctor-diagram
-
 # Bench
 # Command-line benchmark tool
 # https://github.com/Gabriel439/bench
 brew install bench
+
+# fd
+# A simple, fast and user-friendly alternative to 'find'
+# https://github.com/sharkdp/fd
+brew install fd
 
 # GNU Find Utilities
 # Basic directory searching utilities.
@@ -28,6 +25,11 @@ brew install findutils
 # GNU Pretty Good Privacy (PGP) package
 # https://gnupg.org/
 brew install gpg
+
+# Pipe Viewer
+# Tool for monitoring the progress of data through a pipeline.
+# https://www.ivarch.com/programs/pv.shtml
+brew install pv
 
 # ranger
 # A console file manager.

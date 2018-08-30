@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 blue '
------------------------------------------------
--                     Git                     -
------------------------------------------------
++-------------------------------------------------------------------------------
+:  Git
++ - - - - - - - - - - - - - - - - - - - -
 '
 
 # diff-so-fancy
@@ -57,7 +57,7 @@ brew install tig
 
 
 # https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
-git config --global core.excludesfile ~/.gitignore_global
+git config --global core.excludesfile "$HOME/.gitignore_global"
 
 # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
 git config --global push.default current
@@ -95,4 +95,6 @@ git config --global interactive.singleKey true
 # https://github.com/so-fancy/diff-so-fancy/issues/173#issuecomment-226649546
 git config --global core.pager "less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
 git config --global pager.diff "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
-git config --global interactive.diffFilter "diff-so-fancy --patch-mode"
+
+# https://github.com/so-fancy/diff-so-fancy/issues/296
+# git config --global interactive.diffFilter "diff-so-fancy --patch-mode"

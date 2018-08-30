@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-# ------------------------------------------------------------------------------
-#  Set OS X defaults that I like.
-# ------------------------------------------------------------------------------
-#
+blue '
++-------------------------------------------------------------------------------
+:  Set macOS defaults.
++ - - - - - - - - - - - - - - - - - - - -
+'
+
 # These settings are meant to be used on at least 10.9 (Mavericks).
 #
 # Use `defaults delete {domain} {key}` to undo settings.  For example, using:
