@@ -12,10 +12,10 @@ blue '
 # Bash: The GNU Bourne-Again SHell
 # A Unix shell.
 # https://tiswww.case.edu/php/chet/bash/bashtop.html
-brew install bash
+nix-env --install --attr nixpkgs.bash
 
 # Bash Completion
 # Programmable completion for Bash 4.1+
 # https://bash-completion.alioth.debian.org/
 # https://github.com/scop/bash-completion
-brew install bash-completion@2
+nix-env --install --attr nixpkgs.bash-completion

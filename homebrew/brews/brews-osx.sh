@@ -4,21 +4,20 @@
 #  Updated versions of programs that come with macOS.
 # ------------------------------------------------------------------------------
 
-# GNU Core Utilities
-# Basic file, shell, and text manipulation utilities.
-# http://www.gnu.org/software/coreutils/
-brew install coreutils
-
-# GNU Grep
-# Searches input files for text matching a specified pattern.
-# http://www.gnu.org/software/grep/
-brew tap homebrew/dupes
-brew install grep
-
 # less
 # A terminal pager.
 # http://greenwoodsoftware.com/less/
-brew install less
+nix-env --install --attr nixpkgs.less
+
+# GNU Core Utilities
+# Basic file, shell, and text manipulation utilities.
+# http://www.gnu.org/software/coreutils/
+nix-env --install --attr nixpkgs.coreutils-prefixed
+
+# # GNU Grep
+# # Searches input files for text matching a specified pattern.
+# # http://www.gnu.org/software/grep/
+# nix-env --install --attr nixpkgs.gnugrep
 
 
 # ------------------------------------------------------------------------------

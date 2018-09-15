@@ -60,8 +60,3 @@ code --install-extension ms-vscode.sublime-keybindings
 # Real-time collaborative development from the comfort of your favorite tools.
 # https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare
 code --install-extension ms-vsliveshare.vsliveshare# DevSkim
-
-# vscode-pdf
-# Display pdf file in VSCode.
-# https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
-code --install-extension tomoki1207.pdf

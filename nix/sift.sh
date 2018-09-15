@@ -9,7 +9,7 @@ blue '
 # sift
 # A fast and powerful open source alternative to grep.
 # https://sift-tool.org/
-brew install sift
+nix-env --install --attr nixpkgs.sift
 
 # Configure sift.
-sift --color --ignore-case --group --line-number --stats --write-config
+sift --color --column --ignore-case --group --line-number --no-zip --stats --write-config

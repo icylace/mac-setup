@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
-export PATH="/Applications/DevDesktop/tools:$PATH"
+# export PATH="/Applications/DevDesktop/tools:$PATH"
+
+# Graphviz
+# Graph visualizer.
+# https://graphviz.org/
+nix-env --install --attr nixpkgs.graphviz
 
 # givegif
 # Find and display GIFs from the command line (requires iTerm >= 2.9).
@@ -8,15 +13,12 @@ export PATH="/Applications/DevDesktop/tools:$PATH"
 brew tap passy/givegif
 brew install givegif
 
-# Graphviz
-# Graph visualizer.
-# https://graphviz.org/
-brew install graphviz
 
-# Python
-# A programming language.
-# https://www.python.org/
-brew install python3
+
+# # Python
+# # A programming language.
+# # https://www.python.org/
+# brew install python3
 
 # # tup
 # # File-based build system.

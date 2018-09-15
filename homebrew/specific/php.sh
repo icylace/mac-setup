@@ -6,16 +6,21 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
+# PHP
+# PHP is a popular general-purpose scripting language that is especially
+# suited to web development.
+# https://secure.php.net/
+nix-env --install --attr nixpkgs.php
+
 # Composer
 # Dependency manager for PHP.
 # https://getcomposer.org/
-#
-# https://github.com/composer/composer/pull/3523#issuecomment-66768640
-# https://github.com/composer/composer/issues/3255#issuecomment-60742259
-#
-brew install homebrew/php/composer
+nix-env --install --attr nixpkgs.php72Packages.composer
 
-# Drush
-# Shell interface for Drupal.
-# https://github.com/drush-ops/drush
-brew install homebrew/php/drush
+sudo composer self-update
+
+
+# # Drush
+# # Shell interface for Drupal.
+# # https://github.com/drush-ops/drush
+# brew install homebrew/php/drush

@@ -8,8 +8,9 @@ blue '
 
 # yadm
 # Yet Another Dotfiles Manager
+# https://thelocehiliosan.github.io/yadm/
 # https://github.com/TheLocehiliosan/yadm
-brew install yadm
+nix-env --install --attr nixpkgs.yadm
 
 if we_have yadm ; then
   cd "$HOME"

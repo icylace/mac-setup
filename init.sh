@@ -27,13 +27,13 @@ t() {
 }
 
 # Useable colors.
-black() { e "$@" '\e[0;30m' ; }
-red() { e "$@" '\e[0;31m' ; }
-green() { e "$@" '\e[0;32m' ; }
-yellow() { e "$@" '\e[0;33m' ; }
-blue() { e "$@" '\e[0;34m' ; }
-magenta() { e "$@" '\e[0;35m' ; }
-cyan() { e "$@" '\e[0;36m' ; }
+black()      { e "$@" '\e[0;30m' ; }
+red()        { e "$@" '\e[0;31m' ; }
+green()      { e "$@" '\e[0;32m' ; }
+yellow()     { e "$@" '\e[0;33m' ; }
+blue()       { e "$@" '\e[0;34m' ; }
+magenta()    { e "$@" '\e[0;35m' ; }
+cyan()       { e "$@" '\e[0;36m' ; }
 light_gray() { e "$@" '\e[0;37m' ; }
 
 #

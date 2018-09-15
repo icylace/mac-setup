@@ -9,22 +9,37 @@ blue '
 # diff-so-fancy
 # Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 # https://github.com/so-fancy/diff-so-fancy
-brew install diff-so-fancy
+nix-env --install --attr nixpkgs.gitAndTools.diff-so-fancy
 
 # Git
 # A distributed version control system.
 # https://git-scm.com/
-brew install git
+nix-env --install --attr nixpkgs.gitAndTools.gitFull
+
+# Git Extras
+# Extra commands for Git.
+# https://github.com/tj/git-extras
+nix-env --install --attr nixpkgs.gitAndTools.git-extras
+
+# git-secret
+# A bash-tool to store your private data inside a git repository.
+# http://git-secret.io/
+nix-env --install --attr nixpkgs.git-secret
+
+# hub
+# Wrapper for Git that makes you better at GitHub.
+# https://hub.github.com/
+nix-env --install --attr nixpkgs.gitAndTools.hub
+
+# Tig
+# Text-mode interface for Git.
+# http://jonas.nitro.dk/tig/
+nix-env --install --attr nixpkgs.gitAndTools.tig
 
 # git-cal
 # github like contributions calendar on terminal
 # https://github.com/k4rthik/git-cal
 brew install git-cal
-
-# Git Extras
-# Extra commands for Git.
-# https://github.com/tj/git-extras
-brew install git-extras
 
 # gitHUD
 # A heads-up display for Git.
@@ -32,29 +47,7 @@ brew install git-extras
 brew tap gbataille/homebrew-gba
 brew install githud
 
-# git-secret
-# A bash-tool to store your private data inside a git repository.
-# http://git-secret.io/
-brew install git-secret
-
-# # git-subrepo
-# # Git Submodule Alternative
-# # https://github.com/ingydotnet/git-subrepo
-# brew install git-subrepo
-
-# hub
-# Wrapper for Git that makes you better at GitHub.
-# https://hub.github.com/
-brew install hub
-
-# Tig
-# Text-mode interface for Git.
-# http://jonas.nitro.dk/tig/
-brew install tig
-
-
 # ------------------------------------------------------------------------------
-
 
 # https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
 git config --global core.excludesfile "$HOME/.gitignore_global"

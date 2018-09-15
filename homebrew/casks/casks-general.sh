@@ -143,20 +143,20 @@ brew cask install onyx
 # http://www.opera.com/
 brew cask install opera
 
-# Pacifist
-# Archive file manager.
-# http://charlessoft.com/
-brew cask install pacifist
+# # Pacifist
+# # Archive file manager.
+# # http://charlessoft.com/
+# brew cask install pacifist
 
 # Path Finder
 # File manager.
 # http://cocoatech.com/pathfinder/
 brew cask install path-finder
 
-# Sequel Pro
-# MySQL database manager.
-# http://nightly.sequelpro.com/
-brew cask install sequel-pro-nightly
+# # Sequel Pro
+# # MySQL database manager.
+# # http://nightly.sequelpro.com/
+# brew cask install sequel-pro-nightly
 
 # Spectacle
 # Window manager.
@@ -172,11 +172,6 @@ brew cask install the-unarchiver
 # File transfer tool.
 # http://panic.com/transmit/
 brew cask install transmit
-
-# Visual Paradigm Community Edition
-# Diagramming tool.
-# https://www.visual-paradigm.com/download/community.jsp
-brew cask install visual-paradigm-ce
 
 # VLC
 # Media player.

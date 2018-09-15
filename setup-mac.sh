@@ -57,6 +57,16 @@ fi
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 source 'homebrew/homebrew.sh'
+
+
+# Nix
+# The Purely Functional Package Manager
+# https://nixos.org/nix/
+curl https://nixos.org/nix/install | sh
+
+source nix/*.sh
+
+
 source 'appledev.sh'
 source 'user-defaults/defaults.sh'
 

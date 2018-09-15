@@ -9,6 +9,6 @@ blue '
 # duti
 # Sets default applications for document types and URL schemes.
 # http://duti.org/
-brew install duti
+nix-env --install --attr nixpkgs.duti
 
 duti duti.settings
