@@ -10,6 +10,16 @@ nix-env --install --attr nixpkgs.ascii
 # https://github.com/Gabriel439/bench
 nix-env --install --attr nixpkgs.bench
 
+# Byobu
+# Text-based window manager and terminal multiplexer
+# http://byobu.co/
+nix-env --install --attr nixpkgs.byobu
+
+# Elvish
+# A friendly and expressive Unix shell
+# https://elv.sh/
+nix-env --install --attr nixpkgs.elvish
+
 # exa
 # Lists files and directories.
 # https://the.exa.website/
@@ -27,15 +37,25 @@ nix-env --install --attr nixpkgs.fd
 # GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed.
 nix-env --install --attr nixpkgs.findutils
 
+# fzf
+# 🌸 A command-line fuzzy finder
+# https://github.com/junegunn/fzf
+nix-env --install --attr nixpkgs.fzf
+
+# hr
+# A horizontal bar for your terminal
+# https://github.com/LuRsT/hr
+nix-env --install --attr nixpkgs.hr
+
+# odt2txt
+# A simple converter from OpenDocument Text to plain text
+# https://github.com/dstosberg/odt2txt
+nix-env --install --attr nixpkgs.odt2txt
+
 # Pipe Viewer
 # Tool for monitoring the progress of data through a pipeline.
 # https://www.ivarch.com/programs/pv.shtml
 nix-env --install --attr nixpkgs.pv
-
-# ranger
-# A console file manager.
-# http://ranger.nongnu.org/
-nix-env --install --attr nixpkgs.ranger
 
 # tmux
 # A "terminal multiplexer", it enables a number of terminals to be accessed
@@ -48,6 +68,11 @@ nix-env --install --attr nixpkgs.tmux
 # http://mama.indstate.edu/users/ice/tree/
 # brew install tree
 nix-env --install --attr nixpkgs.tree
+
+# w3m
+# A text-mode web browser
+# http://w3m.sourceforge.net/
+nix-env --install --attr nixpkgs.w3m
 
 # GNU Wget
 # HTTP, HTTPS, and FTP client.

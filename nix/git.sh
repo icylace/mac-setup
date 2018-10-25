@@ -74,7 +74,7 @@ git config --global color.diff.old "red bold"
 git config --global color.diff.whitespace "red reverse"
 
 # "git diff - show me line ending changes?"
-# https://stackoverflow.com/a/36604948/1935675
+# https://stackoverflow.com/a/36604948
 
 # https://git-scm.com/docs/git-config#git-config-diffwsErrorHighlight
 git config --global diff.wsErrorHighlight "all"

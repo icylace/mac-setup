@@ -7,17 +7,17 @@ nix-env --install --attr nixpkgs.highlight
 
 # HTTPie
 # HTTP client.
-# http://httpie.org/
+# https://httpie.org/
 nix-env --install --attr nixpkgs.httpie
 
 # icdiff
 # A diff program that shows comparisons side-by-side.
-# http://www.jefftk.com/icdiff
+# https://www.jefftk.com/icdiff
 nix-env --install --attr nixpkgs.icdiff
 
 # jq
 # JSON processor.
-# http://stedolan.github.io/jq/
+# https://stedolan.github.io/jq/
 nix-env --install --attr nixpkgs.jq
 
 # Neovim
@@ -32,7 +32,7 @@ nix-env --install --attr nixpkgs.pup
 
 # ShellCheck
 # Finds bugs in your shell scripts.
-# http://www.shellcheck.net/
+# https://www.shellcheck.net/
 nix-env --install --attr nixpkgs.shellcheck
 
 
@@ -40,7 +40,7 @@ nix-env --install --attr nixpkgs.shellcheck
 
 # dwdiff
 # A diff program that operates at the word level instead of the line level.
-# http://os.ghalkes.nl/dwdiff.html
+# https://os.ghalkes.nl/dwdiff.html
 brew install dwdiff
 
 # Heroku CLI

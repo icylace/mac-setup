@@ -8,5 +8,5 @@ blue '
 
 # Sublime Text
 # Text editor.
-# http://www.sublimetext.com/3dev
+# https://www.sublimetext.com/3dev
 brew cask install sublime-text-dev

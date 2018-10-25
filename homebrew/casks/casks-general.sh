@@ -13,7 +13,7 @@ brew cask install 1password
 
 # Adobe Reader
 # PDF reader.
-# http://www.adobe.com/products/reader.html
+# https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
 brew cask install adobe-reader
 
 # Alfred
@@ -23,20 +23,25 @@ brew cask install alfred
 
 # AppCleaner
 # Application uninstaller.
-# http://freemacsoft.net/appcleaner/
+# https://freemacsoft.net/appcleaner/
 brew cask install appcleaner
 
-# aText
-# Text expander.
-# https://www.trankynam.com/atext/
-brew cask install atext
-# UPDATE (2018-08-10): Installing this with Homebrew is not working at the
-# moment.  Recommendation is to get it directly from its website.
+# # aText
+# # Text expander.
+# # https://www.trankynam.com/atext/
+# brew cask install atext
+# # UPDATE (2018-08-10): Installing this with Homebrew is not working at the
+# # moment.  Recommendation is to get it directly from its website.
 
 # Bartender
 # Menu bar manager.
 # https://www.macbartender.com/
 brew cask install bartender
+
+# BetterZip 4
+# > the next generation of archiving
+# https://macitbetter.com/
+brew cask install betterzip
 
 # Beyond Compare
 # File and folder comparison tool.
@@ -45,8 +50,13 @@ brew cask install beyond-compare
 
 # Boom 2
 # System-wide volume booster and equalizer.
-# http://globaldelight.com/boom/
+# https://www.globaldelight.com/boom/index.php
 brew cask install boom
+
+# Boostnote
+# The intuitive and stylish note taking tool for developers.
+# https://boostnote.io/
+brew cask install boostnote
 
 # Clipy
 # Clipboard extension app for macOS.
@@ -55,22 +65,22 @@ brew cask install clipy
 
 # Skala Color
 # Color picker.
-# http://bjango.com/mac/skalacolor/
+# https://bjango.com/mac/skalacolor/
 brew cask install colorpicker-skalacolor
 
 # ControllerMate
 # Input device remapper.
-# http://orderedbytes.com/controllermate/
+# https://www.orderedbytes.com/controllermate/
 brew cask install controllermate
 
 # DaisyDisk
 # Disk space analyzer.
-# http://daisydiskapp.com/
+# https://daisydiskapp.com/
 brew cask install daisydisk
 
 # Default Folder X
 # Save dialog box enhancer.
-# http://www.stclairsoft.com/DefaultFolderX/
+# https://www.stclairsoft.com/DefaultFolderX/
 brew cask install default-folder-x
 
 # Dropbox
@@ -85,12 +95,12 @@ brew cask install firefoxdeveloperedition
 
 # Flux
 # Screen color temperature manager.
-# http://justgetflux.com
+# https://justgetflux.com/
 brew cask install flux
 
 # Google Chrome
 # Web browser.
-# http://www.google.com/chrome/
+# https://www.google.com/chrome/
 brew cask install google-chrome
 
 # Google Drive
@@ -105,12 +115,12 @@ brew cask install google-hangouts
 
 # HyperDock
 # Dock enhancer and window placement manager.
-# http://hyperdock.bahoom.com/
+# https://bahoom.com/hyperdock/
 brew cask install hyperdock
 
-# iStat Menus 5
+# iStat Menus
 # System monitor.
-# http://bjango.com/mac/istatmenus/
+# https://bjango.com/mac/istatmenus/
 brew cask install istat-menus
 
 # KeepingYouAwake
@@ -120,7 +130,7 @@ brew cask install keepingyouawake
 
 # LibreOffice
 # Office suite.
-# http://www.libreoffice.org/
+# https://www.libreoffice.org/
 brew cask install libreoffice
 
 # ngrok
@@ -133,25 +143,35 @@ brew cask install ngrok
 # http://brettterpstra.com/projects/nvalt/
 brew cask install nvalt
 
+# Oni
+# Mouse-free productivity with the perks of modern code editors.
+# https://www.onivim.io/
+brew cask install oni
+
 # OnyX
 # System maintenance utility.
-# http://www.titanium.free.fr/onyx.html
+# https://www.titanium-software.fr/en/index.html
 brew cask install onyx
 
 # Opera
 # Web browser.
-# http://www.opera.com/
+# https://www.opera.com/
 brew cask install opera
 
 # # Pacifist
 # # Archive file manager.
-# # http://charlessoft.com/
+# # https://charlessoft.com/
 # brew cask install pacifist
 
 # Path Finder
 # File manager.
-# http://cocoatech.com/pathfinder/
+# https://cocoatech.com/
 brew cask install path-finder
+
+# Paw
+# HTTP client that lets you test and describe the APIs you build or consume.
+# https://paw.cloud/
+brew cask install paw
 
 # # Sequel Pro
 # # MySQL database manager.
@@ -165,15 +185,15 @@ brew cask install spectacle
 
 # The Unarchiver
 # Archive file extractor.
-# http://unarchiver.c3.cx/unarchiver
+# https://theunarchiver.com/
 brew cask install the-unarchiver
 
 # Transmit
 # File transfer tool.
-# http://panic.com/transmit/
+# https://panic.com/transmit/
 brew cask install transmit
 
 # VLC
 # Media player.
-# http://www.videolan.org/vlc/
+# https://www.videolan.org/vlc/
 brew cask install vlc

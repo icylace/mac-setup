@@ -9,7 +9,7 @@ blue '
 t 'Checking if Xcode is installed...'
 
 # Check if Xcode is installed correctly.
-# http://apple.stackexchange.com/a/219508
+# https://apple.stackexchange.com/a/219508
 if ! {                                  \
   type xcode-select >&- &&              \
   xpath=$(xcode-select --print-path) && \
@@ -36,7 +36,7 @@ blue '
 if ! we_have brew ; then
   # Homebrew
   # Package manager for OS X.
-  # http://brew.sh
+  # https://brew.sh/
   t 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
@@ -51,7 +51,7 @@ brew tap homebrew/dupes
 brew update
 
 t 'Installing formulas...'
-source brews/*.sh
+source brews.sh
 
 # ------------------------------------------------------------------------------
 
@@ -59,16 +59,13 @@ blue '
 +-------------------------------------------------------------------------------
 :  Homebrew Cask
 :  https://brew.sh/
-:  https://caskroom.github.io/
+:  https://github.com/Homebrew/homebrew-cask
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# Install Homebrew-Cask.
-brew tap caskroom/cask
-
 # Access alternate versions of programs.
-# https://github.com/caskroom/homebrew-versions
-brew tap caskroom/versions
+# https://github.com/Homebrew/homebrew-cask-versions
+brew tap homebrew/cask-versions
 
 # Make sure our Homebrew Cask recipes are updated.
 brew update
@@ -110,7 +107,7 @@ gem install lolcat
 
 # # FFmpeg
 # # Records, converts, and streams audio and video.
-# # http://ffmpeg.org/
+# # https://ffmpeg.org/
 # brew install ffmpeg
 
 
@@ -125,7 +122,7 @@ gem install lolcat
 
 # # Default Folder X
 # # Open and Save dialog box enhancer.
-# # http://stclairsoft.com/DefaultFolderX/
+# # https://stclairsoft.com/DefaultFolderX/
 # #default-folder-x
 # # There is a Cask for it but it needs fixing.  The workaround is to install manually.
 # # TODO
@@ -135,10 +132,10 @@ gem install lolcat
 
 # # CheatSheet
 # # Lists all active shortcut keys for the current application.
-# # http://grandtotal.biz/CheatSheet/
+# # https://grandtotal.biz/CheatSheet/
 # brew cask install cheatsheet
 
 # # Shortcat
 # # Keyboard tool that lets you "Click" buttons and control your apps.
-# # http://shortcatapp.com/
+# # https://shortcatapp.com/
 # brew cask install shortcat

@@ -19,7 +19,6 @@ nix-env --install --attr nixpkgs.php72Packages.composer
 
 sudo composer self-update
 
-
 # # Drush
 # # Shell interface for Drupal.
 # # https://github.com/drush-ops/drush

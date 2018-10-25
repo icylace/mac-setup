@@ -4,7 +4,7 @@ blue '
 +-------------------------------------------------------------------------------
 :  Path Finder
 :  File manager.
-:  http://cocoatech.com/pathfinder/
+:  https://cocoatech.com/
 + - - - - - - - - - - - - - - - - - - - -
 '
 

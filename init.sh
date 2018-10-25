@@ -4,7 +4,7 @@
 [[ "$OSTYPE" =~ ^darwin ]] || return 1
 
 # Use aliases in non-interactive shells.
-# http://stackoverflow.com/a/1615973/1935675
+# https://stackoverflow.com/a/1615973
 shopt -s expand_aliases
 
 #
@@ -41,11 +41,13 @@ light_gray() { e "$@" '\e[0;37m' ; }
 #
 # Example usage:
 #
-#     if we_have foo ; then
-#       # foo exists
-#     else
-#       # foo doesn't exist
-#     if
+# ```
+# if we_have foo ; then
+#   # foo exists
+# else
+#   # foo doesn't exist
+# if
+# ```
 #
 we_have() {
   return $(type "$@" > /dev/null 2>&1)

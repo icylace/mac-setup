@@ -13,18 +13,8 @@ blue '
 # using `defaults delete com.apple.dock expose-animation-duration`.
 #
 # Heavy influence and much copying from:
-# - https://mths.be/osx
-# - http://jasahackintosh.wordpress.com/2014/09/04/tweak-os-x-from-command-terminal/
-# - http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163
-# - http://macguide.org/
 # - http://osxdaily.com/2010/02/15/disable-the-crash-reporter-dialog-in-mac-os-x/
 # - http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
-# - http://secrets.blacktree.com/edit?id=238762
-# - http://wp.secretnest.info/archives/3129
-# - http://www.amsys.co.uk/2013/blog/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
-# - http://www.maclife.com/article/howtos/how-to-customize-dock
-# - http://www.roaminggenius.com/blog/os-x-tip-resetting-launchpad-layout/
-# - http://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
 # - https://gist.github.com/nicerobot/1193218
 # - https://gist.github.com/zenspider/8ee55e7c00b9201dd84f
 # - https://github.com/divio/osx-bootstrap/blob/master/core/defaults.sh
@@ -35,7 +25,13 @@ blue '
 # - https://github.com/trusche/dotfiles/blob/master/osx
 # - https://github.com/virtualswede/osx-bootstrap
 # - https://github.com/ymendel/dotfiles/tree/master/osx
-#
+# - https://jasahackintosh.wordpress.com/2014/09/04/tweak-os-x-from-command-terminal/
+# - https://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163
+# - https://macguide.org/
+# - https://mths.be/osx
+# - https://wp.secretnest.info/archives/3129
+# - https://www.amsys.co.uk/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
+# - https://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
 
 # We're focusing on OS X so abort if we're not in OS X.
 [[ $OSTYPE =~ ^darwin ]] || return 1
@@ -64,7 +60,7 @@ write_defaults() {
   # Determine the type of the value.
   else
     value=$3
-    # http://stackoverflow.com/a/19116862/1935675
+    # https://stackoverflow.com/a/19116862
     if [ "$value" -eq "$value" ] 2>/dev/null ; then
       type_option='-int'
     elif [[ $value == true || $value == false ]] ; then
@@ -130,11 +126,11 @@ chflags nohidden "$HOME/Library/"
 
 # t 'Remove duplicates from the "Open With" menu.'
 # /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user ; killall Finder
-# # http://macguide.org/#Remove-Duplicates-from-the-Open-With-Menu
+# # https://macguide.org/#Remove-Duplicates-from-the-Open-With-Menu
 
 # t 'Re-index Spotlight.'
 # sudo mdutil -E -p "/Volumes/Macintosh HD"
-# # http://macguide.org/#Re-Index-Spotlight
+# # https://macguide.org/#Re-Index-Spotlight
 
 # t 'Disabling local Time Machine backups.'
 # hash tmutil &> /dev/null && sudo tmutil disablelocal
@@ -172,7 +168,7 @@ chflags nohidden "$HOME/Library/"
 # sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Your Message"
 # sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText
 
-# http://www.defaults-write.com/safari-highlight-non-retina-images/
+# https://www.defaults-write.com/safari-highlight-non-retina-images/
 
 # t 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true

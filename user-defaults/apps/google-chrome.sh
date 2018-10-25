@@ -4,7 +4,7 @@ blue '
 +-------------------------------------------------------------------------------
 :  Google Chrome
 :  Web browser.
-:  http://www.google.com/chrome/
+:  https://www.google.com/chrome/
 + - - - - - - - - - - - - - - - - - - - -
 '
 

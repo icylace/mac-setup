@@ -7,15 +7,14 @@ blue '
 '
 
 # Python 2
-# A programming language.
+# Interpreted, interactive, object-oriented programming language
 # https://www.python.org/
 nix-env --install --attr nixpkgs.python27Full
 
 # Python 3
-# A programming language.
+# Interpreted, interactive, object-oriented programming language
 # https://www.python.org/
 nix-env --install --attr nixpkgs.python37Full
-
 
 # # pyenv
 # # pyenv lets you easily switch between multiple versions of Python.

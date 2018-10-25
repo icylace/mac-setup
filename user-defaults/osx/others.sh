@@ -43,10 +43,9 @@ defaults write com.apple.addressbook ABShowDebugMenu -bool true
 
 t 'Avoid creating .DS_Store files on network volumes.'
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-# http://support.apple.com/en-us/ht1629
-# http://www.chrisnovoa.com/os-x-lion-ds_store-disabling/
-# http://www.defaults-write.com/disable-the-creation-of-ds_store-files/
-# http://apple.stackexchange.com/questions/107969/single-purpose-app-to-prevent-ds-store-creation-under-mavericks#comment126770_108064
+# https://support.apple.com/en-us/HT1629
+# https://www.defaults-write.com/disable-the-creation-of-ds_store-files/
+# https://apple.stackexchange.com/questions/107969/single-purpose-app-to-prevent-ds-store-creation-under-mavericks#comment126770_108064
 # https://www.aorensoftware.com/blog/2011/12/24/death-to-ds_store/
 
 t 'Enable the debug menu in Disk Utility.'

@@ -4,7 +4,7 @@ blue '
 +-------------------------------------------------------------------------------
 :  Bartender
 :  Menu bar manager.
-:  http://www.macbartender.com/
+:  https://www.macbartender.com/
 + - - - - - - - - - - - - - - - - - - - -
 '
 

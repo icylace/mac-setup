@@ -4,22 +4,23 @@
 #  Setup a Mac.
 # ------------------------------------------------------------------------------
 #
+#  TODO: update instructions
+#
 #  First, make sure OS X is updated and restart if necessary:
 #
 #      sudo softwareupdate -i -a
 #
 #  To use this setup script, open up ~/Applications/Utilities/Terminal then run:
 #
-#      bash <(curl -s https://raw.githubusercontent.com/icylace/dotfiles/master/mac-setup/setup-mac.sh)
+#      bash <(curl -sSL https://raw.githubusercontent.com/icylace/dotfiles/master/mac-setup/setup-mac.sh)
 #
 #  Heavy influence and much copying from:
-#  - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
-#  - http://www.defaults-write.com/
+#  - https://gist.github.com/brandonb927/3195465
 #  - https://github.com/holman/dotfiles
 #  - https://github.com/kevinrenskers/dotfiles
 #  - https://github.com/travi/dotfiles
 #  - https://github.com/virtualswede/osx-bootstrap
-#  - https://gist.github.com/brandonb927/3195465
+#  - https://www.defaults-write.com/
 #
 
 source 'init.sh'
@@ -65,6 +66,32 @@ source 'homebrew/homebrew.sh'
 curl https://nixos.org/nix/install | sh
 
 source nix/*.sh
+
+
+# ------------------------------------------------------------------------------
+
+# Alacritty
+# A cross-platform, GPU-accelerated terminal emulator
+# https://github.com/jwilm/alacritty
+
+# https://github.com/jwilm/alacritty#manual-installation
+git clone https://github.com/jwilm/alacritty.git /tmp/alacritty
+cd /tmp/alacritty
+
+# https://github.com/jwilm/alacritty#macos
+make app
+cp -r target/release/osx/Alacritty.app "$HOME/Applications/"
+
+# ------------------------------------------------------------------------------
+
+# twa
+# A tiny web auditor with strong opinions.
+# https://github.com/trailofbits/twa
+git clone https://github.com/trailofbits/twa.git /tmp/twa
+ln -s /tmp/twa/twa /usr/local/bin/twa
+ln -s /tmp/twa/tscore /usr/local/bin/tscore
+
+# ------------------------------------------------------------------------------
 
 
 source 'appledev.sh'
@@ -128,7 +155,7 @@ source 'user-defaults/defaults.sh'
 
 # Synergy Pro
 # Shares your mouse and keyboard between multiple computers.
-# http://symless.com/synergy/
+# https://symless.com/synergy
 
 
 
@@ -161,7 +188,7 @@ source 'user-defaults/defaults.sh'
 #
 # Facebook
 # 1.  dark-facebook 2
-#     http://dtinth.github.io/dark-facebook/
+#     https://dtinth.github.io/dark-facebook/
 # 2.  Facebook Declutter
 #     https://userstyles.org/styles/100032/facebook-declutter
 # 3.  MINIMAL FACEBOOK PRO - CLEAN DARK /by robertgall/

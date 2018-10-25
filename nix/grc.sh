@@ -14,7 +14,7 @@ nix-env --install --attr nixpkgs.grc
 if we_have grc ; then
   # Make sure `grc` knows about our custom color configurations.
 
-  # http://stackoverflow.com/a/4990185/1935675
+  # https://stackoverflow.com/a/4990185
   cat <<EOF >> "$HOME/.nix-profile/etc/grc.conf"
 
 # hexdump

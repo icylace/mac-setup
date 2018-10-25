@@ -8,7 +8,7 @@ blue '
 
 # iTerm2
 # Terminal emulator.
-# http://iterm2.com/
+# https://iterm2.com/
 brew cask install iterm2
 
 # TODO:
