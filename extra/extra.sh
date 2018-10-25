@@ -48,20 +48,15 @@ brew install no-more-secrets
 # https://kainjow.com/
 brew cask install bootchamp
 
-# Integrity
-# Link checker for websites.
-# http://peacockmedia.co.uk/integrity/
-brew cask install integrity
-
 # Neat
 # Document scanner and manager.
 # https://www.neat.com/
 brew cask install neat
 
-# Skype
-# VoIP and video conferencing client.
-# https://www.skype.com/en/
-brew cask install skype
+# # Skype
+# # VoIP and video conferencing client.
+# # https://www.skype.com/en/
+# brew cask install skype
 
 # # Transmission
 # # BitTorrent client.

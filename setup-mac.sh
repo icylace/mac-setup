@@ -149,13 +149,8 @@ source 'user-defaults/defaults.sh'
 # https://github.com/steakknife/breakaway
 # Fork of http://mutablecode.com/apps/breakaway.html
 
-# Karabiner
-# A powerful and stable keyboard customizer for macOS.
-# https://pqrs.org/osx/karabiner/
 
-# Synergy Pro
-# Shares your mouse and keyboard between multiple computers.
-# https://symless.com/synergy
+
 
 
 

@@ -123,6 +123,11 @@ brew cask install hyperdock
 # https://bjango.com/mac/istatmenus/
 brew cask install istat-menus
 
+# # Karabiner
+# # A powerful and stable keyboard customizer for macOS.
+# # https://pqrs.org/osx/karabiner/
+# brew cask install karabiner-element
+
 # KeepingYouAwake
 # System sleep manager.
 # https://github.com/newmarcel/KeepingYouAwake
@@ -182,6 +187,11 @@ brew cask install paw
 # Window manager.
 # https://www.spectacleapp.com/
 brew cask install spectacle
+
+# Synergy
+# Share one mouse and keyboard between multiple computers
+# https://symless.com/synergy
+brew cask install synergy
 
 # The Unarchiver
 # Archive file extractor.
