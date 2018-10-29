@@ -10,17 +10,17 @@
 # alias +='sudo defaults write /Library/Preferences/com.apple.alf'
 
 # t 'Enable the OS X firewall.'
-# + globalstate -int 1
+# + globalstate 1
 # # Possible values:
 # #   0 = off
 # #   1 = on for specific services
 # #   2 = on for essential services
 
 # t 'Enable Stealth mode.'
-# + stealthenabled -int 1
+# + stealthenabled 1
 
 # t 'Enable Firewall logging.'
-# + loggingenabled -int 1
+# + loggingenabled 1
 
 # t 'Reload the firewall.'
 # launchctl unload /System/Library/LaunchAgents/com.apple.alf.useragent.plist

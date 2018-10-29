@@ -9,7 +9,8 @@ blue '
 # The Haskell Tool Stack
 # Stack is a cross-platform program for developing Haskell projects.
 # https://haskellstack.org/
-nix-env --install --attr nixpkgs.stack
+# nix-env --install --attr nixpkgs.stack
+curl -sSL https://get.haskellstack.org/ | sh
 
 # HLint
 # Haskell source code suggestions
@@ -19,7 +20,7 @@ nix-env --install --attr nixpkgs.hlint
 # ------------------------------------------------------------------------------
 
 # stack --resolver ghc-8.6.1 setup
-stack --resolver nightly-2018-10-19 setup
+stack --resolver nightly-2018-10-29 setup
 
 # ------------------------------------------------------------------------------
 

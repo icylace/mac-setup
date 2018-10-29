@@ -27,3 +27,5 @@ blue '
 brew cask install visual-studio-code
 # Additional steps to install the Visual Studio Code command line tool:
 # https://code.visualstudio.com/docs/editor/command-line
+
+source vscode-extensions-*.sh

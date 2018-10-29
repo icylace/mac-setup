@@ -58,6 +58,11 @@ brew cask install boom
 # https://boostnote.io/
 brew cask install boostnote
 
+# BootChamp
+# Quickly reboots into the Windows.
+# https://kainjow.com/
+brew cask install bootchamp
+
 # Clipy
 # Clipboard extension app for macOS.
 # https://clipy-app.com/
@@ -73,10 +78,10 @@ brew cask install colorpicker-skalacolor
 # https://www.orderedbytes.com/controllermate/
 brew cask install controllermate
 
-# DaisyDisk
-# Disk space analyzer.
-# https://daisydiskapp.com/
-brew cask install daisydisk
+# # DaisyDisk
+# # Disk space analyzer.
+# # https://daisydiskapp.com/
+# brew cask install daisydisk
 
 # Default Folder X
 # Save dialog box enhancer.
@@ -183,10 +188,10 @@ brew cask install paw
 # # http://nightly.sequelpro.com/
 # brew cask install sequel-pro-nightly
 
-# Spectacle
-# Window manager.
-# https://www.spectacleapp.com/
-brew cask install spectacle
+# # Spectacle
+# # Window manager.
+# # https://www.spectacleapp.com/
+# brew cask install spectacle
 
 # Synergy
 # Share one mouse and keyboard between multiple computers

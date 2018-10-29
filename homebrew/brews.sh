@@ -23,7 +23,7 @@ brew install qt5
 git clone --recursive https://github.com/Swordfish90/cool-retro-term.git /tmp/cool-retro-term
 export CPPFLAGS="-I/usr/local/opt/qt5/include"
 export LDFLAGS="-L/usr/local/opt/qt5/lib"
-export PATH=/usr/local/opt/qt5/bin:$PATH
+export PATH="/usr/local/opt/qt5/bin:$PATH"
 cd /tmp/cool-retro-term
 qmake && make
 mkdir cool-retro-term.app/Contents/PlugIns

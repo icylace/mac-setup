@@ -116,7 +116,6 @@ source 'user-defaults/defaults.sh'
 # tinkertool
 # clamxav
 # hex-fiend - useful to me ?
-# skim - useful to me ?
 # carbon-copy-cloner - use time machine instead ?
 # soundflower - still useful ?
 
@@ -149,8 +148,13 @@ source 'user-defaults/defaults.sh'
 # https://github.com/steakknife/breakaway
 # Fork of http://mutablecode.com/apps/breakaway.html
 
+# Dark Boot
+# Make your Macs boot and login screens pop
+# https://www.macenhance.com/darkboot
 
-
+# Xcode
+# The standard IDE for developing for Apple platforms.
+# https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
 
 

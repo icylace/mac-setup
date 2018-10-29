@@ -13,8 +13,6 @@ nix-env --install --attr nixpkgs.graphviz
 brew tap passy/givegif
 brew install givegif
 
-
-
 # # Python
 # # A programming language.
 # # https://www.python.org/
@@ -43,15 +41,10 @@ brew install no-more-secrets
 #  Other stuff.
 # ------------------------------------------------------------------------------
 
-# BootChamp
-# Quickly reboots into the Windows.
-# https://kainjow.com/
-brew cask install bootchamp
-
-# Neat
-# Document scanner and manager.
-# https://www.neat.com/
-brew cask install neat
+# # Neat
+# # Document scanner and manager.
+# # https://www.neat.com/
+# brew cask install neat
 
 # # Skype
 # # VoIP and video conferencing client.
@@ -77,12 +70,6 @@ brew cask install neat
 # vagrant plugin install vagrant-vbguest
 # # https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
 # vagrant plugin install vagrant-share --plugin-version 1.1.8
-
-
-
-
-
-
 
 
 # ------------------------------------------------------------------------------

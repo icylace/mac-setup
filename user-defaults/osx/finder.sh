@@ -17,7 +17,7 @@ t 'Show hidden files.'
 # t 'Hide Desktop icons.'
 # + CreateDesktop false
 
-t 'Disable window animations and Get Info animations.'
+t 'Disable window animations and "Get Info" animations.'
 + DisableAllAnimations true
 
 # t 'Empty Trash securely by default.'

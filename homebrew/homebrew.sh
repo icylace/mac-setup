@@ -85,13 +85,14 @@ brew cask cleanup
 # ------------------------------------------------------------------------------
 
 source specific/*.sh
+source specific/vscode/vscode.sh
 
 # ------------------------------------------------------------------------------
 
-# lolcat
-# Prints colorized version of input.
-# https://github.com/busyloop/lolcat
-gem install lolcat
+# # lolcat
+# # Prints colorized version of input.
+# # https://github.com/busyloop/lolcat
+# gem install lolcat
 
 
 # # Activate the Quick Look plugins.
@@ -105,10 +106,19 @@ gem install lolcat
 
 
 
-# # FFmpeg
-# # Records, converts, and streams audio and video.
-# # https://ffmpeg.org/
-# brew install ffmpeg
+
+
+
+
+# TODO:
+# - consider including ripgrep
+#   - https://github.com/BurntSushi/ripgrep
+#   - http://blog.burntsushi.net/ripgrep/
+# - consider using homebrew to install exa
+
+
+
+
 
 
 
@@ -127,8 +137,6 @@ gem install lolcat
 # # There is a Cask for it but it needs fixing.  The workaround is to install manually.
 # # TODO
 # # - verify if this is still true
-
-# lighttable
 
 # # CheatSheet
 # # Lists all active shortcut keys for the current application.

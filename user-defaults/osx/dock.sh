@@ -96,7 +96,9 @@ defaults delete com.apple.dock persistent-others
 # TODO
 # - is this still necessary?
 t 'Reset Launchpad.  Pre-Yosemite.'
-[ -e $HOME/Library/Application\ Support/Dock/*.db ] && rm $HOME/Library/Application\ Support/Dock/*.db
+if [ -e $HOME/Library/Application\ Support/Dock/*.db ] ; then
+  rm $HOME/Library/Application\ Support/Dock/*.db
+fi
 
 t 'Reset Launchpad.  Yosemite.'
 + ResetLaunchPad true

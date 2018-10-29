@@ -15,6 +15,11 @@ nix-env --install --attr nixpkgs.bench
 # http://byobu.co/
 nix-env --install --attr nixpkgs.byobu
 
+# di
+# Disk information utility; displays everything 'df' does and more
+# https://gentoo.com/di/
+nix-env --install --attr nixpkgs.di
+
 # Elvish
 # A friendly and expressive Unix shell
 # https://elv.sh/

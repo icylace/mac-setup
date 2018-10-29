@@ -49,6 +49,8 @@ light_gray() { e "$@" '\e[0;37m' ; }
 # if
 # ```
 #
+# TODO: check that it works in more cases
+#
 we_have() {
   return $(type "$@" > /dev/null 2>&1)
 }
