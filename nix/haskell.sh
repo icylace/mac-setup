@@ -34,11 +34,19 @@ stack hoogle generate && stack hoogle --rebuild
 
 # ------------------------------------------------------------------------------
 
-# intero
-# Complete interactive development program for Haskell
-# https://github.com/commercialhaskell/intero
-# https://github.com/commercialhaskell/intero/blob/master/TOOLING.md#installing
-stack build intero
+# # intero
+# # Complete interactive development program for Haskell
+# # https://github.com/commercialhaskell/intero
+# # https://github.com/commercialhaskell/intero/blob/master/TOOLING.md#installing
+# stack build intero
+
+
+
+# pretty-show
+# Tools for working with derived `Show` instances and generic inspection
+# of values.
+# http://hackage.haskell.org/package/pretty-show
+stack build pretty-show
 
 
 

@@ -55,23 +55,23 @@ source brews.sh
 
 # ------------------------------------------------------------------------------
 
-blue '
-+-------------------------------------------------------------------------------
-:  Homebrew Cask
-:  https://brew.sh/
-:  https://github.com/Homebrew/homebrew-cask
-+ - - - - - - - - - - - - - - - - - - - -
-'
+# blue '
+# +-------------------------------------------------------------------------------
+# :  Homebrew Cask
+# :  https://brew.sh/
+# :  https://github.com/Homebrew/homebrew-cask
+# + - - - - - - - - - - - - - - - - - - - -
+# '
 
-# Access alternate versions of programs.
-# https://github.com/Homebrew/homebrew-cask-versions
-brew tap homebrew/cask-versions
+# # Access alternate versions of programs.
+# # https://github.com/Homebrew/homebrew-cask-versions
+# brew tap homebrew/cask-versions
 
-# Make sure our Homebrew Cask recipes are updated.
-brew update
+# # Make sure our Homebrew Cask recipes are updated.
+# brew update
 
-t 'Installing casks...'
-source casks/*.sh
+# t 'Installing casks...'
+# source casks/*.sh
 
 # ------------------------------------------------------------------------------
 
@@ -89,10 +89,6 @@ source specific/vscode/vscode.sh
 
 # ------------------------------------------------------------------------------
 
-# # lolcat
-# # Prints colorized version of input.
-# # https://github.com/busyloop/lolcat
-# gem install lolcat
 
 
 # # Activate the Quick Look plugins.
@@ -102,48 +98,3 @@ source specific/vscode/vscode.sh
 # Upgrading Casks
 # https://github.com/caskroom/homebrew-cask/issues/7884#issuecomment-66114740
 # brew cask uninstall --force <token> && brew cask install <token>.
-
-
-
-
-
-
-
-
-# TODO:
-# - consider including ripgrep
-#   - https://github.com/BurntSushi/ripgrep
-#   - http://blog.burntsushi.net/ripgrep/
-# - consider using homebrew to install exa
-
-
-
-
-
-
-
-#
-# Other casks.
-#
-
-# https://github.com/ttscoff/reiki/blob/master/reiki.plugin.bash#L298
-
-# https://gist.github.com/brandonb927/3195465
-
-# # Default Folder X
-# # Open and Save dialog box enhancer.
-# # https://stclairsoft.com/DefaultFolderX/
-# #default-folder-x
-# # There is a Cask for it but it needs fixing.  The workaround is to install manually.
-# # TODO
-# # - verify if this is still true
-
-# # CheatSheet
-# # Lists all active shortcut keys for the current application.
-# # https://grandtotal.biz/CheatSheet/
-# brew cask install cheatsheet
-
-# # Shortcat
-# # Keyboard tool that lets you "Click" buttons and control your apps.
-# # https://shortcatapp.com/
-# brew cask install shortcat

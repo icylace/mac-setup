@@ -5,31 +5,39 @@
 # https://github.com/sharkdp/bat
 brew install bat
 
+# catimg
+# Prints images in the terminal by using Unicode characters.
+# https://github.com/posva/catimg
+brew install catimg
+
 # hyperfine
 # A command-line benchmarking tool
 # https://github.com/sharkdp/hyperfine
 brew install hyperfine
 
-# Qt
-# Cross-platform application and UI framework
-# https://www.qt.io/
-brew install qt5
+# spark
+# Sparklines for the shell
+# https://zachholman.com/spark/
+brew install spark
+
+# # terminal-notifier
+# # Send macOS User Notifications from the command-line
+# # https://github.com/julienXX/terminal-notifier
+# brew install terminal-notifier
 
 # ------------------------------------------------------------------------------
+#  Extensions to Homebrew
+# ------------------------------------------------------------------------------
 
-# cool-retro-term
-# A good looking terminal emulator which mimics the old cathode display...
-# https://github.com/Swordfish90/cool-retro-term
-git clone --recursive https://github.com/Swordfish90/cool-retro-term.git /tmp/cool-retro-term
-export CPPFLAGS="-I/usr/local/opt/qt5/include"
-export LDFLAGS="-L/usr/local/opt/qt5/lib"
-export PATH="/usr/local/opt/qt5/bin:$PATH"
-cd /tmp/cool-retro-term
-qmake && make
-mkdir cool-retro-term.app/Contents/PlugIns
-cp -r qmltermwidget/QMLTermWidget cool-retro-term.app/Contents/PlugIns
-cp -r cool-retro-term.app "$HOME/Applications"
+# brew-graph
+# Creates a simple dependency graph of Homebrew formulae.
+# https://github.com/martido/brew-graph
+brew install martido/brew-graph/brew-graph
 
+# homebrew-rmtree
+# Remove a formula and its unused dependencies
+# https://github.com/beeftornado/homebrew-rmtree
+brew tap beeftornado/rmtree
 
 # ------------------------------------------------------------------------------
 #  Updated versions of programs that come with macOS.
@@ -49,7 +57,6 @@ nix-env --install --attr nixpkgs.coreutils-prefixed
 # # Searches input files for text matching a specified pattern.
 # # https://www.gnu.org/software/grep/
 # nix-env --install --attr nixpkgs.gnugrep
-
 
 # ------------------------------------------------------------------------------
 #  Utilities specific to macOS.

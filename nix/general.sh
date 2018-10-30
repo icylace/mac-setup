@@ -5,6 +5,11 @@
 # http://catb.org/~esr/ascii/
 nix-env --install --attr nixpkgs.ascii
 
+# GNU Aspell
+# Spell checker for many languages
+# http://aspell.net/
+nix-env --install --attr nixpkgs.aspell
+
 # Bench
 # Command-line benchmark tool
 # https://github.com/Gabriel439/bench

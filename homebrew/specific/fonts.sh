@@ -65,8 +65,6 @@ nix-env --install --attr nixpkgs.ttfautohint
 # https://github.com/caryll/otfcc
 nix-env --install --attr nixpkgs.otfcc
 
-# ------------------------------------------------------------------------------
-
 # Iosevka
 # Slender typeface for code, from code.
 # https://be5invis.github.io/Iosevka/
