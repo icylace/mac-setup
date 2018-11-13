@@ -41,41 +41,34 @@ if ! we_have brew ; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Access more recent versions of some programs that come with OS X.
-brew tap homebrew/dupes
-
-# # Access PHP-related formulas.
-# brew tap homebrew/homebrew-php
+# # Access more recent versions of some programs that come with OS X.
+# brew tap homebrew/dupes
 
 # Make sure our Homebrew formulas are updated.
 brew update
 
 t 'Installing formulas...'
 source brews.sh
+source cdock.sh
+source docker.sh
+# source extras.sh
+source fonts.sh
+# source fun.sh
+source general-casks.sh
+source general.sh
+source git.sh
+source homebrew.sh
+source iterm2.sh
+source kakoune.sh
+source mas.sh
+source node.sh
+source php.sh
+source python.sh
+source ruby.sh
+source sublime-text.sh
+source vscode/vscode.sh
 
-# ------------------------------------------------------------------------------
-
-# blue '
-# +-------------------------------------------------------------------------------
-# :  Homebrew Cask
-# :  https://brew.sh/
-# :  https://github.com/Homebrew/homebrew-cask
-# + - - - - - - - - - - - - - - - - - - - -
-# '
-
-# # Access alternate versions of programs.
-# # https://github.com/Homebrew/homebrew-cask-versions
-# brew tap homebrew/cask-versions
-
-# # Make sure our Homebrew Cask recipes are updated.
-# brew update
-
-# t 'Installing casks...'
-# source casks/*.sh
-
-# ------------------------------------------------------------------------------
-
-# Check if there are problems.
+# Check if there are any problems.
 brew doctor
 
 # Make sure we longer have any unnecessary files laying around.
@@ -84,16 +77,8 @@ brew cask cleanup
 
 # ------------------------------------------------------------------------------
 
-source specific/*.sh
-source specific/vscode/vscode.sh
-
-# ------------------------------------------------------------------------------
-
-
-
 # # Activate the Quick Look plugins.
 # qlmanage -r
-
 
 # Upgrading Casks
 # https://github.com/caskroom/homebrew-cask/issues/7884#issuecomment-66114740

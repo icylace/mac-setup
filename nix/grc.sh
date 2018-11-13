@@ -11,15 +11,13 @@ blue '
 # https://github.com/garabik/grc
 nix-env --install --attr nixpkgs.grc
 
-if we_have grc ; then
-  # Make sure `grc` knows about our custom color configurations.
+cp "$HOME/.nix-profile/etc/grc.conf" "$HOME/.grc/grc.conf"
 
-  # https://stackoverflow.com/a/4990185
-  cat <<EOF >> "$HOME/.nix-profile/etc/grc.conf"
+# https://stackoverflow.com/a/4990185
+# https://superuser.com/a/136653
+cat <<EOF | sudo tee -a "$HOME/.grc/grc.conf"
 
 # hexdump
 (^|[/\w\.]+/)hexdump\s?
 conf.hexdump
 EOF
-
-fi

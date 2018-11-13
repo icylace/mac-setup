@@ -6,13 +6,6 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# FontBase
-# Font management. Perfected.
-# https://fontba.se/
-brew cask install fontbase
-
-# ------------------------------------------------------------------------------
-
 # homebrew-cask-fonts
 # 🖋 Casks of Ｆ🅾𝓝𝐓𝚂
 # https://github.com/Homebrew/homebrew-cask-fonts
@@ -38,6 +31,9 @@ brew cask install font-hack
 # https://github.com/i-tu/Hasklig
 brew cask install font-hasklig
 
+# TODO:
+# font-inconsolata-g-for-powerline
+
 # Input
 # Fonts for code from DJR & Font Bureau
 # http://input.fontbureau.com/
@@ -54,6 +50,8 @@ brew cask install font-m-plus
 brew cask install font-source-code-pro
 
 # ------------------------------------------------------------------------------
+#  Create a custom variant of the Iosevka font.
+# ------------------------------------------------------------------------------
 
 # ttfautohint
 # An automatic hinter for TrueType fonts
@@ -69,12 +67,44 @@ nix-env --install --attr nixpkgs.otfcc
 # Slender typeface for code, from code.
 # https://be5invis.github.io/Iosevka/
 # https://github.com/be5invis/Iosevka
-# brew cask install font-iosevka
 git clone https://github.com/be5invis/Iosevka /tmp/iosevka
 cd /tmp/iosevka
-npm install
-# TODO: create "private-build-plans.toml"
-npm run build -- contents:iosevka-icylace
-cp -r /tmp/iosevka/dist/iosevka-icylace/ttf/*.ttf "$HOME/Library/Fonts"
 
-# ------------------------------------------------------------------------------
+# https://stackoverflow.com/a/4990185
+cat <<EOF >> "private-build-plans.toml"
+[buildPlans.iosevka-icylace]
+family = "Iosevka icylace"
+design = [
+  "sans",
+  "expanded",
+  "ligset-haskell",
+  "leading-1500",
+  "v-a-doublestorey",
+  "v-f-tailed",
+  "v-g-opendoublestorey",
+  "v-i-hooky",
+  "v-l-zshaped",
+  "v-m-shortleg",
+  "v-q-taily",
+  "v-t-standard",
+  "v-y-straight",
+  "v-zero-dotted",
+  "v-one-serifed",
+  "v-three-twoarks",
+  "v-tilde-low",
+  "v-asterisk-low",
+  "v-paragraph-high",
+  "v-caret-high",
+  "v-underscore-high",
+  "v-at-long",
+  "v-eszet-sulzbacher",
+  "v-brace-curly",
+  "v-dollar-throughcap",
+  "v-numbersign-slanted"
+]
+EOF
+
+npm install
+npm run build -- contents:iosevka-icylace
+
+cp -r /tmp/iosevka/dist/iosevka-icylace/ttf/*.ttf "$HOME/Library/Fonts"

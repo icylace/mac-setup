@@ -41,7 +41,7 @@ light_gray() { e "$@" '\e[0;37m' ; }
 #
 # Example usage:
 #
-# ```
+# ```shell
 # if we_have foo ; then
 #   # foo exists
 # else

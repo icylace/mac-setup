@@ -23,7 +23,7 @@ brew install mame
 # https://github.com/jmoon018/PacVim
 brew install pacvim
 
-
+# TODO:
 # might be best to install this manually
 # brew cask install battle-net
 
@@ -42,14 +42,21 @@ brew cask install openemu
 # https://store.steampowered.com/about/
 brew cask install steam
 
-
 # ------------------------------------------------------------------------------
-#  Apps to install manually via the Mac App Store.
+#  From the Mac App Store.
 # ------------------------------------------------------------------------------
 
 # Joystick Show
-# http://chibatacreations.com/app/joystickshow/
+# Joystick Show is a Mac OS X app that lets you test and visualize any joysticks
+# and gamepads in a very easy and nice way.
+# https://chibatacreations.com/app/joystickshow/
+mas install 515886877
 
+# A Knight's Move
+# A Knight’s Move is a puzzle game where you have to move your knight across a
+# board to a target square using the same movements as a knight in chess.
+# https://troz.net/knightsmove/
+mas install 533321133
 
 # ------------------------------------------------------------------------------
 #  Games to install manually.
@@ -59,14 +66,14 @@ brew cask install steam
 # Aleph One is the open source continuation of Bungie’s Marathon 2 game engine.
 # https://alephone.lhowon.org/
 
-
-
-
-
-
 # ------------------------------------------------------------------------------
 #  Fun stuff.
 # ------------------------------------------------------------------------------
+
+# ASCIIQuarium
+# Aquarium animation in ASCII art
+# https://robobunny.com/projects/asciiquarium/html/
+brew install asciiquarium
 
 # givegif
 # Find and display GIFs from the command line (requires iTerm >= 2.9).
@@ -74,16 +81,16 @@ brew cask install steam
 brew tap passy/givegif
 brew install givegif
 
+# lolcat
+# Prints colorized version of input.
+# https://github.com/busyloop/lolcat
+gem install lolcat
+
 # No More Secrets
 # The decrypting text effect from the movie "Sneakers".
 # https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35
 # https://github.com/bartobri/no-more-secrets
 brew install no-more-secrets
-
-# ASCIIQuarium
-# Aquarium animation in ASCII art
-# https://robobunny.com/projects/asciiquarium/html/
-brew install asciiquarium
 
 # ------------------------------------------------------------------------------
 

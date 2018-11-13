@@ -4,23 +4,27 @@
 #  Setup a Mac.
 # ------------------------------------------------------------------------------
 #
-#  TODO: update instructions
+# TODO: update instructions
 #
-#  First, make sure OS X is updated and restart if necessary:
+# First, make sure OS X is updated and restart if necessary:
 #
-#      sudo softwareupdate -i -a
+# ```shell
+# sudo softwareupdate -i -a
+# ```
 #
-#  To use this setup script, open up ~/Applications/Utilities/Terminal then run:
+# To use this setup script, open up ~/Applications/Utilities/Terminal then run:
 #
-#      bash <(curl -sSL https://raw.githubusercontent.com/icylace/dotfiles/master/mac-setup/setup-mac.sh)
+# ```shell
+# bash <(curl -sSL https://raw.githubusercontent.com/icylace/dotfiles/master/mac-setup/setup-mac.sh)
+# ```
 #
-#  Heavy influence and much copying from:
-#  - https://gist.github.com/brandonb927/3195465
-#  - https://github.com/holman/dotfiles
-#  - https://github.com/kevinrenskers/dotfiles
-#  - https://github.com/travi/dotfiles
-#  - https://github.com/virtualswede/osx-bootstrap
-#  - https://www.defaults-write.com/
+# Heavy influence and much copying from:
+# - https://gist.github.com/brandonb927/3195465
+# - https://github.com/holman/dotfiles
+# - https://github.com/kevinrenskers/dotfiles
+# - https://github.com/travi/dotfiles
+# - https://github.com/virtualswede/osx-bootstrap
+# - https://www.defaults-write.com/
 #
 
 source 'init.sh'
@@ -35,12 +39,13 @@ red '
 ###############################################
 '
 
-# proceeding=false
-
 red '
 Have you read through the script you are about to run and
-understood that it will make changes to your computer? (y/n)
+understood that it will make changes to your computer? (y/N)
 '
+
+proceeding=false
+
 read -r response
 case $response in
   [yY]) proceeding=true break;;
@@ -57,16 +62,9 @@ fi
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source 'homebrew/homebrew.sh'
+source homebrew/homebrew.sh
 
-
-# Nix
-# The Purely Functional Package Manager
-# https://nixos.org/nix/
-curl https://nixos.org/nix/install | sh
-
-source nix/*.sh
-
+source nix/nix.sh
 
 # ------------------------------------------------------------------------------
 
@@ -87,16 +85,15 @@ cp -r target/release/osx/Alacritty.app "$HOME/Applications/"
 # twa
 # A tiny web auditor with strong opinions.
 # https://github.com/trailofbits/twa
+# TODO: set things up so we don't need to symlink into `/tmp`
 git clone https://github.com/trailofbits/twa.git /tmp/twa
 ln -s /tmp/twa/twa /usr/local/bin/twa
 ln -s /tmp/twa/tscore /usr/local/bin/tscore
 
 # ------------------------------------------------------------------------------
 
-
-source 'appledev.sh'
+# source 'appledev.sh'
 source 'user-defaults/defaults.sh'
-
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
 # sudo shutdown -r now 'Rebooting now...'
@@ -134,10 +131,10 @@ source 'user-defaults/defaults.sh'
 # sugarsync - still useful ?
 # elephant drive - still useful ?
 
-# celtx - still useful ?
-
-
-
+# Celtx
+# From script to shoot, Celtx kickstarts your production with
+# cloud-based planning tools to create better content faster.
+# https://www.celtx.com/index.html
 
 # ------------------------------------------------------------------------------
 #  Apps to install manually.
@@ -154,7 +151,13 @@ source 'user-defaults/defaults.sh'
 
 # Xcode
 # The standard IDE for developing for Apple platforms.
-# https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+# https://itunes.apple.com/us/app/xcode/id497799835
+
+# Slack
+# The hub for your team and your work
+# https://slack.com/
+
+
 
 
 
@@ -231,7 +234,7 @@ source 'user-defaults/defaults.sh'
 #
 
 
-# TODO
+# TODO:
 # - Figure out a way to programmatically turn off Caps Lock key
 # - check for the existence of PGP key stuff as this is important for GitHub
 #   thingies and probably other things too
@@ -245,38 +248,22 @@ source 'user-defaults/defaults.sh'
 
 
 
-# uninstall some quicklook plugins and remove their script setups
-
-
-# brew with node and npm
-
-
-
-
-
-# casks:
-
-# font-inconsolata-g-for-powerline
-
-
-
-
-
-
 
 # other sync:
 
 # Firefox Sync
 # Google Dashboard
-# iCloud ?
 
 
-# TODO
+
+
+
+
+# TODO:
 # - setup Alfred Preferences more
 #   - theme
 
-
-# TODO
+# TODO:
 # - figure out preferences sharing for:
 # ControllerMate
 # Ulysses

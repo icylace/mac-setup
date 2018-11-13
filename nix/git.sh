@@ -27,7 +27,7 @@ nix-env --install --attr nixpkgs.gitAndTools.git-extras
 nix-env --install --attr nixpkgs.git-secret
 
 # hub
-# Wrapper for Git that makes you better at GitHub.
+# Command-line wrapper for git that makes you better at GitHub
 # https://hub.github.com/
 nix-env --install --attr nixpkgs.gitAndTools.hub
 
@@ -35,17 +35,6 @@ nix-env --install --attr nixpkgs.gitAndTools.hub
 # Text-mode interface for Git.
 # http://jonas.nitro.dk/tig/
 nix-env --install --attr nixpkgs.gitAndTools.tig
-
-# git-cal
-# github like contributions calendar on terminal
-# https://github.com/k4rthik/git-cal
-brew install git-cal
-
-# gitHUD
-# A heads-up display for Git.
-# https://github.com/gbataille/gitHUD
-brew tap gbataille/homebrew-gba
-brew install githud
 
 # ------------------------------------------------------------------------------
 
@@ -71,6 +60,7 @@ git config --global color.diff.frag "magenta bold"
 git config --global color.diff.meta "227"
 git config --global color.diff.new "green bold"
 git config --global color.diff.old "red bold"
+git config --global color.diff.plain "bold black"
 git config --global color.diff.whitespace "red reverse"
 
 # "git diff - show me line ending changes?"
@@ -89,5 +79,13 @@ git config --global interactive.singleKey true
 git config --global core.pager "less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
 git config --global pager.diff "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
 
+git config --global diff-so-fancy.useunicoderuler true
+
+# Edit user info.
+git config --global --edit
+# git config --global user.name=    # To be filled in.
+# git config --global user.email=   # To be filled in.
+
+# TODO: do we need to change anything with regards to this ?
 # https://github.com/so-fancy/diff-so-fancy/issues/296
 # git config --global interactive.diffFilter "diff-so-fancy --patch-mode"

@@ -26,12 +26,11 @@ brew cask install alfred
 # https://freemacsoft.net/appcleaner/
 brew cask install appcleaner
 
-# # aText
-# # Text expander.
-# # https://www.trankynam.com/atext/
-# brew cask install atext
-# # UPDATE (2018-08-10): Installing this with Homebrew is not working at the
-# # moment.  Recommendation is to get it directly from its website.
+# aText
+# aText accelerates your typing by replacing abbreviations with frequently
+# used phrases you define
+# https://www.trankynam.com/atext/
+brew cask install atext
 
 # Bartender
 # Menu bar manager.
@@ -68,24 +67,24 @@ brew cask install bootchamp
 # https://clipy-app.com/
 brew cask install clipy
 
-# Skala Color
-# Color picker.
-# https://bjango.com/mac/skalacolor/
-brew cask install colorpicker-skalacolor
+# # Skala Color
+# # Color picker.
+# # https://bjango.com/mac/skalacolor/
+# brew cask install colorpicker-skalacolor
 
 # ControllerMate
 # Input device remapper.
 # https://www.orderedbytes.com/controllermate/
 brew cask install controllermate
 
-# # DaisyDisk
-# # Disk space analyzer.
-# # https://daisydiskapp.com/
-# brew cask install daisydisk
+# Dash
+# Dash gives your Mac instant offline access to 200+ API documentation sets.
+# https://kapeli.com/dash
+brew cask install dash
 
 # Default Folder X
-# Save dialog box enhancer.
-# https://www.stclairsoft.com/DefaultFolderX/
+# Open and Save dialog box enhancer.
+# https://stclairsoft.com/DefaultFolderX/
 brew cask install default-folder-x
 
 # Dropbox
@@ -128,11 +127,6 @@ brew cask install hyperdock
 # https://bjango.com/mac/istatmenus/
 brew cask install istat-menus
 
-# # Karabiner
-# # A powerful and stable keyboard customizer for macOS.
-# # https://pqrs.org/osx/karabiner/
-# brew cask install karabiner-element
-
 # KeepingYouAwake
 # System sleep manager.
 # https://github.com/newmarcel/KeepingYouAwake
@@ -168,11 +162,6 @@ brew cask install onyx
 # https://www.opera.com/
 brew cask install opera
 
-# # Pacifist
-# # Archive file manager.
-# # https://charlessoft.com/
-# brew cask install pacifist
-
 # Path Finder
 # File manager.
 # https://cocoatech.com/
@@ -182,16 +171,6 @@ brew cask install path-finder
 # HTTP client that lets you test and describe the APIs you build or consume.
 # https://paw.cloud/
 brew cask install paw
-
-# # Sequel Pro
-# # MySQL database manager.
-# # http://nightly.sequelpro.com/
-# brew cask install sequel-pro-nightly
-
-# # Spectacle
-# # Window manager.
-# # https://www.spectacleapp.com/
-# brew cask install spectacle
 
 # Synergy
 # Share one mouse and keyboard between multiple computers

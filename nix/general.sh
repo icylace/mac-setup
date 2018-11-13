@@ -1,29 +1,20 @@
 #!/usr/bin/env bash
 
-# ascii
-# List ASCII idiomatic names and octal/decimal code-point forms.
-# http://catb.org/~esr/ascii/
-nix-env --install --attr nixpkgs.ascii
-
-# GNU Aspell
-# Spell checker for many languages
-# http://aspell.net/
-nix-env --install --attr nixpkgs.aspell
-
-# Bench
-# Command-line benchmark tool
-# https://github.com/Gabriel439/bench
-nix-env --install --attr nixpkgs.bench
+# # bat
+# # A cat(1) clone with syntax highlighting and Git integration
+# # https://github.com/sharkdp/bat
+# nix-env --install --attr nixpkgs.bat
+# # TODO: try later because its tests are not being passed
 
 # Byobu
 # Text-based window manager and terminal multiplexer
 # http://byobu.co/
 nix-env --install --attr nixpkgs.byobu
 
-# di
-# Disk information utility; displays everything 'df' does and more
-# https://gentoo.com/di/
-nix-env --install --attr nixpkgs.di
+# GNU Core Utilities
+# Basic file, shell, and text manipulation utilities.
+# https://www.gnu.org/software/coreutils/coreutils.html
+nix-env --install --attr nixpkgs.coreutils-prefixed
 
 # Elvish
 # A friendly and expressive Unix shell
@@ -31,9 +22,8 @@ nix-env --install --attr nixpkgs.di
 nix-env --install --attr nixpkgs.elvish
 
 # exa
-# Lists files and directories.
+# A modern replacement for ls.
 # https://the.exa.website/
-# brew cask install exa
 nix-env --install --attr nixpkgs.exa
 
 # fd
@@ -41,31 +31,62 @@ nix-env --install --attr nixpkgs.exa
 # https://github.com/sharkdp/fd
 nix-env --install --attr nixpkgs.fd
 
-# GNU Find Utilities
-# Basic directory searching utilities.
-# http://www.gnu.org/software/findutils/
-# GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed.
-nix-env --install --attr nixpkgs.findutils
-
 # fzf
 # 🌸 A command-line fuzzy finder
 # https://github.com/junegunn/fzf
 nix-env --install --attr nixpkgs.fzf
 
-# hr
-# A horizontal bar for your terminal
-# https://github.com/LuRsT/hr
-nix-env --install --attr nixpkgs.hr
+# Graphviz
+# Graphviz is open source graph visualization software.
+# https://graphviz.org/
+nix-env --install --attr nixpkgs.graphviz
 
-# odt2txt
-# A simple converter from OpenDocument Text to plain text
-# https://github.com/dstosberg/odt2txt
-nix-env --install --attr nixpkgs.odt2txt
+# Heroku CLI
+# Everything you need to get started using Heroku
+# https://devcenter.heroku.com/articles/heroku-cli
+nix-env --install --attr nixpkgs.heroku
 
-# Pipe Viewer
-# Tool for monitoring the progress of data through a pipeline.
-# https://www.ivarch.com/programs/pv.shtml
-nix-env --install --attr nixpkgs.pv
+# highlight
+# Source code to highlighted text formatter.
+# http://andre-simon.de/doku/highlight/en/highlight.php
+nix-env --install --attr nixpkgs.highlight
+
+# HTTPie
+# A command line HTTP client whose goal is to make CLI human-friendly
+# https://httpie.org/
+nix-env --install --attr nixpkgs.httpie
+
+# hyperfine
+# Command-line benchmarking tool
+# https://github.com/sharkdp/hyperfine
+nix-env --install --attr nixpkgs.hyperfine
+
+# jq
+# A lightweight and flexible command-line JSON processor
+# https://stedolan.github.io/jq/
+nix-env --install --attr nixpkgs.jq
+
+# less
+# A more advanced file pager than ‘more’
+# http://greenwoodsoftware.com/less/
+nix-env --install --attr nixpkgs.less
+
+# MOST
+# A terminal pager similar to 'more' and 'less'
+# https://jedsoft.org/most/
+nix-env --install --attr nixpkgs.most
+
+# Neovim
+# Vim text editor fork focused on extensibility and agility
+# https://neovim.io/
+nix-env --install --attr nixpkgs.neovim
+
+# ripgrep
+# A utility that combines the usability of The Silver Searcher with
+# the raw speed of grep
+# https://blog.burntsushi.net/ripgrep/
+# https://github.com/BurntSushi/ripgrep
+nix-env --install --attr nixpkgs.ripgrep
 
 # tmux
 # A "terminal multiplexer", it enables a number of terminals to be accessed
@@ -73,18 +94,7 @@ nix-env --install --attr nixpkgs.pv
 # https://github.com/tmux/tmux
 nix-env --install --attr nixpkgs.tmux
 
-# Tree
-# Recursive directory lister.
-# http://mama.indstate.edu/users/ice/tree/
-# brew install tree
-nix-env --install --attr nixpkgs.tree
-
-# w3m
-# A text-mode web browser
-# http://w3m.sourceforge.net/
-nix-env --install --attr nixpkgs.w3m
-
-# GNU Wget
-# HTTP, HTTPS, and FTP client.
-# http://www.gnu.org/software/wget/
-nix-env --install --attr nixpkgs.wget
+# Xpdf
+# Viewer for Portable Document Format (PDF) files
+# https://www.xpdfreader.com/
+nix-env --install --attr nixpkgs.xpdf
