@@ -8,10 +8,10 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.surteesstudios.Bartender'
+alias use='write_defaults com.surteesstudios.Bartender'
 
-t 'Show the menu bar icon.'
-+ showMenuBarIcon true
+put 'Show the menu bar icon.'
+use showMenuBarIcon true
 
-t 'Make sure the menu bar icon is the bartender.'
-+ statusBarImageNamed 'Bartender'
+put 'Make sure the menu bar icon is the bartender.'
+use statusBarImageNamed 'Bartender'

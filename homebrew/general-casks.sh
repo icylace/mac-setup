@@ -117,6 +117,11 @@ brew cask install google-drive
 # https://google.com/tools/dlpage/hangoutplugin
 brew cask install google-hangouts
 
+# Hazel
+# Automated Organization for Your Mac.
+# https://www.noodlesoft.com/
+brew cask install hazel
+
 # HyperDock
 # Dock enhancer and window placement manager.
 # https://bahoom.com/hyperdock/

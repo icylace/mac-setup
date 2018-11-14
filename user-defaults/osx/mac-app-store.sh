@@ -6,10 +6,10 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.appstore'
+alias use='write_defaults com.apple.appstore'
 
-t 'Enable Debug Menu in the Mac App Store.'
-+ ShowDebugMenu true
+put 'Enable Debug Menu in the Mac App Store.'
+use ShowDebugMenu true
 
-t 'Enable the WebKit Developer Tools in the Mac App Store.'
-+ WebKitDeveloperExtras true
+put 'Enable the WebKit Developer Tools in the Mac App Store.'
+use WebKitDeveloperExtras true

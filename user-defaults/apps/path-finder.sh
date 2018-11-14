@@ -8,25 +8,25 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.cocoatech.PathFinder'
+alias use='write_defaults com.cocoatech.PathFinder'
 
-t 'Set the text editor to use.'
-+ textEditorApplicationPath "'$(readlink $HOME/Applications/Sublime\ Text.app)'"
+put 'Set the text editor to use.'
+use textEditorApplicationPath "'$(readlink $HOME/Applications/Sublime\ Text.app)'"
 
-t 'Set the terminal emulator to use.'
-+ kTerminalApplicationPath "'$(readlink $HOME/Applications/iTerm.app)'"
+put 'Set the terminal emulator to use.'
+use kTerminalApplicationPath "'$(readlink $HOME/Applications/iTerm.app)'"
 
-t 'Make Path Finder the default file viewer.'
-+ pathFinderIsDefaultFileViewer true
+put 'Make Path Finder the default file viewer.'
+use pathFinderIsDefaultFileViewer true
 
-t 'Set the default folder.'
-+ kNTDefaultTabPath "$HOME"
+put 'Set the default folder.'
+use kNTDefaultTabPath "$HOME"
 
-t 'Make sure files are copied correctly.'
-+ NTVerifyCopiedFiles true
+put 'Make sure files are copied correctly.'
+use NTVerifyCopiedFiles true
 
-t 'Use Base-2 math for file sizes.'
-+ useBase2MathForSizes true
+put 'Use Base-2 math for file sizes.'
+use useBase2MathForSizes true
 
-t 'Disable the warning on quit.'
-+ disableWarnOnQuit true
+put 'Disable the warning on quit.'
+use disableWarnOnQuit true

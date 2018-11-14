@@ -8,7 +8,7 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.google.Chrome'
+alias use='write_defaults com.google.Chrome'
 
-t 'Disable two-finger swipe navigation.'
-+ AppleEnableSwipeNavigateWithScrolls false
+put 'Disable two-finger swipe navigation.'
+use AppleEnableSwipeNavigateWithScrolls false

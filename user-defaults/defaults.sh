@@ -79,14 +79,14 @@ write_defaults() {
 # # Change the default backup periods in Time Machine.
 # sudo defaults write /System/Library/Launch\ Daemons/com.apple.backupd-auto StartInterval -int 1800
 
-# t 'Check for software updates daily, not just once per week.'
+# put 'Check for software updates daily, not just once per week.'
 # defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 # # Frequency is measured in days.
 
-# t 'Disabling local Time Machine backups'
+# put 'Disabling local Time Machine backups'
 # hash tmutil &> /dev/null && sudo tmutil disablelocal
 
-# t 'Display additional information on the login screen.'
+# put 'Display additional information on the login screen.'
 # sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 # # # Change How Long (in seconds) Notification Banners Persist for in OS X
@@ -124,22 +124,22 @@ write_defaults() {
 # Always show the user's Library folder.
 chflags nohidden "$HOME/Library/"
 
-# t 'Remove duplicates from the "Open With" menu.'
+# put 'Remove duplicates from the "Open With" menu.'
 # /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user ; killall Finder
 # # https://macguide.org/#Remove-Duplicates-from-the-Open-With-Menu
 
-# t 'Re-index Spotlight.'
+# put 'Re-index Spotlight.'
 # sudo mdutil -E -p "/Volumes/Macintosh HD"
 # # https://macguide.org/#Re-Index-Spotlight
 
-# t 'Disabling local Time Machine backups.'
+# put 'Disabling local Time Machine backups.'
 # hash tmutil &> /dev/null && sudo tmutil disablelocal
 
-# t 'Reset Launchpad, but keep the desktop wallpaper intact.'
+# put 'Reset Launchpad, but keep the desktop wallpaper intact.'
 # find "$HOME/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
 
-# t 'Disable sound effect on boot.'
+# put 'Disable sound effect on boot.'
 # # http://osxdaily.com/2012/11/04/disable-mac-boot-chime/
 # # https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 # #
@@ -152,25 +152,25 @@ chflags nohidden "$HOME/Library/"
 # # sudo nvram -d SystemAudioVolume
 
 
-# t 'Disable Notification Center and remove the menu bar icon.'
+# put 'Disable Notification Center and remove the menu bar icon.'
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 
 # defaults write com.apple.iphoto MapScrollWheel -bool YES
 # killall iPhoto
 
-# t 'Enable the debug menu in Address Book.'
+# put 'Enable the debug menu in Address Book.'
 # defaults write com.apple.addressbook ABShowDebugMenu -bool true
 
-# t 'Enable the debug menu in iCal.'
+# put 'Enable the debug menu in iCal.'
 # defaults write com.apple.iCal IncludeDebugMenu -bool true
 
-# t 'Add a message to the login screen.'
+# put 'Add a message to the login screen.'
 # sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Your Message"
 # sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText
 
 # https://www.defaults-write.com/safari-highlight-non-retina-images/
 
-# t 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
+# put 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 

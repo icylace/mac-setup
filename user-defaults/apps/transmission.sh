@@ -8,20 +8,20 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults org.m0k.transmission'
+alias use='write_defaults org.m0k.transmission'
 
-t "Don't prompt for confirmation before downloading."
-+ DownloadAsk false
+put "Don't prompt for confirmation before downloading."
+use DownloadAsk false
 
-t 'Use a certain folder to store incomplete downloads.'
-+ IncompleteDownloadFolder "$HOME/Downloads"
-+ UseIncompleteDownloadFolder true
+put 'Use a certain folder to store incomplete downloads.'
+use IncompleteDownloadFolder "$HOME/Downloads"
+use UseIncompleteDownloadFolder true
 
-t 'Hide the donate message.'
-+ WarningDonate false
+put 'Hide the donate message.'
+use WarningDonate false
 
-t 'Hide the legal disclaimer.'
-+ WarningLegal false
+put 'Hide the legal disclaimer.'
+use WarningLegal false
 
 # # Restart Transmission to apply the settings.
 # killall Transmission

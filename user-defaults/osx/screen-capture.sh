@@ -6,20 +6,20 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.screencapture'
+alias use='write_defaults com.apple.screencapture'
 
-t 'Disable the shadow in screenshots.'
-+ disable-shadow true
+put 'Disable the shadow in screenshots.'
+use disable-shadow true
 
-t 'Save screenshots into the downloads folder to keep the desktop uncluttered.'
-+ location "$HOME/Downloads"
+put 'Save screenshots into the downloads folder to keep the desktop uncluttered.'
+use location "$HOME/Downloads"
 
-t 'Set the screenshot base name.'
-+ name 'screen'
+put 'Set the screenshot base name.'
+use name 'screen'
 
-t 'Use JPEG instead of PNG for smaller file sizes.'
-+ type 'jpg'
+put 'Use JPEG instead of PNG for smaller file sizes.'
+use type 'jpg'
 # Other options: BMP, GIF, JPG, PDF, TIFF
 
-# t 'Restart SystemUIServer to apply the settings.'
+# # Restart SystemUIServer to apply the settings.
 # killall SystemUIServer

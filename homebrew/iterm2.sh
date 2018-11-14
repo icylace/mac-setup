@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# TODO:
+# installation steps need updating?
+
 # Access alternate versions of programs.
 # https://github.com/Homebrew/homebrew-cask-versions
 brew tap homebrew/cask-versions

@@ -6,7 +6,7 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.terminal'
+alias use='write_defaults com.apple.terminal'
 
-t 'Only use UTF-8.'
-+ StringEncodings -array 4
+put 'Only use UTF-8.'
+use StringEncodings -array 4

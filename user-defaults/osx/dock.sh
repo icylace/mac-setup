@@ -6,132 +6,132 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.dashboard'
+alias use='write_defaults com.apple.dashboard'
 
-t 'Enable Dashboard dev mode (allows keeping widgets on the desktop).'
-+ devmode true
+put 'Enable Dashboard dev mode (allows keeping widgets on the desktop).'
+use devmode true
 
-# t 'Show the dashboard as an overlay.'
-# + enabled-state 3
+# put 'Show the dashboard as an overlay.'
+# use enabled-state 3
 
-t 'Disable Dashboard.'
-+ mcx-disabled true
+put 'Disable Dashboard.'
+use mcx-disabled true
 
 # ------------------------------------------------------------------------------
 
-alias +='write_defaults com.apple.dock'
+alias use='write_defaults com.apple.dock'
 
-t 'Automatically hide and show the Dock.'
-+ autohide true
+put 'Automatically hide and show the Dock.'
+use autohide true
 
-t 'Remove the delay for hiding/showing.'
-+ autohide-delay 0.0
+put 'Remove the delay for hiding/showing.'
+use autohide-delay 0.0
 
-t 'Remove the delay for hiding/showing in fullscreen mode.'
-+ autohide-fullscreen-delayed false
+put 'Remove the delay for hiding/showing in fullscreen mode.'
+use autohide-fullscreen-delayed false
 
-t 'Remove the animation when hiding/showing.'
-+ autohide-time-modifier 0.0
+put 'Remove the animation when hiding/showing.'
+use autohide-time-modifier 0.0
 
 # t "Don’t show Dashboard as a Space."
-# + dashboard-in-overlay true
+# use dashboard-in-overlay true
 
-t 'Enable spring loading for all Dock items.'
-+ enable-spring-load-actions-on-all-items true
+put 'Enable spring loading for all Dock items.'
+use enable-spring-load-actions-on-all-items true
 
-t 'Speed up Mission Control animations.'
-+ expose-animation-duration 0.1
+put 'Speed up Mission Control animations.'
+use expose-animation-duration 0.1
 
-t 'Enable Mission Control to display full size previews.'
-+ expose-cluster-scale 1.0
+put 'Enable Mission Control to display full size previews.'
+use expose-cluster-scale 1.0
 
-t "Don't group windows by application in Mission Control (i.e. use the old Expose behavior instead)."
-+ expose-group-by-app false
+put "Don't group windows by application in Mission Control (i.e. use the old Expose behavior instead)."
+use expose-group-by-app false
 
-t 'Disable the "mirror" effect.'
-+ hide-mirror true
+put 'Disable the "mirror" effect.'
+use hide-mirror true
 
-# t 'Enable iTunes track notifications in the Dock.'
-# + itunes-notifications true
+# put 'Enable iTunes track notifications in the Dock.'
+# use itunes-notifications true
 
-t 'Set magnification size to 80.'
-+ largesize 80.0
+put 'Set magnification size to 80.'
+use largesize 80.0
 # Default: 128
 
-# # Don’t animate opening applications from the Dock
-# + launchanim false
+# # Don't animate opening applications from the Dock
+# use launchanim false
 
-t 'Change minimize/maximize window effect to suck mode.'
-+ mineffect 'suck'
+put 'Change minimize/maximize window effect to suck mode.'
+use mineffect 'suck'
 # Possible values:
 #   genie = Genie
 #   scale = Scale
 #   suck  = Suck
 
-t "Do not minimize windows into their application’s icon."
-+ minimize-to-application false
+put "Do not minimize windows into their application’s icon."
+use minimize-to-application false
 
-t 'Enable highlight hover effect for the grid view of a stack.'
-+ mouse-over-hilite-stack true
+put 'Enable highlight hover effect for the grid view of a stack.'
+use mouse-over-hilite-stack true
 
-t "Don't automatically rearrange Spaces based on most recent use."
-+ mru-spaces false
+put "Don't automatically rearrange Spaces based on most recent use."
+use mru-spaces false
 
-# t 'Enable 2D mode.'
-# + no-glass true
+# put 'Enable 2D mode.'
+# use no-glass true
 
-# # t 'Always show the iTunes icon in the notifications pop-up beside the currently playing track.'
-# + notification-always-show-image false
+# # put 'Always show the iTunes icon in the notifications pop-up beside the currently playing track.'
+# use notification-always-show-image false
 
-t 'Place the Dock in the bottom middle of the screen.'
-+ orientation 'bottom'
-+ pinning 'middle'
+put 'Place the Dock in the bottom middle of the screen.'
+use orientation 'bottom'
+use pinning 'middle'
 
-t 'Wipe all persistent items from the Dock.'
+put 'Wipe all persistent items from the Dock.'
 defaults delete com.apple.dock persistent-apps
 defaults delete com.apple.dock persistent-others
 # This is only really useful when setting up a new Mac,
 # or if you don't use the Dock to launch apps.
 
-# TODO
+# TODO:
 # - is this still necessary?
-t 'Reset Launchpad.  Pre-Yosemite.'
+put 'Reset Launchpad.  Pre-Yosemite.'
 if [ -e $HOME/Library/Application\ Support/Dock/*.db ] ; then
   rm $HOME/Library/Application\ Support/Dock/*.db
 fi
 
-t 'Reset Launchpad.  Yosemite.'
-+ ResetLaunchPad true
+put 'Reset Launchpad.  Yosemite.'
+use ResetLaunchPad true
 
-t 'Disable indicator lights for open applications.'
-+ show-process-indicators false
+put 'Disable indicator lights for open applications.'
+use show-process-indicators false
 
-t 'Make Dock icons of hidden applications translucent.'
-+ showhidden true
+put 'Make Dock icons of hidden applications translucent.'
+use showhidden true
 
-t 'Disable the Launchpad gesture (pinch with thumb and three fingers).'
-+ showLaunchpadGestureEnabled 0
+put 'Disable the Launchpad gesture (pinch with thumb and three fingers).'
+use showLaunchpadGestureEnabled 0
 
-# t 'Enable single-app mode.'
-# + single-app true
+# put 'Enable single-app mode.'
+# use single-app true
 # # Single-app mode means if you click a Dock icon then every other app is hidden.
 
-t 'Show only running applications.'
-+ static-only true
+put 'Show only running applications.'
+use static-only true
 
-t 'Set the icon size of Dock items.'
-+ tilesize 60
+put 'Set the icon size of Dock items.'
+use tilesize 60
 
-# t 'Stop from switching spaces due to an app coming to the foreground.'
-# + workspaces-auto-swoosh false
-# # http://apple.stackexchange.com/a/4821
+# put 'Stop from switching spaces due to an app coming to the foreground.'
+# use workspaces-auto-swoosh false
+# https://apple.stackexchange.com/a/4821
 
-t 'Stop (slow down) from switching spaces if your mouse presses against the edge of the desktop.'
-+ workspaces-edge-delay true
-# http://apple.stackexchange.com/a/4821
+put 'Stop (slow down) from switching spaces if your mouse presses against the edge of the desktop.'
+use workspaces-edge-delay true
+# https://apple.stackexchange.com/a/4821
 
-t 'Disable Spaces animation.'
-+ workspaces-swoosh-animation-off true
+put 'Disable Spaces animation.'
+use workspaces-swoosh-animation-off true
 
 # # Clear out the Dock.
 # /usr/bin/dockutil --remove all
@@ -140,8 +140,8 @@ t 'Disable Spaces animation.'
 # /usr/bin/dockutil --add /Applications/Firefox.app
 # /usr/bin/dockutil --add /Applications/Google\ Chrome.app
 
-# t 'Display the location path of current wallpaper in OS X.'
-# + desktop-picture-show-debug-text true
+# put 'Display the location path of current wallpaper in OS X.'
+# use desktop-picture-show-debug-text true
 
 # # Hot corners
 # # Possible values:
@@ -156,21 +156,21 @@ t 'Disable Spaces animation.'
 # # 11: Launchpad
 # # 12: Notification Center
 
-# t 'Set the top-left screen corner to Mission Control.'
-# + wvous-tl-corner 2
-# + wvous-tl-modifier 0
+# put 'Set the top-left screen corner to Mission Control.'
+# use wvous-tl-corner 2
+# use wvous-tl-modifier 0
 
-# t 'Set the top-right corner to Notification Center.'
-# + wvous-tr-corner 12
-# + wvous-tr-modifier 0
+# put 'Set the top-right corner to Notification Center.'
+# use wvous-tr-corner 12
+# use wvous-tr-modifier 0
 
-# t 'Set the bottom-left corner to Show Desktop.'
-# + wvous-bl-corner 4    # Show Desktop
-# + wvous-bl-modifier 0
+# put 'Set the bottom-left corner to Show Desktop.'
+# use wvous-bl-corner 4    # Show Desktop
+# use wvous-bl-modifier 0
 
-# t "Setting bottom-right corner to Launchpad..."
-# + wvous-br-corner 11   # Launchpad
-# + wvous-br-modifier 0
+# put "Setting bottom-right corner to Launchpad..."
+# use wvous-br-corner 11   # Launchpad
+# use wvous-br-modifier 0
 
 # # Restart the Dock to apply the settings.
 # killall Dock

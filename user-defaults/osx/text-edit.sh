@@ -6,11 +6,11 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.TextEdit'
+alias use='write_defaults com.apple.TextEdit'
 
-t 'Open and save files as UTF-8.'
-+ PlainTextEncoding 4
-+ PlainTextEncodingForWrite 4
+put 'Open and save files as UTF-8.'
+use PlainTextEncoding 4
+use PlainTextEncodingForWrite 4
 
-t 'Use plain text mode for new documents.'
-+ RichText 0
+put 'Use plain text mode for new documents.'
+use RichText 0

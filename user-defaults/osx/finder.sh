@@ -6,46 +6,46 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.finder'
+alias use='write_defaults com.apple.finder'
 
-t 'Display full POSIX path in the title bar.'
-+ _FXShowPosixPathInTitle true
+put 'Display full POSIX path in the title bar.'
+use _FXShowPosixPathInTitle true
 
-t 'Show hidden files.'
-+ AppleShowAllFiles true
+put 'Show hidden files.'
+use AppleShowAllFiles true
 
-# t 'Hide Desktop icons.'
-# + CreateDesktop false
+# put 'Hide Desktop icons.'
+# use CreateDesktop false
 
-t 'Disable window animations and "Get Info" animations.'
-+ DisableAllAnimations true
+put 'Disable window animations and "Get Info" animations.'
+use DisableAllAnimations true
 
-# t 'Empty Trash securely by default.'
-# + EmptyTrashSecurely true
+# put 'Empty Trash securely by default.'
+# use EmptyTrashSecurely true
 
-t 'When performing a search, search the current folder by default.'
-+ FXDefaultSearchScope 'SCcf'
+put 'When performing a search, search the current folder by default.'
+use FXDefaultSearchScope 'SCcf'
 
-t 'Disable the warning when changing a file extension.'
-+ FXEnableExtensionChangeWarning false
+put 'Disable the warning when changing a file extension.'
+use FXEnableExtensionChangeWarning false
 
-t 'Expand the following File Info panes: "General", "Open with", and "Sharing & Permissions"'
-+ FXInfoPanesExpanded -dict \
-  General true              \
-  OpenWith true             \
-  Privileges true
+put 'Expand the following File Info panes: "General", "Open with", and "Sharing & Permissions"'
+use FXInfoPanesExpanded -dict \
+    General true              \
+    OpenWith true             \
+    Privileges true
 
-t 'Use list view by default.'
-+ FXPreferredViewStyle 'Nlsv'
+put 'Use list view by default.'
+use FXPreferredViewStyle 'Nlsv'
 # Possible values:
 # - Nlsv = List View
 # - icnv = Icon View (default)
 # - clmv = Column View
 # - Flwv = Cover Flow View
 
-t 'Set the Downloads folder as the default location for new Finder windows.'
-+ NewWindowTarget 'PfLo'
-+ NewWindowTargetPath "file://$HOME/Downloads"
+put 'Set the Downloads folder as the default location for new Finder windows.'
+use NewWindowTarget 'PfLo'
+use NewWindowTargetPath "file://$HOME/Downloads"
 # Possible values:
 # https://github.com/mathiasbynens/dotfiles/pull/285#issuecomment-31608378
 # Description  - NewWindowTarget - NewWindowTargetPath
@@ -57,27 +57,27 @@ t 'Set the Downloads folder as the default location for new Finder windows.'
 # All My Files - PfAF - file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 # Other path   - PfLo - file:///full/path/here/
 
-t 'Enable text selection in the Quick Look window.'
-+ QLEnableTextSelection true
+put 'Enable text selection in the Quick Look window.'
+use QLEnableTextSelection true
 
-t 'Enable the menu option to quit Finder.'
-+ QuitMenuItem true
+put 'Enable the menu option to quit Finder.'
+use QuitMenuItem true
 # Quitting Finder will also hide desktop icons.
 
-t 'Show icons for hard drives, mounted servers, and removable media on the desktop.'
-+ ShowExternalHardDrivesOnDesktop true
-+ ShowHardDrivesOnDesktop true
-+ ShowMountedServersOnDesktop true
-+ ShowRemovableMediaOnDesktop true
+put 'Show icons for hard drives, mounted servers, and removable media on the desktop.'
+use ShowExternalHardDrivesOnDesktop true
+use ShowHardDrivesOnDesktop true
+use ShowMountedServersOnDesktop true
+use ShowRemovableMediaOnDesktop true
 
-t 'Show path bar.'
-+ ShowPathbar true
+put 'Show path bar.'
+use ShowPathbar true
 
-t 'Show status bar.'
-+ ShowStatusBar true
+put 'Show status bar.'
+use ShowStatusBar true
 
-t 'Disable the warning before emptying the Trash.'
-+ WarnOnEmptyTrash false
+put 'Disable the warning before emptying the Trash.'
+use WarnOnEmptyTrash false
 
 # # Restart the Finder to apply the settings.
 # killall Finder

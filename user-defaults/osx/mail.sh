@@ -6,25 +6,25 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-alias +='write_defaults com.apple.mail'
+alias use='write_defaults com.apple.mail'
 
-t 'Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>`.'
-+ AddressesIncludeNameOnPasteboard false
+put 'Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>`.'
+use AddressesIncludeNameOnPasteboard false
 
-# t 'Disable inline attachments (just show the icons).'
-# + DisableInlineAttachmentViewing true
+# put 'Disable inline attachments (just show the icons).'
+# use DisableInlineAttachmentViewing true
 
-# t 'Disable send and reply animations.'
-# + DisableReplyAnimations true
-# + DisableSendAnimations true
+# put 'Disable send and reply animations.'
+# use DisableReplyAnimations true
+# use DisableSendAnimations true
 
-# t 'Display emails in threaded mode, sorted by date (oldest at the top).'
-# + DraftsViewerAttributes -dict-add 'DisplayInThreadedMode' 'yes'
-# + DraftsViewerAttributes -dict-add 'SortedDescending' 'yes'
-# + DraftsViewerAttributes -dict-add 'SortOrder' 'received-date'
+# put 'Display emails in threaded mode, sorted by date (oldest at the top).'
+# use DraftsViewerAttributes -dict-add 'DisplayInThreadedMode' 'yes'
+# use DraftsViewerAttributes -dict-add 'SortedDescending' 'yes'
+# use DraftsViewerAttributes -dict-add 'SortOrder' 'received-date'
 
-# t 'Add the keyboard shortcut ⌘ + Enter to send an email.'
-# + NSUserKeyEquivalents -dict-add 'Send' '@\\U21a9'
+# put 'Add the keyboard shortcut ⌘ + Enter to send an email.'
+# use NSUserKeyEquivalents -dict-add 'Send' '@\\U21a9'
 
-# t 'Disable automatic spell checking.'
-# + SpellCheckingBehavior 'NoSpellCheckingEnabled'
+# put 'Disable automatic spell checking.'
+# use SpellCheckingBehavior 'NoSpellCheckingEnabled'

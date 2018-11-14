@@ -22,7 +22,7 @@ e() {
 #
 # Indented echo with color.
 #
-t() {
+put() {
   e "\t$1"
 }
 

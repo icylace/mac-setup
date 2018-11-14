@@ -22,7 +22,8 @@ nix-env --install --attr nixpkgs.php
 # https://getcomposer.org/
 nix-env --install --attr nixpkgs.php72Packages.composer
 
-sudo composer self-update
+# TODO: is this working/appropriate when installed through Nix?
+# sudo composer self-update
 
 # # Drush
 # # Shell interface for Drupal.

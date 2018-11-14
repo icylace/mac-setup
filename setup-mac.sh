@@ -62,35 +62,13 @@ fi
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source homebrew/homebrew.sh
-
 source nix/nix.sh
-
-# ------------------------------------------------------------------------------
-
-# Alacritty
-# A cross-platform, GPU-accelerated terminal emulator
-# https://github.com/jwilm/alacritty
-
-# https://github.com/jwilm/alacritty#manual-installation
-git clone https://github.com/jwilm/alacritty.git /tmp/alacritty
-cd /tmp/alacritty
-
-# https://github.com/jwilm/alacritty#macos
-make app
-cp -r target/release/osx/Alacritty.app "$HOME/Applications/"
-
-# ------------------------------------------------------------------------------
-
-# twa
-# A tiny web auditor with strong opinions.
-# https://github.com/trailofbits/twa
-# TODO: set things up so we don't need to symlink into `/tmp`
-git clone https://github.com/trailofbits/twa.git /tmp/twa
-ln -s /tmp/twa/twa /usr/local/bin/twa
-ln -s /tmp/twa/tscore /usr/local/bin/tscore
-
-# ------------------------------------------------------------------------------
+source homebrew/homebrew.sh
+source yarn/yarn.sh
+source mas/mas.sh
+source stack/haskell.sh
+source vscode/vscode.sh
+source direct/direct.sh
 
 # source 'appledev.sh'
 source 'user-defaults/defaults.sh'
@@ -140,6 +118,10 @@ source 'user-defaults/defaults.sh'
 #  Apps to install manually.
 # ------------------------------------------------------------------------------
 
+# Backblaze
+# Cloud storage that's astonishingly easy and low-cost.
+# https://www.backblaze.com/
+
 # Breakaway 2.1
 # iTunes playback controller.
 # https://github.com/steakknife/breakaway
@@ -149,13 +131,13 @@ source 'user-defaults/defaults.sh'
 # Make your Macs boot and login screens pop
 # https://www.macenhance.com/darkboot
 
-# Xcode
-# The standard IDE for developing for Apple platforms.
-# https://itunes.apple.com/us/app/xcode/id497799835
-
 # Slack
 # The hub for your team and your work
 # https://slack.com/
+
+# Xcode
+# The standard IDE for developing for Apple platforms.
+# https://itunes.apple.com/us/app/xcode/id497799835
 
 
 
@@ -269,7 +251,7 @@ source 'user-defaults/defaults.sh'
 # Ulysses
 # VirtualBox
 # LibreOffice
-#
+
 # - consider using .plist or "defaults write" for:
 # nvALT
 # VLC

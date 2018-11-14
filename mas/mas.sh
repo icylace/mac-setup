@@ -6,12 +6,10 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-if ! we_have mas ; then
-  # mas-cli
-  # Mac App Store command line interface
-  # https://github.com/argon/mas
-  brew install mas
-fi
+# mas-cli
+# Mac App Store command line interface
+# https://github.com/argon/mas
+brew install mas
 
 # ColorSnapper 2
 # The macOS color picker app for designers & developers which makes it easy to
