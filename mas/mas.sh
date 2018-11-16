@@ -34,6 +34,17 @@ mas install 430798174
 # https://mactracker.ca/
 mas install 430255202
 
+# # Message+
+# # Send and receive messages over Extended Wi-Fi from your smartphone,
+# # iOS device, tablet, PC, Mac and web browser.
+# # https://itunes.apple.com/us/app/numbers/id885557198?mt=12
+# mas install 885557198
+
+# Numbers
+# Create impressive spreadsheets
+# https://itunes.apple.com/us/app/numbers/id409203825?mt=12
+mas install 409203825
+
 # OmniGraffle 7
 # Create beautiful diagrams and designs with this powerful and easy to use app.
 # https://www.omnigroup.com/omnigraffle
@@ -43,6 +54,16 @@ mas install 1142578753
 # Powerful, full-featured image editor for Mac.
 # https://www.pixelmator.com/mac/
 mas install 407963104
+
+# TODO: consider getting this
+# ScreenFocus
+# Working with multiple monitors made right.
+# https://www.apptorium.com/screenfocus
+
+# Slack
+# The hub for your team and your work
+# https://slack.com/
+mas install 803453959
 
 # Things 3
 # To-do list manager.
@@ -63,29 +84,3 @@ mas install 525912054
 # Drop & drop enhancement.
 # https://eternalstorms.at/yoink/mac/
 mas install 457622435
-
-
-
-
-
-
-
-# TODO:
-
-# 885557198 Message+ (2.4.7)
-
-# 408981434 iMovie (10.1.9)
-# 408981381 iPhoto (9.6.1)
-# 682658836 GarageBand (10.3.1)
-# 409203825 Numbers (5.2)
-
-
-
-
-
-# TODO: consider getting this
-# ScreenFocus
-# Working with multiple monitors made right.
-# https://www.apptorium.com/screenfocus
-
-

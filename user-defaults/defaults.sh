@@ -2,7 +2,7 @@
 
 blue '
 +-------------------------------------------------------------------------------
-:  Set macOS defaults.
+:  Set macOS defaults and macOS application defaults.
 + - - - - - - - - - - - - - - - - - - - -
 '
 
@@ -32,9 +32,6 @@ blue '
 # - https://wp.secretnest.info/archives/3129
 # - https://www.amsys.co.uk/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
 # - https://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
-
-# We're focusing on OS X so abort if we're not in OS X.
-[[ $OSTYPE =~ ^darwin ]] || return 1
 
 write_defaults() {
   if (($# < 3)) ; then
@@ -175,7 +172,7 @@ chflags nohidden "$HOME/Library/"
 
 
 # ------------------------------------------------------------------------------
-#  OS X settings.
+#  macOS settings.
 # ------------------------------------------------------------------------------
 
 if ! we_have defaults ; then
@@ -183,7 +180,7 @@ if ! we_have defaults ; then
   return 1
 fi
 
-for f in osx/*.sh ; do
+for f in macos/*.sh ; do
   source "$f"
 done
 
@@ -191,4 +188,5 @@ for f in apps/*.sh ; do
   source "$f"
 done
 
-e 'OS X defaults written. Note that some of these changes require a logout/restart to take effect.'
+e 'macOS defaults written.'
+e 'Some of these changes require a logout/restart to take effect.'

@@ -9,6 +9,7 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
+# TODO: does `brew cask install cdock` still work ?
 # # cDock
 # # Dock customizer.
 # # https://w0lfschild.github.io/app_cDock

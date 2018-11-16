@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Things to install directly.
+
+source font-iosevka.sh
+
 # Alacritty
 # A cross-platform, GPU-accelerated terminal emulator
 # https://github.com/jwilm/alacritty

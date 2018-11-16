@@ -41,6 +41,22 @@ if ! we_have brew ; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# ------------------------------------------------------------------------------
+#  Extensions to Homebrew.
+# ------------------------------------------------------------------------------
+
+# brew-graph
+# Creates a simple dependency graph of Homebrew formulae.
+# https://github.com/martido/brew-graph
+brew install martido/brew-graph/brew-graph
+
+# homebrew-rmtree
+# Remove a formula and its unused dependencies
+# https://github.com/beeftornado/homebrew-rmtree
+brew tap beeftornado/rmtree
+
+# ------------------------------------------------------------------------------
+
 # # Access more recent versions of some programs that come with OS X.
 # brew tap homebrew/dupes
 

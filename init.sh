@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# We're focusing on OS X so abort if we're not in it.
-[[ "$OSTYPE" =~ ^darwin ]] || return 1
-
 # Use aliases in non-interactive shells.
 # https://stackoverflow.com/a/1615973
 shopt -s expand_aliases

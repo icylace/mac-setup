@@ -40,17 +40,3 @@ brew install spark
 # Moves files and folders to the OS X trash.
 # https://hasseg.org/trash/
 brew install trash
-
-# ------------------------------------------------------------------------------
-#  Extensions to Homebrew.
-# ------------------------------------------------------------------------------
-
-# brew-graph
-# Creates a simple dependency graph of Homebrew formulae.
-# https://github.com/martido/brew-graph
-brew install martido/brew-graph/brew-graph
-
-# homebrew-rmtree
-# Remove a formula and its unused dependencies
-# https://github.com/beeftornado/homebrew-rmtree
-brew tap beeftornado/rmtree

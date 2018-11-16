@@ -27,6 +27,9 @@
 # - https://www.defaults-write.com/
 #
 
+# We're focusing on OS X so abort if we're not in it.
+[[ "$OSTYPE" =~ ^darwin ]] || return 1
+
 source 'init.sh'
 
 red '
@@ -130,10 +133,6 @@ source 'user-defaults/defaults.sh'
 # Dark Boot
 # Make your Macs boot and login screens pop
 # https://www.macenhance.com/darkboot
-
-# Slack
-# The hub for your team and your work
-# https://slack.com/
 
 # Xcode
 # The standard IDE for developing for Apple platforms.

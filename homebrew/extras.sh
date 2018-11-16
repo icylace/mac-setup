@@ -51,6 +51,11 @@ brew cask install sequel-pro-nightly
 # https://shortcatapp.com/
 brew cask install shortcat
 
+# Skala Color
+# Color picker.
+# https://bjango.com/mac/skalacolor/
+brew cask install colorpicker-skalacolor
+
 # Skype
 # VoIP and video conferencing client.
 # https://www.skype.com/en/
@@ -65,6 +70,8 @@ brew cask install spectacle
 # BitTorrent client.
 # https://www.transmissionbt.com/
 brew cask install transmission
+
+# ------------------------------------------------------------------------------
 
 # VirtualBox
 # Virtual environment manager.

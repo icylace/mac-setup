@@ -67,11 +67,6 @@ brew cask install bootchamp
 # https://clipy-app.com/
 brew cask install clipy
 
-# # Skala Color
-# # Color picker.
-# # https://bjango.com/mac/skalacolor/
-# brew cask install colorpicker-skalacolor
-
 # ControllerMate
 # Input device remapper.
 # https://www.orderedbytes.com/controllermate/

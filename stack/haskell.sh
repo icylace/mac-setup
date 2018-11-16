@@ -30,7 +30,7 @@ stack install hlint
 
 # Hoogle
 # Haskell API Search
-# http://hackage.haskell.org/package/hoogle
+# https://hackage.haskell.org/package/hoogle
 # https://www.haskell.org/hoogle/
 
 # When in a project...
