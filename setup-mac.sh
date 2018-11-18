@@ -69,6 +69,7 @@ source nix/nix.sh
 source homebrew/homebrew.sh
 source yarn/yarn.sh
 source mas/mas.sh
+source nvm/nvm.sh
 source stack/haskell.sh
 source vscode/vscode.sh
 source direct/direct.sh

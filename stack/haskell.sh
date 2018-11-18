@@ -16,6 +16,13 @@ curl -sSL https://get.haskellstack.org/ | sh
 # stack setup
 stack --resolver lts setup
 
+
+# TODO: add detail...
+stack build hscolour
+stack build prettyprinter
+stack build pretty-show
+
+
 # HLint
 # Haskell source code suggestions
 # https://github.com/ndmitchell/hlint

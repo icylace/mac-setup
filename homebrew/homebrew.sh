@@ -73,11 +73,9 @@ source fonts.sh
 source general-casks.sh
 source general.sh
 source git.sh
-source homebrew.sh
 source iterm2.sh
 source kakoune.sh
 source mas.sh
-source node.sh
 source php.sh
 source python.sh
 source ruby.sh
