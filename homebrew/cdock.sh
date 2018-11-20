@@ -9,6 +9,8 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
+# TODO: 11/19/2018, 2:50 AM: cDock seems to freeze the media keys in Mojave after a period of time.  Check later if it gets fixed.
+
 # TODO: does `brew cask install cdock` still work ?
 # # cDock
 # # Dock customizer.

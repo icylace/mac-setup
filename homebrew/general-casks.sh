@@ -57,11 +57,6 @@ brew cask install boom
 # https://boostnote.io/
 brew cask install boostnote
 
-# BootChamp
-# Quickly reboots into the Windows.
-# https://kainjow.com/
-brew cask install bootchamp
-
 # Clipy
 # Clipboard extension app for macOS.
 # https://clipy-app.com/

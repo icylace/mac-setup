@@ -17,6 +17,17 @@ curl -sSL https://get.haskellstack.org/ | sh
 stack --resolver lts setup
 
 
+# TODO: try to automate this
+# https://docs.haskellstack.org/en/stable/faq/#how-do-i-suppress-nopie-warnings-with-stack-build-on-macos
+
+
+
+# TODO: mention how you need to `stack build` stuff again when updating to a newer LTS.  maybe it works for any resolver, too?
+
+# TODO: maybe `stack install` is a better way to go ?
+
+# TODO: will `stack-colors` option work if we try to use GHCi 8.6.x ?
+
 # TODO: add detail...
 stack build hscolour
 stack build prettyprinter

@@ -21,6 +21,11 @@ brew cask install osxfuse
 
 # ------------------------------------------------------------------------------
 
+# BootChamp
+# Quickly reboots into the Windows.
+# https://kainjow.com/
+brew cask install bootchamp
+
 # CheatSheet
 # Lists all active shortcut keys for the current application.
 # https://grandtotal.biz/CheatSheet/
