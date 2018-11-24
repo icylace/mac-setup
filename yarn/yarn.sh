@@ -11,8 +11,6 @@ blue '
 # https://yarnpkg.com/
 brew install yarn --without-node
 
-source purescript.sh
-
 # # simple-autoreload-server
 # # A simple Web server on Node.js with autoreload/livereload feature.
 # # https://github.com/cytb/simple-autoreload-server

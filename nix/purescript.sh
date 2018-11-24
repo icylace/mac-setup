@@ -6,7 +6,7 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# PureScript
-# A strongly-typed functional programming language that compiles to JavaScript
-# http://www.purescript.org/
-# nix-env --install --attr nixpkgs.purescript
+# Psc-Package
+# https://psc-package.readthedocs.io/en/latest/
+# A package manager for PureScript based on package sets
+nix-env --install --attr nixpkgs.psc-package

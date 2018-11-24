@@ -37,7 +37,7 @@ if ! we_have brew ; then
   # Homebrew
   # Package manager for OS X.
   # https://brew.sh/
-  t 'Installing homebrew...'
+  put 'Installing homebrew...'
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -63,9 +63,8 @@ brew tap beeftornado/rmtree
 # Make sure our Homebrew formulas are updated.
 brew update
 
-t 'Installing formulas...'
+put 'Installing formulas...'
 source brews.sh
-source cdock.sh
 source docker.sh
 # source extras.sh
 source fonts.sh
@@ -90,9 +89,6 @@ brew cleanup
 brew cask cleanup
 
 # ------------------------------------------------------------------------------
-
-# # Activate the Quick Look plugins.
-# qlmanage -r
 
 # Upgrading Casks
 # https://github.com/caskroom/homebrew-cask/issues/7884#issuecomment-66114740

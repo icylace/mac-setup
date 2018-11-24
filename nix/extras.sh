@@ -87,3 +87,8 @@ nix-env --install --attr nixpkgs.w3m
 # HTTP, HTTPS, and FTP client.
 # http://www.gnu.org/software/wget/
 nix-env --install --attr nixpkgs.wget
+
+# Xpdf
+# Viewer for Portable Document Format (PDF) files
+# https://www.xpdfreader.com/
+nix-env --install --attr nixpkgs.xpdf

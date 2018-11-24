@@ -93,8 +93,3 @@ nix-env --install --attr nixpkgs.ripgrep
 # and controlled from a single terminal.
 # https://github.com/tmux/tmux
 nix-env --install --attr nixpkgs.tmux
-
-# Xpdf
-# Viewer for Portable Document Format (PDF) files
-# https://www.xpdfreader.com/
-nix-env --install --attr nixpkgs.xpdf
