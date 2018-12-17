@@ -5,6 +5,11 @@
 # https://msgpack.org/
 brew install msgpack
 
+# spark
+# Sparklines for the shell
+# https://zachholman.com/spark/
+brew install spark
+
 # terminal-notifier
 # Send macOS User Notifications from the command-line
 # https://github.com/julienXX/terminal-notifier
@@ -19,7 +24,11 @@ brew tap homebrew/fuse
 brew install tup
 brew cask install osxfuse
 
-# ------------------------------------------------------------------------------
+blue '
++-------------------------------------------------------------------------------
+:  macOS Apps.
++ - - - - - - - - - - - - - - - - - - - -
+'
 
 # BootChamp
 # Quickly reboots into the Windows.

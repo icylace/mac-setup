@@ -6,7 +6,7 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# # PostgreSQL
-# # The world's most advanced open source relational database
-# # https://www.postgresql.org/
-# nix-env --install --attr nixpkgs.postgresql100
+# PostgreSQL
+# The world's most advanced open source relational database
+# https://www.postgresql.org/
+nix-env --install --attr nixpkgs.postgresql_11

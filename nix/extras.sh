@@ -46,6 +46,11 @@ nix-env --install --attr nixpkgs.hr
 # https://mpv.io/
 nix-env --install --attr nixpkgs.mpv
 
+# NCurses Disk Usage
+# Ncdu is a disk usage analyzer with an ncurses interface.
+# https://dev.yorhel.nl/ncdu
+nix-env --install --attr nixpkgs.ncdu
+
 # odt2txt
 # A simple converter from OpenDocument Text to plain text
 # https://github.com/dstosberg/odt2txt

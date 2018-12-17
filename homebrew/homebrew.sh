@@ -69,7 +69,6 @@ source docker.sh
 # source extras.sh
 source fonts.sh
 # source fun.sh
-source general-casks.sh
 source general.sh
 source git.sh
 source iterm2.sh
@@ -79,7 +78,6 @@ source php.sh
 source python.sh
 source ruby.sh
 source sublime-text.sh
-source vscode/vscode.sh
 
 # Check if there are any problems.
 brew doctor

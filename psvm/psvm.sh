@@ -16,6 +16,7 @@ yarn global add psvm
 # PureScript
 # A strongly-typed functional programming language that compiles to JavaScript
 # http://www.purescript.org/
+# https://github.com/purescript/purescript
 # psvm install-latest
 psvm install v0.12.1
 
