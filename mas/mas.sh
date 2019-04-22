@@ -34,6 +34,11 @@ mas install 430798174
 # https://mactracker.ca/
 mas install 430255202
 
+# MWeb
+# Pro Markdown writing, note taking and static blog generator App
+# https://www.mweb.im/
+mas install 1403919533
+
 # # Message+
 # # Send and receive messages over Extended Wi-Fi from your smartphone,
 # # iOS device, tablet, PC, Mac and web browser.
@@ -69,11 +74,6 @@ mas install 803453959
 # To-do list manager.
 # https://culturedcode.com/things/
 mas install 904280696
-
-# Ulysses
-# The Ultimate Writing App for Mac, iPad and iPhone
-# https://ulysses.app/
-mas install 1225570693
 
 # WiFi Signal
 # Monitor and troubleshoot your Wi-Fi connection.

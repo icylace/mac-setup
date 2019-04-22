@@ -93,7 +93,7 @@ nix-env --install --attr nixpkgs.w3m
 # http://www.gnu.org/software/wget/
 nix-env --install --attr nixpkgs.wget
 
-# Xpdf
-# Viewer for Portable Document Format (PDF) files
-# https://www.xpdfreader.com/
-nix-env --install --attr nixpkgs.xpdf
+# # Xpdf
+# # Viewer for Portable Document Format (PDF) files
+# # https://www.xpdfreader.com/
+# nix-env --install --attr nixpkgs.xpdf

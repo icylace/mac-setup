@@ -53,6 +53,11 @@ brew cask install 1password
 # https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
 brew cask install adobe-reader
 
+# Alacritty
+# A cross-platform, GPU-accelerated terminal emulator
+# https://github.com/jwilm/alacritty
+brew cask install alacritty
+
 # Alfred
 # Application launcher, search tool, and workflow tool.
 # https://www.alfredapp.com/
@@ -144,10 +149,10 @@ brew cask install google-drive
 # https://google.com/tools/dlpage/hangoutplugin
 brew cask install google-hangouts
 
-# Hazel
-# Automated Organization for Your Mac.
-# https://www.noodlesoft.com/
-brew cask install hazel
+# # Hazel
+# # Automated Organization for Your Mac.
+# # https://www.noodlesoft.com/
+# brew cask install hazel
 
 # HyperDock
 # Dock enhancer and window placement manager.

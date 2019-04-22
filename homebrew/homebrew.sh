@@ -77,6 +77,7 @@ source mas.sh
 source php.sh
 source python.sh
 source ruby.sh
+source rust.sh
 source sublime-text.sh
 
 # Check if there are any problems.

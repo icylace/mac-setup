@@ -2,7 +2,6 @@
 
 # Things to install directly.
 
-source alacritty.sh
 source font-iosevka.sh
 source twa.sh
 

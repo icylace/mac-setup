@@ -6,6 +6,11 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
+# Disable Ligatures
+# Disable ligatures at the cursor position, or disable all ligatures on the line
+# https://marketplace.visualstudio.com/items?itemName=CoenraadS.disableligatures
+code --install-extension CoenraadS.disableligatures
+
 # Editor Zoom
 # Zooms the editor font instead of the entire workspace
 # https://marketplace.visualstudio.com/items?itemName=zolocode.editorzoom

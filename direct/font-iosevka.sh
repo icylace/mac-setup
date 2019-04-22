@@ -14,9 +14,12 @@ nix-env --install --attr nixpkgs.ttfautohint
 # https://github.com/caryll/otfcc
 nix-env --install --attr nixpkgs.otfcc
 
+# TODO:
+# - i might need to update my Iosevka setup
+
 # Iosevka
 # Slender typeface for code, from code.
-# https://be5invis.github.io/Iosevka/
+# https://typeof.net/Iosevka/
 # https://github.com/be5invis/Iosevka
 git clone https://github.com/be5invis/Iosevka /tmp/iosevka
 cd /tmp/iosevka
