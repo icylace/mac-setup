@@ -11,7 +11,7 @@ blue '
 # https://github.com/yyuu/pyenv
 brew install pyenv
 
-# Python 3
+# Python 2
 # Python is a programming language that lets you work quickly
 # and integrate systems more effectively.
 # https://www.python.org/

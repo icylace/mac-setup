@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-# # bat
-# # A cat(1) clone with syntax highlighting and Git integration
-# # https://github.com/sharkdp/bat
-# nix-env --install --attr nixpkgs.bat
-# # TODO: try later because its tests are not being passed
+# bat
+# A cat(1) clone with syntax highlighting and Git integration
+# https://github.com/sharkdp/bat
+nix-env --install --attr nixpkgs.bat
 
 # Byobu
 # Text-based window manager and terminal multiplexer
@@ -80,6 +79,11 @@ nix-env --install --attr nixpkgs.most
 # Vim text editor fork focused on extensibility and agility
 # https://neovim.io/
 nix-env --install --attr nixpkgs.neovim
+
+# procs
+# A modern replacement for ps written in Rust
+# https://github.com/dalance/procs
+nix-env --install --attr nixpkgs.procs
 
 # ripgrep
 # A utility that combines the usability of The Silver Searcher with

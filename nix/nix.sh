@@ -17,6 +17,7 @@ source bash.sh
 source general.sh
 source git.sh
 source grc.sh
+source php.sh
 # source postgresql.sh
 source ranger.sh
 # source rust.sh

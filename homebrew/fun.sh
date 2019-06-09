@@ -13,6 +13,11 @@ brew install brogue
 # https://www.gnu.org/software/chess/
 brew install gnu-chess
 
+# GZDoom
+# A Doom source port.
+# https://zdoom.org/index
+brew cask install gzdoom
+
 # MAME
 # Multiple Arcade Machine Emulator
 # https://www.mamedev.org/
@@ -81,11 +86,6 @@ brew install asciiquarium
 brew tap passy/givegif
 brew install givegif
 
-# lolcat
-# Prints colorized version of input.
-# https://github.com/busyloop/lolcat
-gem install lolcat
-
 # No More Secrets
 # The decrypting text effect from the movie "Sneakers".
 # https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35
@@ -94,20 +94,14 @@ brew install no-more-secrets
 
 # ------------------------------------------------------------------------------
 
-# Qt
-# Cross-platform application and UI framework
-# https://www.qt.io/
-brew install qt5
-
 # cool-retro-term
 # A good looking terminal emulator which mimics the old cathode display...
 # https://github.com/Swordfish90/cool-retro-term
-git clone --recursive https://github.com/Swordfish90/cool-retro-term.git /tmp/cool-retro-term
-export CPPFLAGS="-I/usr/local/opt/qt5/include"
-export LDFLAGS="-L/usr/local/opt/qt5/lib"
-export PATH="/usr/local/opt/qt5/bin:$PATH"
-cd /tmp/cool-retro-term
-qmake && make
-mkdir cool-retro-term.app/Contents/PlugIns
-cp -r qmltermwidget/QMLTermWidget cool-retro-term.app/Contents/PlugIns
-cp -r cool-retro-term.app "$HOME/Applications"
+brew cask install cool-retro-term
+
+# ------------------------------------------------------------------------------
+
+# lolcat
+# Prints colorized version of input.
+# https://github.com/busyloop/lolcat
+gem install lolcat

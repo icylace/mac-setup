@@ -5,11 +5,6 @@
 # https://obihann.github.io/archey-osx/
 brew install archey
 
-# bat
-# Clone of cat(1) with syntax highlighting and Git integration
-# https://github.com/sharkdp/bat
-brew install bat
-
 # catimg
 # Prints images in the terminal by using Unicode characters.
 # https://github.com/posva/catimg
@@ -30,6 +25,11 @@ brew install icdiff
 # https://cisofy.com/lynis/
 # https://github.com/CISOfy/lynis
 brew install lynis
+
+# miniserve
+# High performance static file server
+# https://github.com/svenstaro/miniserve
+brew install miniserve
 
 # trash
 # Moves files and folders to the OS X trash.
