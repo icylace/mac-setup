@@ -16,3 +16,9 @@ brew install git-cal
 # https://github.com/gbataille/gitHUD
 brew tap gbataille/homebrew-gba
 brew install githud
+
+# scmpuff
+# Makes working with git from the command line quicker by substituting numeric
+# shortcuts for files.
+# https://mroth.github.io/scmpuff/
+brew install scmpuff
