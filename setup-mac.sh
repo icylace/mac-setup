@@ -65,7 +65,7 @@ fi
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-source nix/nix.sh
+# source nix/nix.sh
 source homebrew/homebrew.sh
 source yarn/yarn.sh
 source mas/mas.sh

@@ -19,8 +19,23 @@ if ! {                                  \
   # Xcode Command Line Tools
   # CLI utilities for Xcode development.
   # https://developer.apple.com/xcode/
+  # https://gist.github.com/brysgo/9007731#gistcomment-2735003
   t 'Installing Xcode command line tools...'
-  xcode-select --install
+  xcode-select --install > /dev/null 2>&1
+  if [ 0 == $? ] ; then
+    sleep 1
+    osascript <<CODE
+tell application "System Events"
+  tell process "Install Command Line Developer Tools"
+    keystroke return
+    click button "Agree" of window "License Agreement"
+  end tell
+end tell
+CODE
+  else
+    t 'Command Line Developer Tools are already installed!'
+  fi
+
   # https://macops.ca/deploying-xcode-the-trick-with-accepting-license-agreements
   # sudo xcodebuild -license accept
 fi
@@ -34,11 +49,14 @@ blue '
 
 # Install Homebrew if we need to.
 if ! we_have brew ; then
+  # https://news.ycombinator.com/item?id=21648615
+  export HOMEBREW_NO_ANALYTICS=1
+
   # Homebrew
   # Package manager for OS X.
   # https://brew.sh/
   put 'Installing homebrew...'
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # ------------------------------------------------------------------------------
@@ -48,32 +66,33 @@ fi
 # brew-graph
 # Creates a simple dependency graph of Homebrew formulae.
 # https://github.com/martido/brew-graph
-brew install martido/brew-graph/brew-graph
+brew tap martido/homebrew-graph
 
 # homebrew-rmtree
 # Remove a formula and its unused dependencies
 # https://github.com/beeftornado/homebrew-rmtree
 brew tap beeftornado/rmtree
 
-# ------------------------------------------------------------------------------
+# homebrew-cask-drivers
+# Casks of drivers
+# https://github.com/Homebrew/homebrew-cask-drivers
+brew tap homebrew/cask-drivers
 
-# # Access more recent versions of some programs that come with OS X.
-# brew tap homebrew/dupes
+# ------------------------------------------------------------------------------
 
 # Make sure our Homebrew formulas are updated.
 brew update
 
 put 'Installing formulas...'
-source brews.sh
+source general.sh
 source docker.sh
 # source extras.sh
 source fonts.sh
 # source fun.sh
-source general.sh
 source git.sh
 source iterm2.sh
 source kakoune.sh
-source mas.sh
+# source mas.sh
 source php.sh
 source python.sh
 source ruby.sh

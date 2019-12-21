@@ -15,7 +15,7 @@ brew install gnu-chess
 
 # GZDoom
 # A Doom source port.
-# https://zdoom.org/index
+# https://zdoom.org/
 brew cask install gzdoom
 
 # MAME

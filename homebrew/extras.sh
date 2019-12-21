@@ -17,6 +17,13 @@ brew install terminal-notifier
 
 # ------------------------------------------------------------------------------
 
+# logitech-options
+# https://www.logitech.com/en-us/product/options
+# https://support.logitech.com/en_us/software/options
+# Caveats: You must reboot for the installation of logitech-options to
+# take effect.
+brew install logitech-options
+
 # tup
 # File-based build system.
 # http://gittup.org/tup/
@@ -82,8 +89,8 @@ brew cask install spectacle
 
 # Transmission
 # BitTorrent client.
-# https://www.transmissionbt.com/
-brew cask install transmission
+# https://transmissionbt.com/
+brew cask install transmission-cli
 
 # ------------------------------------------------------------------------------
 

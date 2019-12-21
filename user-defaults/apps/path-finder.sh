@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# TODO:
+# - do these still work with Path Finder 9 ?
+
 blue '
 +-------------------------------------------------------------------------------
 :  Path Finder

@@ -15,6 +15,11 @@ brew install catimg
 # https://os.ghalkes.nl/dwdiff.html
 brew install dwdiff
 
+# htop
+# An interactive process viewer
+# https://hisham.hm/htop/
+brew install htop
+
 # icdiff
 # Improved colored diff
 # https://www.jefftk.com/icdiff
@@ -30,6 +35,11 @@ brew install lynis
 # High performance static file server
 # https://github.com/svenstaro/miniserve
 brew install miniserve
+
+# speedtest-cli
+# Command line interface for testing internet bandwidth using speedtest.net
+# https://github.com/sivel/speedtest-cli
+brew install speedtest-cli
 
 # trash
 # Moves files and folders to the OS X trash.
@@ -159,6 +169,12 @@ brew cask install google-hangouts
 # https://bahoom.com/hyperdock/
 brew cask install hyperdock
 
+# TODO: check on this later
+# # Iris
+# # The World's best Blue light filter and Eye protection Software
+# # https://iristech.co/
+# brew cask install iris
+
 # iStat Menus
 # System monitor.
 # https://bjango.com/mac/istatmenus/
@@ -199,10 +215,12 @@ brew cask install onyx
 # https://www.opera.com/
 brew cask install opera
 
-# Path Finder
-# File manager.
-# https://cocoatech.com/
-brew cask install path-finder
+# TODO:
+# - does Homebrew have the latest version ?
+# # Path Finder
+# # File manager.
+# # https://cocoatech.com/
+# brew cask install path-finder
 
 # Paw
 # HTTP client that lets you test and describe the APIs you build or consume.
