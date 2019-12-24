@@ -7,9 +7,9 @@ setup_docker() {
   + - - - - - - - - - - - - - - - - - - - -
   '
 
-  # Docker Community Edition for Mac (Edge)
+  # Docker Desktop for Mac
   # Docker is an open platform for developing, shipping, and running applications.
-  # https://store.docker.com/editions/community/docker-ce-desktop-mac
+  # https://hub.docker.com/editions/community/docker-ce-desktop-mac
   brew cask install docker-edge
 
   # Setup shell completion:

@@ -1,113 +1,122 @@
 #!/usr/bin/env bash
 
-# MessagePack
-# Library for a binary-based efficient data interchange format
-# https://msgpack.org/
-brew install msgpack
+# # MessagePack
+# # Library for a binary-based efficient data interchange format
+# # https://msgpack.org/
+# brew install msgpack
 
-# spark
-# Sparklines for the shell
-# https://zachholman.com/spark/
-brew install spark
-
-# terminal-notifier
-# Send macOS User Notifications from the command-line
-# https://github.com/julienXX/terminal-notifier
-brew install terminal-notifier
+# # terminal-notifier
+# # Send macOS User Notifications from the command-line
+# # https://github.com/julienXX/terminal-notifier
+# brew install terminal-notifier
 
 # ------------------------------------------------------------------------------
 
-# logitech-options
-# https://www.logitech.com/en-us/product/options
-# https://support.logitech.com/en_us/software/options
-# Caveats: You must reboot for the installation of logitech-options to
-# take effect.
-brew install logitech-options
+# # tup
+# # File-based build system.
+# # http://gittup.org/tup/
+# brew tap homebrew/fuse
+# brew install tup
+# brew cask install osxfuse
 
-# tup
-# File-based build system.
-# http://gittup.org/tup/
-brew tap homebrew/fuse
-brew install tup
-brew cask install osxfuse
+# blue '
+# +-------------------------------------------------------------------------------
+# :  macOS Apps.
+# + - - - - - - - - - - - - - - - - - - - -
+# '
 
-blue '
-+-------------------------------------------------------------------------------
-:  macOS Apps.
-+ - - - - - - - - - - - - - - - - - - - -
-'
+# # Adobe Reader
+# # PDF reader.
+# # https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
+# brew cask install adobe-reader
 
-# BootChamp
-# Quickly reboots into the Windows.
-# https://kainjow.com/
-brew cask install bootchamp
+# # Alacritty
+# # A cross-platform, GPU-accelerated terminal emulator
+# # https://github.com/jwilm/alacritty
+# brew cask install alacritty
 
-# CheatSheet
-# Lists all active shortcut keys for the current application.
-# https://grandtotal.biz/CheatSheet/
-brew cask install cheatsheet
+# # Alfred
+# # Application launcher, search tool, and workflow tool.
+# # https://www.alfredapp.com/
+# brew cask install alfred
 
-# DaisyDisk
-# Disk space analyzer.
-# https://daisydiskapp.com/
-brew cask install daisydisk
+# # Clipy
+# # Clipboard extension app for macOS.
+# # https://clipy-app.com/
+# brew cask install clipy
 
-# Karabiner
-# A powerful and stable keyboard customizer for macOS.
-# https://pqrs.org/osx/karabiner/
-brew cask install karabiner-element
+# # ControllerMate
+# # Input device remapper.
+# # https://www.orderedbytes.com/controllermate/
+# brew cask install controllermate
 
-# Pacifist
-# Archive file manager.
-# https://charlessoft.com/
-brew cask install pacifist
+# # Default Folder X
+# # Open and Save dialog box enhancer.
+# # https://stclairsoft.com/DefaultFolderX/
+# brew cask install default-folder-x
 
-# Sequel Pro
-# MySQL database manager.
-# http://nightly.sequelpro.com/
-brew cask install sequel-pro-nightly
+# # Google Hangouts
+# # Video conferencing web browser plugin.
+# # https://google.com/tools/dlpage/hangoutplugin
+# brew cask install google-hangouts
 
-# Shortcat
-# Keyboard tool that lets you "Click" buttons and control your apps.
-# https://shortcatapp.com/
-brew cask install shortcat
+# # Hazel
+# # Automated Organization for Your Mac.
+# # https://www.noodlesoft.com/
+# brew cask install hazel
 
-# Skala Color
-# Color picker.
-# https://bjango.com/mac/skalacolor/
-brew cask install colorpicker-skalacolor
+# # Pacifist
+# # Archive file manager.
+# # https://charlessoft.com/
+# brew cask install pacifist
 
-# Skype
-# VoIP and video conferencing client.
-# https://www.skype.com/en/
-brew cask install skype
+# # Sequel Pro
+# # MySQL database manager.
+# # https://sequelpro.com/test-builds
+# brew cask install sequel-pro-nightly
 
-# Spectacle
-# Window manager.
-# https://www.spectacleapp.com/
-brew cask install spectacle
+# # Shortcat
+# # Keyboard tool that lets you "Click" buttons and control your apps.
+# # https://shortcatapp.com/
+# brew cask install shortcat
 
-# Transmission
-# BitTorrent client.
-# https://transmissionbt.com/
-brew cask install transmission-cli
+# # Skype
+# # VoIP and video conferencing client.
+# # https://www.skype.com/en/
+# brew cask install skype
+
+# # Synergy
+# # Share one mouse and keyboard between multiple computers
+# # https://symless.com/synergy
+# brew cask install synergy
+
+# # Transmission
+# # BitTorrent client.
+# # https://transmissionbt.com/
+# brew cask install transmission-cli
+
+# # Transmit
+# # File transfer tool.
+# # https://panic.com/transmit/
+# brew cask install transmit
 
 # ------------------------------------------------------------------------------
 
-# VirtualBox
-# Virtual environment manager.
-# https://www.virtualbox.org/
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
+# # TODO: try installing on Catalina later?
+# # VirtualBox
+# # Virtual environment manager.
+# # https://www.virtualbox.org/
+# brew cask install virtualbox
+# brew cask install virtualbox-extension-pack
 
 # ------------------------------------------------------------------------------
 
-# Vagrant
-# Virtual development environment manager.
-# https://www.vagrantup.com/
-brew cask install vagrant
+# # Vagrant
+# # Virtual development environment manager.
+# # https://www.vagrantup.com/
+# brew cask install vagrant
 
-vagrant plugin install vagrant-vbguest
+# vagrant plugin install vagrant-vbguest
 
-# https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
-vagrant plugin install vagrant-share --plugin-version 1.1.8
+# # https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
+# vagrant plugin install vagrant-share --plugin-version 1.1.8

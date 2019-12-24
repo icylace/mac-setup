@@ -10,6 +10,11 @@ brew install archey
 # https://github.com/posva/catimg
 brew install catimg
 
+# Curlie
+# The power of curl, the ease of use of httpie.
+# https://curlie.io/
+brew install rs/tap/curlie
+
 # dwdiff
 # A diff program that operates at the word level instead of the line level.
 # https://os.ghalkes.nl/dwdiff.html
@@ -31,10 +36,10 @@ brew install icdiff
 # https://github.com/CISOfy/lynis
 brew install lynis
 
-# miniserve
-# High performance static file server
-# https://github.com/svenstaro/miniserve
-brew install miniserve
+# spark
+# Sparklines for the shell
+# https://zachholman.com/spark/
+brew install spark
 
 # speedtest-cli
 # Command line interface for testing internet bandwidth using speedtest.net
@@ -48,46 +53,14 @@ brew install trash
 
 blue '
 +-------------------------------------------------------------------------------
-:  macOS Apps.
+:  macOS Applications.
 + - - - - - - - - - - - - - - - - - - - -
 '
-
-# 1Password
-# Password manager.
-# https://1password.com/
-brew cask install 1password
-# TODO: account for 1password's insistence on moving 1password.app into /Applications
-
-# Adobe Reader
-# PDF reader.
-# https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
-brew cask install adobe-reader
-
-# Alacritty
-# A cross-platform, GPU-accelerated terminal emulator
-# https://github.com/jwilm/alacritty
-brew cask install alacritty
-
-# Alfred
-# Application launcher, search tool, and workflow tool.
-# https://www.alfredapp.com/
-brew cask install alfred
 
 # AppCleaner
 # Application uninstaller.
 # https://freemacsoft.net/appcleaner/
 brew cask install appcleaner
-
-# aText
-# aText accelerates your typing by replacing abbreviations with frequently
-# used phrases you define
-# https://www.trankynam.com/atext/
-brew cask install atext
-
-# Bartender
-# Menu bar manager.
-# https://www.macbartender.com/
-brew cask install bartender
 
 # BetterZip 4
 # > the next generation of archiving
@@ -99,75 +72,20 @@ brew cask install betterzip
 # https://scootersoftware.com/
 brew cask install beyond-compare
 
-# Boom 2
-# System-wide volume booster and equalizer.
-# https://www.globaldelight.com/boom/index.php
-brew cask install boom
-
-# Boostnote
-# The intuitive and stylish note taking tool for developers.
-# https://boostnote.io/
-brew cask install boostnote
-
-# Clipy
-# Clipboard extension app for macOS.
-# https://clipy-app.com/
-brew cask install clipy
-
-# ControllerMate
-# Input device remapper.
-# https://www.orderedbytes.com/controllermate/
-brew cask install controllermate
-
-# Dash
-# Dash gives your Mac instant offline access to 200+ API documentation sets.
-# https://kapeli.com/dash
-brew cask install dash
-
-# Default Folder X
-# Open and Save dialog box enhancer.
-# https://stclairsoft.com/DefaultFolderX/
-brew cask install default-folder-x
-
-# Dropbox
-# File sharer with cloud storage.
-# https://www.dropbox.com/
-brew cask install dropbox
+# DaisyDisk
+# Disk space analyzer.
+# https://daisydiskapp.com/
+brew cask install daisydisk
 
 # Firefox Developer Edition
 # Web browser with preinstalled web developer tools.
 # https://www.mozilla.org/en-US/firefox/developer/
-brew cask install firefoxdeveloperedition
-
-# Flux
-# Screen color temperature manager.
-# https://justgetflux.com/
-brew cask install flux
+brew cask install firefox-developer-edition
 
 # Google Chrome
 # Web browser.
 # https://www.google.com/chrome/
 brew cask install google-chrome
-
-# Google Drive
-# File sharer with cloud storage.
-# https://drive.google.com/
-brew cask install google-drive
-
-# Google Hangouts
-# Video conferencing web browser plugin.
-# https://google.com/tools/dlpage/hangoutplugin
-brew cask install google-hangouts
-
-# # Hazel
-# # Automated Organization for Your Mac.
-# # https://www.noodlesoft.com/
-# brew cask install hazel
-
-# HyperDock
-# Dock enhancer and window placement manager.
-# https://bahoom.com/hyperdock/
-brew cask install hyperdock
 
 # TODO: check on this later
 # # Iris
@@ -175,35 +93,17 @@ brew cask install hyperdock
 # # https://iristech.co/
 # brew cask install iris
 
-# iStat Menus
-# System monitor.
-# https://bjango.com/mac/istatmenus/
-brew cask install istat-menus
-
-# KeepingYouAwake
-# System sleep manager.
-# https://github.com/newmarcel/KeepingYouAwake
-brew cask install keepingyouawake
-
 # LibreOffice
 # Office suite.
 # https://www.libreoffice.org/
 brew cask install libreoffice
 
-# ngrok
-# Introspected tunnels to localhost.
-# https://ngrok.com/
-brew cask install ngrok
-
-# nvALT
-# Notes manager.
-# http://brettterpstra.com/projects/nvalt/
-brew cask install nvalt
-
-# Oni
-# Mouse-free productivity with the perks of modern code editors.
-# https://www.onivim.io/
-brew cask install oni
+# logitech-options
+# https://www.logitech.com/en-us/product/options
+# https://support.logitech.com/en_us/software/options
+# Caveats: You must reboot for the installation of logitech-options to
+# take effect.
+brew cask install logitech-options
 
 # OnyX
 # System maintenance utility.
@@ -215,34 +115,94 @@ brew cask install onyx
 # https://www.opera.com/
 brew cask install opera
 
+# Path Finder
+# File manager.
+# https://cocoatech.com/
+brew cask install path-finder
+
+# # Paw
+# # HTTP client that lets you test and describe the APIs you build or consume.
+# # https://paw.cloud/
+# brew cask install paw
+
+# # TODO: check later if this works in Catalina finally
+# # VLC
+# # Media player.
+# # https://www.videolan.org/vlc/
+# brew cask install vlc
+
 # TODO:
-# - does Homebrew have the latest version ?
-# # Path Finder
-# # File manager.
-# # https://cocoatech.com/
-# brew cask install path-finder
+blue '
++-------------------------------------------------------------------------------
+:  Menu bar apps.
++ - - - - - - - - - - - - - - - - - - - -
+'
 
-# Paw
-# HTTP client that lets you test and describe the APIs you build or consume.
-# https://paw.cloud/
-brew cask install paw
+# Bartender
+# Menu bar manager.
+# https://www.macbartender.com/
+brew cask install bartender
 
-# Synergy
-# Share one mouse and keyboard between multiple computers
-# https://symless.com/synergy
-brew cask install synergy
+# Boom 3D
+# System-wide volume booster and equalizer.
+# https://www.globaldelight.com/boom/
+brew cask install boom-3d
 
-# The Unarchiver
-# Archive file extractor.
-# https://theunarchiver.com/
-brew cask install the-unarchiver
+# Dash
+# Dash gives your Mac instant offline access to 200+ API documentation sets.
+# https://kapeli.com/dash
+brew cask install dash
 
-# Transmit
-# File transfer tool.
-# https://panic.com/transmit/
-brew cask install transmit
+# Dropbox
+# File sharer with cloud storage.
+# https://www.dropbox.com/
+brew cask install dropbox
 
-# VLC
-# Media player.
-# https://www.videolan.org/vlc/
-brew cask install vlc
+# # Flux
+# # Screen color temperature manager.
+# # https://justgetflux.com/
+# brew cask install flux
+
+# iStat Menus
+# System monitor.
+# https://bjango.com/mac/istatmenus/
+brew cask install istat-menus
+
+# KeepingYouAwake
+# System sleep manager.
+# https://github.com/newmarcel/KeepingYouAwake
+brew cask install keepingyouawake
+
+# nvALT
+# Notes manager.
+# http://brettterpstra.com/projects/nvalt/
+brew cask install nvalt
+# TODO: keep an eye on this...
+# https://nvultra.com/
+
+# TODO:
+blue '
++-------------------------------------------------------------------------------
+:  Tools that run in the background.
++ - - - - - - - - - - - - - - - - - - - -
+'
+
+# HyperDock
+# Dock enhancer and window placement manager.
+# https://bahoom.com/hyperdock/
+brew cask install hyperdock
+
+# miniserve
+# High performance static file server
+# https://github.com/svenstaro/miniserve
+brew install miniserve
+
+# ngrok
+# Introspected tunnels to localhost.
+# https://ngrok.com/
+brew cask install ngrok
+
+# # The Unarchiver
+# # Archive file extractor.
+# # https://theunarchiver.com/
+# brew cask install the-unarchiver

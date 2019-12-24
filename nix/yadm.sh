@@ -8,8 +8,7 @@ blue '
 
 # yadm
 # Yet Another Dotfiles Manager
-# https://thelocehiliosan.github.io/yadm/
-# https://github.com/TheLocehiliosan/yadm
+# https://yadm.io/
 nix-env --install --attr nixpkgs.yadm
 
 if we_have yadm ; then

@@ -25,6 +25,11 @@ code --install-extension formulahendry.code-runner
 # https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 code --install-extension streetsidesoftware.code-spell-checker
 
+# Dash
+# Dash, Zeal and Velocity integration in Visual Studio Code
+# https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash
+code --install-extension deerawan.vscode-dash
+
 # DevSkim
 # Detect security mistakes as you type, and get real time details
 # and fix suggestions

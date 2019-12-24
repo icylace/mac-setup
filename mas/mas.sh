@@ -7,19 +7,19 @@ blue '
 '
 
 # mas-cli
-# Mac App Store command line interface
+# 📦 Mac App Store command line interface
 # https://github.com/argon/mas
 brew install mas
 
 # ColorSnapper 2
-# The macOS color picker app for designers & developers which makes it easy to
-# collect, adjust, organize and export colors of any pixel on the screen.
+# The color picker for Mac that makes it easy to inspect, adjust, organize, and
+# export precise color values of any pixel on the screen.
 # https://colorsnapper.com/
 mas install 969418666
 
 # Desktop Shades
 # Desktop Shades helps you to reduce eye strain by dimming the screen much more
-# than limit of your screen. Adjust the level of darkness as whatever you want.
+# than limit of your screen.
 # https://itunes.apple.com/us/app/desktop-shades/id1134436527?mt=12
 mas install 1134436527
 
@@ -45,33 +45,32 @@ mas install 1403919533
 # # https://itunes.apple.com/us/app/numbers/id885557198?mt=12
 # mas install 885557198
 
-# Numbers
-# Create impressive spreadsheets
-# https://itunes.apple.com/us/app/numbers/id409203825?mt=12
-mas install 409203825
+# # Numbers
+# # Create impressive spreadsheets
+# # https://itunes.apple.com/us/app/numbers/id409203825?mt=12
+# mas install 409203825
 
-# OmniGraffle 7
-# Create beautiful diagrams and designs with this powerful and easy to use app.
-# https://www.omnigroup.com/omnigraffle
-mas install 1142578753
+# # OmniGraffle 7
+# # Create beautiful diagrams and designs with this powerful and easy to use app.
+# # https://www.omnigroup.com/omnigraffle
+# mas install 1142578753
 
 # Pixelmator
 # Powerful, full-featured image editor for Mac.
 # https://www.pixelmator.com/mac/
 mas install 407963104
 
-# TODO: consider getting this
 # ScreenFocus
 # Working with multiple monitors made right.
 # https://www.apptorium.com/screenfocus
 
 # Slack
-# The hub for your team and your work
+# Keep conversations organized in Slack, the smart alternative to email.
 # https://slack.com/
 mas install 803453959
 
 # Things 3
-# To-do list manager.
+# Things is the award-winning personal task manager that helps you achieve your goals.
 # https://culturedcode.com/things/
 mas install 904280696
 
@@ -81,6 +80,6 @@ mas install 904280696
 mas install 525912054
 
 # Yoink
-# Drop & drop enhancement.
+# Simplify and improve drag and drop on your Mac and speed up your daily workflow.
 # https://eternalstorms.at/yoink/mac/
 mas install 457622435

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-blue '
-+-------------------------------------------------------------------------------
-:  Rust
-+ - - - - - - - - - - - - - - - - - - - -
-'
+# blue '
+# +-------------------------------------------------------------------------------
+# :  Rust
+# + - - - - - - - - - - - - - - - - - - - -
+# '
 
-# Rust
-# Empowering everyone to build reliable and efficient software.
-# https://www.rust-lang.org/
-brew install rust
+# # Rust
+# # Empowering everyone to build reliable and efficient software.
+# # https://www.rust-lang.org/
+# brew install rust

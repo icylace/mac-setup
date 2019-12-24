@@ -92,6 +92,7 @@ source fonts.sh
 source git.sh
 source iterm2.sh
 source kakoune.sh
+source keyboard.sh
 # source mas.sh
 source php.sh
 source python.sh
@@ -104,7 +105,6 @@ brew doctor
 
 # Make sure we longer have any unnecessary files laying around.
 brew cleanup
-brew cask cleanup
 
 # ------------------------------------------------------------------------------
 

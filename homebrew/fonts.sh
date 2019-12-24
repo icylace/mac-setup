@@ -27,24 +27,24 @@ brew cask install font-fira-code
 brew cask install font-hack
 
 # Hasklig
-# Hasklig - a code font with monospaced ligatures
+# A code font with monospaced ligatures
 # https://github.com/i-tu/Hasklig
 brew cask install font-hasklig
 
-# TODO:
+# TODO: consider this
 # font-inconsolata-g-for-powerline
 
 # Input
 # Fonts for code from DJR & Font Bureau
-# http://input.fontbureau.com/
+# https://input.fontbureau.com/
 brew cask install font-input
 
+# TODO: difficulty installing, consider installing a nerd font variant of it
 # M+
 # https://mplus-fonts.osdn.jp/
 brew cask install font-m-plus
-# TODO:
-# - confirm that this installs correctly
 
 # Source Code Pro
+# Monospaced font family for user interface and coding environments
 # https://adobe-fonts.github.io/source-code-pro/
 brew cask install font-source-code-pro
