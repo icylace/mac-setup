@@ -9,7 +9,7 @@ blue '
 # yadm
 # Yet Another Dotfiles Manager
 # https://yadm.io/
-nix-env --install --attr nixpkgs.yadm
+brew install yadm
 
 if we_have yadm ; then
   cd "$HOME"

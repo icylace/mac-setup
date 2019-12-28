@@ -10,12 +10,20 @@ blue '
 '
 
 # Bash: The GNU Bourne-Again SHell
-# A Unix shell.
+# Bourne-Again SHell, a UNIX command interpreter
 # https://tiswww.case.edu/php/chet/bash/bashtop.html
-nix-env --install --attr nixpkgs.bash
+brew install bash
+# nix-env --install --attr nixpkgs.bash
 
 # Bash Completion
 # Programmable completion for Bash 4.1+
 # https://bash-completion.alioth.debian.org/
 # https://github.com/scop/bash-completion
-nix-env --install --attr nixpkgs.bash-completion
+brew install bash-completion@2
+# Installation notes:
+#
+# Add the following to your ~/.bash_profile:
+#   [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+#
+# If you'd like to use existing homebrew v1 completions, add the following before the previous line:
+#   export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"

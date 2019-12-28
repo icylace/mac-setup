@@ -9,9 +9,10 @@ blue '
 # Generic Colouriser
 # Colorizes logfiles and command output.
 # https://github.com/garabik/grc
-nix-env --install --attr nixpkgs.grc
+brew install grc
 
-cp "$HOME/.nix-profile/etc/grc.conf" "$HOME/.grc/grc.conf"
+# NOTE: This was from when I used to install this using Nix.
+# cp "$HOME/.nix-profile/etc/grc.conf" "$HOME/.grc/grc.conf"
 
 # https://stackoverflow.com/a/4990185
 # https://superuser.com/a/136653

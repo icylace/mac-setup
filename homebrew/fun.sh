@@ -32,6 +32,11 @@ brew cask install battle-net
 # https://sites.google.com/site/broguegame/
 brew install brogue
 
+# Cathode
+# A retro terminal.
+# http://www.secretgeometry.com/apps/cathode/
+brew cask install cathode
+
 # cool-retro-term
 # A good looking terminal emulator which mimics the old cathode display...
 # https://github.com/Swordfish90/cool-retro-term

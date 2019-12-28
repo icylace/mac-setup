@@ -7,8 +7,8 @@ blue '
 '
 
 # duti
-# Sets default applications for document types and URL schemes.
+# Select default apps for documents and URL schemes on macOS
 # http://duti.org/
-nix-env --install --attr nixpkgs.duti
+brew install duti
 
 duti duti.settings

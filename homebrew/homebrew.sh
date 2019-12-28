@@ -43,7 +43,6 @@ fi
 blue '
 +-------------------------------------------------------------------------------
 :  Homebrew
-:  https://brew.sh/
 + - - - - - - - - - - - - - - - - - - - -
 '
 
@@ -85,20 +84,27 @@ brew update
 
 put 'Installing formulas...'
 source general.sh
+source bash.sh
 source docker.sh
-# source extras.sh
+source duti.sh
+source extras.sh
 source fonts.sh
-# source fun.sh
+source fun.sh
 source git.sh
-source iterm2.sh
+source grc.sh
 source kakoune.sh
 source keyboard.sh
 # source mas.sh
 source php.sh
+source postgresql.sh
 source python.sh
+source ranger.sh
 source ruby.sh
-source rust.sh
+source sift.sh
 source sublime-text.sh
+source terminal.sh
+source yadm.sh
+source zsh.sh
 
 # Check if there are any problems.
 brew doctor

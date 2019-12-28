@@ -135,10 +135,6 @@ source 'user-defaults/defaults.sh'
 # Make your Macs boot and login screens pop
 # https://www.macenhance.com/darkboot
 
-# Xcode
-# The standard IDE for developing for Apple platforms.
-# https://itunes.apple.com/us/app/xcode/id497799835
-
 
 
 

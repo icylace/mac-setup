@@ -7,9 +7,9 @@ blue '
 '
 
 # ranger
-# A console file manager.
+# File browser
 # https://ranger.github.io/
-nix-env --install --attr nixpkgs.ranger
+brew install ranger
 
 # colorschemes
 # Repository that collects ranger colorschemes implemented by the community

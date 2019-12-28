@@ -1,23 +1,32 @@
 #!/usr/bin/env bash
 
-# # MessagePack
-# # Library for a binary-based efficient data interchange format
-# # https://msgpack.org/
-# brew install msgpack
+# # FFmpeg
+# # Play, record, convert, and stream audio and video
+# # https://ffmpeg.org/
+# brew install ffmpeg
 
-# # terminal-notifier
-# # Send macOS User Notifications from the command-line
-# # https://github.com/julienXX/terminal-notifier
-# brew install terminal-notifier
+# MessagePack
+# Library for a binary-based efficient data interchange format
+# https://msgpack.org/
+brew install msgpack
+
+# socat
+# netcat on steroids
+# http://www.dest-unreach.org/socat/
+brew install socat
+
+# terminal-notifier
+# Send macOS User Notifications from the command-line
+# https://github.com/julienXX/terminal-notifier
+brew install terminal-notifier
 
 # ------------------------------------------------------------------------------
 
-# # tup
-# # File-based build system.
-# # http://gittup.org/tup/
-# brew tap homebrew/fuse
-# brew install tup
-# brew cask install osxfuse
+# tup
+# File-based build system.
+# http://gittup.org/tup/
+brew tap homebrew/fuse && brew install tup
+brew cask install osxfuse
 
 # blue '
 # +-------------------------------------------------------------------------------
@@ -29,11 +38,6 @@
 # # PDF reader.
 # # https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
 # brew cask install adobe-reader
-
-# # Alacritty
-# # A cross-platform, GPU-accelerated terminal emulator
-# # https://github.com/jwilm/alacritty
-# brew cask install alacritty
 
 # # Alfred
 # # Application launcher, search tool, and workflow tool.
@@ -70,10 +74,10 @@
 # # https://charlessoft.com/
 # brew cask install pacifist
 
-# # Sequel Pro
-# # MySQL database manager.
-# # https://sequelpro.com/test-builds
-# brew cask install sequel-pro-nightly
+# Sequel Pro
+# MySQL/MariaDB database management for macOS
+# https://sequelpro.com/test-builds
+brew cask install sequel-pro-nightly
 
 # # Shortcat
 # # Keyboard tool that lets you "Click" buttons and control your apps.

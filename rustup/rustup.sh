@@ -9,7 +9,7 @@ blue '
 # rustup
 # The Rust toolchain installer
 # https://rustup.rs/
-nix-env --install --attr nixpkgs.rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Rust
 # Safe, concurrent, practical language
