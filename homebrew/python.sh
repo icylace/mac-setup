@@ -1,19 +1,21 @@
 #!/usr/bin/env bash
 
-# blue '
-# +-------------------------------------------------------------------------------
-# :  Python
-# + - - - - - - - - - - - - - - - - - - - -
-# '
+blue '
++-------------------------------------------------------------------------------
+:  Python
++ - - - - - - - - - - - - - - - - - - - -
+'
 
-# # pyenv
-# # pyenv lets you easily switch between multiple versions of Python.
-# # https://github.com/yyuu/pyenv
-# brew install pyenv
+# pyenv
+# Python version management
+# https://github.com/yyuu
+# https://github.com/pyenv/pyenv
+brew install pyenv
 
-# # Python 2
-# # Python is a programming language that lets you work quickly
-# # and integrate systems more effectively.
-# # https://www.python.org/
-# pyenv install 2.7.15
-# pyenv global 2.7.15
+# Python
+# Interpreted, interactive, object-oriented programming language
+# https://www.python.org/
+# pyenv install 2.7.17
+# pyenv global 2.7.17
+pyenv install 3.8.0
+pyenv global 3.8.0

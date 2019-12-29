@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# # FFmpeg
-# # Play, record, convert, and stream audio and video
-# # https://ffmpeg.org/
-# brew install ffmpeg
+# FFmpeg
+# Play, record, convert, and stream audio and video
+# https://ffmpeg.org/
+brew install ffmpeg
 
 # MessagePack
 # Library for a binary-based efficient data interchange format
@@ -20,19 +20,17 @@ brew install socat
 # https://github.com/julienXX/terminal-notifier
 brew install terminal-notifier
 
-# ------------------------------------------------------------------------------
-
 # tup
 # File-based build system.
 # http://gittup.org/tup/
 brew tap homebrew/fuse && brew install tup
 brew cask install osxfuse
 
-# blue '
-# +-------------------------------------------------------------------------------
-# :  macOS Apps.
-# + - - - - - - - - - - - - - - - - - - - -
-# '
+blue '
++-------------------------------------------------------------------------------
+:  macOS Apps.
++ - - - - - - - - - - - - - - - - - - - -
+'
 
 # # Adobe Reader
 # # PDF reader.

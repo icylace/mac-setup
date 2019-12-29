@@ -35,6 +35,11 @@ brew install catimg
 # https://www.gnu.org/software/coreutils/coreutils.html
 brew install coreutils
 
+# curl
+# command line tool and library for transferring data with URLs
+# https://curl.haxx.se
+brew install curl
+
 # Curlie
 # The power of curl, the ease of use of httpie.
 # https://curlie.io/
@@ -265,17 +270,17 @@ brew cask install onyx
 brew cask install opera
 
 # Path Finder
-# File manager.
+# File manager for macOS
 # https://cocoatech.com/
 brew cask install path-finder
 
-# # Paw
-# # HTTP client that lets you test and describe the APIs you build or consume.
-# # https://paw.cloud/
-# brew cask install paw
+# Paw
+# HTTP client that lets you test and describe the APIs you build or consume.
+# https://paw.cloud/
+brew cask install paw
 
 # pup
-# Parse HTML at the command-line
+# Parsing HTML at the command line
 # https://github.com/EricChiang/pup
 brew install pup
 
@@ -295,7 +300,6 @@ brew install shellcheck
 # https://www.gnu.org/software/wget/
 brew install wget
 
-# TODO:
 blue '
 +-------------------------------------------------------------------------------
 :  Menu bar apps.
@@ -322,10 +326,10 @@ brew cask install dash
 # https://www.dropbox.com/
 brew cask install dropbox
 
-# # Flux
-# # Screen color temperature manager.
-# # https://justgetflux.com/
-# brew cask install flux
+# Flux
+# Screen color temperature manager.
+# https://justgetflux.com/
+brew cask install flux
 
 # iStat Menus
 # System monitor.
@@ -344,7 +348,6 @@ brew cask install nvalt
 # TODO: keep an eye on this...
 # https://nvultra.com/
 
-# TODO:
 blue '
 +-------------------------------------------------------------------------------
 :  Tools that run in the background.
@@ -366,7 +369,7 @@ brew install miniserve
 # https://ngrok.com/
 brew cask install ngrok
 
-# # The Unarchiver
-# # Archive file extractor.
-# # https://theunarchiver.com/
-# brew cask install the-unarchiver
+# The Unarchiver
+# Archive file extractor.
+# https://theunarchiver.com/
+brew cask install the-unarchiver

@@ -11,6 +11,16 @@ blue '
 # https://github.com/jwilm/alacritty
 brew cask install alacritty
 
+# Cathode
+# A retro terminal.
+# http://www.secretgeometry.com/apps/cathode/
+brew cask install cathode
+
+# cool-retro-term
+# A good looking terminal emulator which mimics the old cathode display...
+# https://github.com/Swordfish90/cool-retro-term
+brew cask install cool-retro-term
+
 # iTerm2
 # Terminal emulator.
 # https://iterm2.com/

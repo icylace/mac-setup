@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+blue '
++-------------------------------------------------------------------------------
+:  Gaming
++ - - - - - - - - - - - - - - - - - - - -
+'
+
 # A Knight's Move
 # A Knight’s Move is a puzzle game where you have to move your knight across a
 # board to a target square using the same movements as a knight in chess.
@@ -10,11 +16,6 @@ mas install 533321133
 # Aleph One
 # Aleph One is the open source continuation of Bungie’s Marathon 2 game engine.
 # https://alephone.lhowon.org/
-
-# ASCIIQuarium
-# Aquarium animation in ASCII art
-# https://robobunny.com/projects/asciiquarium/html/
-brew install asciiquarium
 
 # Blizzard Battle.net
 # Blizzard Entertainment's games launcher.
@@ -32,16 +33,6 @@ brew cask install battle-net
 # https://sites.google.com/site/broguegame/
 brew install brogue
 
-# Cathode
-# A retro terminal.
-# http://www.secretgeometry.com/apps/cathode/
-brew cask install cathode
-
-# cool-retro-term
-# A good looking terminal emulator which mimics the old cathode display...
-# https://github.com/Swordfish90/cool-retro-term
-brew cask install cool-retro-term
-
 # GZDoom
 # GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
 # https://zdoom.org/
@@ -53,21 +44,10 @@ brew cask install gzdoom
 # # https://chibatacreations.com/app/joystickshow/
 # mas install 515886877
 
-# lolcat
-# Prints colorized version of input.
-# https://github.com/busyloop/lolcat
-brew install lolcat
-
 # MAME
 # Multiple Arcade Machine Emulator
 # https://www.mamedev.org/
 brew install mame
-
-# No More Secrets
-# The decrypting text effect from the movie "Sneakers".
-# https://github.com/bartobri/no-more-secrets
-# https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35
-brew install no-more-secrets
 
 # TODO: check Catalina compatibility later
 # # OpenEmu
@@ -75,12 +55,35 @@ brew install no-more-secrets
 # # https://openemu.org/
 # brew cask install openemu
 
+# Steam
+# Steam is the ultimate destination for playing, discussing, and creating games.
+# https://store.steampowered.com/about/
+brew cask install steam
+
+# ------------------------------------------------------------------------------
+
+# ASCIIQuarium
+# Aquarium animation in ASCII art
+# https://robobunny.com/projects/asciiquarium/html/
+brew install asciiquarium
+
+# lolcat
+# Prints colorized version of input.
+# https://github.com/busyloop/lolcat
+brew install lolcat
+
+# No More Secrets
+# The decrypting text effect from the movie "Sneakers".
+# https://github.com/bartobri/no-more-secrets
+# https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35
+brew install no-more-secrets
+
 # PacVim
 # Learn vim commands via a game
 # https://github.com/jmoon018/PacVim
 brew install pacvim
 
-# Steam
-# Steam is the ultimate destination for playing, discussing, and creating games.
-# https://store.steampowered.com/about/
-brew cask install steam
+# # SL (Steam Locomotive)
+# # Prints a steam locomotive if you type sl instead of ls
+# # https://github.com/mtoyoda/sl
+# brew install sl

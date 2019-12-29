@@ -5,38 +5,39 @@
 # ------------------------------------------------------------------------------
 
 # ttfautohint
-# An automatic hinter for TrueType fonts
+# Auto-hinter for TrueType fonts
 # https://www.freetype.org/ttfautohint/
-nix-env --install --attr nixpkgs.ttfautohint
+brew install ttfautohint
 
 # otfcc
-# Optimized OpenType builder and inspector
+# Parses & writes SFNT structures.
 # https://github.com/caryll/otfcc
-nix-env --install --attr nixpkgs.otfcc
+brew tap caryll/tap && brew install otfcc-mac64
 
-# TODO:
-# - i might need to update my Iosevka setup
+if [ ! -d "$HOME/tmp" ] ; then
+  mkdir -pv "$HOME/tmp/iosevka"
+fi
 
 # Iosevka
 # Slender typeface for code, from code.
 # https://typeof.net/Iosevka/
 # https://github.com/be5invis/Iosevka
-git clone https://github.com/be5invis/Iosevka /tmp/iosevka
-cd /tmp/iosevka
+git clone https://github.com/be5invis/Iosevka "$HOME/tmp/iosevka"
 
 # https://stackoverflow.com/a/4990185
-cat <<EOF >> "private-build-plans.toml"
+cat <<FONT >> "$HOME/tmp/iosevka/private-build-plans.toml"
 [buildPlans.iosevka-icylace]
 family = "Iosevka icylace"
 design = [
   "sans",
-  "expanded",
-  "ligset-haskell",
+  "extended",
+  "ligset-coq",
   "leading-1500",
   "v-a-doublestorey",
   "v-f-tailed",
   "v-g-opendoublestorey",
   "v-i-hooky",
+  "v-j-serifed",
   "v-l-zshaped",
   "v-m-shortleg",
   "v-q-taily",
@@ -45,20 +46,24 @@ design = [
   "v-zero-dotted",
   "v-one-serifed",
   "v-three-twoarks",
+  "v-seven-normal",
   "v-tilde-low",
   "v-asterisk-low",
   "v-paragraph-high",
   "v-caret-high",
   "v-underscore-high",
+  "v-percent-dots",
   "v-at-long",
   "v-eszet-sulzbacher",
   "v-brace-curly",
   "v-dollar-throughcap",
   "v-numbersign-slanted"
 ]
-EOF
+FONT
 
+local tmp=$(pwd)
+cd "$HOME/tmp/iosevka"
 npm install
-npm run build -- contents:iosevka-icylace
-
-cp -r /tmp/iosevka/dist/iosevka-icylace/ttf/*.ttf "$HOME/Library/Fonts"
+npm run build -- contents::iosevka-icylace
+cd "$tmp"
+cp -r "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
