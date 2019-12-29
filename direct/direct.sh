@@ -10,3 +10,7 @@ source twa.sh
 # TinkerTool System 6 is a collection of system utility features helping you in
 # performing advanced administration tasks on Apple Macintosh computers.
 # https://www.bresink.com/osx/TinkerToolSys6
+
+# pgModeler
+# PostgreSQL Database Modeler
+# https://pgmodeler.io/
