@@ -40,7 +40,7 @@ brew install zsh-completions
 # zsh-syntax-highlighting
 # Fish shell like syntax highlighting for Zsh.
 # https://github.com/zsh-users/zsh-syntax-highlighting
-# brew install zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
 #
 # Installation notes:
 #

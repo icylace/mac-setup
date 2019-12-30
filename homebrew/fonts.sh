@@ -43,6 +43,7 @@ brew cask install font-input
 # # M+
 # # https://mplus-fonts.osdn.jp/about-en
 # brew cask install font-m-plus
+brew cask install font-mplus-1mn-nerd-mono
 
 # Source Code Pro
 # Monospaced font family for user interface and coding environments
