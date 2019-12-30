@@ -14,9 +14,7 @@ brew install ttfautohint
 # https://github.com/caryll/otfcc
 brew tap caryll/tap && brew install otfcc-mac64
 
-if [ ! -d "$HOME/tmp" ] ; then
-  mkdir -pv "$HOME/tmp/iosevka"
-fi
+mkdir -pv "$HOME/tmp/iosevka"
 
 # Iosevka
 # Slender typeface for code, from code.
@@ -24,8 +22,9 @@ fi
 # https://github.com/be5invis/Iosevka
 git clone https://github.com/be5invis/Iosevka "$HOME/tmp/iosevka"
 
-# https://stackoverflow.com/a/4990185
-cat <<FONT >> "$HOME/tmp/iosevka/private-build-plans.toml"
+make_custom_iosevka_font() {
+  # https://stackoverflow.com/a/4990185
+  cat <<FONT >> "$HOME/tmp/iosevka/private-build-plans.toml"
 [buildPlans.iosevka-icylace]
 family = "Iosevka icylace"
 design = [
@@ -61,9 +60,10 @@ design = [
 ]
 FONT
 
-local tmp=$(pwd)
-cd "$HOME/tmp/iosevka"
-npm install
-npm run build -- contents::iosevka-icylace
-cd "$tmp"
-cp -r "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
+  local tmp=$(pwd)
+  cd "$HOME/tmp/iosevka"
+  npm install
+  npm run build -- contents::iosevka-icylace
+  cd "$tmp"
+  cp -r "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
+}
