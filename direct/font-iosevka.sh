@@ -67,3 +67,5 @@ FONT
   cd "$tmp"
   cp -r "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
 }
+
+make_custom_iosevka_font
