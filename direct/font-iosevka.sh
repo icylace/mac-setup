@@ -2,27 +2,25 @@
 
 # Creates a custom variant of the Iosevka font.
 make_custom_iosevka_font() {
-  if [ -d "$HOME/tmp/iosevka" ] ; then
-    return
+  if [ ! -d "$HOME/tmp/iosevka" ] ; then
+    # ttfautohint
+    # Auto-hinter for TrueType fonts
+    # https://www.freetype.org/ttfautohint/
+    brew install ttfautohint
+
+    # otfcc
+    # Parses & writes SFNT structures.
+    # https://github.com/caryll/otfcc
+    brew tap caryll/tap && brew install otfcc-mac64
+
+    mkdir -pv "$HOME/tmp/iosevka"
+
+    # Iosevka
+    # Slender typeface for code, from code.
+    # https://typeof.net/Iosevka/
+    # https://github.com/be5invis/Iosevka
+    git clone https://github.com/be5invis/Iosevka "$HOME/tmp/iosevka"
   fi
-
-  # ttfautohint
-  # Auto-hinter for TrueType fonts
-  # https://www.freetype.org/ttfautohint/
-  brew install ttfautohint
-
-  # otfcc
-  # Parses & writes SFNT structures.
-  # https://github.com/caryll/otfcc
-  brew tap caryll/tap && brew install otfcc-mac64
-
-  mkdir -pv "$HOME/tmp/iosevka"
-
-  # Iosevka
-  # Slender typeface for code, from code.
-  # https://typeof.net/Iosevka/
-  # https://github.com/be5invis/Iosevka
-  git clone https://github.com/be5invis/Iosevka "$HOME/tmp/iosevka"
 
   # https://stackoverflow.com/a/4990185
   cat <<FONT >> "$HOME/tmp/iosevka/private-build-plans.toml"
