@@ -23,7 +23,7 @@ make_custom_iosevka_font() {
   fi
 
   # https://stackoverflow.com/a/4990185
-  cat <<FONT >> "$HOME/tmp/iosevka/private-build-plans.toml"
+  cat <<FONT > "$HOME/tmp/iosevka/private-build-plans.toml"
 [buildPlans.iosevka-icylace]
 family = "Iosevka icylace"
 design = [
