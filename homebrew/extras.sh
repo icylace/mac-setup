@@ -15,16 +15,16 @@ brew install msgpack
 # http://www.dest-unreach.org/socat/
 brew install socat
 
-# terminal-notifier
-# Send macOS User Notifications from the command-line
-# https://github.com/julienXX/terminal-notifier
-brew install terminal-notifier
+# # terminal-notifier
+# # Send macOS User Notifications from the command-line
+# # https://github.com/julienXX/terminal-notifier
+# brew install terminal-notifier
 
-# tup
-# File-based build system.
-# http://gittup.org/tup/
-brew tap homebrew/fuse && brew install tup
-brew cask install osxfuse
+# # tup
+# # File-based build system.
+# # http://gittup.org/tup/
+# brew tap homebrew/fuse && brew install tup
+# brew cask install osxfuse
 
 blue '
 +-------------------------------------------------------------------------------

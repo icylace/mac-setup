@@ -6,11 +6,15 @@ source font-iosevka.sh
 source phpbrew.sh
 source twa.sh
 
-# TinkerTool System 6
-# TinkerTool System 6 is a collection of system utility features helping you in
-# performing advanced administration tasks on Apple Macintosh computers.
-# https://www.bresink.com/osx/TinkerToolSys6
+# 8BitDo Ultimate Software
+# Companion software for the 8BitDo SN30 Pro+ gaming controller.
+# https://www.8bitdo.com/sn30-pro-plus/
 
 # pgModeler
 # PostgreSQL Database Modeler
 # https://pgmodeler.io/
+
+# TinkerTool System 6
+# TinkerTool System 6 is a collection of system utility features helping you in
+# performing advanced administration tasks on Apple Macintosh computers.
+# https://www.bresink.com/osx/TinkerToolSys6

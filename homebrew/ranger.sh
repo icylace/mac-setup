@@ -14,6 +14,7 @@ brew install ranger
 # colorschemes
 # Repository that collects ranger colorschemes implemented by the community
 # https://github.com/ranger/colorschemes
-git clone https://github.com/ranger/colorschemes.git /tmp/ranger-colorschemes
+mkdir -pv "$HOME/tmp/ranger-colorschemes"
 mkdir -pv "$HOME/.config/ranger/colorschemes"
-cp -r /tmp/ranger-colorschemes/*.py "$HOME/.config/ranger/colorschemes"
+git clone https://github.com/ranger/colorschemes.git "$HOME/tmp/ranger-colorschemes"
+cp -r "$HOME/tmp/ranger-colorschemes/"*.py "$HOME/.config/ranger/colorschemes"

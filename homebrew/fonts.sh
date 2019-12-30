@@ -40,9 +40,9 @@ brew cask install font-hasklig
 brew cask install font-input
 
 # TODO: difficulty installing, consider installing a nerd font variant of it
-# M+
-# https://mplus-fonts.osdn.jp/about-en
-brew cask install font-m-plus
+# # M+
+# # https://mplus-fonts.osdn.jp/about-en
+# brew cask install font-m-plus
 
 # Source Code Pro
 # Monospaced font family for user interface and coding environments

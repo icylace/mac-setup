@@ -22,7 +22,7 @@ mas install 533321133
 # https://www.blizzard.com/en-us/?ref=battle.net
 brew cask install battle-net
 
-# TODO: check Catalina compatibility later
+# TODO: find alternative because Boxer won't run in Catalina
 # # Boxer
 # # The DOS game emulator that’s fit for your Mac.
 # # http://boxerapp.com/
@@ -38,22 +38,21 @@ brew install brogue
 # https://zdoom.org/
 brew cask install gzdoom
 
-# # Joystick Show
-# # Joystick Show is a Mac OS X app that lets you test and visualize any joysticks
-# # and gamepads in a very easy and nice way.
-# # https://chibatacreations.com/app/joystickshow/
-# mas install 515886877
+# Joystick Show
+# Joystick Show is a Mac OS X app that lets you test and visualize any joysticks
+# and gamepads in a very easy and nice way.
+# https://chibatacreations.com/app/joystickshow/
+mas install 515886877
 
 # MAME
 # Multiple Arcade Machine Emulator
 # https://www.mamedev.org/
 brew install mame
 
-# TODO: check Catalina compatibility later
-# # OpenEmu
-# # 🕹 Retro video game emulation for macOS
-# # https://openemu.org/
-# brew cask install openemu
+# OpenEmu
+# 🕹 Retro video game emulation for macOS
+# https://openemu.org/
+brew cask install openemu
 
 # Steam
 # Steam is the ultimate destination for playing, discussing, and creating games.

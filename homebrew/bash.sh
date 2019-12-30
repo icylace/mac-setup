@@ -13,7 +13,6 @@ blue '
 # Bourne-Again SHell, a UNIX command interpreter
 # https://tiswww.case.edu/php/chet/bash/bashtop.html
 brew install bash
-# nix-env --install --attr nixpkgs.bash
 
 # Bash Completion
 # Programmable completion for Bash 4.1+
