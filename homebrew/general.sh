@@ -205,6 +205,11 @@ brew install trash
 # http://mama.indstate.edu/users/ice/tree/
 brew install tree
 
+# z
+# Navigate your most used directories based on 'frecency'.
+# https://github.com/rupa/z
+brew install z
+
 blue '
 +-------------------------------------------------------------------------------
 :  macOS Applications.
