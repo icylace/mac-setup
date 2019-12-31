@@ -10,6 +10,9 @@ source twa.sh
 # Companion software for the 8BitDo SN30 Pro+ gaming controller.
 # https://www.8bitdo.com/sn30-pro-plus/
 
+# M+ fonts
+# https://mplus-fonts.osdn.jp/about-en.html
+
 # pgModeler
 # PostgreSQL Database Modeler
 # https://pgmodeler.io/

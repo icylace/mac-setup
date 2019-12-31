@@ -82,10 +82,10 @@ brew cask install sequel-pro-nightly
 # # https://shortcatapp.com/
 # brew cask install shortcat
 
-# # Skype
-# # VoIP and video conferencing client.
-# # https://www.skype.com/en/
-# brew cask install skype
+# Skype
+# VoIP and video conferencing client.
+# https://www.skype.com/en/
+brew cask install skype
 
 # # Synergy
 # # Share one mouse and keyboard between multiple computers
@@ -97,10 +97,10 @@ brew cask install sequel-pro-nightly
 # # https://transmissionbt.com/
 # brew cask install transmission-cli
 
-# # Transmit
-# # File transfer tool.
-# # https://panic.com/transmit/
-# brew cask install transmit
+# Transmit
+# Upload, download, and manage files on tons of servers with an easy, familiar, and powerful UI.
+# https://panic.com/transmit/
+brew cask install transmit
 
 # ------------------------------------------------------------------------------
 
