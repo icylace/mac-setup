@@ -1,20 +1,5 @@
 #!/usr/bin/env bash
 
-
-
-
-# # TODO: (?) replace this with VSCode's settings sync
-# # Settings Sync
-# # Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings,
-# # Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
-# # https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-# code --install-extension Shan.code-settings-sync
-
-
-
-
-
-
 blue '
 +-------------------------------------------------------------------------------
 :  Visual Studio Code
