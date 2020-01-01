@@ -17,6 +17,6 @@ code --install-extension bradymholt.pgformatter
 code --install-extension ckolkman.vscode-postgres
 
 # SQLTools - Database tools
-# Database management done righT.
+# Database management done right.
 # https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
 code --install-extension mtxr.sqltools

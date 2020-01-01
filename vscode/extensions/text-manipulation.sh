@@ -35,19 +35,3 @@ code --install-extension jkjustjoshing.vscode-text-pastry
 # Filter, Sort, Unique, Reverse, Align, CSV, Line Selection, Text Transformations and Macros
 # https://marketplace.visualstudio.com/items?itemName=dakara.transformer
 code --install-extension dakara.transformer
-
-blue '
-+-------------------------------------------------------------------------------
-:  Visual Studio Code - Extensions - Text Manipulation - Formatting
-+ - - - - - - - - - - - - - - - - - - - -
-'
-
-# Beautify
-# Beautify code in place for VS Code
-# https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
-code --install-extension HookyQR.beautify
-
-# Prettier - Code formatter
-# Code formatter using prettier
-# https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-code --install-extension esbenp.prettier-vscode

@@ -2,7 +2,7 @@
 
 blue '
 +-------------------------------------------------------------------------------
-:   Visual Studio Code - Extensions - Themes
+:  Visual Studio Code - Extensions - Themes
 + - - - - - - - - - - - - - - - - - - - -
 '
 
@@ -12,8 +12,7 @@ blue '
 code --install-extension ms-vscode.Theme-3024Kit
 
 # A Touch of Lilac Theme
-# Lilac tinted color UI theme with vibrant syntax highlighting colors
-# for Visual Studio Code
+# Lilac tinted color UI theme with vibrant syntax highlighting colors for Visual Studio Code
 # https://marketplace.visualstudio.com/items?itemName=alexnho.a-touch-of-lilac-theme
 code --install-extension alexnho.a-touch-of-lilac-theme
 
@@ -23,13 +22,12 @@ code --install-extension alexnho.a-touch-of-lilac-theme
 code --install-extension eamodio.amethyst-theme
 
 # Ayu
-# A simple theme with bright colors and comes in three versions - dark,
-# light and mirage for all day long comfortable work.
+# A simple theme with bright colors and comes in three versions - dark, light and mirage for all day long comfortable work.
 # https://marketplace.visualstudio.com/items?itemName=teabyii.ayu
 code --install-extension teabyii.ayu
 
-# bluloco-light
-# A fancy but yet sophisticated light designer color scheme.
+# Bluloco Light
+# A fancy but yet sophisticated light designer color scheme / theme.
 # https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light
 code --install-extension uloco.theme-bluloco-light
 
@@ -42,12 +40,6 @@ code --install-extension Pustur.calamity-vscode
 # Chrome_DevTools Theme ported from the ChromeDevTools TextMate Theme
 # https://marketplace.visualstudio.com/items?itemName=gerane.Theme-ChromeDevTools
 code --install-extension gerane.Theme-ChromeDevTools
-
-# Clean-UI
-# The best clean light theme for VS code. Using this theme you can code
-# whole day without eyes fatigue
-# https://marketplace.visualstudio.com/items?itemName=sbovyrin.clean-ui
-code --install-extension sbovyrin.clean-ui
 
 # CodinCat-theme
 # An easy on eyes color scheme
@@ -80,9 +72,7 @@ code --install-extension kuscamara.electron
 code --install-extension alireza94.theme-gotham
 
 # Gray Matter
-# A pair of colour schemes that take aesthetic cues from popular minimalist
-# writing apps and aims to minimise the visual impact of most of the
-# markdown punctuation.
+# A pair of colour schemes that take aesthetic cues from popular minimalist writing apps and aims to minimise the visual impact of most of the markdown punctuation.
 # https://marketplace.visualstudio.com/items?itemName=philipbe.theme-gray-matter
 code --install-extension philipbe.theme-gray-matter
 
@@ -101,20 +91,23 @@ code --install-extension davidmart.theme-jsfiddle-like-syntax-vscode
 # https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes
 code --install-extension karyfoundation.theme-karyfoundation-themes
 
-# Material Palenight Theme
+# Palenight Theme
 # An elegant and juicy material-like theme for Visual Studio Code.
 # https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme
 code --install-extension whizkydee.material-palenight-theme
 
+# The Meowgorithm Color Scheme
+# Meowgorithm’s personal color scheme
+# https://marketplace.visualstudio.com/items?itemName=meowgorithm.theme-meowgorithm
+code --install-extension meowgorithm.theme-meowgorithm
+
 # Monokai Pro
-# Beautiful functionality for professional developers, from the author of the
-# original Monokai color scheme.
+# Professional theme and matching icons, from the author of the original Monokai color scheme.
 # https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
 code --install-extension monokai.theme-monokai-pro-vscode
 
-# New Moon VSCode
-# New Moon Theme for Visual Studio Code. A beautiful, middle-contrast dark theme
-# optimized for front and back end development. Your new favorite theme.
+# New Moon Syntax Theme
+# The optimized dark theme for web development. Your new favorite theme.
 # https://marketplace.visualstudio.com/items?itemName=taniarascia.new-moon-vscode
 code --install-extension taniarascia.new-moon-vscode
 
@@ -124,8 +117,7 @@ code --install-extension taniarascia.new-moon-vscode
 code --install-extension kyleerickson.night-rider
 
 # No Happiness in Colors (Minimal Dark Theme)
-# There is no happiness in colors. A minimal, dark syntax theme for Visual
-# Studio Code that doesn't make your code look like a parrot.
+# There is no happiness in colors. A minimal, dark syntax theme for Visual Studio Code that doesn't make your code look like a parrot.
 # https://marketplace.visualstudio.com/items?itemName=notoroszbig.theme-nohappinessincolors
 code --install-extension notoroszbig.theme-nohappinessincolors
 
@@ -138,12 +130,6 @@ code --install-extension faustinoaq.theme-olivine-comments
 # Atom's iconic One Dark theme for Visual Studio Code
 # https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
 code --install-extension zhuangtongfa.Material-theme
-
-# rocket-ui
-# A blazing fast UI theme color made for VSCode to conquer stars,
-# planet and space.
-# https://marketplace.visualstudio.com/items?itemName=legfrey.rocket-ui
-code --install-extension legfrey.rocket-ui
 
 # Shades Of Harmony
 # A simple color theme crafted with love and ES6 in mind.
@@ -165,26 +151,7 @@ code --install-extension jerry.theme-dark-starry-night
 # https://marketplace.visualstudio.com/items?itemName=kyoh86.sumiiro
 code --install-extension kyoh86.sumiiro
 
-# The Meowgorithm Color Scheme
-# Meowgorithm’s personal color scheme
-# https://marketplace.visualstudio.com/items?itemName=meowgorithm.theme-meowgorithm
-code --install-extension meowgorithm.theme-meowgorithm
-
 # XT Color theme
 # Color theme for VSCode
 # https://marketplace.visualstudio.com/items?itemName=xhi2art.xhitheme-color
 code --install-extension xhi2art.xhitheme-color
-
-
-
-
-
-
-
-
-
-
-
-
-# Night Mode
-# code --install-extension install vscode-night-mode
