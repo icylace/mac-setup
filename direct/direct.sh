@@ -21,3 +21,7 @@ source twa.sh
 # TinkerTool System 6 is a collection of system utility features helping you in
 # performing advanced administration tasks on Apple Macintosh computers.
 # https://www.bresink.com/osx/TinkerToolSys6
+
+# ZSH-z
+# Jump quickly to directories that you have visited "frecently." A native ZSH port of z.sh.
+# https://github.com/agkozak/zsh-z

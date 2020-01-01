@@ -101,6 +101,11 @@ brew install grep
 # https://devcenter.heroku.com/articles/heroku-cli
 brew tap heroku/brew && brew install heroku
 
+# hexyl
+# A command-line hex viewer
+# https://github.com/sharkdp/hexyl
+brew install hexyl
+
 # highlight
 # Source code to highlighted text formatter.
 # http://andre-simon.de/doku/highlight/en/highlight.php
