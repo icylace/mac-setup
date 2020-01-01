@@ -7,8 +7,7 @@ blue '
 '
 
 # Auto Close Tag
-# Automatically add HTML/XML close tag, same as Visual Studio IDE
-# or Sublime Text
+# Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
 # https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-close-tag
 
@@ -18,8 +17,7 @@ code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 
 # HTML Class Suggestions
-# Adds code completion suggestions to HTML class attributes based on the
-# CSS files in your workspace.
+# Adds code completion suggestions to HTML class attributes based on the CSS files in your workspace.
 # https://marketplace.visualstudio.com/items?itemName=AndersEAndersen.html-class-suggestions
 code --install-extension AndersEAndersen.html-class-suggestions
 

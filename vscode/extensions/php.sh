@@ -17,7 +17,7 @@ code --install-extension felixfbecker.php-debug
 code --install-extension neilbrayfield.php-docblocker
 
 # PHP Intelephense
-# High performance, feature rich PHP intellisense
+# PHP code intelligence for Visual Studio Code
 # https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
 code --install-extension bmewburn.vscode-intelephense-client
 

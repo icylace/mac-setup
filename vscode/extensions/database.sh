@@ -16,8 +16,7 @@ code --install-extension bradymholt.pgformatter
 # https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres
 code --install-extension ckolkman.vscode-postgres
 
-# SQLTools
-# Your swiss knife SQL for VScode. Execute queries, auto complete,
-# bookmarks etc.
+# SQLTools - Database tools
+# Database management done righT.
 # https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
 code --install-extension mtxr.sqltools

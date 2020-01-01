@@ -11,11 +11,6 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=CoenraadS.disableligatures
 code --install-extension CoenraadS.disableligatures
 
-# Editor Zoom
-# Zooms the editor font instead of the entire workspace
-# https://marketplace.visualstudio.com/items?itemName=zolocode.editorzoom
-code --install-extension zolocode.editorzoom
-
 # Regex Railroad Diagrams
 # Display railroad diagram of regex under cursor.
 # https://marketplace.visualstudio.com/items?itemName=kogai.regex-railroad-diagrams
@@ -28,8 +23,8 @@ code --install-extension zeithaste.cursorCharCode
 
 # vscode-icons
 # Icons for Visual Studio Code
-# https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
-code --install-extension robertohuertasm.vscode-icons
+# https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+code --install-extension vscode-icons-team.vscode-icons
 
 blue '
 +-------------------------------------------------------------------------------
@@ -54,15 +49,12 @@ blue '
 '
 
 # CSS Peek
-# Allow peeking to css ID and class strings as definitions from html files to
-# respective CSS. Allows peek and goto definition.
+# Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
 # https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
 code --install-extension pranaygp.vscode-css-peek
 
 # File Peek
-# Allow peeking to file name strings as definitions from javascript and
-# typescript code. Allows peek and goto definition. Great for Angular
-# template and style files)
+# Allow peeking to file name strings as definitions from javascript and typescript code.
 # https://marketplace.visualstudio.com/items?itemName=abierbaum.vscode-file-peek
 code --install-extension abierbaum.vscode-file-peek
 
@@ -88,12 +80,11 @@ code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension naumovs.color-highlight
 
 # Highlight Bad Chars
-# Extension to highlight bad characters such as No-break space ( ) and the
-# Greek question mark (;) in your source files.
+# Extension to highlight bad characters such as No-break space ( ) and the Greek question mark (;) in your source files.
 # https://marketplace.visualstudio.com/items?itemName=wengerk.highlight-bad-chars
 code --install-extension wengerk.highlight-bad-chars
 
-# highlight-matching-tag
+# Highlight Matching Tag
 # Highlights matching closing or opening tag
 # https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag
 code --install-extension vincaslt.highlight-matching-tag
@@ -108,10 +99,10 @@ code --install-extension oderwat.indent-rainbow
 # https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
 code --install-extension 2gua.rainbow-brackets
 
-# # Rainbow String
-# # Add rainbow effect to quoted string
-# # https://marketplace.visualstudio.com/items?itemName=wk-j.vscode-rainbow-string
-# code --install-extension wk-j.vscode-rainbow-string
+# Rainbow String
+# Add rainbow effect to quoted string
+# https://marketplace.visualstudio.com/items?itemName=wk-j.vscode-rainbow-string
+code --install-extension wk-j.vscode-rainbow-string
 
 # TODO Highlight
 # highlight TODOs, FIXMEs, and any keywords, annotations...

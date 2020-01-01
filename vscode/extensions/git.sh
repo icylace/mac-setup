@@ -12,15 +12,11 @@ blue '
 code --install-extension donjayamanne.githistory
 
 # gitignore
-# Language support for .gitignore files. Lets you pull .gitignore files from
-# the https://github.com/github/gitignore repository.
+# Language support for .gitignore files.
 # https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
 code --install-extension codezombiech.gitignore
 
 # GitLens - Git supercharged
-# Supercharge the Git capabilities built into Visual Studio Code - Visualize
-# code authorship at a glance via Git blame annotations and code lens,
-# seamlessly navigate and explore Git repositories, gain valuable
-# insights via powerful comparison commands, and so much more
+# Supercharge the Git capabilities built into Visual Studio Code
 # https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 code --install-extension eamodio.gitlens

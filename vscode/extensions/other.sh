@@ -7,16 +7,12 @@ blue '
 '
 
 # Aural Coding (Keyboard sounds)
-# A Visual Studio Code extension that creates sweet melodies based
-# on what you type
+# A Visual Studio Code extension that creates sweet melodies based on what you type
 # https://marketplace.visualstudio.com/items?itemName=jeng.aural-coding-vscode
 code --install-extension jeng.aural-coding-vscode
 
 # Code Runner
-# Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell,
-# CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia,
-# Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Objective-C,
-# Rust, Racket, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, D
+# Run code snippet or code file for multiple languages
 # https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 code --install-extension formulahendry.code-runner
 
@@ -31,8 +27,7 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension deerawan.vscode-dash
 
 # DevSkim
-# Detect security mistakes as you type, and get real time details
-# and fix suggestions
+# Detect security mistakes as you type, and get real time details and fix suggestions
 # https://marketplace.visualstudio.com/items?itemName=MS-DevSkim.vscode-devskim
 code --install-extension MS-DevSkim.vscode-devskim
 
@@ -61,7 +56,7 @@ code --install-extension hoovercj.vscode-settings-cycler
 # https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
 code --install-extension ms-vscode.sublime-keybindings
 
-# VS Live Share
+# Live Share
 # Real-time collaborative development from the comfort of your favorite tools.
 # https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare
-code --install-extension ms-vsliveshare.vsliveshare# DevSkim
+code --install-extension ms-vsliveshare.vsliveshare

@@ -7,8 +7,7 @@ blue '
 '
 
 # .ejs
-# EJS language support for Visual Studio Code, generated from gregory-m's
-# (github) TextMate bundle
+# EJS language support for Visual Studio Code, generated from gregory-m's (github) TextMate bundle
 # https://marketplace.visualstudio.com/items?itemName=QassimFarid.ejs-language-support
 code --install-extension QassimFarid.ejs-language-support
 
@@ -23,14 +22,12 @@ code --install-extension kisstkondoros.vscode-codemetrics
 code --install-extension HookyQR.JSDocTagComplete
 
 # Document This
-# Automatically generates detailed JSDoc comments in TypeScript and
-# JavaScript files.
+# Automatically generates detailed JSDoc comments in TypeScript and JavaScript files.
 # https://marketplace.visualstudio.com/items?itemName=joelday.docthis
 code --install-extension joelday.docthis
 
 # Debugger for Chrome
-# Debug your JavaScript code in the Chrome browser, or any other target that
-# supports the Chrome Debugger protocol.
+# Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.
 # https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-chrome
 

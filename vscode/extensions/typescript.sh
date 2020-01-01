@@ -12,9 +12,9 @@ blue '
 code --install-extension MariusAlchimavicius.json-to-ts
 
 # TSLint
-# TSLint for Visual Studio Code
-# https://marketplace.visualstudio.com/items?itemName=eg2.tslint
-code --install-extension eg2.tslint
+# TSLint support for Visual Studio Code
+# https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
 # TypeScript Import
 # Automates importing of TypeScript classes

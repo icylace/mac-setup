@@ -8,5 +8,5 @@ blue '
 
 # stylelint
 # Modern CSS/SCSS/Less linter
-# https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
-code --install-extension shinnn.stylelint
+# https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+code --install-extension stylelint.vscode-stylelint

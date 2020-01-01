@@ -7,8 +7,7 @@ blue '
 '
 
 # Markdown Preview Mermaid Support
-# Adds Mermaid diagram and flowchart support to VS Code's builtin
-# markdown preview
+# Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
 # https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
 code --install-extension bierner.markdown-mermaid
 

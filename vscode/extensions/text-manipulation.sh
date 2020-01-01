@@ -22,15 +22,12 @@ code --install-extension nmsmith89.incrementor
 code --install-extension usernamehw.indent-one-space
 
 # Multi Line tricks
-# Enable Alt+L (line select) and Alt+Shift+L (selection to multi-cursor)
-# behavior on VSCode
+# Enable Alt+L (line select) and Alt+Shift+L (selection to multi-cursor) behavior on VSCode
 # https://marketplace.visualstudio.com/items?itemName=bigous.vscode-multi-line-tricks
 code --install-extension bigous.vscode-multi-line-tricks
 
 # Text Pastry
-# Extend the power of multiple selections in VS Code. Modify selections,
-# insert numeric sequences, incremental numbers, generate uuids,
-# date ranges, insert continuously from a word list and more.
+# Extend the power of multiple selections in VS Code.
 # https://marketplace.visualstudio.com/items?itemName=jkjustjoshing.vscode-text-pastry
 code --install-extension jkjustjoshing.vscode-text-pastry
 
@@ -51,6 +48,6 @@ blue '
 code --install-extension HookyQR.beautify
 
 # Prettier - Code formatter
-# VS Code plugin for prettier/prettier
+# Code formatter using prettier
 # https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 code --install-extension esbenp.prettier-vscode

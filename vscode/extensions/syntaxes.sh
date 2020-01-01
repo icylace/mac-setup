@@ -2,7 +2,7 @@
 
 blue '
 +-------------------------------------------------------------------------------
-:   Visual Studio Code - Extensions - Syntaxes
+:  Visual Studio Code - Extensions - Syntaxes
 + - - - - - - - - - - - - - - - - - - - -
 '
 
@@ -12,8 +12,7 @@ blue '
 code --install-extension mrmlnc.vscode-apache
 
 # AsciiDoc
-# Live preview (with AsciiDoctor), syntax highlighting and
-# symbols (outline view)
+# Provides rich language support for AsciiDoc.
 # https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode
 code --install-extension joaompinto.asciidoctor-vscode
 
@@ -38,8 +37,7 @@ code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension zjhmale.Idris
 
 # Log File Highlighter
-# Adds color highlighting to log files to make it easier to follow the flow of
-# log events and identify problems.
+# Adds color highlighting to log files to make it easier to follow the flow of log events and identify problems.
 # https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter
 code --install-extension emilast.LogFileHighlighter
 
