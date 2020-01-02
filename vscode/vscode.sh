@@ -17,6 +17,7 @@ source extensions/*.sh
 
 # TODO: record installation commands for these extensions
 #
+# ritwickdey.liveserver
 # 1987 v0.3.1
 # acme-theme v0.0.2
 # agila-theme v2.0.2
