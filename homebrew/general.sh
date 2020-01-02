@@ -299,11 +299,10 @@ brew install pup
 # https://www.shellcheck.net/
 brew install shellcheck
 
-# # TODO: check later if this works in Catalina finally
-# # VLC
-# # Media player.
-# # https://www.videolan.org/vlc/
-# brew cask install vlc
+# VLC
+# A media player.
+# https://www.videolan.org/vlc/
+brew cask install vlc
 
 # GNU Wget
 # Internet file retriever
