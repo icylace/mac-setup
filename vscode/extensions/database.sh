@@ -11,12 +11,8 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter
 code --install-extension bradymholt.pgformatter
 
-# PostgreSQL
-# PostgreSQL Management Tool
-# https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres
-code --install-extension ckolkman.vscode-postgres
-
-# SQLTools - Database tools
-# Database management done right.
-# https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
-code --install-extension mtxr.sqltools
+# TODO:
+# # SQLTools - Database tools
+# # Database management done right.
+# # https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+# code --install-extension mtxr.sqltools

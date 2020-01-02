@@ -11,10 +11,11 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=nwolverson.language-purescript
 code --install-extension nwolverson.language-purescript
 
-# PureScript IDE
-# PureScript IntelliSense, tooltip, errors, code actions with language-server-purescript/purs IDE server
-# https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript
-code --install-extension nwolverson.ide-purescript
+# TODO:
+# # PureScript IDE
+# # PureScript IntelliSense, tooltip, errors, code actions with language-server-purescript/purs IDE server
+# # https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript
+# code --install-extension nwolverson.ide-purescript
 
 # vscode-purescript-emmet
 # vscode extension for purescript-emmet

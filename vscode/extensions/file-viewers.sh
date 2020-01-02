@@ -16,7 +16,8 @@ code --install-extension pranaygp.vscode-css-peek
 # https://marketplace.visualstudio.com/items?itemName=abierbaum.vscode-file-peek
 code --install-extension abierbaum.vscode-file-peek
 
-# vscode-pdf
-# Display pdf file in VSCode.
-# https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
-code --install-extension tomoki1207.pdf
+# TODO:
+# # vscode-pdf
+# # Display pdf file in VSCode.
+# # https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
+# code --install-extension tomoki1207.pdf

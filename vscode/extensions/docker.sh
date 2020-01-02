@@ -11,7 +11,8 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 code --install-extension ms-azuretools.vscode-docker
 
-# Docker Explorer
-# Manage Docker Containers, Docker Images, Docker Hub and Azure Container Registry
-# https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-explorer
-code --install-extension formulahendry.docker-explorer
+# TODO:
+# # Docker Explorer
+# # Manage Docker Containers, Docker Images, Docker Hub and Azure Container Registry
+# # https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-explorer
+# code --install-extension formulahendry.docker-explorer

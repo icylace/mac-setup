@@ -11,10 +11,11 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
 code --install-extension bierner.markdown-mermaid
 
-# markdownlint
-# Markdown linting and style checking for Visual Studio Code
-# https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-code --install-extension DavidAnson.vscode-markdownlint
+# TODO:
+# # markdownlint
+# # Markdown linting and style checking for Visual Studio Code
+# # https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+# code --install-extension DavidAnson.vscode-markdownlint
 
 # Remark
 # Beautify markdown code with Remark

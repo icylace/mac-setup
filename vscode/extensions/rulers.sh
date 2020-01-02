@@ -6,10 +6,11 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# cursoruler
-# Cursor ruler for Visual Studio Code
-# https://marketplace.visualstudio.com/items?itemName=freakone.cursoruler
-code --install-extension freakone.cursoruler
+# TODO:
+# # cursoruler
+# # Cursor ruler for Visual Studio Code
+# # https://marketplace.visualstudio.com/items?itemName=freakone.cursoruler
+# code --install-extension freakone.cursoruler
 
 # Guides
 # An extension for more guide lines

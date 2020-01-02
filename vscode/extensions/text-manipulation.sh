@@ -16,10 +16,11 @@ code --install-extension steve8708.Align
 # https://marketplace.visualstudio.com/items?itemName=nmsmith89.incrementor
 code --install-extension nmsmith89.incrementor
 
-# Indent one space
-# Move code to left or right with a distance of one whitespace
-# https://marketplace.visualstudio.com/items?itemName=usernamehw.indent-one-space
-code --install-extension usernamehw.indent-one-space
+# TODO:
+# # Indent one space
+# # Move code to left or right with a distance of one whitespace
+# # https://marketplace.visualstudio.com/items?itemName=usernamehw.indent-one-space
+# code --install-extension usernamehw.indent-one-space
 
 # Multi Line tricks
 # Enable Alt+L (line select) and Alt+Shift+L (selection to multi-cursor) behavior on VSCode

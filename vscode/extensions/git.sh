@@ -16,7 +16,8 @@ code --install-extension donjayamanne.githistory
 # https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
 code --install-extension codezombiech.gitignore
 
-# GitLens - Git supercharged
-# Supercharge the Git capabilities built into Visual Studio Code
-# https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-code --install-extension eamodio.gitlens
+# TODO:
+# # GitLens - Git supercharged
+# # Supercharge the Git capabilities built into Visual Studio Code
+# # https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+# code --install-extension eamodio.gitlens

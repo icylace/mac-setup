@@ -6,30 +6,33 @@ blue '
 + - - - - - - - - - - - - - - - - - - - -
 '
 
-# Aural Coding (Keyboard sounds)
-# A Visual Studio Code extension that creates sweet melodies based on what you type
-# https://marketplace.visualstudio.com/items?itemName=jeng.aural-coding-vscode
-code --install-extension jeng.aural-coding-vscode
+# TODO:
+# # Aural Coding (Keyboard sounds)
+# # A Visual Studio Code extension that creates sweet melodies based on what you type
+# # https://marketplace.visualstudio.com/items?itemName=jeng.aural-coding-vscode
+# code --install-extension jeng.aural-coding-vscode
 
 # Code Runner
 # Run code snippet or code file for multiple languages
 # https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 code --install-extension formulahendry.code-runner
 
-# Code Spell Checker
-# Spelling checker for source code
-# https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-code --install-extension streetsidesoftware.code-spell-checker
+# TODO:
+# # Code Spell Checker
+# # Spelling checker for source code
+# # https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+# code --install-extension streetsidesoftware.code-spell-checker
 
 # Dash
 # Dash, Zeal and Velocity integration in Visual Studio Code
 # https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash
 code --install-extension deerawan.vscode-dash
 
-# DevSkim
-# Detect security mistakes as you type, and get real time details and fix suggestions
-# https://marketplace.visualstudio.com/items?itemName=MS-DevSkim.vscode-devskim
-code --install-extension MS-DevSkim.vscode-devskim
+# TODO:
+# # DevSkim
+# # Detect security mistakes as you type, and get real time details and fix suggestions
+# # https://marketplace.visualstudio.com/items?itemName=MS-DevSkim.vscode-devskim
+# code --install-extension MS-DevSkim.vscode-devskim
 
 # Name That Color
 # Get a friendly name from a Hex color representation.

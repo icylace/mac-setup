@@ -16,10 +16,11 @@ code --install-extension CoenraadS.disableligatures
 # https://marketplace.visualstudio.com/items?itemName=kogai.regex-railroad-diagrams
 code --install-extension kogai.regex-railroad-diagrams
 
-# Unicode code point of current character
-# Shows the Unicode code point of character under cursor in the status bar.
-# https://marketplace.visualstudio.com/items?itemName=zeithaste.cursorCharCode
-code --install-extension zeithaste.cursorCharCode
+# TODO:
+# # Unicode code point of current character
+# # Shows the Unicode code point of character under cursor in the status bar.
+# # https://marketplace.visualstudio.com/items?itemName=zeithaste.cursorCharCode
+# code --install-extension zeithaste.cursorCharCode
 
 # vscode-icons
 # Icons for Visual Studio Code

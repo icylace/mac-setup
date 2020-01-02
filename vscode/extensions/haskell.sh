@@ -11,10 +11,11 @@ blue '
 # https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell
 code --install-extension justusadam.language-haskell
 
-# Haskero
-# A full featured Haskell IDE
-# https://marketplace.visualstudio.com/items?itemName=Vans.haskero
-code --install-extension Vans.haskero
+# TODO:
+# # Haskero
+# # A full featured Haskell IDE
+# # https://marketplace.visualstudio.com/items?itemName=Vans.haskero
+# code --install-extension Vans.haskero
 
 # haskell-linter
 # An extension to use hlint in vscode
