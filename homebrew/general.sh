@@ -50,6 +50,11 @@ brew install rs/tap/curlie
 # https://gentoo.com/di/
 brew install di
 
+# dockutil
+# command line tool for managing dock items
+# https://github.com/kcrawford/dockutil
+brew install dockutil
+
 # dwdiff
 # A diff program that operates at the word level instead of the line level.
 # https://os.ghalkes.nl/dwdiff.html

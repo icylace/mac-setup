@@ -93,14 +93,7 @@ defaults delete com.apple.dock persistent-others
 # This is only really useful when setting up a new Mac,
 # or if you don't use the Dock to launch apps.
 
-# TODO:
-# - is this still necessary?
-put 'Reset Launchpad.  Pre-Yosemite.'
-if [ -e $HOME/Library/Application\ Support/Dock/*.db ] ; then
-  rm $HOME/Library/Application\ Support/Dock/*.db
-fi
-
-put 'Reset Launchpad.  Yosemite.'
+put 'Reset Launchpad.'
 use ResetLaunchPad true
 
 put 'Disable indicator lights for open applications.'
@@ -111,10 +104,6 @@ use showhidden true
 
 put 'Disable the Launchpad gesture (pinch with thumb and three fingers).'
 use showLaunchpadGestureEnabled 0
-
-# put 'Enable single-app mode.'
-# use single-app true
-# # Single-app mode means if you click a Dock icon then every other app is hidden.
 
 put 'Show only running applications.'
 use static-only true
@@ -134,11 +123,11 @@ put 'Disable Spaces animation.'
 use workspaces-swoosh-animation-off true
 
 # # Clear out the Dock.
-# /usr/bin/dockutil --remove all
+# dockutil --remove all
 
-# /usr/bin/dockutil --add /Applications/Safari.app
-# /usr/bin/dockutil --add /Applications/Firefox.app
-# /usr/bin/dockutil --add /Applications/Google\ Chrome.app
+# dockutil --add /Applications/Safari.app
+# dockutil --add /Applications/Firefox.app
+# dockutil --add /Applications/Google\ Chrome.app
 
 # put 'Display the location path of current wallpaper in OS X.'
 # use desktop-picture-show-debug-text true

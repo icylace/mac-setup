@@ -31,9 +31,6 @@ sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
 # defaults write com.apple.driver.
 # AppleBluetoothMultitouch.trackpad HIDScrollZoomModifierMask -int 262144
 
-# put 'Disable transparency in the menu bar and elsewhere on Yosemite.'
-# defaults write com.apple.universalaccess reduceTransparency -bool true
-
 put 'Enable the debug menu in Address Book.'
 defaults write com.apple.addressbook ABShowDebugMenu -bool true
 
@@ -59,14 +56,6 @@ put 'Map bottom right Trackpad corner to right-click.'
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
-# put 'Increase sound quality for Bluetooth headphones/headsets.'
-# defaults write com.apple.BluetoothAudioAgent 'Apple Bitpool Min (editable)' -int 40
-
-# put 'Disable disk image verification for quicker mounting.'
-# defaults write com.apple.frameworks.diskimages skip-verify -bool true
-# defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
-# defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
-
 # put 'Automatically open a new Finder window when a volume is mounted.'
 # defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
 # defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
@@ -78,11 +67,6 @@ defaults write com.apple.helpviewer DevMode -bool true
 put 'Disable the “Are you sure you want to open this application?” dialog.'
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-# # Disable the "reopen windows when logging back in" option
-# # This works, although the checkbox will still appear to be checked.
-# defaults write com.apple.loginwindow TALLogoutSavesState -bool false
-# defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
-
 put 'Show remaining battery time.'
 defaults write com.apple.menuextra.battery ShowTime -string 'YES'
 
@@ -92,9 +76,6 @@ defaults write com.apple.menuextra.battery ShowPercent -string 'NO'
 put 'Use a digital clock with a non-flashing separator.'
 defaults write com.apple.menuextra.clock FlashDateSeparator -bool false
 defaults write com.apple.menuextra.clock IsAnalog -bool false
-
-# put 'Remove the User and Bluetooth entries from the menu bar.'
-# defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Volume.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
 # put "Disable smart quotes as it's annoying for messages that contain code."
 # defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
@@ -111,9 +92,6 @@ defaults write com.apple.ScriptEditor2 ApplePersistence -bool false
 put 'Prevent Time Machine from prompting to use new hard drives as a backup volume.'
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-# put 'Disable Notification Center.'
-# defaults write /System/Library/LaunchAgents/com.apple.notificationcenterui KeepAlive -bool false
-
 # put 'Restart Notification Center to apply the settings.'
 # killall NotificationCenter
 
@@ -123,21 +101,3 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # put 'Use a lighter text rendering style.'
 # defaults write -g AppleFontSmoothing -int 1
 # # http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
-
-# put 'Disable auto-save in AppleScript Editor.'
-# defaults write com.apple.ScriptEditor2 ApplePersistence -bool false
-# # http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
-
-# put 'Menu bar: hide the Time Machine, Volume, and User icons'
-# for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
-#   defaults write "${domain}" dontAutoLoad -array                \
-#     '/System/Library/CoreServices/Menu Extras/TimeMachine.menu' \
-#     '/System/Library/CoreServices/Menu Extras/Volume.menu'      \
-#     '/System/Library/CoreServices/Menu Extras/User.menu'
-# done
-
-# defaults write com.apple.systemuiserver menuExtras -array   \
-#   '/System/Library/CoreServices/Menu Extras/Bluetooth.menu' \
-#   '/System/Library/CoreServices/Menu Extras/AirPort.menu'   \
-#   '/System/Library/CoreServices/Menu Extras/Battery.menu'   \
-#   '/System/Library/CoreServices/Menu Extras/Clock.menu'

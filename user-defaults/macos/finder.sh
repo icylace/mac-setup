@@ -14,9 +14,6 @@ use _FXShowPosixPathInTitle true
 put 'Show hidden files.'
 use AppleShowAllFiles true
 
-# put 'Hide Desktop icons.'
-# use CreateDesktop false
-
 put 'Disable window animations and "Get Info" animations.'
 use DisableAllAnimations true
 
