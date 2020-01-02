@@ -102,23 +102,24 @@ brew cask install skype
 # https://panic.com/transmit/
 brew cask install transmit
 
-# ------------------------------------------------------------------------------
-
-# # TODO: try installing on Catalina later?
-# # VirtualBox
-# # Virtual environment manager.
-# # https://www.virtualbox.org/
-# brew cask install virtualbox
-# brew cask install virtualbox-extension-pack
+# VirtualBox
+# Virtual environment manager.
+# https://www.virtualbox.org/
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 
 # ------------------------------------------------------------------------------
 
-# # Vagrant
-# # Virtual development environment manager.
-# # https://www.vagrantup.com/
-# brew cask install vagrant
+# Vagrant
+# Development Environments Made Easy
+# https://www.vagrantup.com/
+brew cask install vagrant
 
-# vagrant plugin install vagrant-vbguest
+# vagrant-vbguest
+# A Vagrant plugin to keep your VirtualBox Guest Additions up to date
+# https://github.com/dotless-de/vagrant-vbguest
+vagrant plugin install vagrant-vbguest
 
+# TODO: still necessary ?
 # # https://github.com/mitchellh/vagrant/issues/8519#issuecomment-297413831
 # vagrant plugin install vagrant-share --plugin-version 1.1.8
