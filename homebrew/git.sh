@@ -100,8 +100,8 @@ setup_git() {
 
   # Edit user info.
   git config --global --edit
-  # git config --global user.name=    # To be filled in.
-  # git config --global user.email=   # To be filled in.
+  # git config --global user.name "TBD"
+  # git config --global user.email "TBD"
 
   # TODO: do we need to change anything with regards to this ?
   # https://github.com/so-fancy/diff-so-fancy/issues/296

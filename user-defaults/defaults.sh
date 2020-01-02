@@ -33,6 +33,9 @@ blue '
 # - https://www.amsys.co.uk/how-to-enable-mission-control-to-display-full-size-previews/#.VKextGTF_yU
 # - https://www.tekrevue.com/tip/the-complete-guide-to-customizing-mac-os-xs-dock-with-terminal/
 
+# TODO: consider these
+# https://macguide.org/#allow-apps-downloaded-from-anywhere
+
 write_defaults() {
   if (($# < 3)) ; then
     echo "Error: write_defaults() needs more arguments" 1>&2
