@@ -38,16 +38,6 @@ blue '
 
 source ./write-defaults.sh
 
-# # Change the default backup periods in Time Machine.
-# sudo defaults write /System/Library/Launch\ Daemons/com.apple.backupd-auto StartInterval -int 1800
-
-# put 'Check for software updates daily, not just once per week.'
-# defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-# # Frequency is measured in days.
-
-# put 'Disabling local Time Machine backups'
-# hash tmutil &> /dev/null && sudo tmutil disablelocal
-
 # put 'Display additional information on the login screen.'
 # sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
@@ -73,9 +63,6 @@ source ./write-defaults.sh
 # ------------------------------------------------------------------------------
 
 
-# Hidden wallpapers.
-# /Library/Screen Savers/Default Collections
-
 # # Set the computer name.
 # COMPUTER_NAME="0xFF69B4"
 # sudo scutil --set ComputerName COMPUTER_NAME
@@ -93,9 +80,6 @@ chflags nohidden "$HOME/Library/"
 # put 'Re-index Spotlight.'
 # sudo mdutil -E -p "/Volumes/Macintosh HD"
 # # https://macguide.org/#Re-Index-Spotlight
-
-# put 'Disabling local Time Machine backups.'
-# hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 # put 'Reset Launchpad, but keep the desktop wallpaper intact.'
 # find "$HOME/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
@@ -117,9 +101,6 @@ chflags nohidden "$HOME/Library/"
 # sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText
 
 # https://www.defaults-write.com/safari-highlight-non-retina-images/
-
-# put 'Enable AirDrop over Ethernet and on unsupported Macs running Lion.'
-# defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 
 # ------------------------------------------------------------------------------
