@@ -73,7 +73,6 @@ source ./nvm/nvm.sh
 source ./stack/haskell.sh
 source ./vscode/vscode.sh
 source ./direct/direct.sh
-
 # source ./appledev.sh
 source ./user-defaults/user-defaults.sh
 
@@ -209,21 +208,6 @@ source ./user-defaults/user-defaults.sh
 # 1.  Wikipedia - Dark, blue, simple
 #     https://userstyles.org/styles/64023/wikipedia-dark-blue-simple
 #
-
-
-# TODO:
-# - Figure out a way to programmatically turn off Caps Lock key
-# - check for the existence of PGP key stuff as this is important for GitHub
-#   thingies and probably other things too
-
-
-# install script stuff:
-
-# find a way to disable default system shortcut keys
-
-
-
-
 
 
 # other sync:
