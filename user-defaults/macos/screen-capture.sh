@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-source ../../init.sh
-source ../write-defaults.sh
+source ./init.sh
+source ./user-defaults/write-defaults.sh
 
 blue '
 +-------------------------------------------------------------------------------

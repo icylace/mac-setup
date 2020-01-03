@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-source ../../init.sh
-source ../write-defaults.sh
+source ./init.sh
+source ./user-defaults/write-defaults.sh
 
 blue '
 +-------------------------------------------------------------------------------
@@ -19,12 +19,6 @@ use AppleShowAllFiles true
 
 put 'When performing a search, search the current folder by default.'
 use FXDefaultSearchScope 'SCcf'
-
-put 'Expand the following File Info panes: "General", "Open with", and "Sharing & Permissions"'
-use FXInfoPanesExpanded -dict \
-    General true              \
-    OpenWith true             \
-    Privileges true
 
 put 'Use list view by default.'
 use FXPreferredViewStyle 'Nlsv'

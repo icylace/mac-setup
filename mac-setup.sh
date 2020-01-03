@@ -32,33 +32,33 @@
 
 source ./init.sh
 
-red '
-###############################################
-#        DO NOT RUN THIS SCRIPT BLINDLY       #
-#        YOU WILL PROBABLY REGRET IT...       #
-#                                             #
-#              READ IT THOROUGHLY             #
-#         AND EDIT TO SUIT YOUR NEEDS         #
-###############################################
-'
+# red '
+# ###############################################
+# #        DO NOT RUN THIS SCRIPT BLINDLY       #
+# #        YOU WILL PROBABLY REGRET IT...       #
+# #                                             #
+# #              READ IT THOROUGHLY             #
+# #         AND EDIT TO SUIT YOUR NEEDS         #
+# ###############################################
+# '
 
-red '
-Have you read through the script you are about to run and
-understood that it will make changes to your computer? (y/N)
-'
+# red '
+# Have you read through the script you are about to run and
+# understood that it will make changes to your computer? (y/N)
+# '
 
-proceeding=false
+# proceeding=false
 
-read -r response
-case $response in
-  [yY]) proceeding=true break;;
-  *) break;;
-esac
+# read -r response
+# case $response in
+#   [yY]) proceeding=true break;;
+#   *) break;;
+# esac
 
-if [ ! $proceeding ] ; then
-  red 'Please go read the script.  It is well worth your time.'
-  exit
-fi
+# if [ ! $proceeding ] ; then
+#   red 'Please go read the script.  It is well worth your time.'
+#   exit
+# fi
 
 # # Now we begin. Ask for the administrator password upfront and run a
 # # keep-alive to update existing `sudo` time stamp until script has finished.
@@ -66,13 +66,13 @@ fi
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # source ./nix/nix.sh
-source ./homebrew/homebrew.sh
-source ./yarn/yarn.sh
-source ./mas/mas.sh
-source ./nvm/nvm.sh
-source ./stack/haskell.sh
-source ./vscode/vscode.sh
-source ./direct/direct.sh
+# source ./homebrew/homebrew.sh
+# source ./yarn/yarn.sh
+# source ./mas/mas.sh
+# source ./nvm/nvm.sh
+# source ./stack/haskell.sh
+# source ./vscode/vscode.sh
+# source ./direct/direct.sh
 # source ./appledev.sh
 source ./user-defaults/user-defaults.sh
 
@@ -217,19 +217,8 @@ source ./user-defaults/user-defaults.sh
 
 
 
-
-
-
-# TODO:
-# - setup Alfred Preferences more
-#   - theme
-
 # TODO:
 # - figure out preferences sharing for:
-# ControllerMate
-# Ulysses
-# VirtualBox
-# LibreOffice
 
 # - consider using .plist or "defaults write" for:
 # nvALT
