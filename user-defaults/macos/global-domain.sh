@@ -25,12 +25,6 @@ alias use='write_defaults NSGlobalDomain'
 # Known to work for: InitialKeyRepeat, KeyRepeat
 # https://github.com/mathiasbynens/dotfiles/issues/687#issuecomment-300072305
 
-# put 'Decrease the delay until keys are repeated.'
-# use InitialKeyRepeat 10
-
-# put 'Set a fast keyboard repeat rate.'
-# use KeyRepeat 1
-
 # put 'Making the scroll dragging speed faster.'
 # use NSAutoscrollResponseMultiplier 3.0
 
@@ -43,8 +37,15 @@ alias use='write_defaults NSGlobalDomain'
 # put 'Increasing trackpad tracking to 3.'
 # use com.apple.trackpad.scaling 3
 
-put 'Enable Dark Mode.'
-use AppleInterfaceStyle 'Dark'
+# TODO: fix this for Catalina
+# put 'Enable Dark Mode.'
+# use AppleInterfaceStyle 'Dark'
+
+put 'Decrease the delay until keys are repeated.'
+use InitialKeyRepeat 10
+
+put 'Set a fast keyboard repeat rate.'
+use KeyRepeat 1
 
 put 'Enable full keyboard access (tab through all GUI buttons and fields, not just text boxes and lists).'
 use AppleKeyboardUIMode 3
@@ -62,8 +63,8 @@ put 'Always show scrollbars.'
 use AppleShowScrollBars 'Always'
 # Possible values: `WhenScrolling`, `Automatic`, and `Always`
 
-put 'Increasing mouse tracking to 3.'
-use com.apple.mouse.scaling 3.0
+put 'Increasing mouse tracking to 2.'
+use com.apple.mouse.scaling 2
 
 put 'Disable feedback sound when changing volume.'
 use com.apple.sound.beep.feedback false
@@ -100,22 +101,25 @@ use NSTextShowsControlCharacters true
 put 'Set sidebar icon size to medium.'
 use NSTableViewDefaultSizeMode 2
 
-put 'For all applications change tabs with cmd-opt-arrow.'
-use NSUserKeyEquivalents -dict-add 'Show Next Tab'       '@~\U2192'
-use NSUserKeyEquivalents -dict-add 'Show Previous Tab'   '@~\U2190'
-use NSUserKeyEquivalents -dict-add 'Select Next Tab'     '@~\U2192'
-use NSUserKeyEquivalents -dict-add 'Select Previous Tab' '@~\U2190'
-use NSUserKeyEquivalents -dict-add 'Next Tab'            '@~\U2192'
-use NSUserKeyEquivalents -dict-add 'Previous Tab'        '@~\U2190'
-#
-# Keyboard shortcuts modifier key legend:
-#   @ = command
-#   ^ = control
-#   ~ = option
-#   $ = shift
-#
-# NOTE: These shortcuts will not show in System Preferences and setting new shortcuts there will overwrite these.
-#
+# TODO: investigate this further
+# put 'For all applications change tabs with cmd-opt-arrow.'
+# use NSUserKeyEquivalents '{
+# "Show Next Tab"="@~\U2192";
+# "Show Previous Tab"="@~\U2190";
+# "Select Next Tab"="@~\U2192";
+# "Select Previous Tab"="@~\U2190";
+# "Next Tab"="@~\U2192";
+# "Previous Tab"="@~\U2190";
+# }'
+# #
+# # Keyboard shortcuts modifier key legend:
+# #   @ = command
+# #   ^ = control
+# #   ~ = option
+# #   $ = shift
+# #
+# # NOTE: These shortcuts will not show in System Preferences and setting new shortcuts there will overwrite these.
+# #
 
 put 'Increase window resize speed for Cocoa applications.'
 use NSWindowResizeTime 0.01

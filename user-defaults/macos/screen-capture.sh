@@ -11,9 +11,6 @@ blue '
 
 alias use='write_defaults com.apple.screencapture'
 
-put 'Disable the shadow in screenshots.'
-use disable-shadow true
-
 put 'Save screenshots into the downloads folder to keep the desktop uncluttered.'
 use location "$HOME/Downloads"
 

@@ -5,7 +5,7 @@ source ./user-defaults/write-defaults.sh
 
 blue '
 +-------------------------------------------------------------------------------
-:  Dock, Launchpad, and Mission Control
+:  Dock and Launchpad
 + - - - - - - - - - - - - - - - - - - - -
 '
 
@@ -42,12 +42,8 @@ use orientation 'bottom'
 use pinning 'middle'
 
 if ! we_have dockutil ; then
-  put 'Wipe all persistent items from the Dock.'
-  defaults delete com.apple.dock persistent-apps
-  defaults delete com.apple.dock persistent-others
-
-  # # Clear out the Dock.
-  # dockutil --remove all
+  # Clear out the Dock.
+  dockutil --remove all
 fi
 
 put 'Disable indicator lights for open applications.'
@@ -56,11 +52,11 @@ use show-process-indicators false
 put 'Make Dock icons of hidden applications translucent.'
 use showhidden true
 
-# put 'Reset Launchpad.'
-# use ResetLaunchPad true
+put 'Reset Launchpad.'
+use ResetLaunchPad true
 
-# put 'Disable the Launchpad gesture (pinch with thumb and three fingers).'
-# use showLaunchpadGestureEnabled 0
+put 'Disable the Launchpad gesture (pinch with thumb and three fingers).'
+use showLaunchpadGestureEnabled 0
 
 put 'Show only running applications.'
 use static-only true
