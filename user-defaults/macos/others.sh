@@ -31,12 +31,9 @@ defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 put 'Disable tap to click (Trackpad).'
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool false
 
-
-
-
-
-
-
+# https://macguide.org/#allow-apps-downloaded-from-anywhere
+put 'Allow apps downloaded from anywhere.'
+sudo spctl --master-disable
 
 # # Change How Long (in seconds) Notification Banners Persist for in OS X
 # defaults write com.apple.notificationcenterui bannerTime [time in seconds]
