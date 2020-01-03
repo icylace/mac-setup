@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source ../../init.sh
+source ../write-defaults.sh
+
 blue '
 +-------------------------------------------------------------------------------
 :  Text Edit

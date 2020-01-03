@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source ../../init.sh
+source ../write-defaults.sh
+
 blue '
 +-------------------------------------------------------------------------------
 :  Finder
@@ -14,17 +17,8 @@ use _FXShowPosixPathInTitle true
 put 'Show hidden files.'
 use AppleShowAllFiles true
 
-put 'Disable window animations and "Get Info" animations.'
-use DisableAllAnimations true
-
-# put 'Empty Trash securely by default.'
-# use EmptyTrashSecurely true
-
 put 'When performing a search, search the current folder by default.'
 use FXDefaultSearchScope 'SCcf'
-
-put 'Disable the warning when changing a file extension.'
-use FXEnableExtensionChangeWarning false
 
 put 'Expand the following File Info panes: "General", "Open with", and "Sharing & Permissions"'
 use FXInfoPanesExpanded -dict \
@@ -57,24 +51,8 @@ use NewWindowTargetPath "file://$HOME/Downloads"
 put 'Enable text selection in the Quick Look window.'
 use QLEnableTextSelection true
 
-put 'Enable the menu option to quit Finder.'
-use QuitMenuItem true
-# Quitting Finder will also hide desktop icons.
-
-put 'Show icons for hard drives, mounted servers, and removable media on the desktop.'
-use ShowExternalHardDrivesOnDesktop true
-use ShowHardDrivesOnDesktop true
-use ShowMountedServersOnDesktop true
-use ShowRemovableMediaOnDesktop true
-
 put 'Show path bar.'
 use ShowPathbar true
 
 put 'Show status bar.'
 use ShowStatusBar true
-
-put 'Disable the warning before emptying the Trash.'
-use WarnOnEmptyTrash false
-
-# # Restart the Finder to apply the settings.
-# killall Finder

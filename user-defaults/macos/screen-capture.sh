@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source ../../init.sh
+source ../write-defaults.sh
+
 blue '
 +-------------------------------------------------------------------------------
 :  Screen Capture
@@ -20,6 +23,3 @@ use name 'screen'
 put 'Use JPEG instead of PNG for smaller file sizes.'
 use type 'jpg'
 # Other options: BMP, GIF, JPG, PDF, TIFF
-
-# # Restart SystemUIServer to apply the settings.
-# killall SystemUIServer

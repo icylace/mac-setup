@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
 
+source ../../init.sh
+source ../write-defaults.sh
+
 blue '
 +-------------------------------------------------------------------------------
 :  Others
 + - - - - - - - - - - - - - - - - - - - -
 '
-
-put 'Disable infrared remote control.'
-sudo defaults write /Library/Preferences/com.apple.driver.AppleIRController DeviceEnabled -bool false
-
-put 'Turn Bluetooth off.'
-sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0
-sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
-sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
 
 # put 'Disable tap-to-click for this user and for the login screen.'
 # defaults -currentHost write com.apple.AppleMultitouchTrackpad Clicking -bool false
@@ -20,30 +15,14 @@ sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
 # defaults write com.apple.AppleMultitouchTrackpad Clicking -bool false
 # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool false
 
-# put 'Trackpad: enable tap to click for this user and for the login screen'
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-# defaults -currentHost write -g com.apple.mouse.tapBehavior -int 1
-# defaults write -g com.apple.mouse.tapBehavior -int 1
+# put "Disable smart quotes as it's annoying for messages that contain code."
+# defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 
-# put 'Enable ctrl key + scrolling for zoom in/out.'
-# defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-# defaults write com.apple.AppleMultitouchTrackpad HIDScrollZoomModifierMask -int 262144
-# defaults write com.apple.driver.
-# AppleBluetoothMultitouch.trackpad HIDScrollZoomModifierMask -int 262144
+# put "Don't blink the cursor caret (value is in milliseconds)."
+# defaults write -g NSTextInsertionPointBlinkPeriod -int 9999999999999999
 
 put 'Enable the debug menu in Address Book.'
 defaults write com.apple.addressbook ABShowDebugMenu -bool true
-
-# put 'Disable the crash reporter.'
-# defaults write com.apple.CrashReporter DialogType -string 'none'
-# # Default: crashreport
-
-put 'Avoid creating .DS_Store files on network volumes.'
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-# https://support.apple.com/en-us/HT1629
-# https://www.defaults-write.com/disable-the-creation-of-ds_store-files/
-# https://apple.stackexchange.com/questions/107969/single-purpose-app-to-prevent-ds-store-creation-under-mavericks#comment126770_108064
-# https://www.aorensoftware.com/blog/2011/12/24/death-to-ds_store/
 
 put 'Enable the debug menu in Disk Utility.'
 defaults write com.apple.DiskUtility advanced-image-options -bool true
@@ -52,52 +31,55 @@ defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 put 'Disable tap to click (Trackpad).'
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool false
 
-put 'Map bottom right Trackpad corner to right-click.'
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
-# put 'Automatically open a new Finder window when a volume is mounted.'
-# defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
-# defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
-# defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
-put 'Set Help Viewer windows to non-floating mode.'
-defaults write com.apple.helpviewer DevMode -bool true
 
-put 'Disable the “Are you sure you want to open this application?” dialog.'
-defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-put 'Show remaining battery time.'
-defaults write com.apple.menuextra.battery ShowTime -string 'YES'
 
-put 'Hide remaining battery percentage.'
-defaults write com.apple.menuextra.battery ShowPercent -string 'NO'
 
-put 'Use a digital clock with a non-flashing separator.'
-defaults write com.apple.menuextra.clock FlashDateSeparator -bool false
-defaults write com.apple.menuextra.clock IsAnalog -bool false
 
-# put "Disable smart quotes as it's annoying for messages that contain code."
-# defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+# # Change How Long (in seconds) Notification Banners Persist for in OS X
+# defaults write com.apple.notificationcenterui bannerTime [time in seconds]
 
-# put 'Disable continuous spell checking.'
-# defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
+# # Set sleep (in minutes).
+# sudo systemsetup -setcomputersleep 1
+# sudo systemsetup -setdisplaysleep 1
+# sudo systemsetup -setdisksleep 1
 
-put 'Automatically quit printer app once the print jobs complete.'
-defaults write com.apple.print.PrintingPrefs 'Quit When Finished' -bool true
+# # Set the timezone; see `sudo systemsetup -listtimezones` for other values
+# sudo systemsetup -settimezone 'America/New_York' > /dev/null
 
-put 'Disable auto-save in AppleScript Editor.'
-defaults write com.apple.ScriptEditor2 ApplePersistence -bool false
+# ------------------------------------------------------------------------------
 
-put 'Prevent Time Machine from prompting to use new hard drives as a backup volume.'
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+set_computer_name() {
+  sudo scutil --set ComputerName "$1"
+  sudo scutil --set HostName "$1"
+  sudo scutil --set LocalHostName "$1"
+  sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$1"
+}
 
-# put 'Restart Notification Center to apply the settings.'
-# killall NotificationCenter
+set_computer_name 0xFF69B4
 
-# put "Don’t blink the cursor caret (value is in milliseconds)."
-# defaults write -g NSTextInsertionPointBlinkPeriod -int 9999999999999999
+# ------------------------------------------------------------------------------
 
-# put 'Use a lighter text rendering style.'
-# defaults write -g AppleFontSmoothing -int 1
-# # http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/#comment-435634
+put "Always show the user's Library folder."
+chflags nohidden "$HOME/Library/"
+
+put 'Enabling dark mode.'
+defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
+
+put 'Reset Launchpad.'
+defaults write com.apple.dock ResetLaunchPad -bool true
+
+put 'Enable the debug menu in Address Book.'
+defaults write com.apple.addressbook ABShowDebugMenu -bool true
+
+put 'Enable the debug menu in iCal.'
+defaults write com.apple.iCal IncludeDebugMenu -bool true
+
+# put 'Display additional information on the login screen.'
+# sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+# put 'Add a message to the login screen.'
+# sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Your Message"
+# sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText

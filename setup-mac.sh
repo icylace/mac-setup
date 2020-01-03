@@ -30,7 +30,7 @@
 # We're focusing on OS X so abort if we're not in it.
 [[ "$OSTYPE" =~ ^darwin ]] || return 1
 
-source 'init.sh'
+source ./init.sh
 
 red '
 ###############################################
@@ -60,22 +60,22 @@ if [ ! $proceeding ] ; then
   exit
 fi
 
-# # Now we begin.  Ask for the administrator password upfront and run a
+# # Now we begin. Ask for the administrator password upfront and run a
 # # keep-alive to update existing `sudo` time stamp until script has finished.
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# source nix/nix.sh
-source homebrew/homebrew.sh
-source yarn/yarn.sh
-source mas/mas.sh
-source nvm/nvm.sh
-source stack/haskell.sh
-source vscode/vscode.sh
-source direct/direct.sh
+# source ./nix/nix.sh
+source ./homebrew/homebrew.sh
+source ./yarn/yarn.sh
+source ./mas/mas.sh
+source ./nvm/nvm.sh
+source ./stack/haskell.sh
+source ./vscode/vscode.sh
+source ./direct/direct.sh
 
-# source 'appledev.sh'
-source 'user-defaults/defaults.sh'
+# source ./appledev.sh
+source ./user-defaults/user-defaults.sh
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
 # sudo shutdown -r now 'Rebooting now...'
