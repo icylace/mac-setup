@@ -32,15 +32,15 @@
 
 source ./init.sh
 
-# red '
-# ###############################################
-# #        DO NOT RUN THIS SCRIPT BLINDLY       #
-# #        YOU WILL PROBABLY REGRET IT...       #
-# #                                             #
-# #              READ IT THOROUGHLY             #
-# #         AND EDIT TO SUIT YOUR NEEDS         #
-# ###############################################
-# '
+red '
+###############################################
+#        DO NOT RUN THIS SCRIPT BLINDLY       #
+#        YOU WILL PROBABLY REGRET IT...       #
+#                                             #
+#              READ IT THOROUGHLY             #
+#         AND EDIT TO SUIT YOUR NEEDS         #
+###############################################
+'
 
 # red '
 # Have you read through the script you are about to run and
@@ -72,16 +72,20 @@ source ./init.sh
 # source ./nvm/nvm.sh
 # source ./stack/haskell.sh
 # source ./vscode/vscode.sh
-# source ./direct/direct.sh
+source ./direct/direct.sh
 # source ./appledev.sh
-source ./user-defaults/user-defaults.sh
+# source ./user-defaults/user-defaults.sh
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
 # sudo shutdown -r now 'Rebooting now...'
 
-#
-# Considering:
-#
+# ------------------------------------------------------------------------------
+
+# TODO: considering these
+
+# Dark Boot
+# Make your Macs boot and login screens pop
+# https://www.macenhance.com/darkboot
 
 # macpaw-gemini
 # hazel - useful to me ?
@@ -91,7 +95,6 @@ source ./user-defaults/user-defaults.sh
 # xee - use justlooking instead ?
 # deeper
 # maintenance
-# tinkertool
 # clamxav
 # hex-fiend - useful to me ?
 # carbon-copy-cloner - use time machine instead ?
@@ -116,29 +119,6 @@ source ./user-defaults/user-defaults.sh
 # From script to shoot, Celtx kickstarts your production with
 # cloud-based planning tools to create better content faster.
 # https://www.celtx.com/index.html
-
-# ------------------------------------------------------------------------------
-#  Apps to install manually.
-# ------------------------------------------------------------------------------
-
-# Backblaze
-# Cloud storage that's astonishingly easy and low-cost.
-# https://www.backblaze.com/
-
-# Breakaway 2.1
-# iTunes playback controller.
-# https://github.com/steakknife/breakaway
-# Fork of http://mutablecode.com/apps/breakaway.html
-
-# Dark Boot
-# Make your Macs boot and login screens pop
-# https://www.macenhance.com/darkboot
-
-
-
-
-# exit 0
-
 
 
 
@@ -217,14 +197,10 @@ source ./user-defaults/user-defaults.sh
 
 
 
-# TODO:
-# - figure out preferences sharing for:
 
-# - consider using .plist or "defaults write" for:
-# nvALT
-# VLC
-# Sequel Pro
 
-# ----
-
-# ~ Transmit
+# TODO: check on this later
+# # Iris
+# # The World's best Blue light filter and Eye protection Software
+# # https://iristech.co/
+# brew cask install iris

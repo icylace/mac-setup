@@ -2,9 +2,10 @@
 
 # Things to install directly.
 
-source font-iosevka.sh
-source phpbrew.sh
-source twa.sh
+source ./direct/font-iosevka.sh
+# source ./direct/phpbrew.sh
+source ./direct/twa.sh
+source ./direct/zlua.sh
 
 # 8BitDo Ultimate Software
 # Companion software for the 8BitDo SN30 Pro+ gaming controller.

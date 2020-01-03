@@ -78,8 +78,8 @@ brew install fd
 # GNU Find Utilities
 # Basic directory searching utilities.
 # https://www.gnu.org/software/findutils/
-# GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed.
 brew install findutils
+# GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed.
 
 # fzf
 # 🌸 A command-line fuzzy finder
@@ -152,6 +152,11 @@ brew install jq
 # https://github.com/CISOfy/lynis
 brew install lynis
 
+# miniserve
+# High performance static file server
+# https://github.com/svenstaro/miniserve
+brew install miniserve
+
 # MOST
 # A terminal pager similar to 'more' and 'less'
 # https://jedsoft.org/most/
@@ -172,6 +177,16 @@ brew install ncdu
 # https://neovim.io/
 brew install neovim
 
+# ngrok
+# Introspected tunnels to localhost.
+# https://ngrok.com/
+brew cask install ngrok
+
+# pup
+# Parsing HTML at the command line
+# https://github.com/EricChiang/pup
+brew install pup
+
 # procs
 # A modern replacement for ps written in Rust
 # https://github.com/dalance/procs
@@ -183,11 +198,15 @@ brew install procs
 brew install pv
 
 # ripgrep
-# A utility that combines the usability of The Silver Searcher with
-# the raw speed of grep
+# A utility that combines the usability of The Silver Searcher with the raw speed of grep
 # https://blog.burntsushi.net/ripgrep/
 # https://github.com/BurntSushi/ripgrep
 brew install ripgrep
+
+# ShellCheck
+# Static analysis and lint tool, for (ba)sh scripts
+# https://www.shellcheck.net/
+brew install shellcheck
 
 # spark
 # Sparklines for the shell
@@ -200,8 +219,7 @@ brew install spark
 brew install speedtest-cli
 
 # tmux
-# A "terminal multiplexer", it enables a number of terminals to be accessed
-# and controlled from a single terminal.
+# A "terminal multiplexer", it enables a number of terminals to be accessed and controlled from a single terminal.
 # https://github.com/tmux/tmux
 brew install tmux
 
@@ -215,175 +233,7 @@ brew install trash
 # http://mama.indstate.edu/users/ice/tree/
 brew install tree
 
-# z
-# Navigate your most used directories based on 'frecency'.
-# https://github.com/rupa/z
-brew install z
-
-blue '
-+-------------------------------------------------------------------------------
-:  macOS Applications.
-+ - - - - - - - - - - - - - - - - - - - -
-'
-
-# AppCleaner
-# Application uninstaller.
-# https://freemacsoft.net/appcleaner/
-brew cask install appcleaner
-
-# BetterZip 4
-# > the next generation of archiving
-# https://macitbetter.com/
-brew cask install betterzip
-
-# Beyond Compare
-# File and folder comparison tool.
-# https://scootersoftware.com/
-brew cask install beyond-compare
-
-# DaisyDisk
-# Disk space analyzer.
-# https://daisydiskapp.com/
-brew cask install daisydisk
-
-# Firefox Developer Edition
-# Web browser with preinstalled web developer tools.
-# https://www.mozilla.org/en-US/firefox/developer/
-brew cask install firefox-developer-edition
-
-# Google Chrome
-# Web browser.
-# https://www.google.com/chrome/
-brew cask install google-chrome
-
-# TODO: check on this later
-# # Iris
-# # The World's best Blue light filter and Eye protection Software
-# # https://iristech.co/
-# brew cask install iris
-
-# LibreOffice
-# Office suite.
-# https://www.libreoffice.org/
-brew cask install libreoffice
-
-# logitech-options
-# https://www.logitech.com/en-us/product/options
-# https://support.logitech.com/en_us/software/options
-# Caveats: You must reboot for the installation of logitech-options to
-# take effect.
-brew cask install logitech-options
-
-# OnyX
-# System maintenance utility.
-# https://www.titanium-software.fr/en/index.html
-brew cask install onyx
-
-# Opera
-# Web browser.
-# https://www.opera.com/
-brew cask install opera
-
-# Path Finder
-# File manager for macOS
-# https://cocoatech.com/
-brew cask install path-finder
-
-# Paw
-# HTTP client that lets you test and describe the APIs you build or consume.
-# https://paw.cloud/
-brew cask install paw
-
-# pup
-# Parsing HTML at the command line
-# https://github.com/EricChiang/pup
-brew install pup
-
-# ShellCheck
-# Static analysis and lint tool, for (ba)sh scripts
-# https://www.shellcheck.net/
-brew install shellcheck
-
-# VLC
-# A media player.
-# https://www.videolan.org/vlc/
-brew cask install vlc
-
 # GNU Wget
 # Internet file retriever
 # https://www.gnu.org/software/wget/
 brew install wget
-
-blue '
-+-------------------------------------------------------------------------------
-:  Menu bar apps.
-+ - - - - - - - - - - - - - - - - - - - -
-'
-
-# Bartender
-# Menu bar manager.
-# https://www.macbartender.com/
-brew cask install bartender
-
-# Boom 3D
-# System-wide volume booster and equalizer.
-# https://www.globaldelight.com/boom/
-brew cask install boom-3d
-
-# Dash
-# Dash gives your Mac instant offline access to 200+ API documentation sets.
-# https://kapeli.com/dash
-brew cask install dash
-
-# Dropbox
-# File sharer with cloud storage.
-# https://www.dropbox.com/
-brew cask install dropbox
-
-# Flux
-# Screen color temperature manager.
-# https://justgetflux.com/
-brew cask install flux
-
-# iStat Menus
-# System monitor.
-# https://bjango.com/mac/istatmenus/
-brew cask install istat-menus
-
-# KeepingYouAwake
-# System sleep manager.
-# https://github.com/newmarcel/KeepingYouAwake
-brew cask install keepingyouawake
-
-# nvALT
-# Notes manager.
-# http://brettterpstra.com/projects/nvalt/
-brew cask install nvalt
-# TODO: keep an eye on this...
-# https://nvultra.com/
-
-blue '
-+-------------------------------------------------------------------------------
-:  Tools that run in the background.
-+ - - - - - - - - - - - - - - - - - - - -
-'
-
-# HyperDock
-# Dock enhancer and window placement manager.
-# https://bahoom.com/hyperdock/
-brew cask install hyperdock
-
-# miniserve
-# High performance static file server
-# https://github.com/svenstaro/miniserve
-brew install miniserve
-
-# ngrok
-# Introspected tunnels to localhost.
-# https://ngrok.com/
-brew cask install ngrok
-
-# The Unarchiver
-# Archive file extractor.
-# https://theunarchiver.com/
-brew cask install the-unarchiver

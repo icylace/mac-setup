@@ -94,7 +94,7 @@ source git.sh
 source grc.sh
 source kakoune.sh
 source keyboard.sh
-# source mas.sh
+source macos-apps.sh
 source php.sh
 source postgresql.sh
 source python.sh

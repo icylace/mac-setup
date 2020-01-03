@@ -11,7 +11,5 @@ blue '
 # https://yadm.io/
 brew install yadm
 
-if we_have yadm ; then
-  cd "$HOME"
-  yadm clone https://github.com/icylace/dotfiles
-fi
+# My dotfiles.
+yadm clone https://github.com/icylace/dotfiles "$HOME"
