@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source ./init.sh
+source ./user-defaults/write-defaults.sh
+
 blue '
 +-------------------------------------------------------------------------------
 :  Path Finder
