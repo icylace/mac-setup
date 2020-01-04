@@ -72,9 +72,9 @@ red '
 # source ./nvm/nvm.sh
 # source ./stack/haskell.sh
 # source ./vscode/vscode.sh
-source ./direct/direct.sh
+# source ./direct/direct.sh
 # source ./appledev.sh
-# source ./user-defaults/user-defaults.sh
+source ./user-defaults/user-defaults.sh
 
 # e 'Done.  Note that some apps and settings changs require a logout/restart to take effect.'
 # sudo shutdown -r now 'Rebooting now...'

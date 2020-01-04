@@ -38,22 +38,19 @@ blue '
 #  macOS settings.
 # ------------------------------------------------------------------------------
 
-source ./user-defaults/macos/activity-monitor.sh
-source ./user-defaults/macos/dock.sh
-source ./user-defaults/macos/finder.sh
-source ./user-defaults/macos/global-domain.sh
-source ./user-defaults/macos/mail.sh
-source ./user-defaults/macos/others.sh
-source ./user-defaults/macos/safari.sh
-source ./user-defaults/macos/screen-capture.sh
-source ./user-defaults/macos/terminal.sh
-source ./user-defaults/macos/text-edit.sh
+# source ./user-defaults/macos/activity-monitor.sh
+# source ./user-defaults/macos/dock.sh
+# source ./user-defaults/macos/finder.sh
+# source ./user-defaults/macos/global-domain.sh
+# source ./user-defaults/macos/mail.sh
+# source ./user-defaults/macos/others.sh
+# source ./user-defaults/macos/safari.sh
+# source ./user-defaults/macos/screen-capture.sh
+# source ./user-defaults/macos/terminal.sh
+# source ./user-defaults/macos/text-edit.sh
 
-# TODO:
-# source ./user-defaults/apps/bartender.sh
-# source ./user-defaults/apps/google-chrome.sh
-# source ./user-defaults/apps/iterm2.sh
-# source ./user-defaults/apps/path-finder.sh
+source ./user-defaults/apps/bartender.sh
+source ./user-defaults/apps/path-finder.sh
 
 green 'macOS defaults written. Some of these changes require a logout/restart to take effect.'
 

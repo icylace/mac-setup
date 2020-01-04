@@ -55,11 +55,6 @@ mas install 1403919533
 # # https://www.omnigroup.com/omnigraffle
 # mas install 1142578753
 
-# # Pixelmator
-# # Powerful, full-featured image editor for Mac.
-# # https://www.pixelmator.com/mac/
-# mas install 407963104
-
 # Pixelmator Pro
 # Professional image editing tools that anyone can use.
 # https://www.pixelmator.com/pro/
