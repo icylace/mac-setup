@@ -17,4 +17,4 @@ put 'Show the menu bar icon.'
 use showMenuBarIcon true
 
 put 'Make sure the menu bar icon is the bartender.'
-use statusBarImageNamed 'Bartender'
+use statusBarImageNamed Bartender

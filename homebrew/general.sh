@@ -37,7 +37,7 @@ brew install coreutils
 
 # curl
 # command line tool and library for transferring data with URLs
-# https://curl.haxx.se
+# https://curl.haxx.se/
 brew install curl
 
 # Curlie

@@ -58,6 +58,9 @@ setup_git() {
   # https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
   git config --global core.excludesfile "$HOME/.gitignore_global"
 
+  # https://stackoverflow.com/a/40821931
+  git config --global core.autocrlf input
+
   # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
   git config --global push.default current
 
