@@ -65,14 +65,15 @@ red '
 # sudo -v
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# source ./nix/nix.sh
 # source ./homebrew/homebrew.sh
+# source ./nix/nix.sh
 # source ./yarn/yarn.sh
 # source ./mas/mas.sh
 # source ./nvm/nvm.sh
 # source ./stack/haskell.sh
 # source ./vscode/vscode.sh
 # source ./direct/direct.sh
+# source ./yarn/yarn.sh
 # source ./appledev.sh
 source ./user-defaults/user-defaults.sh
 

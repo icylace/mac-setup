@@ -11,6 +11,11 @@ blue '
 # https://github.com/argon/mas
 brew install mas
 
+# Affinity Designer
+# Affinity Designer is the fastest, smoothest, most precise vector graphic design software available.
+# https://affinity.serif.com/en-us/designer/
+mas install 824171161
+
 # ColorSnapper 2
 # The color picker for Mac that makes it easy to inspect, adjust, organize, and
 # export precise color values of any pixel on the screen.
