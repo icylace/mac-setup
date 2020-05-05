@@ -233,6 +233,11 @@ brew install trash
 # http://mama.indstate.edu/users/ice/tree/
 brew install tree
 
+# watchexec
+# Executes commands in response to file modifications
+# https://github.com/watchexec/watchexec
+brew install watchexec
+
 # GNU Wget
 # Internet file retriever
 # https://www.gnu.org/software/wget/
