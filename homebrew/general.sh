@@ -146,6 +146,11 @@ brew install icdiff
 # https://stedolan.github.io/jq/
 brew install jq
 
+# LSD (LSDeluxe)
+# The next gen ls command
+# https://github.com/Peltoche/lsd
+brew install lsd
+
 # Lynis
 # Security and system auditing tool to harden systems
 # https://cisofy.com/lynis/

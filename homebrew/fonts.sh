@@ -31,8 +31,11 @@ brew cask install font-hack
 # https://github.com/i-tu/Hasklig
 brew cask install font-hasklig
 
-# TODO: consider this
-# font-inconsolata-g-for-powerline
+# Hermit
+# Hermit is a monospace font designed to be clear, pragmatic and very readable.
+# https://pcaro.es/p/hermit/
+# https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit
+brew cask install font-hurmit-nerd-font
 
 # Input
 # Fonts for code from DJR & Font Bureau
@@ -42,6 +45,7 @@ brew cask install font-input
 # TODO: difficulty installing, consider installing a nerd font variant of it
 # # M+
 # # https://mplus-fonts.osdn.jp/about-en
+# # https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/MPlus
 # brew cask install font-m-plus
 brew cask install font-mplus-1mn-nerd-mono
 
@@ -49,3 +53,10 @@ brew cask install font-mplus-1mn-nerd-mono
 # Monospaced font family for user interface and coding environments
 # https://adobe-fonts.github.io/source-code-pro/
 brew cask install font-source-code-pro
+
+# Terminus
+# Terminus Font is a clean, fixed width bitmap font, designed for long (8 and
+# more hours per day) work with computers.
+# http://terminus-font.sourceforge.net/
+# https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Terminus/font-info.md
+brew cask install font-terminus-nerd-font
