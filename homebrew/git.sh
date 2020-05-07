@@ -26,6 +26,11 @@ brew install git-cal
 # https://github.com/tj/git-extras
 brew install git-extras
 
+# delta
+# A syntax-highlighter for git and diff output
+# https://github.com/dandavison/delta
+brew install git-delta
+
 # gitHUD
 # A heads-up display for Git.
 # https://github.com/gbataille/gitHUD
@@ -67,44 +72,48 @@ setup_git() {
   # https://help.github.com/articles/caching-your-github-password-in-git/
   git config --global credential.helper osxkeychain
 
-  # Based on:
-  # https://github.com/so-fancy/diff-so-fancy#improved-colors-for-the-highlighted-bits
-  git config --global color.ui true
-  git config --global color.diff-highlight.newHighlight "green bold 22"
-  git config --global color.diff-highlight.newNormal "green bold"
-  git config --global color.diff-highlight.oldHighlight "red bold 52"
-  git config --global color.diff-highlight.oldNormal "red bold"
-  git config --global color.diff.commit "227 bold"
-  git config --global color.diff.context "normal dim"
-  git config --global color.diff.frag "magenta bold"
-  git config --global color.diff.meta "227"
-  git config --global color.diff.new "green bold"
-  git config --global color.diff.old "red bold"
-  git config --global color.diff.plain "bold black"
-  git config --global color.diff.whitespace "red reverse"
+  # # Based on:
+  # # https://github.com/so-fancy/diff-so-fancy#improved-colors-for-the-highlighted-bits
+  # git config --global color.ui true
+  # git config --global color.diff-highlight.newHighlight "green bold 22"
+  # git config --global color.diff-highlight.newNormal "green bold"
+  # git config --global color.diff-highlight.oldHighlight "red bold 52"
+  # git config --global color.diff-highlight.oldNormal "red bold"
+  # git config --global color.diff.commit "227 bold"
+  # git config --global color.diff.context "normal dim"
+  # git config --global color.diff.frag "magenta bold"
+  # git config --global color.diff.meta "227"
+  # git config --global color.diff.new "green bold"
+  # git config --global color.diff.old "red bold"
+  # git config --global color.diff.plain "bold black"
+  # git config --global color.diff.whitespace "red reverse"
 
   # "git diff - show me line ending changes?"
   # https://stackoverflow.com/a/36604948
 
-  # https://git-scm.com/docs/git-config#git-config-diffwsErrorHighlight
-  git config --global diff.wsErrorHighlight "all"
+  # # https://git-scm.com/docs/git-config#git-config-diffwsErrorHighlight
+  # git config --global diff.wsErrorHighlight "all"
 
   # https://git-scm.com/docs/git-add#git-add-patch
   git config --global interactive.singleKey true
 
-  # Based on:
-  # https://github.com/so-fancy/diff-so-fancy#usage
-  # https://github.com/so-fancy/diff-so-fancy/blob/master/pro-tips.md#moving-around-in-the-diff
-  # https://github.com/so-fancy/diff-so-fancy/issues/173#issuecomment-226649546
-  git config --global core.pager "less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
-  git config --global pager.diff "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
+  # https://github.com/dandavison/delta#installation
+  git config --global core.pager "delta --theme='1337'"
 
-  git config --global diff-so-fancy.useunicoderuler true
+  # # Based on:
+  # # https://github.com/so-fancy/diff-so-fancy#usage
+  # # https://github.com/so-fancy/diff-so-fancy/blob/master/pro-tips.md#moving-around-in-the-diff
+  # # https://github.com/so-fancy/diff-so-fancy/issues/173#issuecomment-226649546
+  # git config --global core.pager "less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
+  # git config --global pager.diff "diff-so-fancy | less --no-init --pattern '^(Date|added|deleted|modified): ' --quit-if-one-screen --RAW-CONTROL-CHARS --tabs=4"
 
-  # Edit user info.
-  git config --global --edit
-  # git config --global user.name "TBD"
-  # git config --global user.email "TBD"
+  # git config --global diff-so-fancy.useunicoderuler true
+
+  # TODO:
+  # # Enter unique info.
+  # git config --global --edit
+  # # git config --global user.name "TBD"
+  # # git config --global user.email "TBD"
 
   # TODO: do we need to change anything with regards to this ?
   # https://github.com/so-fancy/diff-so-fancy/issues/296
