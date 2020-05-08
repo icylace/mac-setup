@@ -100,7 +100,6 @@ source postgresql.sh
 source python.sh
 source ranger.sh
 source ruby.sh
-source sift.sh
 source sublime-text.sh
 source terminal.sh
 source yadm.sh
