@@ -66,11 +66,32 @@ setup_git() {
   # https://stackoverflow.com/a/40821931
   git config --global core.autocrlf input
 
+  # https://help.github.com/articles/caching-your-github-password-in-git/
+  git config --global credential.helper osxkeychain
+
+  # Shows merge-conflicting commits alongside their common root commit.
+  # https://git-scm.com/docs/git-config#Documentation/git-config.txt-mergeconflictStyle
+  # https://youtu.be/jw8yK5JV0xw?t=1072
+  git config --global merge.conflictStyle diff3
+
   # http://blog.mixu.net/2012/04/06/git-tips-and-tricks/
   git config --global push.default current
 
-  # https://help.github.com/articles/caching-your-github-password-in-git/
-  git config --global credential.helper osxkeychain
+  # https://youtu.be/jw8yK5JV0xw?t=1317
+  git config --global push.followTags true
+
+  # Stashes working tree changes before rebasing and then unstahses them after
+  # the rebase is done.
+  # https://git-scm.com/docs/git-config#Documentation/git-config.txt-rebaseautoStash
+  # https://youtu.be/jw8yK5JV0xw?t=2438
+  git config --global rebase.autoStash true
+
+  # During a rebase rearranges commits so that related commits marked for
+  # squashing occur in sequence.
+  # https://git-scm.com/docs/git-config#Documentation/git-config.txt-rebaseautoSquash
+  # https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt---autosquash
+  # https://youtu.be/jw8yK5JV0xw?t=2477
+  git config --global rebase.autoSquash true
 
   # # Based on:
   # # https://github.com/so-fancy/diff-so-fancy#improved-colors-for-the-highlighted-bits
