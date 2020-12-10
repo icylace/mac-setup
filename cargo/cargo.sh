@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-blue '
-+-------------------------------------------------------------------------------
-:  Rust-based tools
-+ - - - - - - - - - - - - - - - - - - - -
-'
-
 # dutree
 # a tool to analyze file system usage written in Rust
 # https://github.com/nachoparker/dutree

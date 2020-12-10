@@ -44,8 +44,15 @@ brew cask install libreoffice
 # logitech-options
 # https://www.logitech.com/en-us/product/options
 # https://support.logitech.com/en_us/software/options
-# Caveats: You must reboot for the installation of logitech-options to take effect.
+# Caveats: You must reboot for the installation of logitech-options
+# to take effect.
 brew cask install logitech-options
+
+# Obsidian
+# Obsidian is a powerful knowledge base that works on top of
+# a local folder of plain text Markdown files.
+# https://obsidian.md/
+brew cask install obsidian
 
 # OnyX
 # System maintenance utility.

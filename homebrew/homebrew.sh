@@ -92,6 +92,7 @@ source fonts.sh
 source fun.sh
 source git.sh
 source grc.sh
+source haskell.sh
 source kakoune.sh
 source keyboard.sh
 source macos-apps.sh

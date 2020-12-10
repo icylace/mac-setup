@@ -26,37 +26,37 @@ make_custom_iosevka_font() {
   cat <<FONT > "$HOME/tmp/iosevka/private-build-plans.toml"
 [buildPlans.iosevka-icylace]
 family = "Iosevka icylace"
-design = [
-  "sans",
-  "extended",
-  "ligset-coq",
-  "leading-1500",
-  "v-a-doublestorey",
-  "v-f-tailed",
-  "v-g-opendoublestorey",
-  "v-i-hooky",
-  "v-j-serifed",
-  "v-l-zshaped",
-  "v-m-shortleg",
-  "v-q-taily",
-  "v-t-standard",
-  "v-y-straight",
-  "v-zero-dotted",
-  "v-one-serifed",
-  "v-three-twoarks",
-  "v-seven-normal",
-  "v-tilde-low",
-  "v-asterisk-low",
-  "v-paragraph-high",
-  "v-caret-high",
-  "v-underscore-high",
-  "v-percent-dots",
-  "v-at-long",
-  "v-eszet-sulzbacher",
-  "v-brace-curly",
-  "v-dollar-throughcap",
-  "v-numbersign-slanted"
-]
+spacing = "normal"
+serifs = "sans"
+
+[buildPlans.iosevka-icylace.variants.design]
+capital-d = "more-rounded"
+capital-y = "curly"
+f = "flat-hook-tailed"
+g = "opendoublestorey"
+h = "tailed"
+i = "hooky"
+l = "zshaped"
+m = "shortleg-tailed"
+n = "tailed"
+q = "tailed"
+r = "serifed"
+zero = "dotted"
+one = "base"
+asterisk = "low"
+paren = "large-contour"
+number-sign = "slanted"
+dollar = "throughcap"
+percent = "dots"
+
+  [buildPlans.iosevka-icylace.ligations]
+  inherits = "dlig"
+  enables = ["colon-greater-as-colon-arrow"]
+
+[buildPlans.iosevka-icylace.widths.normal]
+shape = 576
+menu = 5
+css = "normal"
 FONT
 
   local tmp=$(pwd)
@@ -64,5 +64,5 @@ FONT
   npm install
   npm run build -- contents::iosevka-icylace
   cd "$tmp"
-  cp -r "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
+  \cp -fR "$HOME/tmp/iosevka/dist/iosevka-icylace/ttf/"*.ttf "$HOME/Library/Fonts"
 }
