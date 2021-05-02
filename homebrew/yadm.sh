@@ -12,4 +12,4 @@ blue '
 brew install yadm
 
 # My dotfiles.
-yadm clone https://github.com/icylace/dotfiles "$HOME"
+yadm clone https://github.com/icylace/dotfiles

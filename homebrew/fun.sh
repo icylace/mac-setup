@@ -20,13 +20,13 @@ mas install 533321133
 # Blizzard Battle.net
 # Blizzard Entertainment's games launcher.
 # https://www.blizzard.com/en-us/?ref=battle.net
-brew cask install battle-net
+brew install battle-net
 
 # TODO: find alternative because Boxer won't run in Catalina
 # # Boxer
 # # The DOS game emulator that’s fit for your Mac.
 # # http://boxerapp.com/
-# brew cask install boxer
+# brew install boxer
 
 # Brogue
 # Roguelike game
@@ -36,7 +36,7 @@ brew install brogue
 # GZDoom
 # GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
 # https://zdoom.org/
-brew cask install gzdoom
+brew install gzdoom
 
 # Joystick Show
 # Joystick Show is a Mac OS X app that lets you test and visualize any joysticks
@@ -52,12 +52,12 @@ brew install mame
 # OpenEmu
 # 🕹 Retro video game emulation for macOS
 # https://openemu.org/
-brew cask install openemu
+brew install openemu
 
 # Steam
 # Steam is the ultimate destination for playing, discussing, and creating games.
 # https://store.steampowered.com/about/
-brew cask install steam
+brew install steam
 
 # ------------------------------------------------------------------------------
 
@@ -65,6 +65,11 @@ brew cask install steam
 # Aquarium animation in ASCII art
 # https://robobunny.com/projects/asciiquarium/html/
 brew install asciiquarium
+
+# eDEX-UI
+# A cross-platform, customizable science fiction terminal emulator.
+# https://github.com/GitSquared/edex-ui
+brew install edex-ui
 
 # lolcat
 # Prints colorized version of input.

@@ -21,15 +21,20 @@ brew install git
 # https://github.com/k4rthik/git-cal
 brew install git-cal
 
+# delta
+# A syntax-highlighter for git and diff output
+# https://github.com/dandavison/delta
+brew install git-delta
+
 # Git Extras
 # Small git utilities
 # https://github.com/tj/git-extras
 brew install git-extras
 
-# delta
-# A syntax-highlighter for git and diff output
-# https://github.com/dandavison/delta
-brew install git-delta
+# git-filter-repo
+# Quickly rewrite git repository history (filter-branch replacement)
+# https://github.com/newren/git-filter-repo
+brew install git-filter-repo
 
 # gitHUD
 # A heads-up display for Git.

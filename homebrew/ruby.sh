@@ -14,6 +14,6 @@ brew install rbenv
 # Ruby
 # Powerful, clean, object-oriented scripting language
 # https://www.ruby-lang.org/
-rbenv install 2.7.0
-rbenv global 2.7.0
+rbenv install 2.7.3
+rbenv global 2.7.3
 rbenv rehash

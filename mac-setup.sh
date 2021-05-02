@@ -27,7 +27,7 @@
 # - https://www.defaults-write.com/
 #
 
-# We're focusing on OS X so abort if we're not in it.
+# We're focusing on macOS so abort if we're not in it.
 [[ "$OSTYPE" =~ ^darwin ]] || return 1
 
 source ./init.sh

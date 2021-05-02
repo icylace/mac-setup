@@ -10,7 +10,6 @@ blue '
 # UNIX shell (command interpreter)
 # https://www.zsh.org/
 brew install zsh
-
 # Use our up-to-date Z shell as the default shell.
 # https://johndjameson.com/blog/updating-your-shell-with-homebrew/
 # https://stackoverflow.com/a/17649823
@@ -26,16 +25,16 @@ brew install zsh-completions
 #
 # To activate these completions, add the following to your .zshrc:
 #
-#   fpath=(/usr/local/share/zsh-completions $fpath)
+#     fpath=(/usr/local/share/zsh-completions $fpath)
 #
 # You may also need to force rebuild `zcompdump`:
 #
-#   rm -f ~/.zcompdump; compinit
+#     rm -f ~/.zcompdump; compinit
 #
 # Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
 # to load these completions, you may need to run this:
 #
-#   chmod go-w '/usr/local/share'
+#     chmod go-w '/usr/local/share'
 
 # zsh-syntax-highlighting
 # Fish shell like syntax highlighting for Zsh.
@@ -45,11 +44,13 @@ brew install zsh-syntax-highlighting
 # Installation notes:
 #
 # To activate the syntax highlighting, add the following at the end of your .zshrc:
-#   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#
+#     source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #
 # If you receive "highlighters directory not found" error message,
 # you may need to add the following to your .zshenv:
-#   export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
+#
+#     export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
 
 # zplug
 # Zsh plugin manager.
@@ -60,5 +61,6 @@ brew install zplug --HEAD
 # Installation notes:
 #
 # In order to use zplug, please add the following to your .zshrc:
-#   export ZPLUG_HOME=/usr/local/opt/zplug
-#   source $ZPLUG_HOME/init.zsh
+#
+#     export ZPLUG_HOME=/usr/local/opt/zplug
+#     source $ZPLUG_HOME/init.zsh

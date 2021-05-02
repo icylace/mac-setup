@@ -48,6 +48,7 @@ blue '
 
 # Install Homebrew if we need to.
 if ! we_have brew ; then
+  # https://github.com/Homebrew/brew/blob/master/docs/Analytics.md#opting-out
   # https://news.ycombinator.com/item?id=21648615
   export HOMEBREW_NO_ANALYTICS=1
 
@@ -56,6 +57,9 @@ if ! we_have brew ; then
   # https://brew.sh/
   put 'Installing homebrew...'
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  # https://github.com/Homebrew/brew/blob/master/docs/Analytics.md#opting-out
+  brew analytics off
 fi
 
 # ------------------------------------------------------------------------------
