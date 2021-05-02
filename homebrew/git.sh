@@ -46,10 +46,10 @@ brew tap gbataille/homebrew-gba && brew install githud
 # https://git-secret.io/
 brew install git-secret
 
-# hub
-# Add GitHub support to git on the command-line
-# https://hub.github.com/
-brew install hub
+# # hub
+# # Add GitHub support to git on the command-line
+# # https://hub.github.com/
+# brew install hub
 
 # scmpuff
 # Makes working with git from the command line quicker by substituting numeric

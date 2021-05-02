@@ -37,11 +37,11 @@ brew install nvm
 # Bash completion has been installed to:
 #   /usr/local/etc/bash_completion.d
 
-if [ ! -d "$HOME/.nvm" ] ; then
-  mkdir -pv "$HOME/.nvm"
+if [ ! -d "$HOME/.xdg/data/nvm" ] ; then
+  mkdir -pv "$HOME/.xdg/data/nvm"
 fi
 
 # Install Node.js.
-nvm install stable
+nvm install node
 
-nvm alias default stable
+nvm alias default node
