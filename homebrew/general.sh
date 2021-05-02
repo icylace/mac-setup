@@ -208,6 +208,11 @@ brew install pv
 # https://github.com/BurntSushi/ripgrep
 brew install ripgrep
 
+# sd - s[earch] & d[isplace]
+# Intuitive find & replace CLI (sed alternative)
+# https://github.com/chmln/sd
+brew install sd
+
 # ShellCheck
 # Static analysis and lint tool, for (ba)sh scripts
 # https://www.shellcheck.net/
@@ -222,6 +227,11 @@ brew install spark
 # Command line interface for testing internet bandwidth using speedtest.net
 # https://github.com/sivel/speedtest-cli
 brew install speedtest-cli
+
+# tealdeer
+# A very fast implementation of tldr in Rust.
+# https://github.com/dbrgn/tealdeer
+brew install tealdeer
 
 # tmux
 # A "terminal multiplexer", it enables a number of terminals to be accessed and controlled from a single terminal.
@@ -238,6 +248,11 @@ brew install trash
 # http://mama.indstate.edu/users/ice/tree/
 brew install tree
 
+# vivid
+# A themeable LS_COLORS generator with a rich filetype datebase
+# https://github.com/sharkdp/vivid
+brew install vivid
+
 # watchexec
 # Executes commands in response to file modifications
 # https://github.com/watchexec/watchexec
@@ -247,3 +262,8 @@ brew install watchexec
 # Internet file retriever
 # https://www.gnu.org/software/wget/
 brew install wget
+
+# zoxide
+# A smarter cd command
+# https://github.com/ajeetdsouza/zoxide
+brew install zoxide
