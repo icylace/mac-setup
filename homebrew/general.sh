@@ -185,7 +185,7 @@ brew install neovim
 # ngrok
 # Introspected tunnels to localhost.
 # https://ngrok.com/
-brew cask install ngrok
+brew install ngrok
 
 # pup
 # Parsing HTML at the command line
@@ -207,6 +207,11 @@ brew install pv
 # https://blog.burntsushi.net/ripgrep/
 # https://github.com/BurntSushi/ripgrep
 brew install ripgrep
+
+# RoaringApps
+# Crowd-sourced application compatibility for macOS, iOS and Windows.
+# https://roaringapps.com/
+brew install roaringapps
 
 # sd - s[earch] & d[isplace]
 # Intuitive find & replace CLI (sed alternative)
