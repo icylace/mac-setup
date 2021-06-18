@@ -151,6 +151,11 @@ brew install --cask backblaze
 # https://bahoom.com/hyperdock/
 brew install --cask hyperdock
 
+# Spotify
+# Music streaming service
+# https://www.spotify.com/
+brew install --cask spotify
+
 # The Unarchiver
 # Archive file extractor.
 # https://theunarchiver.com/

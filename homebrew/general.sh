@@ -20,6 +20,11 @@ brew install aspell
 # https://github.com/sharkdp/bat
 brew install bat
 
+# # Brave
+# # The browser reimagined.
+# # https://brave.com/
+# brew install brave-browser
+
 # Byobu
 # Text-based window manager and terminal multiplexer
 # https://byobu.org/
@@ -186,6 +191,11 @@ brew install neovim
 # Introspected tunnels to localhost.
 # https://ngrok.com/
 brew install ngrok
+
+# Nushell
+# Modern shell for the GitHub era
+# https://www.nushell.sh/
+brew install nushell
 
 # pup
 # Parsing HTML at the command line
