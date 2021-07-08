@@ -42,7 +42,11 @@ stack --resolver lts setup
 
 # ------------------------------------------------------------------------------
 
-# TODO: consider using this
+# TODO: consider using this:
+
+# Validity and validity-based testing
+# https://github.com/NorfairKing/validity
+
 # hedgehog
 # Hedgehog is a modern property-based testing system.
 # https://github.com/hedgehogqa/haskell-hedgehog
